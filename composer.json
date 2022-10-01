@@ -1,6 +1,6 @@
 {
     "name": "erickjmenezes/laravel-smart",
-    "description": "Models Papara o banco do sistema smart.",
+    "description": "Models para o banco de dados smart.",
     "type": "library",
     "license": "MIT",
     "autoload": {
