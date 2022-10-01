@@ -11,6 +11,12 @@ class Nfe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfe_num', 'nfe_serie', 'nfe_tipo', 'nfe_fne_cod'];
 
     protected $connection = 'oracle';

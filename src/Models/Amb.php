@@ -11,6 +11,12 @@ class Amb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'amb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['amb_cod', 'amb_tabela'];
 
     protected $connection = 'oracle';

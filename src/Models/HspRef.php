@@ -11,6 +11,12 @@ class HspRef extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsp_ref';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsp_r_id'];
 
     protected $connection = 'oracle';

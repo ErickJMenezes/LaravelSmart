@@ -11,6 +11,12 @@ class AppMtr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'app_mtr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['app_m_app_id', 'app_m_mtr_id'];
 
     protected $connection = 'oracle';

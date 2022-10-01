@@ -11,6 +11,12 @@ class Iil extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iil';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iil_inv_num', 'iil_lot_num', 'iil_mat_cod', 'iil_inv_serie'];
 
     protected $connection = 'oracle';

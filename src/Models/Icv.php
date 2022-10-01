@@ -11,6 +11,12 @@ class Icv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'icv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['icv_cvc_serie', 'icv_cvc_num', 'icv_pac_reg'];
 
     protected $connection = 'oracle';

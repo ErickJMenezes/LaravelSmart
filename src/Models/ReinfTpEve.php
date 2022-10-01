@@ -11,6 +11,12 @@ class ReinfTpEve extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'reinf_tp_eve';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['reinf_tp_eve_cod'];
 
     protected $connection = 'oracle';

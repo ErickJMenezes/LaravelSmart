@@ -11,6 +11,12 @@ class Unm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'unm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['unm_cod'];
 
     protected $connection = 'oracle';

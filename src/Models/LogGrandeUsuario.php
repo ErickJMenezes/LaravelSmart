@@ -11,6 +11,12 @@ class LogGrandeUsuario extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_grande_usuario';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gru_nu'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Lmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lmt_str_cod', 'lmt_cod'];
 
     protected $connection = 'oracle';

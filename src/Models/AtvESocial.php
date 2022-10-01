@@ -11,6 +11,12 @@ class AtvESocial extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'atv_e_social';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['atv_e_social_cod'];
 
     protected $connection = 'oracle';

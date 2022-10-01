@@ -11,6 +11,12 @@ class DwExtCubo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_ext_cubo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_ext_cubo_cod'];
 
     protected $connection = 'oracle';

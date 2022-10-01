@@ -11,6 +11,12 @@ class PdcNac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdc_nac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdc_n_cod'];
 
     protected $connection = 'oracle';

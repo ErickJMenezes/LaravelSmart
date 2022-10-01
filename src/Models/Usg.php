@@ -11,6 +11,12 @@ class Usg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['usg_usr_login', 'usg_grp_cod'];
 
     protected $connection = 'oracle';

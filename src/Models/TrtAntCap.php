@@ -11,6 +11,12 @@ class TrtAntCap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trt_ant_cap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trt_ant_cap_num', 'trt_ant_cap_dthr_ini', 'trt_ant_cap_pac_reg'];
 
     protected $connection = 'oracle';

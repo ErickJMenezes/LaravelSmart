@@ -11,6 +11,12 @@ class Qlf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qlf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qlf_atr', 'qlf_dsc', 'qlf_rot'];
 
     protected $connection = 'oracle';

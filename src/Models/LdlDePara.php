@@ -11,6 +11,12 @@ class LdlDePara extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ldl_de_para';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

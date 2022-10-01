@@ -11,6 +11,12 @@ class EntCri extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_cri';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_cri_id'];
 
     protected $connection = 'oracle';

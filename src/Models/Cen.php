@@ -11,6 +11,12 @@ class Cen extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cen';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cen_id', 'cen_nfe_tipo', 'cen_fne_cod', 'cen_nfe_num', 'cen_nfe_serie'];
 
     protected $connection = 'oracle';

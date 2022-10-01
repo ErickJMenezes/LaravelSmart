@@ -11,6 +11,12 @@ class RndsSmart extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rnds_smart';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rnds_s_item', 'rnds_s_valor'];
 
     protected $connection = 'oracle';

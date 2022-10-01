@@ -11,6 +11,12 @@ class DloOrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlo_orp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlo_o_orp_num', 'dlo_o_dlo_id'];
 
     protected $connection = 'oracle';

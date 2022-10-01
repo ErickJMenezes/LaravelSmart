@@ -11,6 +11,12 @@ class STbDetalhe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_tb_detalhe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['co_detalhe'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class RhpCtfRepasse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rhp_ctf_repasse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rhp_c_gmr_cod', 'rhp_c_ctf_cod', 'rhp_c_ctf_tipo'];
 
     protected $connection = 'oracle';

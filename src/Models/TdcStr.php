@@ -11,6 +11,12 @@ class TdcStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdc_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdc_s_tdc_cod', 'tdc_s_str_solic'];
 
     protected $connection = 'oracle';

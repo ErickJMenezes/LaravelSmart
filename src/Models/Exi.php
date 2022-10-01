@@ -11,6 +11,12 @@ class Exi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exi_seq', 'exi_exp_seq', 'exi_cnv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class DwMns extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_mns';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_mns_caixa_fatura', 'dw_mns_tipo_mov', 'dw_mns_gcc_cod', 'dw_mns_mog_cod', 'dw_mns_str_exec', 'dw_mns_nfs_tipo', 'dw_mns_mmyy_atend', 'dw_mns_cnv_cod', 'dw_mns_str_solic', 'dw_mns_mmyy', 'dw_mns_mmyy_emissao', 'dw_mns_origem'];
 
     protected $connection = 'oracle';

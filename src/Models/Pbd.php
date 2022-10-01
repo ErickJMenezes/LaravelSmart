@@ -11,6 +11,12 @@ class Pbd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pbd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pbd_id'];
 
     protected $connection = 'oracle';

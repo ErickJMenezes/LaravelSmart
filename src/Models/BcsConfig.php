@@ -11,6 +11,12 @@ class BcsConfig extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_config';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_config_id'];
 
     protected $connection = 'oracle';

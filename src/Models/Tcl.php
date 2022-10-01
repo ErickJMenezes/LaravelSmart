@@ -11,6 +11,12 @@ class Tcl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tcl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tcl_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class RclHtml extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_html';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_h_cod', 'rcl_h_pac', 'rcl_h_tpcod', 'rcl_h_dthr'];
 
     protected $connection = 'oracle';

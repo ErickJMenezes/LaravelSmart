@@ -11,6 +11,12 @@ class Usi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['usi_login'];
 
     protected $connection = 'oracle';

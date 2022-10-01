@@ -11,6 +11,12 @@ class CriacaoReserva extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'criacao_reserva';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['numero_solic_smart', 'item_reserva', 'serie_solic_smart'];
 
     protected $connection = 'oracle';

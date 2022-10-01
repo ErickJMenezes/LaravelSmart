@@ -11,6 +11,12 @@ class Scl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'scl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['scl_cod'];
 
     protected $connection = 'oracle';

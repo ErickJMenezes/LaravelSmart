@@ -11,6 +11,12 @@ class Blc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'blc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['blc_dthr_ini', 'blc_loc_cod'];
 
     protected $connection = 'oracle';

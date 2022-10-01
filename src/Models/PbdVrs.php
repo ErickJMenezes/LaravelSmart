@@ -11,6 +11,12 @@ class PbdVrs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pbd_vrs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pbd_v_id'];
 
     protected $connection = 'oracle';

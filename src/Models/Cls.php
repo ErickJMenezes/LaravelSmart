@@ -11,6 +11,12 @@ class Cls extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cls';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cls_competencia', 'cls_sus_cod_unico', 'cls_apac_srv', 'cls_apac_csf'];
 
     protected $connection = 'oracle';

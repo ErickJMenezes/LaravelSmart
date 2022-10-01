@@ -11,6 +11,12 @@ class ImgOrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_orp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_orp_orp_num', 'img_orp_img_cod'];
 
     protected $connection = 'oracle';

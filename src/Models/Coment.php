@@ -11,6 +11,12 @@ class Coment extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'coment';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['coment_tabela', 'coment_coluna'];
 
     protected $connection = 'oracle';

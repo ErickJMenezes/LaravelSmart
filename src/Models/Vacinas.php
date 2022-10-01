@@ -11,6 +11,12 @@ class Vacinas extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vacinas';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Osm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'osm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['osm_serie', 'osm_num'];
 
     protected $connection = 'oracle';

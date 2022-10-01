@@ -11,6 +11,12 @@ class EmpParc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_parc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_parc_id'];
 
     protected $connection = 'oracle';

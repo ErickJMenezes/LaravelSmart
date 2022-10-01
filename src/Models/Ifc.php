@@ -11,6 +11,12 @@ class Ifc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ifc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ifc_cfo_cod', 'ifc_fcf_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Pet extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pet';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pet_num', 'pet_serie'];
 
     protected $connection = 'oracle';

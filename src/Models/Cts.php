@@ -11,6 +11,12 @@ class Cts extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cts';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cts_pac_reg', 'cts_dthr', 'cts_hsp_num', 'cts_cth_num'];
 
     protected $connection = 'oracle';

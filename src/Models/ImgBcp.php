@@ -11,6 +11,12 @@ class ImgBcp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_bcp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_bcp_bcp_num', 'img_bcp_bcp_serie', 'img_bcp_img_cod'];
 
     protected $connection = 'oracle';

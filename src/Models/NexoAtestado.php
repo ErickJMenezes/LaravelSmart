@@ -11,6 +11,12 @@ class NexoAtestado extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nexo_atestado';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nexo_atestado_id'];
 
     protected $connection = 'oracle';

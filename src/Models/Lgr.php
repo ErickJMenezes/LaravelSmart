@@ -11,6 +11,12 @@ class Lgr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgr_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TJosej8494547Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_josej_8494547_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

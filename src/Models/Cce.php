@@ -11,6 +11,12 @@ class Cce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cce_lta_cod', 'cce_num'];
 
     protected $connection = 'oracle';

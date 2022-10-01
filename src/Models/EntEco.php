@@ -11,6 +11,12 @@ class EntEco extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_eco';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_eco_id'];
 
     protected $connection = 'oracle';

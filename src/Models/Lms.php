@@ -11,6 +11,12 @@ class Lms extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lms';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lms_id'];
 
     protected $connection = 'oracle';

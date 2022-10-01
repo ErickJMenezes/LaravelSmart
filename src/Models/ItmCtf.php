@@ -11,6 +11,12 @@ class ItmCtf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'itm_ctf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['itm_c_cod', 'itm_c_tipo', 'itm_tme_cod'];
 
     protected $connection = 'oracle';

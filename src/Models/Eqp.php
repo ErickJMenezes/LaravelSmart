@@ -11,6 +11,12 @@ class Eqp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eqp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eqp_num'];
 
     protected $connection = 'oracle';

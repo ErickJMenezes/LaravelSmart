@@ -11,6 +11,12 @@ class Dem extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dem';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dem_emp_cod', 'dem_ded_cod'];
 
     protected $connection = 'oracle';

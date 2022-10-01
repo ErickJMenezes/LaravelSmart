@@ -11,6 +11,12 @@ class Esq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esq_adp_tipo', 'esq_num', 'esq_asc', 'esq_adp_cod'];
 
     protected $connection = 'oracle';

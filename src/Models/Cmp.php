@@ -11,6 +11,12 @@ class Cmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cmp_seq', 'cmp_item', 'cmp_cod', 'cmp_tpcod', 'cmp_tpitem'];
 
     protected $connection = 'oracle';

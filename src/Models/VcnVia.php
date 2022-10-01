@@ -11,6 +11,12 @@ class VcnVia extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vcn_via';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vcn_v_id'];
 
     protected $connection = 'oracle';

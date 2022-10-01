@@ -11,6 +11,12 @@ class Lct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lct_lote', 'lct_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Chq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'chq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chq_ccr_banco', 'chq_numero'];
 
     protected $connection = 'oracle';

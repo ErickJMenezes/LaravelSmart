@@ -11,6 +11,12 @@ class TDianal9768766Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_dianal_9768766_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

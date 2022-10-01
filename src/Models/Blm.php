@@ -11,6 +11,12 @@ class Blm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'blm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['blm_mat_cod', 'blm_lot_num'];
 
     protected $connection = 'oracle';

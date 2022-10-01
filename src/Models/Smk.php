@@ -11,6 +11,12 @@ class Smk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smk_tipo', 'smk_cod'];
 
     protected $connection = 'oracle';

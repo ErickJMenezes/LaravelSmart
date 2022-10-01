@@ -11,6 +11,12 @@ class Smt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smt_cod'];
 
     protected $connection = 'oracle';

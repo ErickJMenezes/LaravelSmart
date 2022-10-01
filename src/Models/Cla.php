@@ -11,6 +11,12 @@ class Cla extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cla';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cla_id'];
 
     protected $connection = 'oracle';

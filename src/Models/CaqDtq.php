@@ -11,6 +11,12 @@ class CaqDtq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'caq_dtq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['caq_d_dthr', 'caq_d_caq_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class GrCok extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_cok';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_cok_gr_web_server_name', 'gr_cok_gr_web_session_id', 'gr_cok_name'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CdpDia extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdp_dia';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdp_d_id', 'cdp_d_tipo', 'cdp_d_dia'];
 
     protected $connection = 'oracle';

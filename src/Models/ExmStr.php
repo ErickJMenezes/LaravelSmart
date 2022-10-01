@@ -11,6 +11,12 @@ class ExmStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exm_e_exm_cod', 'exm_e_str_solic'];
 
     protected $connection = 'oracle';

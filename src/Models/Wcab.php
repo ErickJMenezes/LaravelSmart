@@ -11,6 +11,12 @@ class Wcab extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wcab';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wcab_id'];
 
     protected $connection = 'oracle';

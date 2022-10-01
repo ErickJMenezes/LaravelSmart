@@ -11,6 +11,12 @@ class Eca extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eca';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eca_smk_tipo', 'eca_dthr', 'eca_funcao', 'eca_smk_cod'];
 
     protected $connection = 'oracle';

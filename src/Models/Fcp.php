@@ -11,6 +11,12 @@ class Fcp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fcp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fcp_cap_num', 'fcp_num', 'fcp_pac_reg'];
 
     protected $connection = 'oracle';

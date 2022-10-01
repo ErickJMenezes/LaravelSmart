@@ -11,6 +11,12 @@ class Rns extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rns';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rns_cod'];
 
     protected $connection = 'oracle';

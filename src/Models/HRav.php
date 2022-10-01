@@ -11,6 +11,12 @@ class HRav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_rav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_rav_pac_reg', 'h_rav_avc_id', 'h_rav_id'];
 
     protected $connection = 'oracle';

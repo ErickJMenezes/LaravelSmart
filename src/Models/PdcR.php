@@ -11,6 +11,12 @@ class PdcR extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdc_r';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdc_r_cod'];
 
     protected $connection = 'oracle';

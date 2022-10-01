@@ -11,6 +11,12 @@ class HspContatos extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsp_contatos';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsp_c_dthr_reg', 'hsp_c_pac_reg', 'hsp_c_hsp_num'];
 
     protected $connection = 'oracle';

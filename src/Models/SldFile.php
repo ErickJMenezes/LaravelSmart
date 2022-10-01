@@ -11,6 +11,12 @@ class SldFile extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sld_file';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sld_f_serie', 'sld_f_num', 'sld_f_dthr'];
 
     protected $connection = 'oracle';

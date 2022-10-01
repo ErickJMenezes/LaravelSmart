@@ -11,6 +11,12 @@ class Fma extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fma';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fma_pac_reg_destino', 'fma_pac_reg_origem'];
 
     protected $connection = 'oracle';

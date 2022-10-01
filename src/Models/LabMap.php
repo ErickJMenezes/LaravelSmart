@@ -11,6 +11,12 @@ class LabMap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lab_map';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lab_map_cod'];
 
     protected $connection = 'oracle';

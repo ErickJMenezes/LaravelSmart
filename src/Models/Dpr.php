@@ -11,6 +11,12 @@ class Dpr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dpr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dpr_cod', 'dpr_int_bko_codigo'];
 
     protected $connection = 'oracle';

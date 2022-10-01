@@ -11,6 +11,12 @@ class Bpt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bpt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bpt_pat_cod', 'bpt_bul_med'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Exe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exe_id'];
 
     protected $connection = 'oracle';

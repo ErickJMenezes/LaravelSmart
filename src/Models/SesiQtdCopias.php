@@ -11,6 +11,12 @@ class SesiQtdCopias extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sesi_qtd_copias';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sqc_cnv', 'sqc_str'];
 
     protected $connection = 'oracle';

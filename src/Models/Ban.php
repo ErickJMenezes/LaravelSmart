@@ -11,6 +11,12 @@ class Ban extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ban';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ban_seq'];
 
     protected $connection = 'oracle';

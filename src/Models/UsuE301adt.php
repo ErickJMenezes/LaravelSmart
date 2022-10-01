@@ -11,6 +11,12 @@ class UsuE301adt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e301adt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

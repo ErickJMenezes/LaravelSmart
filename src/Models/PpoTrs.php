@@ -11,6 +11,12 @@ class PpoTrs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ppo_trs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ppo_trs_cod', 'ppo_trs_ppo_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class DocIni extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'doc_ini';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['doc_i_ing_cod', 'doc_i_ini_cod'];
 
     protected $connection = 'oracle';

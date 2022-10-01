@@ -11,6 +11,12 @@ class TmpInst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp_inst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

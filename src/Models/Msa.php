@@ -11,6 +11,12 @@ class Msa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'msa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['msa_id'];
 
     protected $connection = 'oracle';

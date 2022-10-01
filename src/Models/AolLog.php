@@ -11,6 +11,12 @@ class AolLog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aol_log';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aol_l_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Lac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lac_hsp', 'lac_pac', 'lac_num'];
 
     protected $connection = 'oracle';

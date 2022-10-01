@@ -11,6 +11,12 @@ class Tcr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tcr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tcr_cod'];
 
     protected $connection = 'oracle';

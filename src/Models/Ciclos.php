@@ -11,6 +11,12 @@ class Ciclos extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ciclos';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ciclos'];
 
     protected $connection = 'oracle';

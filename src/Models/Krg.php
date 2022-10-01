@@ -11,6 +11,12 @@ class Krg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'krg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['krg_smk_tipo', 'krg_mat_cod', 'krg_smk_cod'];
 
     protected $connection = 'oracle';

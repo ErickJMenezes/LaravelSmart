@@ -11,6 +11,12 @@ class Fpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fpa_cod'];
 
     protected $connection = 'oracle';

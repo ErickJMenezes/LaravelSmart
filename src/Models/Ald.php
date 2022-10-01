@@ -11,6 +11,12 @@ class Ald extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ald';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ald_osm_serie', 'ald_dthr', 'ald_osm_num', 'ald_smm_num'];
 
     protected $connection = 'oracle';

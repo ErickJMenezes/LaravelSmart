@@ -11,6 +11,12 @@ class LocEsp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'loc_esp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['loc_e_esp_cod', 'loc_e_loc_cod'];
 
     protected $connection = 'oracle';

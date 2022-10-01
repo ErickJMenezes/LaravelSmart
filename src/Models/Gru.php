@@ -11,6 +11,12 @@ class Gru extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gru';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gru_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class RclEdt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_edt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_e_dthr_start', 'rcl_e_gr_ses_id'];
 
     protected $connection = 'oracle';

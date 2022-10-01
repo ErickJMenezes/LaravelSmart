@@ -11,6 +11,12 @@ class ExcSaldoEmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_saldo_emp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_se_exc_id', 'exc_se_emp_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class RclCrg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_crg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_c_id', 'rcl_c_seq'];
 
     protected $connection = 'oracle';

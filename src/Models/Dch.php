@@ -11,6 +11,12 @@ class Dch extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dch';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dch_cod'];
 
     protected $connection = 'oracle';

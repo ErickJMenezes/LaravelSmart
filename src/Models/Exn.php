@@ -11,6 +11,12 @@ class Exn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exn_mns_serie', 'exn_mns_num', 'exn_nfl_serie', 'exn_sgo_cod', 'exn_nfl_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class HcMit extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_mit';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_mit_id'];
 
     protected $connection = 'oracle';

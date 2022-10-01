@@ -11,6 +11,12 @@ class TAnarg9253516Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_anarg_9253516_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

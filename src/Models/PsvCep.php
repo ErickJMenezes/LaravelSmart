@@ -11,6 +11,12 @@ class PsvCep extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_cep';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_c_psv_cod', 'psv_c_cep'];
 
     protected $connection = 'oracle';

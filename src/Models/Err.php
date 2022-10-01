@@ -11,6 +11,12 @@ class Err extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'err';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['err_seq'];
 
     protected $connection = 'oracle';

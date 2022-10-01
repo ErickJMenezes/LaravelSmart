@@ -11,6 +11,12 @@ class Pgf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pgf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pgf_lta_cod', 'pgf_gfc_num', 'pgf_pro_cod'];
 
     protected $connection = 'oracle';

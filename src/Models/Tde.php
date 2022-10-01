@@ -11,6 +11,12 @@ class Tde extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tde';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tde_cod'];
 
     protected $connection = 'oracle';

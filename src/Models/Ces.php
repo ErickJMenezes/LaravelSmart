@@ -11,6 +11,12 @@ class Ces extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ces';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ces_cct_cod', 'ces_gcc_cod', 'ces_str_cod'];
 
     protected $connection = 'oracle';

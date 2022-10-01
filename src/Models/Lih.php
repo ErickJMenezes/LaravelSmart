@@ -11,6 +11,12 @@ class Lih extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lih';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lih_num', 'lih_pac_reg'];
 
     protected $connection = 'oracle';

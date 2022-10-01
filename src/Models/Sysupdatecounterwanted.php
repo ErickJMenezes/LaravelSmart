@@ -11,6 +11,12 @@ class Sysupdatecounterwanted extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sysupdatecounterwanted';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

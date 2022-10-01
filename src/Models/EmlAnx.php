@@ -11,6 +11,12 @@ class EmlAnx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eml_anx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['e_anx_img_cod', 'e_anx_eml_cod'];
 
     protected $connection = 'oracle';

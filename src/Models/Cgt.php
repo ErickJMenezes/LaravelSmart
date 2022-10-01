@@ -11,6 +11,12 @@ class Cgt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cgt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cgt_emp_cod', 'cgt_cnv_cod', 'cgt_str_solic', 'cgt_tp_guia', 'cgt_clinc_cir'];
 
     protected $connection = 'oracle';

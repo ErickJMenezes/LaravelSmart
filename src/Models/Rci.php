@@ -11,6 +11,12 @@ class Rci extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rci';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rci_serie', 'rci_num'];
 
     protected $connection = 'oracle';

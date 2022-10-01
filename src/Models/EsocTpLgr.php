@@ -11,6 +11,12 @@ class EsocTpLgr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_tp_lgr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_tp_lgr_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TDeisesb9465456Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_deisesb_9465456_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

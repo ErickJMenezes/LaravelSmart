@@ -11,6 +11,12 @@ class RvaEspecie extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rva_especie';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rva_e_cod'];
 
     protected $connection = 'oracle';

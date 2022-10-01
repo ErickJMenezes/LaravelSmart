@@ -11,6 +11,12 @@ class Iac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iac_dthr_reg', 'iac_cnv_cod'];
 
     protected $connection = 'oracle';

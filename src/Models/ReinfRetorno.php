@@ -11,6 +11,12 @@ class ReinfRetorno extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'reinf_retorno';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['reinf_retorno_codigo'];
 
     protected $connection = 'oracle';

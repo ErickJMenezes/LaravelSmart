@@ -11,6 +11,12 @@ class Cpr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpr_adp_tipo', 'cpr_adp_cod', 'cpr_smk_cod', 'cpr_ctf_tipo'];
 
     protected $connection = 'oracle';

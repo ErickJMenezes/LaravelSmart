@@ -11,6 +11,12 @@ class Mam extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mam';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mam_exame'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Nwa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nwa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nwa_id'];
 
     protected $connection = 'oracle';

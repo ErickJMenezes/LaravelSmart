@@ -11,6 +11,12 @@ class Dlg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlg_cth_num', 'dlg_hsp_num', 'dlg_pac_reg', 'dlg_dthr'];
 
     protected $connection = 'oracle';

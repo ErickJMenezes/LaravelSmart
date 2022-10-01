@@ -11,6 +11,12 @@ class UnpFiltro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'unp_filtro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['unp_f_yymm', 'unp_f_cfo_cod', 'unp_f_str_cod'];
 
     protected $connection = 'oracle';

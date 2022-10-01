@@ -11,6 +11,12 @@ class Cpi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpi_cod'];
 
     protected $connection = 'oracle';

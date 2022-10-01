@@ -11,6 +11,12 @@ class Nts extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nts';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nts_num'];
 
     protected $connection = 'oracle';

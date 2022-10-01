@@ -11,6 +11,12 @@ class Dlo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlo_id'];
 
     protected $connection = 'oracle';

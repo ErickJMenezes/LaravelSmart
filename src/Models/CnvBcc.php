@@ -11,6 +11,12 @@ class CnvBcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_bcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_b_cnv_cod', 'cnv_b_cre_cod'];
 
     protected $connection = 'oracle';

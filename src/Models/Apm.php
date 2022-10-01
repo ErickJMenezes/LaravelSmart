@@ -11,6 +11,12 @@ class Apm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apm_pac', 'apm_hsp', 'apm_num'];
 
     protected $connection = 'oracle';

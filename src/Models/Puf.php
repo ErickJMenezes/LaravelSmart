@@ -11,6 +11,12 @@ class Puf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'puf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['puf_id'];
 
     protected $connection = 'oracle';

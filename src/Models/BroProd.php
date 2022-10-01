@@ -11,6 +11,12 @@ class BroProd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_prod';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_prod_cod'];
 
     protected $connection = 'oracle';

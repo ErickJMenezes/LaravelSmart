@@ -11,6 +11,12 @@ class Gfp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gfp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gfp_lta_cod', 'gfp_num'];
 
     protected $connection = 'oracle';

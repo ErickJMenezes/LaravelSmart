@@ -11,6 +11,12 @@ class Rgb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rgb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rgb_psc_cod'];
 
     protected $connection = 'oracle';

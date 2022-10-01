@@ -11,6 +11,12 @@ class Lio extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lio';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lio_num', 'lio_serie'];
 
     protected $connection = 'oracle';

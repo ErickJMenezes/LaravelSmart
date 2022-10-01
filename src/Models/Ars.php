@@ -11,6 +11,12 @@ class Ars extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ars';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ars_rls_cod', 'ars_usr_login'];
 
     protected $connection = 'oracle';

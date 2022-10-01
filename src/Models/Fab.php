@@ -11,6 +11,12 @@ class Fab extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fab';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fab_cod'];
 
     protected $connection = 'oracle';

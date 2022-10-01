@@ -11,6 +11,12 @@ class Mma extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mma';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mma_serie', 'mma_num'];
 
     protected $connection = 'oracle';

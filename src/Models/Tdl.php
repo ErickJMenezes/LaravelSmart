@@ -11,6 +11,12 @@ class Tdl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdl_num', 'tdl_pac_reg'];
 
     protected $connection = 'oracle';

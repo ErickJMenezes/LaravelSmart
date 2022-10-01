@@ -11,6 +11,12 @@ class Wldf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wldf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wldf_smk'];
 
     protected $connection = 'oracle';

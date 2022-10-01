@@ -11,6 +11,12 @@ class Itp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'itp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['itp_tpc_serie', 'itp_tpc_num', 'itp_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Prx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'prx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['prx_cod'];
 
     protected $connection = 'oracle';

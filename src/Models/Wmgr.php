@@ -11,6 +11,12 @@ class Wmgr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wmgr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wmgr_id'];
 
     protected $connection = 'oracle';

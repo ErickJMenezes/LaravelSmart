@@ -11,6 +11,12 @@ class TmpCbhpm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp_cbhpm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

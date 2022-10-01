@@ -11,6 +11,12 @@ class GrLim extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_lim';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_lim_str_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class PvtDestino extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pvt_destino';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pvt_d_id'];
 
     protected $connection = 'oracle';

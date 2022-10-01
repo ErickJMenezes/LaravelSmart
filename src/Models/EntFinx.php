@@ -11,6 +11,12 @@ class EntFinx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_finx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_finx_id'];
 
     protected $connection = 'oracle';

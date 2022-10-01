@@ -11,6 +11,12 @@ class SmkLoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk_loc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smk_l_smk_tipo', 'smk_l_loc_cod', 'smk_l_smk_cod'];
 
     protected $connection = 'oracle';

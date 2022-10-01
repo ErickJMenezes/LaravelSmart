@@ -11,6 +11,12 @@ class RpeRcl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpe_rcl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

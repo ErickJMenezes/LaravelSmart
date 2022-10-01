@@ -11,6 +11,12 @@ class WstCredenciais extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wst_credenciais';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wst_c_str', 'wst_c_wst_cod'];
 
     protected $connection = 'oracle';

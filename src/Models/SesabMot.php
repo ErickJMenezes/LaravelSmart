@@ -11,6 +11,12 @@ class SesabMot extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sesab_mot';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sesab_mot_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class LalurAdicao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lalur_adicao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['llr_adc_cct_cod', 'llr_adc_lalur_cod', 'llr_adc_exc_id', 'llr_adc_llr_mes'];
 
     protected $connection = 'oracle';

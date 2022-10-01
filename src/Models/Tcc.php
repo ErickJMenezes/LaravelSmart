@@ -11,6 +11,12 @@ class Tcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tcc_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Epp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epp_rco_cod', 'epp_dthr_ini', 'epp_lta_cod', 'epp_gfp_num', 'epp_tro_cod'];
 
     protected $connection = 'oracle';

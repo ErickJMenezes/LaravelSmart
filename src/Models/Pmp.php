@@ -11,6 +11,12 @@ class Pmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pmp_id'];
 
     protected $connection = 'oracle';

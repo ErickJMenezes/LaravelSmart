@@ -11,6 +11,12 @@ class SesabPtc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sesab_ptc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sesab_ptc_cod'];
 
     protected $connection = 'oracle';

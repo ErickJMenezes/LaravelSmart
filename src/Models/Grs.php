@@ -11,6 +11,12 @@ class Grs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'grs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['grs_cod'];
 
     protected $connection = 'oracle';

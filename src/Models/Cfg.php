@@ -11,6 +11,12 @@ class Cfg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cfg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cfg_emp'];
 
     protected $connection = 'oracle';

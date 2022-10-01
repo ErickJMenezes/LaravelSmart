@@ -11,6 +11,12 @@ class TmpRes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp_res';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

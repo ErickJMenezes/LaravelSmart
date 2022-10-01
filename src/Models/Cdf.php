@@ -11,6 +11,12 @@ class Cdf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdf_cid_cod', 'cdf_cid_tip', 'cdf_psv_cod'];
 
     protected $connection = 'oracle';

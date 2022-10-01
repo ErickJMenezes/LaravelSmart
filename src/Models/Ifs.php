@@ -11,6 +11,12 @@ class Ifs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ifs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ifs_str_cod', 'ifs_fcf_cod'];
 
     protected $connection = 'oracle';

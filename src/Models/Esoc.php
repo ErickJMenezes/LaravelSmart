@@ -11,6 +11,12 @@ class Esoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ged extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ged';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ged_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Hal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hal';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hal_pat_cod', 'hal_gbh_cod'];
 
     protected $connection = 'oracle';

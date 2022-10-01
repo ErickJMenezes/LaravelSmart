@@ -11,6 +11,12 @@ class Qmod extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qmod';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qmod_cod'];
 
     protected $connection = 'oracle';

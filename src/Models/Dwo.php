@@ -11,6 +11,12 @@ class Dwo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dwo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dwo_id'];
 
     protected $connection = 'oracle';

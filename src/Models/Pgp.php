@@ -11,6 +11,12 @@ class Pgp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pgp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pgp_pro_cod', 'pgp_gfp_num', 'pgp_lta_cod'];
 
     protected $connection = 'oracle';

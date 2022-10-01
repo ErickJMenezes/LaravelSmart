@@ -11,6 +11,12 @@ class Sit extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sit';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sit_cod'];
 
     protected $connection = 'oracle';

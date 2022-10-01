@@ -11,6 +11,12 @@ class EsocCdp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_cdp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_cdp_cod'];
 
     protected $connection = 'oracle';

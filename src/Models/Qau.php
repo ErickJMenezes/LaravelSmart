@@ -11,6 +11,12 @@ class Qau extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qau';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qau_usr_login'];
 
     protected $connection = 'oracle';

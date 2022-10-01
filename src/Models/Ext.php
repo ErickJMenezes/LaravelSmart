@@ -11,6 +11,12 @@ class Ext extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ext';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ext_osm_serie', 'ext_smm_num', 'ext_mns_num', 'ext_mns_serie', 'ext_osm_num'];
 
     protected $connection = 'oracle';

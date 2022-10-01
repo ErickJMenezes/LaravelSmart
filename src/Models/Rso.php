@@ -11,6 +11,12 @@ class Rso extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rso';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rso_lta_cod', 'rso_tipo', 'rso_dthr_ini', 'rso_psv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Tnshellcmd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tnshellcmd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

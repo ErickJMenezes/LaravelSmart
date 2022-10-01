@@ -11,6 +11,12 @@ class Cfp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cfp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cfp_dthr', 'cfp_pront', 'cfp_pac_reg'];
 
     protected $connection = 'oracle';

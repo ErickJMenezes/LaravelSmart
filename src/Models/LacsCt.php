@@ -11,6 +11,12 @@ class LacsCt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lacs_ct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lacs_ct_cod'];
 
     protected $connection = 'oracle';

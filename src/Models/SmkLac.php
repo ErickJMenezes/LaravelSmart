@@ -11,6 +11,12 @@ class SmkLac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk_lac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smk_l_cnv_cod', 'smk_l_smk_tipo', 'smk_l_smk_cod'];
 
     protected $connection = 'oracle';

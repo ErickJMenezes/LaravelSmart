@@ -11,6 +11,12 @@ class Glf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'glf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['glf_num'];
 
     protected $connection = 'oracle';

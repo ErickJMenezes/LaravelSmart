@@ -11,6 +11,12 @@ class Api extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'api';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['api_id'];
 
     protected $connection = 'oracle';

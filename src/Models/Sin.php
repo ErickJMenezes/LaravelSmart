@@ -11,6 +11,12 @@ class Sin extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sin';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sin_smk_tipo', 'sin_num', 'sin_smk_cod'];
 
     protected $connection = 'oracle';

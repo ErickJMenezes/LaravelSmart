@@ -11,6 +11,12 @@ class Fls extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fls';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fls_dce_id', 'fls_psv_cod', 'fls_str_cod'];
 
     protected $connection = 'oracle';

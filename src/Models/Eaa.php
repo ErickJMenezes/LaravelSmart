@@ -11,6 +11,12 @@ class Eaa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eaa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eaa_cod_amostra', 'eaa_elb_cod', 'eaa_num_aparelho', 'eaa_dthr'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Dlr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlr_id'];
 
     protected $connection = 'oracle';

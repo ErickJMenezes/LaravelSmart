@@ -11,6 +11,12 @@ class Via extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'via';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['via_cod'];
 
     protected $connection = 'oracle';

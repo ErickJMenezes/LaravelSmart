@@ -11,6 +11,12 @@ class EsocPca extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_pca';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_pca_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Daf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'daf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['daf_aft_num', 'daf_dthr', 'daf_aft_serie'];
 
     protected $connection = 'oracle';

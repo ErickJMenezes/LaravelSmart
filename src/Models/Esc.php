@@ -11,6 +11,12 @@ class Esc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esc_esp_cod', 'esc_cnv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Lay extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lay';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lay_id'];
 
     protected $connection = 'oracle';

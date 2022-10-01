@@ -11,6 +11,12 @@ class Apg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

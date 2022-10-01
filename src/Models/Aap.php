@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Aap extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'aap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['aap_amo_cod', 'aap_elb_cod'];
 

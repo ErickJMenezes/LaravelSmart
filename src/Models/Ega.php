@@ -11,6 +11,12 @@ class Ega extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ega';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ega_eti_cod', 'ega_gal_cod'];
 
     protected $connection = 'oracle';

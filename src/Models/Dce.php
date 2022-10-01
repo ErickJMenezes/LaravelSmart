@@ -11,6 +11,12 @@ class Dce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dce_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SmartbiCensoCnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smartbi_censo_cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['setor', 'ano_mes', 'empresa'];
 
     protected $connection = 'oracle';

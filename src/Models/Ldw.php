@@ -11,6 +11,12 @@ class Ldw extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ldw';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ldw_num', 'ldw_smk_tipo', 'ldw_smk_cod'];
 
     protected $connection = 'oracle';

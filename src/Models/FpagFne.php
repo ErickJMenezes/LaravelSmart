@@ -11,6 +11,12 @@ class FpagFne extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fpag_fne';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fpag_fne_form_pag'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Dta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dta_seq', 'dta_pac_reg', 'dta_hsp_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mlok extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mlok';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mlok_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class DwMaster extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_master';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_chave'];
 
     protected $connection = 'oracle';

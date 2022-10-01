@@ -11,6 +11,12 @@ class Tpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tpa_id'];
 
     protected $connection = 'oracle';

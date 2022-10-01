@@ -11,6 +11,12 @@ class Dse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dse_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ics extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ics';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ics_hsp_num', 'ics_pac_reg', 'ics_str_solic', 'ics_mat_cod', 'ics_conta_destino', 'ics_lot_num'];
 
     protected $connection = 'oracle';

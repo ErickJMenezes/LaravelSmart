@@ -11,6 +11,12 @@ class Lit extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lit';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lit_pac_reg', 'lit_dthr'];
 
     protected $connection = 'oracle';

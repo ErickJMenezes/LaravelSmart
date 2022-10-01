@@ -11,6 +11,12 @@ class Rnd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rnd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rnd_id'];
 
     protected $connection = 'oracle';

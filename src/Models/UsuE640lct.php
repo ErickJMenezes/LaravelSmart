@@ -11,6 +11,12 @@ class UsuE640lct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e640lct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

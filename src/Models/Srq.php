@@ -11,6 +11,12 @@ class Srq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'srq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['srq_id'];
 
     protected $connection = 'oracle';

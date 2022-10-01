@@ -11,6 +11,12 @@ class Sed extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sed';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sed_id'];
 
     protected $connection = 'oracle';

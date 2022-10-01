@@ -11,6 +11,12 @@ class Ptd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ptd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ptd_pti_cod', 'ptd_mes_ref'];
 
     protected $connection = 'oracle';

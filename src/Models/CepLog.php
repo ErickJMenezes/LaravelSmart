@@ -11,6 +11,12 @@ class CepLog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cep_log';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chave_log', 'chvlocal_log'];
 
     protected $connection = 'oracle';

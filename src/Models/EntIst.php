@@ -11,6 +11,12 @@ class EntIst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_ist';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_ist_id'];
 
     protected $connection = 'oracle';

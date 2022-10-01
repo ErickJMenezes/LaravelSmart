@@ -11,6 +11,12 @@ class Vst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vst_id'];
 
     protected $connection = 'oracle';

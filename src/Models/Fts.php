@@ -11,6 +11,12 @@ class Fts extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fts';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fts_ctf_tipo', 'fts_ftr_cod', 'fts_bnc_cod', 'fts_str_cod', 'fts_smk_cod'];
 
     protected $connection = 'oracle';

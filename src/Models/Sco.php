@@ -11,6 +11,12 @@ class Sco extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sco';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sco_id'];
 
     protected $connection = 'oracle';

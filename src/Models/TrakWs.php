@@ -11,6 +11,12 @@ class TrakWs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trak_ws';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trak_ws_ambiente', 'trak_ws_metodo'];
 
     protected $connection = 'oracle';

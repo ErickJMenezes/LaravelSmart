@@ -11,6 +11,12 @@ class ImgTpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_tpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_tpa_img_cod', 'img_tpa_tpa_id'];
 
     protected $connection = 'oracle';

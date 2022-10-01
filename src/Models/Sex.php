@@ -11,6 +11,12 @@ class Sex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sex_unidade', 'sex_smk_cod', 'sex_smk_tipo'];
 
     protected $connection = 'oracle';

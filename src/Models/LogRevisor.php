@@ -11,6 +11,12 @@ class LogRevisor extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_revisor';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['log_r_id'];
 
     protected $connection = 'oracle';

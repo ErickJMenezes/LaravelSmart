@@ -11,6 +11,12 @@ class IrpHp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'irp_hp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['irp_hp_rep_hp_serie', 'irp_hp_psv_cod', 'irp_hp_rep_hp_num'];
 
     protected $connection = 'oracle';

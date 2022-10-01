@@ -11,6 +11,12 @@ class SciPrx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sci_prx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sci_prx_prx_cod', 'sci_prx_sci_cod'];
 
     protected $connection = 'oracle';

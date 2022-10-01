@@ -11,6 +11,12 @@ class Ibx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ibx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ibx_bxa_serie', 'ibx_bxa_num', 'ibx_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class MnaOcr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mna_ocr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mna_o_id'];
 
     protected $connection = 'oracle';

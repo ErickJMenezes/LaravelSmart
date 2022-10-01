@@ -11,6 +11,12 @@ class Mot extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mot';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mot_cod', 'mot_tipo'];
 
     protected $connection = 'oracle';

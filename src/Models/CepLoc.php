@@ -11,6 +11,12 @@ class CepLoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cep_loc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chave_local'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SaidaFiPi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'saida_fi_pi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id_saida_fi_pi'];
 
     protected $connection = 'oracle';

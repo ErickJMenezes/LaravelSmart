@@ -11,6 +11,12 @@ class Mra extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mra';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mra_cod'];
 
     protected $connection = 'oracle';

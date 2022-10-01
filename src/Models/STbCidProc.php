@@ -11,6 +11,12 @@ class STbCidProc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_tb_cid_proc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cp_cid', 'cp_proc', 'cp_cmpt_ini'];
 
     protected $connection = 'oracle';

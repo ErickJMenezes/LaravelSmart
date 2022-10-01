@@ -11,6 +11,12 @@ class Mdl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mdl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mdl_id'];
 
     protected $connection = 'oracle';

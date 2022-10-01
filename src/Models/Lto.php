@@ -11,6 +11,12 @@ class Lto extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lto';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lto_hsp_num', 'lto_dthr_ini', 'lto_pac_reg'];
 
     protected $connection = 'oracle';

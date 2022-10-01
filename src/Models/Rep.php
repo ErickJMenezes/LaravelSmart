@@ -11,6 +11,12 @@ class Rep extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rep';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rep_serie', 'rep_num'];
 
     protected $connection = 'oracle';

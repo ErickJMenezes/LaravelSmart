@@ -11,6 +11,12 @@ class Wav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wav_dthr', 'wav_smk_tipo', 'wav_smk_cod', 'wav_pac_reg'];
 
     protected $connection = 'oracle';

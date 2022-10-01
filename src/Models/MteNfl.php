@@ -11,6 +11,12 @@ class MteNfl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mte_nfl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mte_n_mte_serie', 'mte_n_mte_seq', 'mte_n_nfl_num', 'mte_n_nfl_serie'];
 
     protected $connection = 'oracle';

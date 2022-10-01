@@ -11,6 +11,12 @@ class Pvr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pvr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pvr_num'];
 
     protected $connection = 'oracle';

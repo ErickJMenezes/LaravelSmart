@@ -11,6 +11,12 @@ class Coj extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'coj';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['coj_cod'];
 
     protected $connection = 'oracle';

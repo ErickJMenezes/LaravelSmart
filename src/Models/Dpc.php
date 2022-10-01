@@ -11,6 +11,12 @@ class Dpc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dpc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dpc_cnv_cod', 'dpc_smk_tipo_diaria', 'dpc_gsv_cod', 'dpc_smk_cod_diaria'];
 
     protected $connection = 'oracle';

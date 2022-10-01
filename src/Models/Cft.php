@@ -11,6 +11,12 @@ class Cft extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cft';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cft_dt_envio', 'cft_cnv_cod'];
 
     protected $connection = 'oracle';

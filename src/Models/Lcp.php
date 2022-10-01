@@ -11,6 +11,12 @@ class Lcp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lcp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lcp_exame'];
 
     protected $connection = 'oracle';

@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Agd extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'agd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['agd_dt', 'agd_tpctf', 'agd_ctf', 'agd_med', 'agd_loc'];
 

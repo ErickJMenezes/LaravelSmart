@@ -11,6 +11,12 @@ class CnaDthr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cna_dthr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cna_d_dthr_atend', 'cna_d_cna_id'];
 
     protected $connection = 'oracle';

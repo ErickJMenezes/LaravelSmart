@@ -11,6 +11,12 @@ class Map extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'map';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['map_tbd_seq', 'map_cct_cod', 'map_gcc_cod'];
 
     protected $connection = 'oracle';

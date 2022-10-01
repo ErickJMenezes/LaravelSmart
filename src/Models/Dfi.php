@@ -11,6 +11,12 @@ class Dfi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dfi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dfi_id'];
 
     protected $connection = 'oracle';

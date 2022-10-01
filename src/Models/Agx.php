@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Agx extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'agx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['agx_psv_cod', 'agx_ctf_cod', 'agx_ctf_tipo', 'agx_dt', 'agx_loc_cod'];
 

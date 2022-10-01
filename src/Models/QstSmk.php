@@ -11,6 +11,12 @@ class QstSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qst_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qst_smk_cod'];
 
     protected $connection = 'oracle';

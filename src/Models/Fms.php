@@ -11,6 +11,12 @@ class Fms extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fms';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fms_id'];
 
     protected $connection = 'oracle';

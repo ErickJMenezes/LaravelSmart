@@ -11,6 +11,12 @@ class Rpi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpi_num', 'rpi_serie'];
 
     protected $connection = 'oracle';

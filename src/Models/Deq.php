@@ -11,6 +11,12 @@ class Deq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'deq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['deq_dthr', 'deq_eqp_num'];
 
     protected $connection = 'oracle';

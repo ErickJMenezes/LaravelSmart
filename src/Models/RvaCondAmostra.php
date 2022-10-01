@@ -11,6 +11,12 @@ class RvaCondAmostra extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rva_cond_amostra';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rva_c_cod'];
 
     protected $connection = 'oracle';

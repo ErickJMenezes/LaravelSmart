@@ -11,6 +11,12 @@ class Lhm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lhm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lhm_pac_reg', 'lhm_exame'];
 
     protected $connection = 'oracle';

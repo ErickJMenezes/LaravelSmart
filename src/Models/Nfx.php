@@ -11,6 +11,12 @@ class Nfx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfx_nfl_num', 'nfx_nfl_serie'];
 
     protected $connection = 'oracle';

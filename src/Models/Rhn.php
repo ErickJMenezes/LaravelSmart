@@ -11,6 +11,12 @@ class Rhn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rhn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rhn_rep_serie', 'rhn_rep_num', 'rhn_tipo', 'rhn_ccr_cod'];
 
     protected $connection = 'oracle';

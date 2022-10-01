@@ -11,6 +11,12 @@ class Blq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'blq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['blq_dthr_ini', 'blq_psv_cod'];
 
     protected $connection = 'oracle';

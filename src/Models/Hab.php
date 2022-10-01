@@ -11,6 +11,12 @@ class Hab extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hab';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hab_ctf', 'hab_med', 'hab_tpctf'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class FdiRls extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fdi_rls';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fdi_fdl_id', 'fdi_rls_cod'];
 
     protected $connection = 'oracle';

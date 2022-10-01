@@ -11,6 +11,12 @@ class RepHp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rep_hp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rep_hp_num', 'rep_hp_serie'];
 
     protected $connection = 'oracle';

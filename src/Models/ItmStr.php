@@ -11,6 +11,12 @@ class ItmStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'itm_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['itm_tme_cod', 'itm_s_cod'];
 
     protected $connection = 'oracle';

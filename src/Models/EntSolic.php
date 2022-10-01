@@ -11,6 +11,12 @@ class EntSolic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_solic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_solic_id'];
 
     protected $connection = 'oracle';

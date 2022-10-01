@@ -11,6 +11,12 @@ class Apt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apt_tp_tab', 'apt_tab_cod', 'apt_cnv_cod', 'apt_dthr_vcto'];
 
     protected $connection = 'oracle';

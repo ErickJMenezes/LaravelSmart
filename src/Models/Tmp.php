@@ -11,6 +11,12 @@ class Tmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

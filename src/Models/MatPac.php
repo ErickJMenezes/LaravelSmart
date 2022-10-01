@@ -11,6 +11,12 @@ class MatPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mat_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mat_pac_mat_cod', 'mat_pac_pac_reg'];
 
     protected $connection = 'oracle';

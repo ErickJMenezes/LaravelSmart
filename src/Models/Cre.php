@@ -11,6 +11,12 @@ class Cre extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cre';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cre_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mcc_serie', 'mcc_seq', 'mcc_lote'];
 
     protected $connection = 'oracle';

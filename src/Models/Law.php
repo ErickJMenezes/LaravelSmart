@@ -11,6 +11,12 @@ class Law extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'law';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['law_smk_tipo', 'law_usi_tipo', 'law_smk_cod'];
 
     protected $connection = 'oracle';

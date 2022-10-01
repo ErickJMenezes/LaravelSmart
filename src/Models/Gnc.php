@@ -11,6 +11,12 @@ class Gnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gnc_cod'];
 
     protected $connection = 'oracle';

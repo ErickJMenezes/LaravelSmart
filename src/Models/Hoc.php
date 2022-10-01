@@ -11,6 +11,12 @@ class Hoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hoc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hoc_tipo', 'hoc_ccr_cod', 'hoc_hon_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Rec extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rec';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rec_osm_serie', 'rec_osm_num', 'rec_smm', 'rec_dt_receb'];
 
     protected $connection = 'oracle';

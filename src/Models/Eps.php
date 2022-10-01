@@ -11,6 +11,12 @@ class Eps extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eps';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eps_id'];
 
     protected $connection = 'oracle';

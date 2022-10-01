@@ -11,6 +11,12 @@ class RegimeAtend extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'regime_atend';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['regime_atend_seq'];
 
     protected $connection = 'oracle';

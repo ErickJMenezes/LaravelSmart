@@ -11,6 +11,12 @@ class Ini extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ini';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ini_cod', 'ini_ing_cod'];
 
     protected $connection = 'oracle';

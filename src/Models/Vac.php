@@ -11,6 +11,12 @@ class Vac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vac_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class EntradaFiPi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'entrada_fi_pi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id_entrada_fi_pi'];
 
     protected $connection = 'oracle';

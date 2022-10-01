@@ -11,6 +11,12 @@ class Txc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'txc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['txc_id'];
 
     protected $connection = 'oracle';

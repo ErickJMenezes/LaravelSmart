@@ -11,6 +11,12 @@ class HHtx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_htx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_htx_pac_reg', 'h_htx_id'];
 
     protected $connection = 'oracle';

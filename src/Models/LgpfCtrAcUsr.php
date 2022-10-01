@@ -11,6 +11,12 @@ class LgpfCtrAcUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgpf_ctr_ac_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgpd_cau_usr_login'];
 
     protected $connection = 'oracle';

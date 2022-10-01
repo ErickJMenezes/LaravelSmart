@@ -11,6 +11,12 @@ class PcePagTrans extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pce_pag_trans';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pce_t_pce_pag_cod', 'pce_t_trans_key'];
 
     protected $connection = 'oracle';

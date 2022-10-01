@@ -11,6 +11,12 @@ class LabCnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lab_cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lab_cnv_cod'];
 
     protected $connection = 'oracle';

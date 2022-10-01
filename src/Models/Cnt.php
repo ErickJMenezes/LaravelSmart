@@ -11,6 +11,12 @@ class Cnt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnt_tipo', 'cnt_serie'];
 
     protected $connection = 'oracle';

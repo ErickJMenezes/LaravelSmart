@@ -11,6 +11,12 @@ class Exg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exg_cod'];
 
     protected $connection = 'oracle';

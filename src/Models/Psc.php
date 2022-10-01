@@ -11,6 +11,12 @@ class Psc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psc_pac', 'psc_hsp', 'psc_num', 'psc_asc'];
 
     protected $connection = 'oracle';

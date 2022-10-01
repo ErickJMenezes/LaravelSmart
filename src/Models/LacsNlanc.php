@@ -11,6 +11,12 @@ class LacsNlanc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lacs_nlanc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lacs_nl_num', 'lacs_nl_exc_id', 'lacs_nl_lacs_cod', 'lacs_nl_mes'];
 
     protected $connection = 'oracle';

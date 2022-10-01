@@ -11,6 +11,12 @@ class AppReg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'app_reg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['app_r_id'];
 
     protected $connection = 'oracle';

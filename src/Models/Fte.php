@@ -11,6 +11,12 @@ class Fte extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fte';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fte_num', 'fte_serie'];
 
     protected $connection = 'oracle';

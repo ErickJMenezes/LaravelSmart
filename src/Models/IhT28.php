@@ -11,6 +11,12 @@ class IhT28 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ih_t28';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ih_t28_pac_reg', 'ih_t28_dthr_reg', 'ih_t28_hsp_num'];
 
     protected $connection = 'oracle';

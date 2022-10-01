@@ -11,6 +11,12 @@ class UsuE301nad extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e301nad';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

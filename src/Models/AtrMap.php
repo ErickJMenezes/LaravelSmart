@@ -11,6 +11,12 @@ class AtrMap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'atr_map';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['atr_m_dsc_cod', 'atr_m_atr_num', 'atr_m_vl_min', 'atr_m_met_cod'];
 
     protected $connection = 'oracle';

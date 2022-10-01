@@ -11,6 +11,12 @@ class EExt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'e_ext';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['e_ext_rep_num', 'e_ext_rep_serie', 'e_ext_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Fcf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fcf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fcf_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Wini extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wini';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

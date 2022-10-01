@@ -11,6 +11,12 @@ class ReinfStatus extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'reinf_status';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['reinf_status_cod'];
 
     protected $connection = 'oracle';

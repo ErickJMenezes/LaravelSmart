@@ -11,6 +11,12 @@ class Rpc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpc_id'];
 
     protected $connection = 'oracle';

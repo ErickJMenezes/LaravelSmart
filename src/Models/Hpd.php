@@ -11,6 +11,12 @@ class Hpd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hpd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hpd_cod'];
 
     protected $connection = 'oracle';

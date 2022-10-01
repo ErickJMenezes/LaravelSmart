@@ -11,6 +11,12 @@ class Prn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'prn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['prn_num', 'prn_pac_reg'];
 
     protected $connection = 'oracle';

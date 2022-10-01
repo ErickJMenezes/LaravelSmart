@@ -11,6 +11,12 @@ class Mgc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mgc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mgc_mog_cod', 'mgc_cnv_cod'];
 
     protected $connection = 'oracle';

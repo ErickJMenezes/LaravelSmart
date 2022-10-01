@@ -11,6 +11,12 @@ class AtivDoenCap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ativ_doen_cap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['adc_num', 'adc_cnv_cod', 'adc_pac_reg'];
 
     protected $connection = 'oracle';

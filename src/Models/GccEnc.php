@@ -11,6 +11,12 @@ class GccEnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcc_enc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gcc_e_cod_origem', 'gcc_e_cod_pagante'];
 
     protected $connection = 'oracle';

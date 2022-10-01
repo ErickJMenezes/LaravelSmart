@@ -11,6 +11,12 @@ class Nfl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfl_serie', 'nfl_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Msp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'msp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['msp_adp_tipo', 'msp_usr_login', 'msp_adp_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Dts extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dts';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dts_dt_ref', 'dts_tipo'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ued extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ued';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ued_usr_login', 'ued_edl_cod'];
 
     protected $connection = 'oracle';

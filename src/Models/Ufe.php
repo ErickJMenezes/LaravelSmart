@@ -11,6 +11,12 @@ class Ufe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ufe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ufe_pai_sigla', 'ufe_sigla'];
 
     protected $connection = 'oracle';

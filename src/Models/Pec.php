@@ -11,6 +11,12 @@ class Pec extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pec';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pec_id'];
 
     protected $connection = 'oracle';

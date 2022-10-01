@@ -11,6 +11,12 @@ class CrSnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cr_snv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cr_snv_id'];
 
     protected $connection = 'oracle';

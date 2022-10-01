@@ -11,6 +11,12 @@ class NatJur extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nat_jur';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nat_j_id'];
 
     protected $connection = 'oracle';

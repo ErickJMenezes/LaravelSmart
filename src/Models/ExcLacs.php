@@ -11,6 +11,12 @@ class ExcLacs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_lacs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_lcs_exc_id', 'exc_lcs_mes', 'exc_lcs_lacs_cod'];
 
     protected $connection = 'oracle';

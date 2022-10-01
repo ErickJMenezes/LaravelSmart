@@ -11,6 +11,12 @@ class OddEnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'odd_enc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['odd_e_dthr', 'odd_e_psv_cod'];
 
     protected $connection = 'oracle';

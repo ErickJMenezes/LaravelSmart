@@ -11,6 +11,12 @@ class DwPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_pac_cnv_cod', 'dw_pac_mmyy', 'dw_pac_str_unidade', 'dw_pac_sexo', 'dw_pac_faixa_etaria'];
 
     protected $connection = 'oracle';

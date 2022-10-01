@@ -11,6 +11,12 @@ class Emn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emn_cod'];
 
     protected $connection = 'oracle';

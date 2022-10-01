@@ -11,6 +11,12 @@ class ImgRnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_rnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_rnc_rnc_num', 'img_rnc_rnc_serie', 'img_rnc_img_cod'];
 
     protected $connection = 'oracle';

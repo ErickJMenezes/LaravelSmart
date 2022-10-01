@@ -11,6 +11,12 @@ class Glg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'glg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['glg_grp_cod', 'glg_lma_cod', 'glg_gmm_cod'];
 
     protected $connection = 'oracle';

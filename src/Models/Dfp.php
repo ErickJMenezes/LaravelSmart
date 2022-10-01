@@ -11,6 +11,12 @@ class Dfp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dfp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dfp_pac_reg', 'dfp_dfs_cod'];
 
     protected $connection = 'oracle';

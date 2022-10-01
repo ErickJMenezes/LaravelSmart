@@ -11,6 +11,12 @@ class Pro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pro_cod'];
 
     protected $connection = 'oracle';

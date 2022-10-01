@@ -11,6 +11,12 @@ class Dps extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dps';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dps_psv_cod', 'dps_ded_cod'];
 
     protected $connection = 'oracle';

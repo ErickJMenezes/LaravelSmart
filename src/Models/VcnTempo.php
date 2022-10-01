@@ -11,6 +11,12 @@ class VcnTempo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vcn_tempo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vcn_t_id'];
 
     protected $connection = 'oracle';

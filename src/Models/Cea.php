@@ -11,6 +11,12 @@ class Cea extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cea';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cea_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CthUnp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cth_unp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cth_u_cth_pac_reg', 'cth_u_cth_hsp_num', 'cth_u_cth_num', 'cth_u_str_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class GrSes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_ses';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_ses_id'];
 
     protected $connection = 'oracle';

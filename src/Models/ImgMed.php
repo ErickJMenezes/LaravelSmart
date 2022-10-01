@@ -11,6 +11,12 @@ class ImgMed extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_med';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_med_img_cod', 'img_med_psv_cod'];
 
     protected $connection = 'oracle';

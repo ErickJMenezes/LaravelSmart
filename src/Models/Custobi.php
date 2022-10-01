@@ -11,6 +11,12 @@ class Custobi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'custobi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

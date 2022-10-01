@@ -11,6 +11,12 @@ class Mnt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mnt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mnt_serie', 'mnt_num'];
 
     protected $connection = 'oracle';

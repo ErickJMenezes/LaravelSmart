@@ -11,6 +11,12 @@ class Ign extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ign';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ign_gni_serie', 'ign_gni_num', 'ign_mns_num', 'ign_mns_serie'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Nwl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nwl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nwl_id'];
 
     protected $connection = 'oracle';

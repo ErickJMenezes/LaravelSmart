@@ -11,6 +11,12 @@ class R1010Pc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'r1010_pc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['r1010_pc_cod'];
 
     protected $connection = 'oracle';

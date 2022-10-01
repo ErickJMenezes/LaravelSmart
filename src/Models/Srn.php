@@ -11,6 +11,12 @@ class Srn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'srn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['srn_pac_reg', 'srn_dthr_reg'];
 
     protected $connection = 'oracle';

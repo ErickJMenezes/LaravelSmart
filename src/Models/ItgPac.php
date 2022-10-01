@@ -11,6 +11,12 @@ class ItgPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'itg_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Sub extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sub';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sub_mat_cod1', 'sub_mat_cod2'];
 
     protected $connection = 'oracle';

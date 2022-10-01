@@ -11,6 +11,12 @@ class Orp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'orp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['orp_num'];
 
     protected $connection = 'oracle';

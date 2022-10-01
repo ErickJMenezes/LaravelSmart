@@ -11,6 +11,12 @@ class SmartbiLimite extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smartbi_limite';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['limite_ano', 'limite_seq', 'limite_mes'];
 
     protected $connection = 'oracle';

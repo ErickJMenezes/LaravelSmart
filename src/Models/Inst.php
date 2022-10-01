@@ -11,6 +11,12 @@ class Inst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'inst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

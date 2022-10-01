@@ -11,6 +11,12 @@ class EctEsocPca extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ect_esoc_pca';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ect_esoc_pca_ect_pac_reg', 'ect_esoc_pca_ect_numero', 'ect_esoc_pca_esoc_pca_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Eqt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eqt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eqt_adp_cod', 'eqt_lqt_cod', 'eqt_adp_tipo'];
 
     protected $connection = 'oracle';

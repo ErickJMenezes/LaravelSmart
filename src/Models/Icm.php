@@ -11,6 +11,12 @@ class Icm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'icm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['icm_mrc_cod', 'icm_cop_num', 'icm_icp_seq', 'icm_cop_serie'];
 
     protected $connection = 'oracle';

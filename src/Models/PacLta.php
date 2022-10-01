@@ -11,6 +11,12 @@ class PacLta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pac_lta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pac_l_lta_cod', 'pac_l_pac_reg'];
 
     protected $connection = 'oracle';

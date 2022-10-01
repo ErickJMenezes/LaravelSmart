@@ -11,6 +11,12 @@ class Fro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fro_id'];
 
     protected $connection = 'oracle';

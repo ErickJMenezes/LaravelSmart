@@ -11,6 +11,12 @@ class Indicadoressmart extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'indicadoressmart';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

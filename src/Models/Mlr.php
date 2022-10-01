@@ -11,6 +11,12 @@ class Mlr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mlr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mlr_cod'];
 
     protected $connection = 'oracle';

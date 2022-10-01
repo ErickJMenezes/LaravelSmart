@@ -11,6 +11,12 @@ class ExpcHieLayout extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'expc_hie_layout';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['expc_hie_layout_nome', 'expc_hie_expc_hie_cod'];
 
     protected $connection = 'oracle';

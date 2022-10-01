@@ -11,6 +11,12 @@ class RclEsmeralda extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_esmeralda';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_tpcod', 'rcl_dthr', 'rcl_pac', 'rcl_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TrakStatusItem extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trak_status_item';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trak_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SaudeOcupacional extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'saude_ocupacional';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['saude_ocup_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Req extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'req';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['req_tpctf', 'req_ctf_cod', 'req_mes', 'req_psv_cod', 'req_ano'];
 
     protected $connection = 'oracle';

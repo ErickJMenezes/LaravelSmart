@@ -11,6 +11,12 @@ class Flm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'flm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['flm_pac_reg', 'flm_dthr'];
 
     protected $connection = 'oracle';

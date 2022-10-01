@@ -11,6 +11,12 @@ class Evt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'evt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['evt_dthr', 'evt_usr_login'];
 
     protected $connection = 'oracle';

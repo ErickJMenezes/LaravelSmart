@@ -11,6 +11,12 @@ class Frs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'frs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['frs_id'];
 
     protected $connection = 'oracle';

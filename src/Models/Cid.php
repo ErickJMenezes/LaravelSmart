@@ -11,6 +11,12 @@ class Cid extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cid';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cid_cod', 'cid_tip'];
 
     protected $connection = 'oracle';

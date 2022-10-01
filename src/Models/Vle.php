@@ -11,6 +11,12 @@ class Vle extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vle';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vle_serie', 'vle_num'];
 
     protected $connection = 'oracle';

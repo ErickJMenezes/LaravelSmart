@@ -11,6 +11,12 @@ class LnsTempo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lns_tempo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lns_t_porte', 'lns_t_smk_cod', 'lns_t_smk_cod_crg', 'lns_t_cnv_cod', 'lns_t_smk_tipo', 'lns_t_smk_tipo_crg'];
 
     protected $connection = 'oracle';

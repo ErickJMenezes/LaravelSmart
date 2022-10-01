@@ -11,6 +11,12 @@ class Ppc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ppc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ppc_id'];
 
     protected $connection = 'oracle';

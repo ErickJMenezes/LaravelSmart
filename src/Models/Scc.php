@@ -11,6 +11,12 @@ class Scc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'scc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['scc_cct_cod', 'scc_cct_cct_cod'];
 
     protected $connection = 'oracle';

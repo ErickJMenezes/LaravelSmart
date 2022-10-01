@@ -11,6 +11,12 @@ class ExmVar extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm_var';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exm_v_exm_cod', 'exm_v_id'];
 
     protected $connection = 'oracle';

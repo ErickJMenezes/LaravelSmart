@@ -11,6 +11,12 @@ class DwToc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_toc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_toc_str_cod', 'dw_toc_mmyy'];
 
     protected $connection = 'oracle';

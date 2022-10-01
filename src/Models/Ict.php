@@ -11,6 +11,12 @@ class Ict extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ict';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ict_osm_num', 'ict_id', 'ict_smm_num', 'ict_osm_serie'];
 
     protected $connection = 'oracle';

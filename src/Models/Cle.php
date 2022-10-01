@@ -11,6 +11,12 @@ class Cle extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cle';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cle_cod'];
 
     protected $connection = 'oracle';

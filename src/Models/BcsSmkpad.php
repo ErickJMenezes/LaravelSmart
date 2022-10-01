@@ -11,6 +11,12 @@ class BcsSmkpad extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_smkpad';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_smkpad_smk_tipo', 'bcs_smkpad_smk_cod', 'bcs_smkpad_cod'];
 
     protected $connection = 'oracle';

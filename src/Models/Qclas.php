@@ -11,6 +11,12 @@ class Qclas extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qclas';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qclas_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Lim extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lim';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lim_lic_commid', 'lim_msgid'];
 
     protected $connection = 'oracle';

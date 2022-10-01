@@ -11,6 +11,12 @@ class Lpc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lpc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lpc_cnv_cod', 'lpc_tipo_fat'];
 
     protected $connection = 'oracle';

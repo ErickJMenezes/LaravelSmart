@@ -11,6 +11,12 @@ class IntSydle extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'int_sydle';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['int_sydle_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Aur extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aur';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aur_pac_reg', 'aur_num', 'aur_hsp_num'];
 
     protected $connection = 'oracle';

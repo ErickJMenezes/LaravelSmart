@@ -11,6 +11,12 @@ class Ftm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ftm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ftm_smk_cod', 'ftm_mat_cod', 'ftm_smk_tipo'];
 
     protected $connection = 'oracle';

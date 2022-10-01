@@ -11,6 +11,12 @@ class Sga extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sga';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sga_gal_cod', 'sga_str_solic'];
 
     protected $connection = 'oracle';

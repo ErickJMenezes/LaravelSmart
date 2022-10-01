@@ -11,6 +11,12 @@ class DmplDlpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dmpl_dlpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dmpl_dlpa_codigo'];
 
     protected $connection = 'oracle';

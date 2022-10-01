@@ -11,6 +11,12 @@ class Ptg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ptg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ptg_cod'];
 
     protected $connection = 'oracle';

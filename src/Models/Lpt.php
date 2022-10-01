@@ -11,6 +11,12 @@ class Lpt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lpt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lpt_id'];
 
     protected $connection = 'oracle';

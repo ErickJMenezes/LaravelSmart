@@ -11,6 +11,12 @@ class Obs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'obs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['obs_num'];
 
     protected $connection = 'oracle';

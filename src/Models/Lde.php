@@ -11,6 +11,12 @@ class Lde extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lde';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lde_esp_cod', 'lde_mes'];
 
     protected $connection = 'oracle';

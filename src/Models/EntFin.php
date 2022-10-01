@@ -11,6 +11,12 @@ class EntFin extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_fin';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_fin_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Contab extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'contab';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

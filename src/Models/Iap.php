@@ -11,6 +11,12 @@ class Iap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iap_dsc_cod', 'iap_atr_num', 'iap_equip_num', 'iap_smk_cod', 'iap_elb_cod', 'iap_smk_tipo'];
 
     protected $connection = 'oracle';

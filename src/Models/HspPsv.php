@@ -11,6 +11,12 @@ class HspPsv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsp_psv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsp_p_psv_cod', 'hsp_p_pac_reg', 'hsp_p_hsp_num'];
 
     protected $connection = 'oracle';

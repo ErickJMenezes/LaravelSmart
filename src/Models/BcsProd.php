@@ -11,6 +11,12 @@ class BcsProd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_prod';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_prod_cod'];
 
     protected $connection = 'oracle';

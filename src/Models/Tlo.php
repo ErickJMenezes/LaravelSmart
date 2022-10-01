@@ -11,6 +11,12 @@ class Tlo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tlo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tlo_id'];
 
     protected $connection = 'oracle';

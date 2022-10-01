@@ -11,6 +11,12 @@ class LabQst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lab_qst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lab_qst_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Esd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esd_smk_tipo', 'esd_smk_cod', 'esd_cnv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Rgf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rgf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rgf_tro_cod', 'rgf_rco_cod', 'rgf_lta_cod', 'rgf_gfc_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ExmAlvaroRes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm_alvaro_res';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id_resultado'];
 
     protected $connection = 'oracle';

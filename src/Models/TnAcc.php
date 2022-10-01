@@ -11,6 +11,12 @@ class TnAcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tn_acc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tn_acc_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ftr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ftr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ftr_cod', 'ftr_str_cod', 'ftr_bnc_cod'];
 
     protected $connection = 'oracle';

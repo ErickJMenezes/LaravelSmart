@@ -11,6 +11,12 @@ class Crr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['crr_sujidade', 'crr_mat_cod', 'crr_rrp_serie', 'crr_rrp_num'];
 
     protected $connection = 'oracle';

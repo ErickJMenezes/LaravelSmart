@@ -11,6 +11,12 @@ class IepPacote extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iep_pacote';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iep_p_smk_tipo', 'iep_p_smk_cod', 'iep_p_seq'];
 
     protected $connection = 'oracle';

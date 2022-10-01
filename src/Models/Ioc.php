@@ -11,6 +11,12 @@ class Ioc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ioc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ioc_orp_num', 'ioc_iop_num', 'ioc_cnv_cod'];
 
     protected $connection = 'oracle';

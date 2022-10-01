@@ -11,6 +11,12 @@ class UsuSapSmart1 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_sap_smart1';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pk_smart'];
 
     protected $connection = 'oracle';

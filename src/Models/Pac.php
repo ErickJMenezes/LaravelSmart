@@ -11,6 +11,12 @@ class Pac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pac_reg'];
 
     protected $connection = 'oracle';

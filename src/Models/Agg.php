@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Agg extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'agg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['agg_loc_cod', 'agg_dthr_ini'];
 

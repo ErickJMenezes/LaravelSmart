@@ -11,6 +11,12 @@ class Sgo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sgo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sgo_cod'];
 
     protected $connection = 'oracle';

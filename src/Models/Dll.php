@@ -11,6 +11,12 @@ class Dll extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dll';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dll_osm_num', 'dll_smm_num', 'dll_dthr', 'dll_osm_serie'];
 
     protected $connection = 'oracle';

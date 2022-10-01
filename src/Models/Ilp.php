@@ -11,6 +11,12 @@ class Ilp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ilp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ilp_seq', 'ilp_lpd_id'];
 
     protected $connection = 'oracle';

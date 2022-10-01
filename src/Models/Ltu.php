@@ -11,6 +11,12 @@ class Ltu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ltu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ltu_mma_serie', 'ltu_mma_num', 'ltu_lot_num'];
 
     protected $connection = 'oracle';

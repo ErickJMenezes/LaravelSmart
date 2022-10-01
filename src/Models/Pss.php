@@ -11,6 +11,12 @@ class Pss extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pss';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pss_psv_cod', 'pss_str_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Pre2 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pre2';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

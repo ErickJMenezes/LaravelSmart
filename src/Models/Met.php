@@ -11,6 +11,12 @@ class Met extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'met';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['met_dsc_cod', 'met_cod', 'met_atr_num'];
 
     protected $connection = 'oracle';

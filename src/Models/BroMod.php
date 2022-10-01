@@ -11,6 +11,12 @@ class BroMod extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_mod';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_mod_cod'];
 
     protected $connection = 'oracle';

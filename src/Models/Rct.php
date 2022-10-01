@@ -11,6 +11,12 @@ class Rct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rct_compet', 'rct_cct_cod_origem', 'rct_str_destino'];
 
     protected $connection = 'oracle';

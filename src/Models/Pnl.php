@@ -11,6 +11,12 @@ class Pnl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pnl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pnl_id'];
 
     protected $connection = 'oracle';

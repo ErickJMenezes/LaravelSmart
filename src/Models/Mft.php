@@ -11,6 +11,12 @@ class Mft extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mft';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mft_dt', 'mft_fat_serie', 'mft_fat'];
 
     protected $connection = 'oracle';

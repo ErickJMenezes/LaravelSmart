@@ -11,6 +11,12 @@ class Gmm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gmm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gmm_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TdcUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdc_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdc_u_usr_login', 'tdc_u_tdc_cod'];
 
     protected $connection = 'oracle';

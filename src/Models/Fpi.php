@@ -11,6 +11,12 @@ class Fpi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fpi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fpi_dt_vcto', 'fpi_ivt_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ImgRcl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_rcl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_rcl_ind'];
 
     protected $connection = 'oracle';

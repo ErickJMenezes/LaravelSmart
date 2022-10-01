@@ -11,6 +11,12 @@ class RclTmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_tmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

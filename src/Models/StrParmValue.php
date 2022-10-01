@@ -11,6 +11,12 @@ class StrParmValue extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'str_parm_value';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['str_p_id'];
 
     protected $connection = 'oracle';

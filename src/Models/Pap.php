@@ -11,6 +11,12 @@ class Pap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pap_pat_cod', 'pap_elb_cod'];
 
     protected $connection = 'oracle';

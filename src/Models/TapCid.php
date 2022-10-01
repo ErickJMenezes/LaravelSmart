@@ -11,6 +11,12 @@ class TapCid extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tap_cid';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tap_c_cid_cod', 'tap_c_cid_tip', 'tap_c_tap_cod'];
 
     protected $connection = 'oracle';

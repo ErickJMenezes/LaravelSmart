@@ -11,6 +11,12 @@ class Wlg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wlg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wlg_web_laudo_osm', 'wlg_web_laudo_osm_serie', 'wlg_usi_login', 'wlg_web_laudo_smm'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Npp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'npp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['npp_pac_reg', 'npp_str_cod'];
 
     protected $connection = 'oracle';

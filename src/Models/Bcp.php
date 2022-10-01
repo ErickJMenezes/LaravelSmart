@@ -11,6 +11,12 @@ class Bcp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcp_serie', 'bcp_num'];
 
     protected $connection = 'oracle';

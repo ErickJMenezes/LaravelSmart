@@ -11,6 +11,12 @@ class Gmr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gmr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gmr_cod'];
 
     protected $connection = 'oracle';

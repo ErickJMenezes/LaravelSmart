@@ -11,6 +11,12 @@ class Iet extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iet';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iet_cod_amostra'];
 
     protected $connection = 'oracle';

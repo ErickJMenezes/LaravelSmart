@@ -11,6 +11,12 @@ class Gmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gmt_cod'];
 
     protected $connection = 'oracle';

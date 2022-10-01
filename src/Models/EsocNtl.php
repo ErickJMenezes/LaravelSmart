@@ -11,6 +11,12 @@ class EsocNtl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_ntl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_ntl_cod'];
 
     protected $connection = 'oracle';

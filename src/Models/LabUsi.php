@@ -11,6 +11,12 @@ class LabUsi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lab_usi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lab_usi_cod'];
 
     protected $connection = 'oracle';

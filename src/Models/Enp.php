@@ -11,6 +11,12 @@ class Enp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'enp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['enp_serie', 'enp_num'];
 
     protected $connection = 'oracle';

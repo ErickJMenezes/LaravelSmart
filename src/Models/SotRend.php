@@ -11,6 +11,12 @@ class SotRend extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sot_rend';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sot_r_sot_id', 'sot_r_exc_id'];
 
     protected $connection = 'oracle';

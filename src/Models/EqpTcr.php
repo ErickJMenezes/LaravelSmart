@@ -11,6 +11,12 @@ class EqpTcr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eqp_tcr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eqp_t_eqp_num', 'eqp_t_tcr_cod'];
 
     protected $connection = 'oracle';

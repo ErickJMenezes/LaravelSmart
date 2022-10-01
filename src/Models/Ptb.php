@@ -11,6 +11,12 @@ class Ptb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ptb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ptb_pat_cod', 'ptb_tba_cod'];
 
     protected $connection = 'oracle';

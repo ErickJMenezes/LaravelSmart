@@ -11,6 +11,12 @@ class Ine extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ine';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ine_nfe_tipo', 'ine_nfe_num', 'ine_seq', 'ine_fne_cod', 'ine_nfe_serie'];
 
     protected $connection = 'oracle';

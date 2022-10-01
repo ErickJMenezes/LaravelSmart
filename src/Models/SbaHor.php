@@ -11,6 +11,12 @@ class SbaHor extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sba_hor';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sba_h_hr_atual_ini', 'sba_h_sba_cod'];
 
     protected $connection = 'oracle';

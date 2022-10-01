@@ -11,6 +11,12 @@ class CfgOpeCart extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cfg_ope_cart';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cfg_ope_cart_cod'];
 
     protected $connection = 'oracle';

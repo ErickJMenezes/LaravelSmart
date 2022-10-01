@@ -11,6 +11,12 @@ class Dev extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dev';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dev_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Idc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'idc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['idc_mns_serie', 'idc_mcc_lote', 'idc_mcc_serie', 'idc_mns_num', 'idc_mcc_seq'];
 
     protected $connection = 'oracle';

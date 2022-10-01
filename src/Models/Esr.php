@@ -11,6 +11,12 @@ class Esr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esr_cod'];
 
     protected $connection = 'oracle';

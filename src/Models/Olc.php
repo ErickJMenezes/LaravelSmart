@@ -11,6 +11,12 @@ class Olc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'olc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['olc_id'];
 
     protected $connection = 'oracle';

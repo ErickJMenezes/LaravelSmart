@@ -11,6 +11,12 @@ class PagBan extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pag_ban';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pag_ban_cod'];
 
     protected $connection = 'oracle';

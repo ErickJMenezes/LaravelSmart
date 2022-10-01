@@ -11,6 +11,12 @@ class VcnAplic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vcn_aplic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

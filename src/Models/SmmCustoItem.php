@@ -11,6 +11,12 @@ class SmmCustoItem extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smm_custo_item';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smm_custo_smm_num', 'smm_custo_osm_num', 'smm_custo_osm_serie'];
 
     protected $connection = 'oracle';

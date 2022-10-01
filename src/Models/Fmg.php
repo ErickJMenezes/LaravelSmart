@@ -11,6 +11,12 @@ class Fmg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fmg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fmg_grupo', 'fmg_trp_num', 'fmg_pac_reg'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CnvBfp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_bfp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_b_cnv_cod', 'cnv_b_forma_pag'];
 
     protected $connection = 'oracle';

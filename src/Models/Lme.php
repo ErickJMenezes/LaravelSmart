@@ -11,6 +11,12 @@ class Lme extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lme';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lme_cod'];
 
     protected $connection = 'oracle';

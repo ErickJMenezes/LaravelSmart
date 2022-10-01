@@ -11,6 +11,12 @@ class SbaLoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sba_loc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sba_l_id'];
 
     protected $connection = 'oracle';

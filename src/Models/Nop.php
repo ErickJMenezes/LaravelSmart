@@ -11,6 +11,12 @@ class Nop extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nop';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nop_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CrmsmsControlecampanha extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_controlecampanha';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

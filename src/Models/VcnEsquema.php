@@ -11,6 +11,12 @@ class VcnEsquema extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vcn_esquema';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vcn_e_vcn_d_id', 'vcn_e_vcn_t_id', 'vcn_e_vcn_v_id'];
 
     protected $connection = 'oracle';

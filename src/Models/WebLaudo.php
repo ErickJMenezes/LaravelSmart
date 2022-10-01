@@ -11,6 +11,12 @@ class WebLaudo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'web_laudo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['web_laudo_osm_serie', 'web_laudo_osm', 'web_laudo_smm'];
 
     protected $connection = 'oracle';

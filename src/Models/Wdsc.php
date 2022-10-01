@@ -11,6 +11,12 @@ class Wdsc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wdsc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wdsc_cod'];
 
     protected $connection = 'oracle';

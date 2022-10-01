@@ -11,6 +11,12 @@ class Hrg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hrg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hrg_hrini', 'hrg_loc_cod', 'hrg_dia'];
 
     protected $connection = 'oracle';

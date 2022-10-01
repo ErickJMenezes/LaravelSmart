@@ -11,6 +11,12 @@ class Ppl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ppl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ppl_id'];
 
     protected $connection = 'oracle';

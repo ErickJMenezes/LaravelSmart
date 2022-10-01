@@ -11,6 +11,12 @@ class Expc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'expc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['expc_cod'];
 
     protected $connection = 'oracle';

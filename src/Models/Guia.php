@@ -11,6 +11,12 @@ class Guia extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'guia';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

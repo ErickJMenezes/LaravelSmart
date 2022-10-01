@@ -11,6 +11,12 @@ class EmnGmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emn_gmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emn_g_emn_cod', 'emn_g_gmt_cod'];
 
     protected $connection = 'oracle';

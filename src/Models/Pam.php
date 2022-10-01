@@ -11,6 +11,12 @@ class Pam extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pam';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pam_pat_cod', 'pam_amo_cod'];
 
     protected $connection = 'oracle';

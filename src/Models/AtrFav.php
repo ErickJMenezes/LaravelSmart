@@ -11,6 +11,12 @@ class AtrFav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'atr_fav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['atr_f_id'];
 
     protected $connection = 'oracle';

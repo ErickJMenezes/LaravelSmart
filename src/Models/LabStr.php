@@ -11,6 +11,12 @@ class LabStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lab_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lab_str_str_cod', 'lab_map_cod'];
 
     protected $connection = 'oracle';

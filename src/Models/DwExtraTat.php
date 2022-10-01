@@ -11,6 +11,12 @@ class DwExtraTat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_extra_tat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_extra_tat_smk_tipo', 'dw_extra_tat_mmyy', 'dw_extra_tat_str_solic', 'dw_extra_tat_ind_urg', 'dw_extra_tat_smk_cod'];
 
     protected $connection = 'oracle';

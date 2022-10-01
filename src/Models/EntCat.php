@@ -11,6 +11,12 @@ class EntCat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_cat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_cat_id'];
 
     protected $connection = 'oracle';

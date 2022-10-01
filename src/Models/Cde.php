@@ -11,6 +11,12 @@ class Cde extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cde';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cde_cod'];
 
     protected $connection = 'oracle';

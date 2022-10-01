@@ -11,6 +11,12 @@ class Etapa1 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'etapa1';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

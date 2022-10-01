@@ -11,6 +11,12 @@ class Tpg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tpg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tpg_cod'];
 
     protected $connection = 'oracle';

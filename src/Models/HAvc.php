@@ -11,6 +11,12 @@ class HAvc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_avc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_avc_id', 'h_avc_pac_reg'];
 
     protected $connection = 'oracle';

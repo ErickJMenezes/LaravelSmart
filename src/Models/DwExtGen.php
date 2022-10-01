@@ -11,6 +11,12 @@ class DwExtGen extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_ext_gen';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_ext_gen_mmyy', 'dw_ext_gen_dim'];
 
     protected $connection = 'oracle';

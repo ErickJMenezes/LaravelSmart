@@ -11,6 +11,12 @@ class Sessoes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sessoes';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

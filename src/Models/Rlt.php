@@ -11,6 +11,12 @@ class Rlt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rlt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rlt_num', 'rlt_tipo', 'rlt_str_cod'];
 
     protected $connection = 'oracle';

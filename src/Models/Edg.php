@@ -11,6 +11,12 @@ class Edg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'edg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['edg_tipo', 'edg_cod'];
 
     protected $connection = 'oracle';

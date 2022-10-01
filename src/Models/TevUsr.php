@@ -11,6 +11,12 @@ class TevUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tev_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tev_usr_usr_login', 'tev_usr_tev_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Fva extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fva';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fva_id'];
 
     protected $connection = 'oracle';

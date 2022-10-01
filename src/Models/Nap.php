@@ -11,6 +11,12 @@ class Nap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nap_id'];
 
     protected $connection = 'oracle';

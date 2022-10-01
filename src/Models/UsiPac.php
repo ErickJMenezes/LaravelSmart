@@ -11,6 +11,12 @@ class UsiPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usi_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['usi_p_pac_reg', 'usi_p_usi_login'];
 
     protected $connection = 'oracle';

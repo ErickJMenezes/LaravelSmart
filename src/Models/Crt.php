@@ -11,6 +11,12 @@ class Crt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['crt_cod'];
 
     protected $connection = 'oracle';

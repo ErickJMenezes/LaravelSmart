@@ -11,6 +11,12 @@ class HShi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_shi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_shi_shd_id', 'h_shi_int_cod', 'h_shi_pac_reg'];
 
     protected $connection = 'oracle';

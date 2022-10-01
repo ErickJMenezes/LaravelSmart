@@ -11,6 +11,12 @@ class Rls extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rls';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rls_cod'];
 
     protected $connection = 'oracle';

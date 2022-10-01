@@ -11,6 +11,12 @@ class Seq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'seq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['seq_cod'];
 
     protected $connection = 'oracle';

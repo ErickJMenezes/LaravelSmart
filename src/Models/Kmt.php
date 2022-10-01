@@ -11,6 +11,12 @@ class Kmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'kmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['kmt_cod'];
 
     protected $connection = 'oracle';

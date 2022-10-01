@@ -11,6 +11,12 @@ class CnvGpParm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_gp_parm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_gp_p_seq'];
 
     protected $connection = 'oracle';

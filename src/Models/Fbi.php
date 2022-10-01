@@ -11,6 +11,12 @@ class Fbi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fbi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fbi_num'];
 
     protected $connection = 'oracle';

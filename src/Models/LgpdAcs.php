@@ -11,6 +11,12 @@ class LgpdAcs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgpd_acs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgpd_a_modulo'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class HspProced extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsp_proced';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsp_p_cod'];
 
     protected $connection = 'oracle';

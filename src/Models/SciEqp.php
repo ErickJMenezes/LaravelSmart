@@ -11,6 +11,12 @@ class SciEqp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sci_eqp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sci_e_cod'];
 
     protected $connection = 'oracle';

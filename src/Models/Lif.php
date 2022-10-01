@@ -11,6 +11,12 @@ class Lif extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lif';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lif_dthr_imp', 'lif_fte_num', 'lif_fte_serie'];
 
     protected $connection = 'oracle';

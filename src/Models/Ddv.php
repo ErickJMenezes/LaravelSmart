@@ -11,6 +11,12 @@ class Ddv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ddv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ddv_dvd_bul_med', 'ddv_dvd_cod', 'ddv_bul_med_dil'];
 
     protected $connection = 'oracle';

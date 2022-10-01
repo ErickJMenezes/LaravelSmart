@@ -11,6 +11,12 @@ class Atv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'atv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['atv_cod'];
 
     protected $connection = 'oracle';

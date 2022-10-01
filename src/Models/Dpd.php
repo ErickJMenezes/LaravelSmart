@@ -11,6 +11,12 @@ class Dpd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dpd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dpd_pac_reg', 'dpd_pdg_num', 'dpd_num'];
 
     protected $connection = 'oracle';

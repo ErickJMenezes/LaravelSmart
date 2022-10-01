@@ -11,6 +11,12 @@ class Lga extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lga';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lga_atr_num', 'lga_cor', 'lga_tipo', 'lga_atr_dsc'];
 
     protected $connection = 'oracle';

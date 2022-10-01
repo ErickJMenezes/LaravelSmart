@@ -11,6 +11,12 @@ class HDpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_dpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_dpa_pac_reg', 'h_dpa_id'];
 
     protected $connection = 'oracle';

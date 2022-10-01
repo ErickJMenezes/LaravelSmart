@@ -11,6 +11,12 @@ class Bap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bap_elb_cod', 'bap_bac_dsc_cod'];
 
     protected $connection = 'oracle';

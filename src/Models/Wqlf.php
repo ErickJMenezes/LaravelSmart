@@ -11,6 +11,12 @@ class Wqlf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wqlf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wqlf_rot', 'wqlf_dsc', 'wqlf_atr'];
 
     protected $connection = 'oracle';

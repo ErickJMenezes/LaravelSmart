@@ -11,6 +11,12 @@ class Mhp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mhp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mhp_exame'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CrmsmsMensagemrecebida extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_mensagemrecebida';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ctr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ctr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ctr_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class HcMip extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_mip';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_mip_cod'];
 
     protected $connection = 'oracle';

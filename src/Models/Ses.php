@@ -11,6 +11,12 @@ class Ses extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ses';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ses_proc_sus', 'ses_esp_cod'];
 
     protected $connection = 'oracle';

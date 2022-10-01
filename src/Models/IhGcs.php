@@ -11,6 +11,12 @@ class IhGcs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ih_gcs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ih_gcs_pac_reg', 'ih_gcs_hsp_num', 'ih_gcs_dthr_reg'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Cst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cst_cod'];
 
     protected $connection = 'oracle';

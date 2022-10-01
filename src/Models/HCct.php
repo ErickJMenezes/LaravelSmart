@@ -11,6 +11,12 @@ class HCct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_cct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_cct_pac_reg', 'h_cct_id'];
 
     protected $connection = 'oracle';

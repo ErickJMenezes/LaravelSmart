@@ -11,6 +11,12 @@ class Awl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'awl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['awl_dthr', 'awl_login'];
 
     protected $connection = 'oracle';

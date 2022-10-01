@@ -11,6 +11,12 @@ class Img extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_cod'];
 
     protected $connection = 'oracle';

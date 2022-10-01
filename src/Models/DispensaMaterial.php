@@ -11,6 +11,12 @@ class DispensaMaterial extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dispensa_material';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['contador_serie', 'contador'];
 
     protected $connection = 'oracle';

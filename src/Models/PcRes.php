@@ -11,6 +11,12 @@ class PcRes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pc_res';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pc_res_id', 'pc_res_num'];
 
     protected $connection = 'oracle';

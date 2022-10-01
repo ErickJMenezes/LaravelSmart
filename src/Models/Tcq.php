@@ -11,6 +11,12 @@ class Tcq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tcq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tcq_ccr_cod', 'tcq_num_ini'];
 
     protected $connection = 'oracle';

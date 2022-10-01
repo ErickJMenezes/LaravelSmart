@@ -11,6 +11,12 @@ class Cpu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpu_cnv_cod', 'cpu_str_solic', 'cpu_gcc_cod'];
 
     protected $connection = 'oracle';

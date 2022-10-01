@@ -11,6 +11,12 @@ class Mms extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mms';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mms_mat_cod', 'mms_osm_num', 'mms_osm_serie'];
 
     protected $connection = 'oracle';

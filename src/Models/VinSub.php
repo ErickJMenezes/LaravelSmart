@@ -11,6 +11,12 @@ class VinSub extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vin_sub';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vin_s_cod', 'vin_s_vin_t_cod', 'vin_s_vin_c_cod'];
 
     protected $connection = 'oracle';

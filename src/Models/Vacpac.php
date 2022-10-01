@@ -11,6 +11,12 @@ class Vacpac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vacpac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

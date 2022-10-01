@@ -11,6 +11,12 @@ class Udp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'udp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['udp_mte_seq_dep', 'udp_mte_seq_quita', 'udp_mte_serie_quita', 'udp_mte_serie_dep'];
 
     protected $connection = 'oracle';

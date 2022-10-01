@@ -11,6 +11,12 @@ class Roche extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'roche';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TokenUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'token_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['token_u_cod'];
 
     protected $connection = 'oracle';

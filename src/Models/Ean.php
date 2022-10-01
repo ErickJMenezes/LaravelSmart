@@ -11,6 +11,12 @@ class Ean extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ean';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ean_dthr_ini', 'ean_tro_cod', 'ean_lta_cod', 'ean_gfc_num', 'ean_rco_cod'];
 
     protected $connection = 'oracle';

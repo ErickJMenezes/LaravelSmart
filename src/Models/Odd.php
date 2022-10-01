@@ -11,6 +11,12 @@ class Odd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'odd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['odd_dthr_reg', 'odd_pac_reg'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Fnl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fnl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fnl_lma_cod', 'fnl_fne_cod', 'fnl_gmm_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class IntBko extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'int_bko';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['int_bko_codigo'];
 
     protected $connection = 'oracle';

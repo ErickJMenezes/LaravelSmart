@@ -11,6 +11,12 @@ class Oct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'oct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['oct_str_cod', 'oct_ano', 'oct_cct_cod'];
 
     protected $connection = 'oracle';

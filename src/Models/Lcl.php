@@ -11,6 +11,12 @@ class Lcl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lcl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lcl_cod'];
 
     protected $connection = 'oracle';

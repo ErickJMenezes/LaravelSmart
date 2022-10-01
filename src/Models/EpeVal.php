@@ -11,6 +11,12 @@ class EpeVal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epe_val';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epe_v_epe_cod', 'epe_v_ext_id', 'epe_v_compet', 'epe_v_str_cod'];
 
     protected $connection = 'oracle';

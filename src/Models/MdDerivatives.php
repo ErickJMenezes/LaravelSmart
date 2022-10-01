@@ -11,6 +11,12 @@ class MdDerivatives extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'md_derivatives';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class AolOperacoes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aol_operacoes';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aol_o_id'];
 
     protected $connection = 'oracle';

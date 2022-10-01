@@ -11,6 +11,12 @@ class Eco extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eco';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eco_id'];
 
     protected $connection = 'oracle';

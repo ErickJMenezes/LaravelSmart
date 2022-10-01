@@ -11,6 +11,12 @@ class FmsProc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fms_proc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fms_p_fms_id', 'fms_p_dthr_processa'];
 
     protected $connection = 'oracle';

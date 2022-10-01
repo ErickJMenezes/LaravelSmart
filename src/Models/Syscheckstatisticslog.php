@@ -11,6 +11,12 @@ class Syscheckstatisticslog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'syscheckstatisticslog';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

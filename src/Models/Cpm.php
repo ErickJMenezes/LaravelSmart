@@ -11,6 +11,12 @@ class Cpm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpm_cop_serie', 'cpm_fne_cod', 'cpm_dthr', 'cpm_cop_num'];
 
     protected $connection = 'oracle';

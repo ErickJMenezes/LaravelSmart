@@ -11,6 +11,12 @@ class GrEqp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_eqp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_eqp_nome'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Cebim extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cebim';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cebim_crm'];
 
     protected $connection = 'oracle';

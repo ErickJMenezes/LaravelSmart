@@ -11,6 +11,12 @@ class SintMap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sint_map';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sint_map_tipo', 'sint_map_qtd', 'sint_map_cod_pag'];
 
     protected $connection = 'oracle';

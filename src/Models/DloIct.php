@@ -11,6 +11,12 @@ class DloIct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlo_ict';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlo_i_osm_serie', 'dlo_i_smm_num', 'dlo_i_dlo_id', 'dlo_i_osm_num', 'dlo_i_ict_id'];
 
     protected $connection = 'oracle';

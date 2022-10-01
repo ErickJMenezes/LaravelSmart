@@ -11,6 +11,12 @@ class Rcr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcr_id'];
 
     protected $connection = 'oracle';

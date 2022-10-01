@@ -11,6 +11,12 @@ class TempSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'temp_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['temp_smk_cod'];
 
     protected $connection = 'oracle';

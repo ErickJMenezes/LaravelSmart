@@ -11,6 +11,12 @@ class BroFabric extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_fabric';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_fabric_cod'];
 
     protected $connection = 'oracle';

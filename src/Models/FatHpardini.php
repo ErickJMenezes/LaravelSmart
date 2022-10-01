@@ -11,6 +11,12 @@ class FatHpardini extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fat_hpardini';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fat_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class QlfMap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qlf_map';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qlf_map_elb_cod', 'qlf_map_qlf_dsc', 'qlf_map_corresp', 'qlf_map_qlf_atr', 'qlf_map_qlf_rot'];
 
     protected $connection = 'oracle';

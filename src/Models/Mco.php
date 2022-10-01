@@ -11,6 +11,12 @@ class Mco extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mco';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mco_cod'];
 
     protected $connection = 'oracle';

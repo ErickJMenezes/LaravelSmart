@@ -11,6 +11,12 @@ class Rpe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpe_osm_serie', 'rpe_smm_num', 'rpe_osm_num', 'rpe_dthr'];
 
     protected $connection = 'oracle';

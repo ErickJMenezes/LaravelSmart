@@ -11,6 +11,12 @@ class Pal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pal';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pal_str_cod', 'pal_seq', 'pal_ccr_parceiro'];
 
     protected $connection = 'oracle';

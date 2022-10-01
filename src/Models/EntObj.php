@@ -11,6 +11,12 @@ class EntObj extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_obj';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_obj_id'];
 
     protected $connection = 'oracle';

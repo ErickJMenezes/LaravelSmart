@@ -11,6 +11,12 @@ class SmkPrx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk_prx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smk_p_smk_tipo', 'smk_p_smk_cod', 'smk_p_prx_cod'];
 
     protected $connection = 'oracle';

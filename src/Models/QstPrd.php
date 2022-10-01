@@ -11,6 +11,12 @@ class QstPrd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qst_prd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qst_p_qst_cod_predecessor', 'qst_p_qst_cod'];
 
     protected $connection = 'oracle';

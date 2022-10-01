@@ -11,6 +11,12 @@ class Sre extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sre';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sre_doc_cod', 'sre_dthr'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mtr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mtr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mtr_id'];
 
     protected $connection = 'oracle';

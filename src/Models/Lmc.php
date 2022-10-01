@@ -11,6 +11,12 @@ class Lmc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lmc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lmc_seq'];
 
     protected $connection = 'oracle';

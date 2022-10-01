@@ -11,6 +11,12 @@ class Vll extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vll';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vll_cod'];
 
     protected $connection = 'oracle';

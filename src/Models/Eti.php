@@ -11,6 +11,12 @@ class Eti extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eti';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eti_cod'];
 
     protected $connection = 'oracle';

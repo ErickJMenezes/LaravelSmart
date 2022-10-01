@@ -11,6 +11,12 @@ class Pti extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pti';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pti_cod'];
 
     protected $connection = 'oracle';

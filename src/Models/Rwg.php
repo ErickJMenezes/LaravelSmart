@@ -11,6 +11,12 @@ class Rwg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rwg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rwg_id'];
 
     protected $connection = 'oracle';

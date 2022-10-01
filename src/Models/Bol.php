@@ -11,6 +11,12 @@ class Bol extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bol';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bol_cod'];
 
     protected $connection = 'oracle';

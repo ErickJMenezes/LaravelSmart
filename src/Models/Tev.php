@@ -11,6 +11,12 @@ class Tev extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tev';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tev_cod'];
 
     protected $connection = 'oracle';

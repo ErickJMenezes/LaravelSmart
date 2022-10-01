@@ -11,6 +11,12 @@ class Gsv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gsv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gsv_cod'];
 
     protected $connection = 'oracle';

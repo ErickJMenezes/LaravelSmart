@@ -11,6 +11,12 @@ class SmartbiInfo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smartbi_info';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smartbi_cod'];
 
     protected $connection = 'oracle';

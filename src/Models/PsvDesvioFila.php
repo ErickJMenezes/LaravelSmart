@@ -11,6 +11,12 @@ class PsvDesvioFila extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_desvio_fila';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_d_psv_cod', 'psv_d_cnv_cod', 'psv_d_str_solic'];
 
     protected $connection = 'oracle';

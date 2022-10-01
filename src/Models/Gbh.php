@@ -11,6 +11,12 @@ class Gbh extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gbh';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gbh_cod'];
 
     protected $connection = 'oracle';

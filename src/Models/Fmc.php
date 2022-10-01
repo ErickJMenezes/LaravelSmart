@@ -11,6 +11,12 @@ class Fmc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fmc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fmc_mrc_cod', 'fmc_fne_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ItmMat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'itm_mat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['itm_tme_cod', 'itm_m_cod'];
 
     protected $connection = 'oracle';

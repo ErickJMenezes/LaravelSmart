@@ -11,6 +11,12 @@ class Cgc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cgc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cgc_cnv_cod', 'cgc_smk_cod', 'cgc_smk_tipo'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class DwAgm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_agm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_agm_psv_cod', 'dw_agm_cnv_cod', 'dw_agm_mmyy', 'dw_agm_ctf_tipo', 'dw_agm_str_cod', 'dw_agm_ctf_cod'];
 
     protected $connection = 'oracle';

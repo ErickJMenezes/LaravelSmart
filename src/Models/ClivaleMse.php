@@ -11,6 +11,12 @@ class ClivaleMse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'clivale_mse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['c_mse_str_exec'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Alq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'alq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['alq_cod_aliq'];
 
     protected $connection = 'oracle';

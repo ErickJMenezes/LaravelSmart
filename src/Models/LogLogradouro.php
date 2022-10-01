@@ -11,6 +11,12 @@ class LogLogradouro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_logradouro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['log_nu'];
 
     protected $connection = 'oracle';

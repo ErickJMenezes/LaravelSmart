@@ -11,6 +11,12 @@ class InePti extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ine_pti';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ine_p_nfe_num', 'ine_p_nfe_serie', 'ine_p_nfe_tipo', 'ine_p_ine_seq', 'ine_p_fne_cod', 'ine_p_pti_cod'];
 
     protected $connection = 'oracle';

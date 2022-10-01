@@ -11,6 +11,12 @@ class ImgNfe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_nfe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_nfe_nfe_num', 'img_nfe_nfe_tipo', 'img_nfe_nfe_serie', 'img_nfe_fne_cod', 'img_nfe_img_cod'];
 
     protected $connection = 'oracle';

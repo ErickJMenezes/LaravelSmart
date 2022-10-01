@@ -11,6 +11,12 @@ class Cct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cct_cod'];
 
     protected $connection = 'oracle';

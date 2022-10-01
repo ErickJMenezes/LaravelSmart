@@ -11,6 +11,12 @@ class DankiaPerm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dankia_perm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dp_usr_login', 'dp_sba_cod', 'dp_perm'];
 
     protected $connection = 'oracle';

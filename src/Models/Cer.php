@@ -11,6 +11,12 @@ class Cer extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cer';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cer_cod'];
 
     protected $connection = 'oracle';

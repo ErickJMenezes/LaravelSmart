@@ -11,6 +11,12 @@ class Hdr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hdr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hdr_cod'];
 
     protected $connection = 'oracle';

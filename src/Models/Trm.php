@@ -11,6 +11,12 @@ class Trm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trm_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TCucchi7168301Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_cucchi_7168301_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

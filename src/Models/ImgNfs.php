@@ -11,6 +11,12 @@ class ImgNfs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_nfs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_nfs_nfs_numero', 'img_nfs_nfs_tipo', 'img_nfs_nfs_serie', 'img_nfs_img_cod'];
 
     protected $connection = 'oracle';

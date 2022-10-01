@@ -11,6 +11,12 @@ class Rot extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rot';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rot_cod'];
 
     protected $connection = 'oracle';

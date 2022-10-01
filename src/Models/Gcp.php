@@ -11,6 +11,12 @@ class Gcp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gcp_cod'];
 
     protected $connection = 'oracle';

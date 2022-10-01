@@ -11,6 +11,12 @@ class Enc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'enc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['enc_rnc_num', 'enc_rnc_serie', 'enc_num'];
 
     protected $connection = 'oracle';

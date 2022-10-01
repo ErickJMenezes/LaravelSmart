@@ -11,6 +11,12 @@ class GuiaExt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'guia_ext';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['guia_ext_numero', 'guia_ext_osm_serie', 'guia_ext_cod_proced', 'guia_ext_osm_num'];
 
     protected $connection = 'oracle';

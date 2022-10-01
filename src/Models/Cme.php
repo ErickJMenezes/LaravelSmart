@@ -11,6 +11,12 @@ class Cme extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cme';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cme_sba_cod', 'cme_mes', 'cme_mat_cod'];
 
     protected $connection = 'oracle';

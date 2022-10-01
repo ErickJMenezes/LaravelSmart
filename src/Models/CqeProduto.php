@@ -11,6 +11,12 @@ class CqeProduto extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cqe_produto';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cqe_p_cod'];
 
     protected $connection = 'oracle';

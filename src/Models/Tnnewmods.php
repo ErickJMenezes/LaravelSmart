@@ -11,6 +11,12 @@ class Tnnewmods extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tnnewmods';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

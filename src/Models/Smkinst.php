@@ -11,6 +11,12 @@ class Smkinst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smkinst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smkinst_smk_tipo', 'smkinst_smk_cod'];
 
     protected $connection = 'oracle';

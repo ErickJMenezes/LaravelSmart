@@ -11,6 +11,12 @@ class RcrSusSh extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcr_sus_sh';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcr_s_id'];
 
     protected $connection = 'oracle';

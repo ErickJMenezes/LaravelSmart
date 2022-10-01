@@ -11,6 +11,12 @@ class Cr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cr_sigla'];
 
     protected $connection = 'oracle';

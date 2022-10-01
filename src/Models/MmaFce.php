@@ -11,6 +11,12 @@ class MmaFce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mma_fce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mma_f_mcc_seq', 'mma_f_mma_num', 'mma_f_mcc_serie', 'mma_f_mma_serie', 'mma_f_mcc_lote'];
 
     protected $connection = 'oracle';

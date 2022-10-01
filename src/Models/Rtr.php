@@ -11,6 +11,12 @@ class Rtr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rtr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rtr_cod', 'rtr_cnv_cod'];
 
     protected $connection = 'oracle';

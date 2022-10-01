@@ -11,6 +11,12 @@ class LihSup extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lih_sup';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lih_s_num', 'lih_s_prob_cod', 'lih_s_pac_reg'];
 
     protected $connection = 'oracle';

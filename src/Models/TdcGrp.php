@@ -11,6 +11,12 @@ class TdcGrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdc_grp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdc_g_grp_cod', 'tdc_g_tdc_cod'];
 
     protected $connection = 'oracle';

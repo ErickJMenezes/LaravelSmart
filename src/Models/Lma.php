@@ -11,6 +11,12 @@ class Lma extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lma';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lma_gmm_cod', 'lma_cod'];
 
     protected $connection = 'oracle';

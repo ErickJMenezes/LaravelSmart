@@ -11,6 +11,12 @@ class Lgt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgt_dt_ini', 'lgt_str_cod', 'lgt_tipo'];
 
     protected $connection = 'oracle';

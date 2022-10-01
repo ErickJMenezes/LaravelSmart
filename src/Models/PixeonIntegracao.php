@@ -11,6 +11,12 @@ class PixeonIntegracao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pixeon_integracao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['na_accessionnumber'];
 
     protected $connection = 'oracle';

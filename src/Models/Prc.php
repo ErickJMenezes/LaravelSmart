@@ -11,6 +11,12 @@ class Prc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'prc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['prc_pid'];
 
     protected $connection = 'oracle';

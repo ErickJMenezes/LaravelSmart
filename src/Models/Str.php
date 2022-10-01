@@ -11,6 +11,12 @@ class Str extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['str_cod'];
 
     protected $connection = 'oracle';

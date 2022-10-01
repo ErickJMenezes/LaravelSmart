@@ -11,6 +11,12 @@ class Pat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pat_cod'];
 
     protected $connection = 'oracle';

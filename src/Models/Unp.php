@@ -11,6 +11,12 @@ class Unp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'unp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['unp_yymm', 'unp_str_cod'];
 
     protected $connection = 'oracle';

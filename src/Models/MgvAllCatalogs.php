@@ -11,6 +11,12 @@ class MgvAllCatalogs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mgv_all_catalogs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

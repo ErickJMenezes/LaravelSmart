@@ -11,6 +11,12 @@ class GrWeb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_web';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_web_server_name', 'gr_web_session_id'];
 
     protected $connection = 'oracle';

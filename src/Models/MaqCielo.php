@@ -11,6 +11,12 @@ class MaqCielo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'maq_cielo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['maq_c_id'];
 
     protected $connection = 'oracle';

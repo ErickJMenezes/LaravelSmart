@@ -11,6 +11,12 @@ class Naf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'naf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['naf_nfe_num', 'naf_fne_cod', 'naf_nfe_serie', 'naf_cop_num', 'naf_nfe_tipo', 'naf_cop_serie'];
 
     protected $connection = 'oracle';

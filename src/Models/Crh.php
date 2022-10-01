@@ -11,6 +11,12 @@ class Crh extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crh';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['crh_psv_cod', 'crh_rep_num', 'crh_rep_serie'];
 
     protected $connection = 'oracle';

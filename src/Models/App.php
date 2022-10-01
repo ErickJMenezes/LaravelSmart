@@ -11,6 +11,12 @@ class App extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'app';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['app_id'];
 
     protected $connection = 'oracle';

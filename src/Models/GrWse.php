@@ -11,6 +11,12 @@ class GrWse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_wse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_wse_server_addr', 'gr_wse_usr_login'];
 
     protected $connection = 'oracle';

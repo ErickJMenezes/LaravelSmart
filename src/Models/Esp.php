@@ -11,6 +11,12 @@ class Esp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esp_cod'];
 
     protected $connection = 'oracle';

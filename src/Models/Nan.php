@@ -11,6 +11,12 @@ class Nan extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nan';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nan_cod'];
 
     protected $connection = 'oracle';

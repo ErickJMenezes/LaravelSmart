@@ -11,6 +11,12 @@ class CttEmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ctt_emp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ctt_emp_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Sci extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sci';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sci_cod'];
 
     protected $connection = 'oracle';

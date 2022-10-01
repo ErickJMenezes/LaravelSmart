@@ -11,6 +11,12 @@ class NexoDoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nexo_doc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nexo_doc_id', 'nexo_doc_tipo'];
 
     protected $connection = 'oracle';

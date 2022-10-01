@@ -11,6 +11,12 @@ class TabIpsemg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tab_ipsemg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ipsemg_cod'];
 
     protected $connection = 'oracle';

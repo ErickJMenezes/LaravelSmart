@@ -11,6 +11,12 @@ class Wst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wst_cod'];
 
     protected $connection = 'oracle';

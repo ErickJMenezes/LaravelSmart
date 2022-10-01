@@ -11,6 +11,12 @@ class Psh extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psh';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psh_hsp_pac', 'psh_hsp_num', 'psh_psv_cod'];
 
     protected $connection = 'oracle';

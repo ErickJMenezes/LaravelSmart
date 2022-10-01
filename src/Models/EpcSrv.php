@@ -11,6 +11,12 @@ class EpcSrv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epc_srv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epc_s_cod'];
 
     protected $connection = 'oracle';

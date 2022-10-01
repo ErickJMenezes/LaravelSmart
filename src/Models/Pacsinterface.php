@@ -11,6 +11,12 @@ class Pacsinterface extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pacsinterface';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cmdnum'];
 
     protected $connection = 'oracle';

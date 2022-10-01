@@ -11,6 +11,12 @@ class Tes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tes';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tes_cod'];
 
     protected $connection = 'oracle';

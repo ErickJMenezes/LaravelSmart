@@ -11,6 +11,12 @@ class EpeStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epe_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epe_s_str_cod', 'epe_s_epe_cod'];
 
     protected $connection = 'oracle';

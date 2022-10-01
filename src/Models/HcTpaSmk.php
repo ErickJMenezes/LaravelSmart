@@ -11,6 +11,12 @@ class HcTpaSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_tpa_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_tpa_smk_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class VcnLocal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vcn_local';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vcn_l_id'];
 
     protected $connection = 'oracle';

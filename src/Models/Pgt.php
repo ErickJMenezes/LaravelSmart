@@ -11,6 +11,12 @@ class Pgt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pgt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pgt_qst_cod', 'pgt_cod'];
 
     protected $connection = 'oracle';

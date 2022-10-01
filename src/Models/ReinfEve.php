@@ -11,6 +11,12 @@ class ReinfEve extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'reinf_eve';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

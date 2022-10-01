@@ -11,6 +11,12 @@ class Fpr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fpr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fpr_label', 'fpr_frm_id'];
 
     protected $connection = 'oracle';

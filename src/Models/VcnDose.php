@@ -11,6 +11,12 @@ class VcnDose extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vcn_dose';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vcn_d_id'];
 
     protected $connection = 'oracle';

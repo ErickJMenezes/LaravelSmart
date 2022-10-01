@@ -11,6 +11,12 @@ class Mat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mat_cod'];
 
     protected $connection = 'oracle';

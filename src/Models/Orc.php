@@ -11,6 +11,12 @@ class Orc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'orc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['orc_umo_cod', 'orc_ind_terc', 'orc_terc_str_cod', 'orc_ano', 'orc_cfo_cod', 'orc_str_cod', 'orc_sintetico'];
 
     protected $connection = 'oracle';

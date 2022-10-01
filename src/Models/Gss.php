@@ -11,6 +11,12 @@ class Gss extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gss';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gss_cod'];
 
     protected $connection = 'oracle';

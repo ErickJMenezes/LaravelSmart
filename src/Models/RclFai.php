@@ -11,6 +11,12 @@ class RclFai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_fai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_fai_id'];
 
     protected $connection = 'oracle';

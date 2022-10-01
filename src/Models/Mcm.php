@@ -11,6 +11,12 @@ class Mcm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mcm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mcm_tcm_cod', 'mcm_mat_cod'];
 
     protected $connection = 'oracle';

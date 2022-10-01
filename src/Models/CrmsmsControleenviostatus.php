@@ -11,6 +11,12 @@ class CrmsmsControleenviostatus extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_controleenviostatus';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

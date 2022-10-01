@@ -11,6 +11,12 @@ class TdcCnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdc_cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdc_c_cnv_cod', 'tdc_c_tdc_cod'];
 
     protected $connection = 'oracle';

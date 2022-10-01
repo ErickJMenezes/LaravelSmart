@@ -11,6 +11,12 @@ class Tre extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tre';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tre_eqp_num', 'tre_dthr_reg'];
 
     protected $connection = 'oracle';

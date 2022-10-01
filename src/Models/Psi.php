@@ -11,6 +11,12 @@ class Psi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psi_cod'];
 
     protected $connection = 'oracle';

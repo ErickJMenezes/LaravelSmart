@@ -11,6 +11,12 @@ class OrdSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ord_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ord_smk_cod', 'ord_smk_pos', 'ord_smk_tipo'];
 
     protected $connection = 'oracle';

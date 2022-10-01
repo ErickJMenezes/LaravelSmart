@@ -11,6 +11,12 @@ class Ams extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ams';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ams_amo_cod', 'ams_smk_tipo', 'ams_smk_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mcp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mcp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mcp_exame'];
 
     protected $connection = 'oracle';

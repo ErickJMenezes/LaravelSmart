@@ -11,6 +11,12 @@ class PsvAbramgeCred extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_abramge_cred';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_abramge_cred_cnv_cod', 'psv_abramge_cred_psv_cod'];
 
     protected $connection = 'oracle';

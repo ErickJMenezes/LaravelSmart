@@ -11,6 +11,12 @@ class Cqe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cqe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cqe_osm_num', 'cqe_osm_serie'];
 
     protected $connection = 'oracle';

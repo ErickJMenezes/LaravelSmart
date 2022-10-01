@@ -11,6 +11,12 @@ class Cnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_cod'];
 
     protected $connection = 'oracle';

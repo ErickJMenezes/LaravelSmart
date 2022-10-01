@@ -11,6 +11,12 @@ class CepBai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cep_bai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chave_bai', 'chvloc_bai'];
 
     protected $connection = 'oracle';

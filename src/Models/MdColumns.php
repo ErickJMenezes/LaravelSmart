@@ -11,6 +11,12 @@ class MdColumns extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'md_columns';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Avl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'avl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['avl_minimo', 'avl_qst_cod'];
 
     protected $connection = 'oracle';

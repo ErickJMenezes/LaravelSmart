@@ -11,6 +11,12 @@ class ImgPsc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_psc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_psc_id'];
 
     protected $connection = 'oracle';

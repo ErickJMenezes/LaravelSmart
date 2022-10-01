@@ -11,6 +11,12 @@ class Trc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trc_compet'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class PcRedeUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pc_rede_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pc_rede_usr_login', 'pc_rede_usr_host'];
 
     protected $connection = 'oracle';

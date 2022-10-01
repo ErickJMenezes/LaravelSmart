@@ -11,6 +11,12 @@ class EmpProcesso extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_processo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_processo_emp_cod', 'emp_processo_tp_proc', 'emp_processo_num'];
 
     protected $connection = 'oracle';

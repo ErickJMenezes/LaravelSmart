@@ -11,6 +11,12 @@ class Ccs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ccs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ccs_cct_cod_origem', 'ccs_str_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CncUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnc_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnc_u_cnc_cod', 'cnc_u_usr_login'];
 
     protected $connection = 'oracle';

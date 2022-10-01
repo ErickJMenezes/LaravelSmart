@@ -11,6 +11,12 @@ class Fce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fce_sba_cod', 'fce_dthr'];
 
     protected $connection = 'oracle';

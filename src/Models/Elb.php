@@ -11,6 +11,12 @@ class Elb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'elb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['elb_cod'];
 
     protected $connection = 'oracle';

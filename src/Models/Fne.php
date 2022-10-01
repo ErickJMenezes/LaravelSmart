@@ -11,6 +11,12 @@ class Fne extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fne';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fne_cod'];
 
     protected $connection = 'oracle';

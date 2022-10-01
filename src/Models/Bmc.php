@@ -11,6 +11,12 @@ class Bmc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bmc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bmc_mcc_serie', 'bmc_bxa_num', 'bmc_mcc_lote', 'bmc_mcc_seq', 'bmc_bxa_serie'];
 
     protected $connection = 'oracle';

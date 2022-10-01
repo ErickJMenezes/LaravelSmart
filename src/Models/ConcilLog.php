@@ -11,6 +11,12 @@ class ConcilLog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'concil_log';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['data_venda', 'valor', 'nsu_adquirinte', 'parcela'];
 
     protected $connection = 'oracle';

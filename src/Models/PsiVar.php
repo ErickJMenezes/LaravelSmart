@@ -11,6 +11,12 @@ class PsiVar extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psi_var';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psi_v_id'];
 
     protected $connection = 'oracle';

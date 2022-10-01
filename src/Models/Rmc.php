@@ -11,6 +11,12 @@ class Rmc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rmc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rmc_id'];
 
     protected $connection = 'oracle';

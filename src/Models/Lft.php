@@ -11,6 +11,12 @@ class Lft extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lft';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lft_cod'];
 
     protected $connection = 'oracle';

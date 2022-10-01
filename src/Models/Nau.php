@@ -11,6 +11,12 @@ class Nau extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nau';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nau_nta_cod', 'nau_aft_num', 'nau_aft_serie'];
 
     protected $connection = 'oracle';

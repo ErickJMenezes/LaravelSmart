@@ -11,6 +11,12 @@ class Icr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'icr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['icr_id'];
 
     protected $connection = 'oracle';

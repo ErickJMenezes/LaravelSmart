@@ -11,6 +11,12 @@ class Pse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pse_seq', 'pse_hsp_num', 'pse_pac_reg'];
 
     protected $connection = 'oracle';

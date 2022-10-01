@@ -11,6 +11,12 @@ class Cum extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cum';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cum_bun_cod_para', 'cum_bun_cod_de'];
 
     protected $connection = 'oracle';

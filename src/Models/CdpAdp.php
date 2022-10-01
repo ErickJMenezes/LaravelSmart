@@ -11,6 +11,12 @@ class CdpAdp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdp_adp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdp_a_cdp_id', 'cdp_a_adp_tipo', 'cdp_a_adp_cod'];
 
     protected $connection = 'oracle';

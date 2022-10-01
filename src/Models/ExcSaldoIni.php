@@ -11,6 +11,12 @@ class ExcSaldoIni extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_saldo_ini';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_s_exc_id', 'exc_s_cct_cod'];
 
     protected $connection = 'oracle';

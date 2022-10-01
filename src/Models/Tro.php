@@ -11,6 +11,12 @@ class Tro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tro_cod'];
 
     protected $connection = 'oracle';

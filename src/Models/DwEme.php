@@ -11,6 +11,12 @@ class DwEme extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_eme';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_eme_mmyy', 'dw_eme_str_cod', 'dw_eme_cnv_cod', 'dw_eme_cid_cod', 'dw_eme_duracao_h', 'dw_eme_sexo', 'dw_eme_faixa_etaria'];
 
     protected $connection = 'oracle';

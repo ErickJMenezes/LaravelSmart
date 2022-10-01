@@ -11,6 +11,12 @@ class Sct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sct_id'];
 
     protected $connection = 'oracle';

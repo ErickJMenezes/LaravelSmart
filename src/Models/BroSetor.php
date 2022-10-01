@@ -11,6 +11,12 @@ class BroSetor extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_setor';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_setor_osm_serie', 'bro_setor_osm_num', 'bro_setor_str_cod'];
 
     protected $connection = 'oracle';

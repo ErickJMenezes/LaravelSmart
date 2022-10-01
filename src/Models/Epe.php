@@ -11,6 +11,12 @@ class Epe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epe_cod'];
 
     protected $connection = 'oracle';

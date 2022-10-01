@@ -11,6 +11,12 @@ class PreTmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pre_tmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pre_smk_tipo', 'pre_tab_cod', 'pre_smk_cod'];
 
     protected $connection = 'oracle';

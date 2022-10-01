@@ -11,6 +11,12 @@ class CrmsmsControleenvio extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_controleenvio';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cont_cod'];
 
     protected $connection = 'oracle';

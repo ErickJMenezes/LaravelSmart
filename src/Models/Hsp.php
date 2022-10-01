@@ -11,6 +11,12 @@ class Hsp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsp_pac', 'hsp_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Aha extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aha';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aha_tipo', 'aha_cod'];
 
     protected $connection = 'oracle';

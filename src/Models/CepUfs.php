@@ -11,6 +11,12 @@ class CepUfs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cep_ufs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chave_uf'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ldn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ldn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ldn_id'];
 
     protected $connection = 'oracle';

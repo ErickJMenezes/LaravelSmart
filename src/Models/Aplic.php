@@ -11,6 +11,12 @@ class Aplic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aplic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aplicshortname'];
 
     protected $connection = 'oracle';

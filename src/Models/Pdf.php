@@ -11,6 +11,12 @@ class Pdf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdf_pde_num', 'pdf_nan_cod', 'pdf_nan_f_seq'];
 
     protected $connection = 'oracle';

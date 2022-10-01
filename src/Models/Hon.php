@@ -11,6 +11,12 @@ class Hon extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hon';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hon_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ldf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ldf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ldf_smk'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SArqrmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_arqrmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['s_mat', 's_proc'];
 
     protected $connection = 'oracle';

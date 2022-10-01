@@ -11,6 +11,12 @@ class Wado extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wado';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

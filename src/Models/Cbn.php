@@ -11,6 +11,12 @@ class Cbn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cbn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cbn_dthr', 'cbn_pac_reg'];
 
     protected $connection = 'oracle';

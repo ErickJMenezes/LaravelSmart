@@ -11,6 +11,12 @@ class LgpdCtrAcGrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgpd_ctr_ac_grp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgpd_cag_grp_cod'];
 
     protected $connection = 'oracle';

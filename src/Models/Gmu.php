@@ -11,6 +11,12 @@ class Gmu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gmu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gmu_gmt_cod', 'gmu_usr_login'];
 
     protected $connection = 'oracle';

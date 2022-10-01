@@ -11,6 +11,12 @@ class NfsLote extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfs_lote';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfs_l_tp_guia', 'nfs_l_lote', 'nfs_l_nfs_tipo', 'nfs_l_guia'];
 
     protected $connection = 'oracle';

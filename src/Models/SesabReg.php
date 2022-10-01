@@ -11,6 +11,12 @@ class SesabReg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sesab_reg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sesab_reg_pac_reg', 'sesab_reg_dthr'];
 
     protected $connection = 'oracle';

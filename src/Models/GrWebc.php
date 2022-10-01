@@ -11,6 +11,12 @@ class GrWebc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_webc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_webc_dthr', 'gr_webc_session_id'];
 
     protected $connection = 'oracle';

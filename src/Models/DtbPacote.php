@@ -11,6 +11,12 @@ class DtbPacote extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dtb_pacote';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dtb_pacote_id', 'dtb_pacote_ctf_cod', 'dtb_pacote_smk_cod', 'dtb_pacote_smk_tipo', 'dtb_pacote_ctf_tipo', 'dtb_pacote_limite_min', 'dtb_pacote_cnv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Emc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emc_mmyy'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class IctCai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ict_cai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ict_cai_ict_osm_serie', 'ict_cai_ict_id', 'ict_cai_cai_cod', 'ict_cai_ict_osm_num', 'ict_cai_ict_smm_num'];
 
     protected $connection = 'oracle';

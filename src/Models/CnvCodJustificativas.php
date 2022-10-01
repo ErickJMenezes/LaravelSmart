@@ -11,6 +11,12 @@ class CnvCodJustificativas extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_cod_justificativas';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_cod_justi_cnv_cod', 'cnv_codigo_justificativa'];
 
     protected $connection = 'oracle';

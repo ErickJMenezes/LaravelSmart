@@ -11,6 +11,12 @@ class Cai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cai_cod'];
 
     protected $connection = 'oracle';

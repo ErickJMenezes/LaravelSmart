@@ -11,6 +11,12 @@ class Uss extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'uss';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['uss_cod'];
 
     protected $connection = 'oracle';

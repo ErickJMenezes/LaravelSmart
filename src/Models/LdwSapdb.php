@@ -11,6 +11,12 @@ class LdwSapdb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ldw_sapdb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ldw_s_smk_tipo', 'ldw_s_num', 'ldw_s_smk_cod', 'ldw_s_seq'];
 
     protected $connection = 'oracle';

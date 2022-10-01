@@ -11,6 +11,12 @@ class Ede extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ede';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ede_cod'];
 
     protected $connection = 'oracle';

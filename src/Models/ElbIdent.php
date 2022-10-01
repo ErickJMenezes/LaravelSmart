@@ -11,6 +11,12 @@ class ElbIdent extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'elb_ident';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['elb_i_equip_num', 'elb_i_elb_cod'];
 
     protected $connection = 'oracle';

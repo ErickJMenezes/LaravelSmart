@@ -11,6 +11,12 @@ class Ppp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ppp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ppp_pac_reg', 'ppp_dthr', 'ppp_lta_cod'];
 
     protected $connection = 'oracle';

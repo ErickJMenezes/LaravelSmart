@@ -11,6 +11,12 @@ class ReinfTpServ extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'reinf_tp_serv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['reinf_tp_serv_cod'];
 
     protected $connection = 'oracle';

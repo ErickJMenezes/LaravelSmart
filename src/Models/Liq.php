@@ -11,6 +11,12 @@ class Liq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'liq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['liq_cod'];
 
     protected $connection = 'oracle';

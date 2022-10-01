@@ -11,6 +11,12 @@ class Cmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cmt_cod', 'cmt_tcm_cod'];
 
     protected $connection = 'oracle';

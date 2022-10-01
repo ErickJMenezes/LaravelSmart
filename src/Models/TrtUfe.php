@@ -11,6 +11,12 @@ class TrtUfe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trt_ufe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trt_u_trt_c_id', 'trt_u_ufe_sigla', 'trt_u_ufe_pai_sigla'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SmkStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smk_s_id'];
 
     protected $connection = 'oracle';

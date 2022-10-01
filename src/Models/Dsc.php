@@ -11,6 +11,12 @@ class Dsc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dsc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dsc_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Rlp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rlp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rlp_id'];
 
     protected $connection = 'oracle';

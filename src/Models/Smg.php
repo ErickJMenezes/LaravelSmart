@@ -11,6 +11,12 @@ class Smg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smg_smt_cod', 'smg_gep_cod'];
 
     protected $connection = 'oracle';

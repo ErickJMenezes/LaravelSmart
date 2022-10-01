@@ -11,6 +11,12 @@ class Ahm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ahm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ahm_id'];
 
     protected $connection = 'oracle';

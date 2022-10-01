@@ -11,6 +11,12 @@ class DwCuboColuna extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_cubo_coluna';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_cc_coluna', 'dw_cc_tabela', 'dw_cc_cod'];
 
     protected $connection = 'oracle';

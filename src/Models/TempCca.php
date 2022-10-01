@@ -11,6 +11,12 @@ class TempCca extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'temp_cca';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['temp_cca_seq'];
 
     protected $connection = 'oracle';

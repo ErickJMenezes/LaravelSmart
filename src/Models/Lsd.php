@@ -11,6 +11,12 @@ class Lsd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lsd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lsd_numero', 'lsd_esd_cod_sauded', 'lsd_smk_tipo', 'lsd_smk_cod', 'lsd_cnv_cod'];
 
     protected $connection = 'oracle';

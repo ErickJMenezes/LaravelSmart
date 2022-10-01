@@ -11,6 +11,12 @@ class Arc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'arc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['arc_id'];
 
     protected $connection = 'oracle';

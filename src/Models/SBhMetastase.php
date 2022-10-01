@@ -11,6 +11,12 @@ class SBhMetastase extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_bh_metastase';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['s_bh_m_cod'];
 
     protected $connection = 'oracle';

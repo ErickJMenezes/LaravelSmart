@@ -11,6 +11,12 @@ class Sba extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sba';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sba_cod'];
 
     protected $connection = 'oracle';

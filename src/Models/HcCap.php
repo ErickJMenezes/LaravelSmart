@@ -11,6 +11,12 @@ class HcCap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_cap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_cap_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CrmsmsTag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_tag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

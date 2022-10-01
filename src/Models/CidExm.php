@@ -11,6 +11,12 @@ class CidExm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cid_exm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cid_e_cid_cod', 'cid_e_exm_cod', 'cid_e_cid_tip'];
 
     protected $connection = 'oracle';

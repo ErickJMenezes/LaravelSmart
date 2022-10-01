@@ -11,6 +11,12 @@ class Esm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esm_esp', 'esm_med'];
 
     protected $connection = 'oracle';

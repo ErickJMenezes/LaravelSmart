@@ -11,6 +11,12 @@ class DwCuboEtl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_cubo_etl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_ce_id'];
 
     protected $connection = 'oracle';

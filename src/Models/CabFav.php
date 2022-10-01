@@ -11,6 +11,12 @@ class CabFav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cab_fav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cab_f_psv_cod', 'cab_f_cab_nome'];
 
     protected $connection = 'oracle';

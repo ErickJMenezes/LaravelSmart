@@ -11,6 +11,12 @@ class Exs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exs_exm_cod', 'exs_pex_pac', 'exs_item_id', 'exs_pex_dthr'];
 
     protected $connection = 'oracle';

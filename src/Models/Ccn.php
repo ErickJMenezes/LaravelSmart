@@ -11,6 +11,12 @@ class Ccn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ccn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ccn_cnv_cod', 'ccn_smk_tipo', 'ccn_smk_cod', 'ccn_str_solic'];
 
     protected $connection = 'oracle';

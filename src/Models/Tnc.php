@@ -11,6 +11,12 @@ class Tnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tnc_cod'];
 
     protected $connection = 'oracle';

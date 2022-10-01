@@ -11,6 +11,12 @@ class Fat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fat_num', 'fat_serie'];
 
     protected $connection = 'oracle';

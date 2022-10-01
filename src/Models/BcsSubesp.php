@@ -11,6 +11,12 @@ class BcsSubesp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_subesp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_subesp_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Grw extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'grw';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['grw_guid'];
 
     protected $connection = 'oracle';

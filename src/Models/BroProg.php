@@ -11,6 +11,12 @@ class BroProg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_prog';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_prog_cod'];
 
     protected $connection = 'oracle';

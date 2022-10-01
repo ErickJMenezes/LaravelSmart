@@ -11,6 +11,12 @@ class Rcg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcg_mte_seq', 'rcg_hsp_num', 'rcg_mte_serie', 'rcg_pac_reg', 'rcg_cnv_cod', 'rcg_dthr_ini'];
 
     protected $connection = 'oracle';

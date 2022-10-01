@@ -11,6 +11,12 @@ class Mte extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mte';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mte_serie', 'mte_seq'];
 
     protected $connection = 'oracle';

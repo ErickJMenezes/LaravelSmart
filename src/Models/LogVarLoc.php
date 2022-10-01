@@ -11,6 +11,12 @@ class LogVarLoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_var_loc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['val_nu', 'loc_nu'];
 
     protected $connection = 'oracle';

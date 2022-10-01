@@ -11,6 +11,12 @@ class FdiExm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fdi_exm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fdi_exm_cod', 'fdi_fdl_id'];
 
     protected $connection = 'oracle';

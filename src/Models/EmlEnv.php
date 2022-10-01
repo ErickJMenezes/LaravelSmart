@@ -11,6 +11,12 @@ class EmlEnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eml_env';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['e_env_cod'];
 
     protected $connection = 'oracle';

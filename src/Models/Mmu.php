@@ -11,6 +11,12 @@ class Mmu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mmu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mmu_cod', 'mmu_psv_cod', 'mmu_tip'];
 
     protected $connection = 'oracle';

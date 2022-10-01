@@ -11,6 +11,12 @@ class LayEtqParm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lay_etq_parm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lay_etq_p_etq_cod', 'lay_etq_p_id'];
 
     protected $connection = 'oracle';

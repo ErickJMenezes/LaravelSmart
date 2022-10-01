@@ -11,6 +11,12 @@ class TLsobral8587312Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_lsobral_8587312_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

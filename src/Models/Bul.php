@@ -11,6 +11,12 @@ class Bul extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bul';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bul_med'];
 
     protected $connection = 'oracle';

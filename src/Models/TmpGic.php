@@ -11,6 +11,12 @@ class TmpGic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp_gic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

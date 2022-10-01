@@ -11,6 +11,12 @@ class Pex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pex_pac', 'pex_dthr'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Eml extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eml';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eml_cod'];
 
     protected $connection = 'oracle';

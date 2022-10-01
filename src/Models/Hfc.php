@@ -11,6 +11,12 @@ class Hfc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hfc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hfc_pac_reg', 'hfc_dthr_ini', 'hfc_cnv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ProTemp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pro_temp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

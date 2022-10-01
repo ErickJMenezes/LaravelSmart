@@ -11,6 +11,12 @@ class Gcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gcc_cod'];
 
     protected $connection = 'oracle';

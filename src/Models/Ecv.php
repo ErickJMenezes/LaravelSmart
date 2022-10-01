@@ -11,6 +11,12 @@ class Ecv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ecv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ecv_smk_tipo', 'ecv_cvc_serie', 'ecv_cvc_num', 'ecv_smk_cod', 'ecv_pac_reg'];
 
     protected $connection = 'oracle';

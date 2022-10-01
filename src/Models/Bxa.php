@@ -11,6 +11,12 @@ class Bxa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bxa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bxa_num', 'bxa_serie'];
 
     protected $connection = 'oracle';

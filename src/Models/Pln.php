@@ -11,6 +11,12 @@ class Pln extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pln';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pln_cod', 'pln_cnv_cod'];
 
     protected $connection = 'oracle';

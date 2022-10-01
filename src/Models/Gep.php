@@ -11,6 +11,12 @@ class Gep extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gep';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gep_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SProc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_proc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['proc_cod'];
 
     protected $connection = 'oracle';

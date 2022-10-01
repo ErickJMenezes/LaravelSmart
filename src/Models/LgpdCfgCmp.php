@@ -11,6 +11,12 @@ class LgpdCfgCmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgpd_cfg_cmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgpd_c_codigo'];
 
     protected $connection = 'oracle';

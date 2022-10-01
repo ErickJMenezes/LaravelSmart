@@ -11,6 +11,12 @@ class Usb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['usb_usr_login', 'usb_bnc_str_cod', 'usb_bnc_cod'];
 
     protected $connection = 'oracle';

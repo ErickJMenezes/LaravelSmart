@@ -11,6 +11,12 @@ class ImgSma extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_sma';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_sma_sma_num', 'img_sma_img_cod', 'img_sma_sma_serie'];
 
     protected $connection = 'oracle';

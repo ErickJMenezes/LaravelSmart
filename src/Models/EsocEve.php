@@ -11,6 +11,12 @@ class EsocEve extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_eve';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Epl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epl_serie', 'epl_num'];
 
     protected $connection = 'oracle';

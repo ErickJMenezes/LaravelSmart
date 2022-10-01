@@ -11,6 +11,12 @@ class ExcReinf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_reinf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_reinf_exc_id'];
 
     protected $connection = 'oracle';

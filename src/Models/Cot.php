@@ -11,6 +11,12 @@ class Cot extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cot';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cot_cnv_cod', 'cot_padrao_preco', 'cot_umo_sigla', 'cot_dt_inic'];
 
     protected $connection = 'oracle';

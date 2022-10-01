@@ -11,6 +11,12 @@ class Leo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'leo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['leo_qst_cod', 'leo_apq_cod', 'leo_seq', 'leo_pgt_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ImgCap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_cap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_cap_pac_reg', 'img_cap_cap_num', 'img_cap_img_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class HTdp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_tdp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_tdp_pac_reg', 'h_tdp_id'];
 
     protected $connection = 'oracle';

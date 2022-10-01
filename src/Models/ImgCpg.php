@@ -11,6 +11,12 @@ class ImgCpg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_cpg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_cpg_cpg_num', 'img_cpg_img_cod', 'img_cpg_cpg_serie'];
 
     protected $connection = 'oracle';

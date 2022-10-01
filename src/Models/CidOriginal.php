@@ -11,6 +11,12 @@ class CidOriginal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cid_original';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

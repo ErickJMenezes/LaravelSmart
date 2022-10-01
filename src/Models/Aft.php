@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Aft extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'aft';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['aft_serie', 'aft_num'];
 

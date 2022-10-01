@@ -11,6 +11,12 @@ class Nnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nnc_cod'];
 
     protected $connection = 'oracle';

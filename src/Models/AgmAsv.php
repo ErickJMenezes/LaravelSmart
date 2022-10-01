@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class AgmAsv extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'agm_asv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['agm_a_med', 'agm_a_hini', 'agm_a_asv_id', 'agm_a_loc', 'agm_a_ext'];
 

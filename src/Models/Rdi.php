@@ -11,6 +11,12 @@ class Rdi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rdi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rdi_mte_seq', 'rdi_seq', 'rdi_mte_serie'];
 
     protected $connection = 'oracle';

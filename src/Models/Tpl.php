@@ -11,6 +11,12 @@ class Tpl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tpl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tpl_cod'];
 
     protected $connection = 'oracle';

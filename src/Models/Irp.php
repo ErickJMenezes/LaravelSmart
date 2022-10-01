@@ -11,6 +11,12 @@ class Irp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'irp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['irp_rep_serie', 'irp_nfs_numero', 'irp_nfs_tipo', 'irp_rep_num', 'irp_nfs_serie'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Uaf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'uaf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['uaf_fnc_cod', 'uaf_usr_login'];
 
     protected $connection = 'oracle';

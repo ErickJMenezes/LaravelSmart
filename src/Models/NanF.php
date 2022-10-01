@@ -11,6 +11,12 @@ class NanF extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nan_f';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nan_f_nan_cod', 'nan_f_seq'];
 
     protected $connection = 'oracle';

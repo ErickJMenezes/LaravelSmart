@@ -11,6 +11,12 @@ class ObsDw extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'obs_dw';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['obs_dw_id'];
 
     protected $connection = 'oracle';

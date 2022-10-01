@@ -11,6 +11,12 @@ class Qcm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qcm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qcm_id'];
 
     protected $connection = 'oracle';

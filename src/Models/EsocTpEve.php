@@ -11,6 +11,12 @@ class EsocTpEve extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_tp_eve';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_tp_eve_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TissTipoatendimento extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tiss_tipoatendimento';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tiss_tpatendimento_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class VeiMod extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vei_mod';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['v_mod_cod'];
 
     protected $connection = 'oracle';

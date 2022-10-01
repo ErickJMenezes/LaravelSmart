@@ -11,6 +11,12 @@ class LayoutTip extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'layout_tip';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['layout_tip_cod'];
 
     protected $connection = 'oracle';

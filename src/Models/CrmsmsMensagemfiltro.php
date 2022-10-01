@@ -11,6 +11,12 @@ class CrmsmsMensagemfiltro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_mensagemfiltro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Tbd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tbd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tbd_seq'];
 
     protected $connection = 'oracle';

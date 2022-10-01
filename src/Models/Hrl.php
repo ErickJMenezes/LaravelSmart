@@ -11,6 +11,12 @@ class Hrl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hrl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hrl_dia', 'hrl_loc_cod'];
 
     protected $connection = 'oracle';

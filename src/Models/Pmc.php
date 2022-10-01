@@ -11,6 +11,12 @@ class Pmc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pmc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pmc_num', 'pmc_cap_num', 'pmc_pac_reg', 'pmc_fcp_num'];
 
     protected $connection = 'oracle';

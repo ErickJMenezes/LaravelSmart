@@ -11,6 +11,12 @@ class LogLocalidade extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_localidade';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['loc_nu'];
 
     protected $connection = 'oracle';

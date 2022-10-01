@@ -11,6 +11,12 @@ class Im2Pat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'im2_pat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['im2_p_im2_id', 'im2_p_pat_cod'];
 
     protected $connection = 'oracle';

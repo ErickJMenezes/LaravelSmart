@@ -11,6 +11,12 @@ class Pai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pai_sigla'];
 
     protected $connection = 'oracle';

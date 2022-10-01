@@ -11,6 +11,12 @@ class Cna extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cna';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cna_id'];
 
     protected $connection = 'oracle';

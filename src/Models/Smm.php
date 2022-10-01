@@ -11,6 +11,12 @@ class Smm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smm_osm', 'smm_num', 'smm_osm_serie'];
 
     protected $connection = 'oracle';

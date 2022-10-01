@@ -11,6 +11,12 @@ class Cop extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cop';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cop_num', 'cop_serie'];
 
     protected $connection = 'oracle';

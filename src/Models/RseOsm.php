@@ -11,6 +11,12 @@ class RseOsm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rse_osm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rse_o_osm_serie', 'rse_o_rse_serie', 'rse_o_rse_num', 'rse_o_osm_num'];
 
     protected $connection = 'oracle';

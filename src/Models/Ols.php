@@ -11,6 +11,12 @@ class Ols extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ols';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ols_str_cod_2', 'ols_str_cod_1'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Lhd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lhd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lhd_cod'];
 
     protected $connection = 'oracle';

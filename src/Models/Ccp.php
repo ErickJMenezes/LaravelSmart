@@ -11,6 +11,12 @@ class Ccp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ccp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ccp_seq'];
 
     protected $connection = 'oracle';

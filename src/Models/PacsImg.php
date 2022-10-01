@@ -11,6 +11,12 @@ class PacsImg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pacs_img';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pacs_acession_number'];
 
     protected $connection = 'oracle';

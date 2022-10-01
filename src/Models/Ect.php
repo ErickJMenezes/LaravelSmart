@@ -11,6 +11,12 @@ class Ect extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ect';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ect_pac_reg', 'ect_numero'];
 
     protected $connection = 'oracle';

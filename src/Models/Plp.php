@@ -11,6 +11,12 @@ class Plp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'plp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['plp_id'];
 
     protected $connection = 'oracle';

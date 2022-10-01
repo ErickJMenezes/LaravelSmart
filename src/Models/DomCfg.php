@@ -11,6 +11,12 @@ class DomCfg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dom_cfg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dom_cfg_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class MdMigrParameter extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'md_migr_parameter';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

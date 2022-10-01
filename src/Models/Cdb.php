@@ -11,6 +11,12 @@ class Cdb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdb_dthr'];
 
     protected $connection = 'oracle';

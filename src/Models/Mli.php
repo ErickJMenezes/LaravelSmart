@@ -11,6 +11,12 @@ class Mli extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mli';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mli_cod'];
 
     protected $connection = 'oracle';

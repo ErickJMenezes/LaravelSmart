@@ -11,6 +11,12 @@ class Loc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'loc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['loc_cod'];
 
     protected $connection = 'oracle';

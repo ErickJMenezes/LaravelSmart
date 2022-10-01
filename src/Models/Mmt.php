@@ -11,6 +11,12 @@ class Mmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mmt_smk_tipo', 'mmt_itm_cod', 'mmt_tme_cod', 'mmt_smk_cod'];
 
     protected $connection = 'oracle';

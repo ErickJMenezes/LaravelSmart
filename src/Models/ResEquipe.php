@@ -11,6 +11,12 @@ class ResEquipe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'res_equipe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['res_equipe_seq'];
 
     protected $connection = 'oracle';

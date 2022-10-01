@@ -11,6 +11,12 @@ class CondPag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cond_pag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cond_pag_cod'];
 
     protected $connection = 'oracle';

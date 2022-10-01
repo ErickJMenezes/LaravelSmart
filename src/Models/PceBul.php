@@ -11,6 +11,12 @@ class PceBul extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pce_bul';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['p_bul_cod'];
 
     protected $connection = 'oracle';

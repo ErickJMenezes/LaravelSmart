@@ -11,6 +11,12 @@ class CrmsmsEnvio extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_envio';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

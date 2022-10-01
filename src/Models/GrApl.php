@@ -11,6 +11,12 @@ class GrApl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gr_apl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gr_apl_eqp_nome', 'gr_apl_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ptt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ptt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ptt_id'];
 
     protected $connection = 'oracle';

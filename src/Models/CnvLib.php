@@ -11,6 +11,12 @@ class CnvLib extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_lib';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_lib_cnv_cod', 'cnv_lib_dthr_reg'];
 
     protected $connection = 'oracle';

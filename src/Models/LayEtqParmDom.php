@@ -11,6 +11,12 @@ class LayEtqParmDom extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lay_etq_parm_dom';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lay_etq_p_dom_id'];
 
     protected $connection = 'oracle';

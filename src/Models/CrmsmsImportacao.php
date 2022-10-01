@@ -11,6 +11,12 @@ class CrmsmsImportacao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_importacao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

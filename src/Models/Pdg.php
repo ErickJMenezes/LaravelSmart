@@ -11,6 +11,12 @@ class Pdg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdg_num', 'pdg_pac'];
 
     protected $connection = 'oracle';

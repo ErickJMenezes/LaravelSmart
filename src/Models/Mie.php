@@ -11,6 +11,12 @@ class Mie extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mie';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mie_emp_cod', 'mie_cod'];
 
     protected $connection = 'oracle';

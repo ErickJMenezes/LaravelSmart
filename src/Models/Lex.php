@@ -11,6 +11,12 @@ class Lex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lex_cod'];
 
     protected $connection = 'oracle';

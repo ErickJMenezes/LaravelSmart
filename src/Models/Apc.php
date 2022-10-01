@@ -11,6 +11,12 @@ class Apc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apc_num'];
 
     protected $connection = 'oracle';

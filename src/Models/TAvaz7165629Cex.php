@@ -11,6 +11,12 @@ class TAvaz7165629Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_avaz_7165629_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

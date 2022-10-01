@@ -11,6 +11,12 @@ class Wing extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wing';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

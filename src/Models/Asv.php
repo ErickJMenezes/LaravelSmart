@@ -11,6 +11,12 @@ class Asv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'asv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['asv_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Nfs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfs_numero', 'nfs_tipo', 'nfs_serie'];
 
     protected $connection = 'oracle';

@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Adp extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'adp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['adp_tipo', 'adp_cod'];
 

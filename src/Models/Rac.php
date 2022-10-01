@@ -11,6 +11,12 @@ class Rac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rac_cod'];
 
     protected $connection = 'oracle';

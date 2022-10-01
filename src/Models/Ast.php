@@ -11,6 +11,12 @@ class Ast extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ast';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ast_sba_cod', 'ast_str_cod'];
 
     protected $connection = 'oracle';

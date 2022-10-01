@@ -11,6 +11,12 @@ class CreParc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cre_parc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cre_p_parc_max', 'cre_p_cre_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Hie extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hie';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hie_pac_reg', 'hie_dthr_ini'];
 
     protected $connection = 'oracle';

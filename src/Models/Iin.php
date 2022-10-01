@@ -11,6 +11,12 @@ class Iin extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iin';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iin_inv_num', 'iin_inv_serie', 'iin_mat_cod'];
 
     protected $connection = 'oracle';

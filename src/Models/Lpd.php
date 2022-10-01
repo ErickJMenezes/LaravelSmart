@@ -11,6 +11,12 @@ class Lpd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lpd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lpd_id'];
 
     protected $connection = 'oracle';

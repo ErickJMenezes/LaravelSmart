@@ -11,6 +11,12 @@ class Ipr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ipr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ipr_id'];
 
     protected $connection = 'oracle';

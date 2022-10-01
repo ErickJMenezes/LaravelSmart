@@ -11,6 +11,12 @@ class Mdt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mdt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mdt_dthr'];
 
     protected $connection = 'oracle';

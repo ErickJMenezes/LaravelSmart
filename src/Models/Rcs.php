@@ -11,6 +11,12 @@ class Rcs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcs_compet', 'rcs_str_origem', 'rcs_str_destino'];
 
     protected $connection = 'oracle';

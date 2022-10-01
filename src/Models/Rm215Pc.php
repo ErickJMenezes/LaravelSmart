@@ -11,6 +11,12 @@ class Rm215Pc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rm215_pc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rm215_pc_cod'];
 
     protected $connection = 'oracle';

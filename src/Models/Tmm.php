@@ -11,6 +11,12 @@ class Tmm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tmm_cod'];
 
     protected $connection = 'oracle';

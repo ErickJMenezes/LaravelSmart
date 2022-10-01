@@ -11,6 +11,12 @@ class Fee extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fee';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fee_osm_serie', 'fee_osm_num', 'fee_dthr_reg'];
 
     protected $connection = 'oracle';

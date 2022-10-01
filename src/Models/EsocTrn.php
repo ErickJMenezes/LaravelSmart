@@ -11,6 +11,12 @@ class EsocTrn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_trn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_trn_cod'];
 
     protected $connection = 'oracle';

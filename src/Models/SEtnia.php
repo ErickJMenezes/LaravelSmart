@@ -11,6 +11,12 @@ class SEtnia extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_etnia';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['s_etnia_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class MccTemp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mcc_temp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

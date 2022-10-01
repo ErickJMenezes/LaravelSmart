@@ -11,6 +11,12 @@ class Osa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'osa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['osa_osm_serie', 'osa_dthr', 'osa_osm_num'];
 
     protected $connection = 'oracle';

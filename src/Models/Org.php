@@ -11,6 +11,12 @@ class Org extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'org';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['org_cod'];
 
     protected $connection = 'oracle';

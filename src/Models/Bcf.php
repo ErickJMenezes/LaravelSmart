@@ -11,6 +11,12 @@ class Bcf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcf_ccr_cod', 'bcf_bcp_serie', 'bcf_bcp_num', 'bcf_cheque'];
 
     protected $connection = 'oracle';

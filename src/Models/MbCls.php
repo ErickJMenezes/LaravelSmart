@@ -11,6 +11,12 @@ class MbCls extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mb_cls';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mb_cls_tipo'];
 
     protected $connection = 'oracle';

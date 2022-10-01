@@ -11,6 +11,12 @@ class RpiCpg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpi_cpg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpi_c_ccr_cod', 'rpi_c_rpi_num', 'rpi_c_rpi_serie'];
 
     protected $connection = 'oracle';

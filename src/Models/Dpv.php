@@ -11,6 +11,12 @@ class Dpv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dpv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dpv_cod_interno', 'dpv_dpr_int_bko_codigo', 'dpv_dpr_cod', 'dpv_emp_cod', 'dpv_cod_externo'];
 
     protected $connection = 'oracle';

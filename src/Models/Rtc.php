@@ -11,6 +11,12 @@ class Rtc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rtc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rtc_id'];
 
     protected $connection = 'oracle';

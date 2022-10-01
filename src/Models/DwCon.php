@@ -11,6 +11,12 @@ class DwCon extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_con';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_con_esp_cod', 'dw_con_str_unidade', 'dw_con_psv_cod', 'dw_con_mmyy'];
 
     protected $connection = 'oracle';

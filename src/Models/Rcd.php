@@ -11,6 +11,12 @@ class Rcd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcd_rcl_pac', 'rcd_rcl_dthr', 'rcd_rcl_cod', 'rcd_rcl_tpcod', 'rcd_atr_num', 'rcd_dsc_cod'];
 
     protected $connection = 'oracle';

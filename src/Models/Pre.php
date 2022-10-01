@@ -11,6 +11,12 @@ class Pre extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pre';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pre_smk_tipo', 'pre_smk_cod', 'pre_tab_cod'];
 
     protected $connection = 'oracle';

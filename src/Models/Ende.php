@@ -11,6 +11,12 @@ class Ende extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ende';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ende_cod'];
 
     protected $connection = 'oracle';

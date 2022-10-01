@@ -11,6 +11,12 @@ class Bas extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bas';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bas_smk_cod', 'bas_smk_tipo', 'bas_dsc_cod'];
 
     protected $connection = 'oracle';

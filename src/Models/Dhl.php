@@ -11,6 +11,12 @@ class Dhl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dhl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dhl_awb_number'];
 
     protected $connection = 'oracle';

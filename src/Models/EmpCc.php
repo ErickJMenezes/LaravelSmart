@@ -11,6 +11,12 @@ class EmpCc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_cc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_cc_emp_cod', 'emp_cc_banco', 'emp_cc_conta', 'emp_cc_agencia'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Slt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'slt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['slt_serie', 'slt_num'];
 
     protected $connection = 'oracle';

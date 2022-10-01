@@ -11,6 +11,12 @@ class RlaQtd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rla_qtd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rla_qtd_num', 'rla_qtd_rla_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class AolHorario extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aol_horario';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aol_h_id'];
 
     protected $connection = 'oracle';

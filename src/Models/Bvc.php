@@ -11,6 +11,12 @@ class Bvc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bvc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bvc_dthr_reg'];
 
     protected $connection = 'oracle';

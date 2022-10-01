@@ -11,6 +11,12 @@ class Rna extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rna';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rna_rci_serie', 'rna_rci_num', 'rna_num'];
 
     protected $connection = 'oracle';

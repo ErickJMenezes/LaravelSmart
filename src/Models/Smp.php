@@ -11,6 +11,12 @@ class Smp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smp_cod_simpro'];
 
     protected $connection = 'oracle';

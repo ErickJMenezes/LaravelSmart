@@ -11,6 +11,12 @@ class Pad extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pad';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pad_num'];
 
     protected $connection = 'oracle';

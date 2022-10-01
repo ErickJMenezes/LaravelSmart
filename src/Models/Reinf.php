@@ -11,6 +11,12 @@ class Reinf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'reinf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['reinf_id'];
 
     protected $connection = 'oracle';

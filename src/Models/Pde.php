@@ -11,6 +11,12 @@ class Pde extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pde';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pde_num'];
 
     protected $connection = 'oracle';

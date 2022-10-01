@@ -11,6 +11,12 @@ class Dlf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlf_nfs_serie', 'dlf_nfs_tipo', 'dlf_dthr', 'dlf_nfs_numero'];
 
     protected $connection = 'oracle';

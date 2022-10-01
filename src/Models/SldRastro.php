@@ -11,6 +11,12 @@ class SldRastro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sld_rastro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sld_rastro_osm', 'sld_rastro_osm_serie', 'sld_rastro_reg_dthr'];
 
     protected $connection = 'oracle';

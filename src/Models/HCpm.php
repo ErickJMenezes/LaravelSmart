@@ -11,6 +11,12 @@ class HCpm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_cpm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_cpm_pac_reg', 'h_cpm_bul_med', 'h_cpm_cpe_id'];
 
     protected $connection = 'oracle';

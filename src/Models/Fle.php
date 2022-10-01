@@ -11,6 +11,12 @@ class Fle extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fle';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fle_pac_reg', 'fle_str_cod', 'fle_psv_cod', 'fle_dthr_chegada'];
 
     protected $connection = 'oracle';

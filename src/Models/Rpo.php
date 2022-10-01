@@ -11,6 +11,12 @@ class Rpo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpo_num', 'rpo_pgt_cod', 'rpo_qst_cod', 'rpo_apq_cod'];
 
     protected $connection = 'oracle';

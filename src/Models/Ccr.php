@@ -11,6 +11,12 @@ class Ccr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ccr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ccr_cod'];
 
     protected $connection = 'oracle';

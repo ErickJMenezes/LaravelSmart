@@ -11,6 +11,12 @@ class Mrs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mrs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mrs_str_cod', 'mrs_mat_cod'];
 
     protected $connection = 'oracle';

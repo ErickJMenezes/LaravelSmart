@@ -11,6 +11,12 @@ class RdiTef extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rdi_tef';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rdi_t_id'];
 
     protected $connection = 'oracle';

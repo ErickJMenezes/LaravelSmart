@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Adb extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'adb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['adb_aha_cod', 'adb_tap_cod', 'adb_aha_tipo'];
 

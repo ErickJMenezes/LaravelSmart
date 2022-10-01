@@ -11,6 +11,12 @@ class Amg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'amg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['amg_pac', 'amg_ext', 'amg_dthr_ini'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Sca extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sca';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sca_cai_cod', 'sca_str_solic'];
 
     protected $connection = 'oracle';

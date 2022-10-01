@@ -11,6 +11,12 @@ class MdlFile extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mdl_file';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mdl_f_id'];
 
     protected $connection = 'oracle';

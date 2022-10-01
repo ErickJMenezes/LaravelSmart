@@ -11,6 +11,12 @@ class Ing extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ing';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ing_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Bilhete extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bilhete';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hora', 'data', 'ramal'];
 
     protected $connection = 'oracle';

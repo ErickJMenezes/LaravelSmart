@@ -11,6 +11,12 @@ class BroApre extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_apre';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_apre_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class NflInu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfl_inu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfl_inu_num', 'nfl_inu_serie', 'nfl_inu_emp_cod'];
 
     protected $connection = 'oracle';

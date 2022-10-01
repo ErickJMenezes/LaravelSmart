@@ -11,6 +11,12 @@ class Stone extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'stone';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['stone_cod'];
 
     protected $connection = 'oracle';

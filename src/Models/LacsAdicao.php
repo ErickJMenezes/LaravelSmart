@@ -11,6 +11,12 @@ class LacsAdicao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lacs_adicao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lcs_adc_cct_cod', 'lcs_adc_exc_id', 'lcs_adc_lacs_cod', 'lcs_adc_lcs_mes'];
 
     protected $connection = 'oracle';

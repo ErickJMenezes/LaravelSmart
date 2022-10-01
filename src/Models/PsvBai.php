@@ -11,6 +11,12 @@ class PsvBai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_bai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_bai_psv_cod', 'psv_bai_bai_cod', 'psv_bai_bai_cde_cod'];
 
     protected $connection = 'oracle';

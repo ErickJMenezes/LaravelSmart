@@ -11,6 +11,12 @@ class UsuE642lct extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e642lct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['seqid', 'codseg', 'idint'];
 
     protected $connection = 'oracle';

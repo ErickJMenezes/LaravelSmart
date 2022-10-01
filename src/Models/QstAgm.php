@@ -11,6 +11,12 @@ class QstAgm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qst_agm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qst_a_id'];
 
     protected $connection = 'oracle';

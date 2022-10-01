@@ -11,6 +11,12 @@ class CrQpr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cr_qpr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cr_qpr_id'];
 
     protected $connection = 'oracle';

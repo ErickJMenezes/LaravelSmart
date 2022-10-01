@@ -11,6 +11,12 @@ class Bat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bat_smk_tipo', 'bat_idade_min', 'bat_lta_cod', 'bat_gfc_num', 'bat_smk_cod', 'bat_pac_reg'];
 
     protected $connection = 'oracle';

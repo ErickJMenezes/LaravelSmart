@@ -11,6 +11,12 @@ class Qap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qap_elb_cod', 'qap_pgt_cod', 'qap_qst_cod'];
 
     protected $connection = 'oracle';

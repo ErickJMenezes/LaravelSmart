@@ -11,6 +11,12 @@ class Qplan extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qplan';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qplan_cod'];
 
     protected $connection = 'oracle';

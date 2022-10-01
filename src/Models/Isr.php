@@ -11,6 +11,12 @@ class Isr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'isr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['isr_srf_serie', 'isr_srf_num', 'isr_srf_seq'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Rcl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_cod', 'rcl_dthr', 'rcl_pac', 'rcl_tpcod'];
 
     protected $connection = 'oracle';

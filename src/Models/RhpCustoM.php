@@ -11,6 +11,12 @@ class RhpCustoM extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rhp_custo_m';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rhp_m_ctf_cod', 'rhp_m_dt_ref', 'rhp_m_ctf_tipo'];
 
     protected $connection = 'oracle';

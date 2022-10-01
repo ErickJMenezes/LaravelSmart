@@ -11,6 +11,12 @@ class Hsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsr_cod'];
 
     protected $connection = 'oracle';

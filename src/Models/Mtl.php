@@ -11,6 +11,12 @@ class Mtl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mtl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mtl_cod'];
 
     protected $connection = 'oracle';

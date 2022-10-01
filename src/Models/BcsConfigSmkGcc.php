@@ -11,6 +11,12 @@ class BcsConfigSmkGcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_config_smk_gcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_config_smk_gcc_gcc_cod', 'bcs_config_smk_gcc_smk_tipo', 'bcs_config_smk_gcc_smk_cod'];
 
     protected $connection = 'oracle';

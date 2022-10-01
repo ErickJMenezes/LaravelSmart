@@ -11,6 +11,12 @@ class Pce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pce_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Sac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sac_serie', 'sac_num'];
 
     protected $connection = 'oracle';

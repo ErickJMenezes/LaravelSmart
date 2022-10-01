@@ -11,6 +11,12 @@ class AudioInt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'audio_int';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['audio_int_num'];
 
     protected $connection = 'oracle';

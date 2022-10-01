@@ -11,6 +11,12 @@ class Tah extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tah';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tah_cod'];
 
     protected $connection = 'oracle';

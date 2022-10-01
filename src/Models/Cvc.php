@@ -11,6 +11,12 @@ class Cvc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cvc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cvc_serie', 'cvc_num'];
 
     protected $connection = 'oracle';

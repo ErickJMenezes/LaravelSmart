@@ -11,6 +11,12 @@ class Dvd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dvd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dvd_cod', 'dvd_bul_med'];
 
     protected $connection = 'oracle';

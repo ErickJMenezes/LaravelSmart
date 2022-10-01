@@ -11,6 +11,12 @@ class RtrPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rtr_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rtr_pac_pac_reg', 'rtr_pac_rtr_cod'];
 
     protected $connection = 'oracle';

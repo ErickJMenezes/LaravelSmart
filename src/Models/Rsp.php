@@ -11,6 +11,12 @@ class Rsp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rsp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rsp_id'];
 
     protected $connection = 'oracle';

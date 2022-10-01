@@ -11,6 +11,12 @@ class Qobj extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qobj';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qobj_cod'];
 
     protected $connection = 'oracle';

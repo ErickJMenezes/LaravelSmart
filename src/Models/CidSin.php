@@ -11,6 +11,12 @@ class CidSin extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cid_sin';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cid_s_id'];
 
     protected $connection = 'oracle';

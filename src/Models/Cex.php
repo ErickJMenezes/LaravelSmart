@@ -11,6 +11,12 @@ class Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cex_smk_cod', 'cex_dsc_cod', 'cex_atr_num', 'cex_smk_tipo'];
 
     protected $connection = 'oracle';

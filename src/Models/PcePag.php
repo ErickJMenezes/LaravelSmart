@@ -11,6 +11,12 @@ class PcePag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pce_pag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pce_pag_cod'];
 
     protected $connection = 'oracle';

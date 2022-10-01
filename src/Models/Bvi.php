@@ -11,6 +11,12 @@ class Bvi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bvi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bvi_cod'];
 
     protected $connection = 'oracle';

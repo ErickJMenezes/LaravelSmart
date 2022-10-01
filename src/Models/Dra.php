@@ -11,6 +11,12 @@ class Dra extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dra';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dra_pac_reg', 'dra_num', 'dra_hsp_num'];
 
     protected $connection = 'oracle';

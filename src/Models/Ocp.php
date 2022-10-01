@@ -11,6 +11,12 @@ class Ocp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ocp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ocp_str_cod', 'ocp_ano'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class MmtMat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mmt_mat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mmt_m_itm_cod', 'mmt_m_tme_cod', 'mmt_m_mat_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Dfs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dfs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dfs_cod'];
 
     protected $connection = 'oracle';

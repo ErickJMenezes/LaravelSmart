@@ -11,6 +11,12 @@ class CtgDom extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ctg_dom';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ctg_dom_cod'];
 
     protected $connection = 'oracle';

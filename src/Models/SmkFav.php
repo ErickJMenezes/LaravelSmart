@@ -11,6 +11,12 @@ class SmkFav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk_fav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['smk_fav_usr_login', 'smk_fav_smk_cod', 'smk_fav_smk_tipo'];
 
     protected $connection = 'oracle';

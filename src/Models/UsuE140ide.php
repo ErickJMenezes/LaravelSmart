@@ -11,6 +11,12 @@ class UsuE140ide extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e140ide';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

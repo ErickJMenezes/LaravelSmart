@@ -11,6 +11,12 @@ class Trt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trt_id'];
 
     protected $connection = 'oracle';

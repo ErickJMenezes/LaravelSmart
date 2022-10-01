@@ -11,6 +11,12 @@ class Hst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hst_cod'];
 
     protected $connection = 'oracle';

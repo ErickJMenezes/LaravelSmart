@@ -11,6 +11,12 @@ class IctLista extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ict_lista';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ict_l_id'];
 
     protected $connection = 'oracle';

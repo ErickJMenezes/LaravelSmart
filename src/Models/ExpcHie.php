@@ -11,6 +11,12 @@ class ExpcHie extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'expc_hie';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['expc_hie_cod'];
 
     protected $connection = 'oracle';

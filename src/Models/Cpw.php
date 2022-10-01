@@ -11,6 +11,12 @@ class Cpw extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpw';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpw_id'];
 
     protected $connection = 'oracle';

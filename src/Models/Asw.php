@@ -11,6 +11,12 @@ class Asw extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'asw';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['asw_guid'];
 
     protected $connection = 'oracle';

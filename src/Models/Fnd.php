@@ -11,6 +11,12 @@ class Fnd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fnd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fnd_id'];
 
     protected $connection = 'oracle';

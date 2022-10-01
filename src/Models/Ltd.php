@@ -11,6 +11,12 @@ class Ltd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ltd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ltd_mes_ref', 'ltd_loc_cod'];
 
     protected $connection = 'oracle';

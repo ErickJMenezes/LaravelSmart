@@ -11,6 +11,12 @@ class Qcn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qcn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qcn_dsc_cod', 'qcn_atr_num', 'qcn_qcm_id', 'qcn_smk_tipo', 'qcn_smk_cod', 'qcn_nivel'];
 
     protected $connection = 'oracle';

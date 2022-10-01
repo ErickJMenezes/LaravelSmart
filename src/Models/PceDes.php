@@ -11,6 +11,12 @@ class PceDes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pce_des';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['p_des_cod'];
 
     protected $connection = 'oracle';

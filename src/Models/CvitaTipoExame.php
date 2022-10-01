@@ -11,6 +11,12 @@ class CvitaTipoExame extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cvita_tipo_exame';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cvita_tipo_exame_id'];
 
     protected $connection = 'oracle';

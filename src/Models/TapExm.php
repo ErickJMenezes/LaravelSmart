@@ -11,6 +11,12 @@ class TapExm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tap_exm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tap_e_tap_cod', 'tap_e_exm_cod'];
 
     protected $connection = 'oracle';

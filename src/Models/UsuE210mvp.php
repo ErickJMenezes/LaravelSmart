@@ -11,6 +11,12 @@ class UsuE210mvp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e210mvp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CdcConfigSerie extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdc_config_serie';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdc_config_serie_codigo'];
 
     protected $connection = 'oracle';

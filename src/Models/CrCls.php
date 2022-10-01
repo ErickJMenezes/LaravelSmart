@@ -11,6 +11,12 @@ class CrCls extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cr_cls';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cr_cls_id'];
 
     protected $connection = 'oracle';

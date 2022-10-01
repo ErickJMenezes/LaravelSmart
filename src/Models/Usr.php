@@ -11,6 +11,12 @@ class Usr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['usr_login'];
 
     protected $connection = 'oracle';

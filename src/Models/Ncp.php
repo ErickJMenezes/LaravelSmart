@@ -11,6 +11,12 @@ class Ncp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ncp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ncp_cop_num', 'ncp_nta_cod', 'ncp_cop_serie'];
 
     protected $connection = 'oracle';

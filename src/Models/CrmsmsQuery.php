@@ -11,6 +11,12 @@ class CrmsmsQuery extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_query';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

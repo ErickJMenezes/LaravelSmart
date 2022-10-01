@@ -11,6 +11,12 @@ class Cev extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cev';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cev_seq'];
 
     protected $connection = 'oracle';

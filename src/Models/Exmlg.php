@@ -11,6 +11,12 @@ class Exmlg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exmlg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exmlg_exm_cod', 'exmlg_exg_cod'];
 
     protected $connection = 'oracle';

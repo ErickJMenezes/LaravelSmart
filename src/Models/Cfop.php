@@ -11,6 +11,12 @@ class Cfop extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cfop';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cfop_cod'];
 
     protected $connection = 'oracle';

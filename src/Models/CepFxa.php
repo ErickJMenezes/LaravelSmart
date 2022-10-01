@@ -11,6 +11,12 @@ class CepFxa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cep_fxa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chave_fxa'];
 
     protected $connection = 'oracle';

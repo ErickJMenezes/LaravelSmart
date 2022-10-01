@@ -11,6 +11,12 @@ class TrakItens extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trak_itens';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

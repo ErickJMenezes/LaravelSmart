@@ -11,6 +11,12 @@ class DwMcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_mcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

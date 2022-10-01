@@ -11,6 +11,12 @@ class Fic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fic_icp_seq', 'fic_cop_serie', 'fic_cop_num', 'fic_id', 'fic_fne_cod'];
 
     protected $connection = 'oracle';

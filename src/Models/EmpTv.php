@@ -11,6 +11,12 @@ class EmpTv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_tv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_t_emp_cod', 'emp_t_dt_ini'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class EmpCfg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_cfg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_cfg_dom_cfg_cod', 'emp_cfg_emp_cod'];
 
     protected $connection = 'oracle';

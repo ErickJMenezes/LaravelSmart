@@ -11,6 +11,12 @@ class MbInp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mb_inp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mb_inp_mb_ins_id', 'mb_inp_mb_clp_nome'];
 
     protected $connection = 'oracle';

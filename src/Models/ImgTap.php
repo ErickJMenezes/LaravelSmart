@@ -11,6 +11,12 @@ class ImgTap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_tap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_tap_tap_cod', 'img_tap_img_cod'];
 
     protected $connection = 'oracle';

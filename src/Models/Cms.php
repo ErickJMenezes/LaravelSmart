@@ -11,6 +11,12 @@ class Cms extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cms';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cms_id'];
 
     protected $connection = 'oracle';

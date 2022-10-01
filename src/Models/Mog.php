@@ -11,6 +11,12 @@ class Mog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mog';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mog_cod'];
 
     protected $connection = 'oracle';

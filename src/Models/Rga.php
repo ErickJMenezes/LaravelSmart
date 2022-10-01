@@ -11,6 +11,12 @@ class Rga extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rga';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rga_cod'];
 
     protected $connection = 'oracle';

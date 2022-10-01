@@ -11,6 +11,12 @@ class Ftc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ftc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ftc_str_cod', 'ftc_smk_cod', 'ftc_str_unid', 'ftc_smk_tipo'];
 
     protected $connection = 'oracle';

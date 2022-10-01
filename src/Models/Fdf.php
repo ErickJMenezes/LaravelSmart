@@ -11,6 +11,12 @@ class Fdf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fdf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fdf_usr_login', 'fdf_fdl_id'];
 
     protected $connection = 'oracle';

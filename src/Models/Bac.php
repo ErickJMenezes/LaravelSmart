@@ -11,6 +11,12 @@ class Bac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bac_dsc_cod'];
 
     protected $connection = 'oracle';

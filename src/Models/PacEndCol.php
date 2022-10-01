@@ -11,6 +11,12 @@ class PacEndCol extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pac_end_col';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pac_end_col_agm_loc', 'pac_end_col_agm_hini', 'pac_end_col_agm_ext', 'pac_end_col_agm_med'];
 
     protected $connection = 'oracle';

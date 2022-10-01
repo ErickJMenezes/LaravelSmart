@@ -11,6 +11,12 @@ class Imd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'imd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['imd_pat_cod2', 'imd_pat_cod1'];
 
     protected $connection = 'oracle';

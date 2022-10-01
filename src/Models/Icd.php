@@ -11,6 +11,12 @@ class Icd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'icd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['icd_num'];
 
     protected $connection = 'oracle';

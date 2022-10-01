@@ -11,6 +11,12 @@ class Qtm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qtm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

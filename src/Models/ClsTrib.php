@@ -11,6 +11,12 @@ class ClsTrib extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cls_trib';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cls_trib_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class EsocEqp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_eqp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_eqp_cod'];
 
     protected $connection = 'oracle';

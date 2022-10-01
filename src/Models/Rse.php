@@ -11,6 +11,12 @@ class Rse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rse_num', 'rse_serie'];
 
     protected $connection = 'oracle';

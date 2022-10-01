@@ -11,6 +11,12 @@ class Lmg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lmg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lmg_pac_reg', 'lmg_exame'];
 
     protected $connection = 'oracle';

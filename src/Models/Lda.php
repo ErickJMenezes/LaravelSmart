@@ -11,6 +11,12 @@ class Lda extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lda';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lda_cod'];
 
     protected $connection = 'oracle';

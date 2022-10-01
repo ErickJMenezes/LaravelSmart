@@ -11,6 +11,12 @@ class Winv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'winv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

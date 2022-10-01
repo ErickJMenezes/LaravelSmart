@@ -11,6 +11,12 @@ class ExcLalur extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_lalur';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_llr_lalur_cod', 'exc_llr_exc_id', 'exc_llr_mes'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ExmHpardini extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm_hpardini';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['num_exm'];
 
     protected $connection = 'oracle';

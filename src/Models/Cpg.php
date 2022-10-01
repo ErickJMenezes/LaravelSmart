@@ -11,6 +11,12 @@ class Cpg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpg_num', 'cpg_serie'];
 
     protected $connection = 'oracle';

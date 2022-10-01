@@ -11,6 +11,12 @@ class SpedPc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sped_pc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sped_pc_mes_ref', 'sped_pc_gcc_cod'];
 
     protected $connection = 'oracle';

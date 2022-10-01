@@ -11,6 +11,12 @@ class Cra extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cra';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cra_validade', 'cra_ccr_origem', 'cra_ccr_destino'];
 
     protected $connection = 'oracle';

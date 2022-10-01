@@ -11,6 +11,12 @@ class Ppo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ppo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ppo_cod'];
 
     protected $connection = 'oracle';

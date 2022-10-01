@@ -11,6 +11,12 @@ class Res extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'res';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['res_seq'];
 
     protected $connection = 'oracle';

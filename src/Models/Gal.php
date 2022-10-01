@@ -11,6 +11,12 @@ class Gal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gal';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gal_cod'];
 
     protected $connection = 'oracle';

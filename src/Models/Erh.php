@@ -11,6 +11,12 @@ class Erh extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'erh';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['erh_psv_cod', 'erh_gmr_cod'];
 
     protected $connection = 'oracle';

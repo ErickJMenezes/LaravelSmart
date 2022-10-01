@@ -11,6 +11,12 @@ class Tap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tap_cod'];
 
     protected $connection = 'oracle';

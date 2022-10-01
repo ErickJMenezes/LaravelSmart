@@ -11,6 +11,12 @@ class CrmsmsFiltro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_filtro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

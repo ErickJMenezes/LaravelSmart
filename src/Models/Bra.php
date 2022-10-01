@@ -11,6 +11,12 @@ class Bra extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bra';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bra_bul_med', 'bra_tra_id'];
 
     protected $connection = 'oracle';

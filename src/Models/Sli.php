@@ -11,6 +11,12 @@ class Sli extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sli';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

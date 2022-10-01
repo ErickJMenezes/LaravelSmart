@@ -11,6 +11,12 @@ class Wmnu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wmnu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wmnu_id'];
 
     protected $connection = 'oracle';

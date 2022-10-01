@@ -11,6 +11,12 @@ class Exm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exm_cod'];
 
     protected $connection = 'oracle';

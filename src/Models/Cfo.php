@@ -11,6 +11,12 @@ class Cfo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cfo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cfo_cod'];
 
     protected $connection = 'oracle';

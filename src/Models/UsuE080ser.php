@@ -11,6 +11,12 @@ class UsuE080ser extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e080ser';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

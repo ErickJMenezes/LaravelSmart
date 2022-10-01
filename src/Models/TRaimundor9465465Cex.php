@@ -11,6 +11,12 @@ class TRaimundor9465465Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_raimundor_9465465_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

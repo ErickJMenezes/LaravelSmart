@@ -11,6 +11,12 @@ class ImgPti extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_pti';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_pti_pti_cod', 'img_pti_img_cod'];
 
     protected $connection = 'oracle';

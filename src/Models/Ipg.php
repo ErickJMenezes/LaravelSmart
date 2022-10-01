@@ -11,6 +11,12 @@ class Ipg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ipg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ipg_parc', 'ipg_cpg_num', 'ipg_cpg_serie'];
 
     protected $connection = 'oracle';

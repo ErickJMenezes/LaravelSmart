@@ -11,6 +11,12 @@ class Crc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['crc_id'];
 
     protected $connection = 'oracle';

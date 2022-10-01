@@ -11,6 +11,12 @@ class Dig extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dig';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dig_usr_login', 'dig_psv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Hor extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hor';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hor_loc', 'hor_num', 'hor_tpctf', 'hor_med', 'hor_ctf', 'hor_dia'];
 
     protected $connection = 'oracle';

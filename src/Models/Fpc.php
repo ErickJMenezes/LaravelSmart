@@ -11,6 +11,12 @@ class Fpc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fpc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fpc_num', 'fpc_serie'];
 
     protected $connection = 'oracle';

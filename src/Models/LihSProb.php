@@ -11,6 +11,12 @@ class LihSProb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lih_s_prob';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lih_s_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Fec extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fec';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fec_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Vsi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vsi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vsi_id'];
 
     protected $connection = 'oracle';

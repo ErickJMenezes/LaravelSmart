@@ -11,6 +11,12 @@ class Orl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'orl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['orl_id'];
 
     protected $connection = 'oracle';

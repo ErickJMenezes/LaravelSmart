@@ -11,6 +11,12 @@ class StrParm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'str_parm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['str_p_id', 'str_p_str_cod'];
 
     protected $connection = 'oracle';

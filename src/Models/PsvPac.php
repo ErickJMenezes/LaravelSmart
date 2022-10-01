@@ -11,6 +11,12 @@ class PsvPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_pac_pac_reg', 'psv_pac_psv_cod'];
 
     protected $connection = 'oracle';

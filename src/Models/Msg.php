@@ -11,6 +11,12 @@ class Msg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'msg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['msg_id'];
 
     protected $connection = 'oracle';

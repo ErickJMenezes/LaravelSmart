@@ -11,6 +11,12 @@ class Exo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exo_cnv_cod'];
 
     protected $connection = 'oracle';

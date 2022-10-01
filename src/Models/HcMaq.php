@@ -11,6 +11,12 @@ class HcMaq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_maq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_maq_cod'];
 
     protected $connection = 'oracle';

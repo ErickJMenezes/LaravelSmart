@@ -11,6 +11,12 @@ class Mem extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mem';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mem_cod'];
 
     protected $connection = 'oracle';

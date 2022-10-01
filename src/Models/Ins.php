@@ -11,6 +11,12 @@ class Ins extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ins';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ins_id'];
 
     protected $connection = 'oracle';

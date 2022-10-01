@@ -11,6 +11,12 @@ class Ifa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ifa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ifa_osm_serie', 'ifa_fva_id', 'ifa_osm_num', 'ifa_smm_num'];
 
     protected $connection = 'oracle';

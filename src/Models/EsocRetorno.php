@@ -11,6 +11,12 @@ class EsocRetorno extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_retorno';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_tipo', 'esoc_retorno_codigo'];
 
     protected $connection = 'oracle';

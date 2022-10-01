@@ -11,6 +11,12 @@ class SciSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sci_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sci_smk_sci_cod', 'sci_smk_cod'];
 
     protected $connection = 'oracle';

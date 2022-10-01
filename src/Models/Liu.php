@@ -11,6 +11,12 @@ class Liu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'liu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['liu_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Depara extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'depara';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['depara_gcc_cod', 'depara_cod', 'depara_valor_sist'];
 
     protected $connection = 'oracle';

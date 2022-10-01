@@ -11,6 +11,12 @@ class ImgGih extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_gih';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_gih_gih_id', 'img_gih_img_cod'];
 
     protected $connection = 'oracle';

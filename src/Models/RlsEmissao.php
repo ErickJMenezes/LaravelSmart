@@ -11,6 +11,12 @@ class RlsEmissao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rls_emissao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rls_e_usr_login', 'rls_e_dthr_ini'];
 
     protected $connection = 'oracle';

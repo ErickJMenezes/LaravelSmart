@@ -11,6 +11,12 @@ class Anm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'anm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['anm_atr_vlr_ini', 'anm_atr_dsc', 'anm_atr_num'];
 
     protected $connection = 'oracle';

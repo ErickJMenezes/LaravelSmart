@@ -11,6 +11,12 @@ class WiniMac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wini_mac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

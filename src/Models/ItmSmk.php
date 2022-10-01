@@ -11,6 +11,12 @@ class ItmSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'itm_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['itm_s_cod', 'itm_tme_cod', 'itm_s_tipo'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TissVersao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tiss_versao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tiss_versao_seq'];
 
     protected $connection = 'oracle';

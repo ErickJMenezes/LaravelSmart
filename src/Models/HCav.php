@@ -11,6 +11,12 @@ class HCav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_cav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_cav_pac_reg', 'h_cav_h_avc_id', 'h_cav_id'];
 
     protected $connection = 'oracle';

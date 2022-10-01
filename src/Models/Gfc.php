@@ -11,6 +11,12 @@ class Gfc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gfc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gfc_num', 'gfc_lta_cod'];
 
     protected $connection = 'oracle';

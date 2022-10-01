@@ -11,6 +11,12 @@ class DloHva extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlo_hva';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlo_h_hva_pac_reg', 'dlo_h_dlo_id', 'dlo_h_hav_num'];
 
     protected $connection = 'oracle';

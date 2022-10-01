@@ -11,6 +11,12 @@ class Bin$3hri3jdazwxgucmkdgq05q==$0 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bin$3hri3jdazwxgucmkdgq05q==$0';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['temp_smk_cod'];
 
     protected $connection = 'oracle';

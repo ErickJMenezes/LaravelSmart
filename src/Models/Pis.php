@@ -11,6 +11,12 @@ class Pis extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pis';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pis_pac_reg', 'pis_dthr_ini'];
 
     protected $connection = 'oracle';

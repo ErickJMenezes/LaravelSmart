@@ -11,6 +11,12 @@ class Avo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'avo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['avo_dthr_alter', 'avo_osm_serie', 'avo_osm_num', 'avo_smm_num'];
 
     protected $connection = 'oracle';

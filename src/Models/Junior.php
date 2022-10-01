@@ -11,6 +11,12 @@ class Junior extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'junior';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

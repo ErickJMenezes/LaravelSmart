@@ -11,6 +11,12 @@ class Bun extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bun';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bun_cod'];
 
     protected $connection = 'oracle';

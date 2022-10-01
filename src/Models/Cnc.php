@@ -11,6 +11,12 @@ class Cnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnc_cod'];
 
     protected $connection = 'oracle';

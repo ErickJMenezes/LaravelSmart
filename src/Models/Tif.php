@@ -11,6 +11,12 @@ class Tif extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tif';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tif_cod'];
 
     protected $connection = 'oracle';

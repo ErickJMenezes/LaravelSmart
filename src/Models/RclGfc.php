@@ -11,6 +11,12 @@ class RclGfc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcl_gfc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcl_r_gfc_num', 'rcl_r_id', 'rcl_r_lta_cod'];
 
     protected $connection = 'oracle';

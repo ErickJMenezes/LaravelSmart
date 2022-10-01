@@ -11,6 +11,12 @@ class MotExmLabet extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mot_exm_labet';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['m_exm_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class PsvTmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_tmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

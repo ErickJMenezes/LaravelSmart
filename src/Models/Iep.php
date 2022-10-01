@@ -11,6 +11,12 @@ class Iep extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iep';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iep_seq'];
 
     protected $connection = 'oracle';

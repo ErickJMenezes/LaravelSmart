@@ -11,6 +11,12 @@ class CapContatos extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cap_contatos';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cap_c_pac_reg', 'cap_c_num', 'cap_c_dthr_reg'];
 
     protected $connection = 'oracle';

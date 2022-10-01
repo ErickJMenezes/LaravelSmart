@@ -11,6 +11,12 @@ class EntIns extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_ins';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_ins_id'];
 
     protected $connection = 'oracle';

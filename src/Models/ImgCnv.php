@@ -11,6 +11,12 @@ class ImgCnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_cnv_cnv_cod', 'img_cnv_img_cod'];
 
     protected $connection = 'oracle';

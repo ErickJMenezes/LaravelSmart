@@ -11,6 +11,12 @@ class Rst extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rst';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rst_id'];
 
     protected $connection = 'oracle';

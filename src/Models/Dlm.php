@@ -11,6 +11,12 @@ class Dlm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlm_bul_med_dil', 'dlm_bul_med_psc'];
 
     protected $connection = 'oracle';

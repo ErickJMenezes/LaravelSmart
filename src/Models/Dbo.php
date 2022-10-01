@@ -11,6 +11,12 @@ class Dbo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dbo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apg_cod'];
 
     protected $connection = 'oracle';

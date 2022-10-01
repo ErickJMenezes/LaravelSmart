@@ -11,6 +11,12 @@ class DhlCor extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dhl_cor';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dhl_c_awb_number', 'dhl_c_epc_cod_etiqueta'];
 
     protected $connection = 'oracle';

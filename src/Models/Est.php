@@ -11,6 +11,12 @@ class Est extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'est';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['est_smk_cod', 'est_mes', 'est_smk_tipo', 'est_ctf_cod', 'est_cnv_cod', 'est_ano'];
 
     protected $connection = 'oracle';

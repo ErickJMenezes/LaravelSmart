@@ -11,6 +11,12 @@ class Glu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'glu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['glu_gmm_cod', 'glu_usr_login', 'glu_lma_cod'];
 
     protected $connection = 'oracle';

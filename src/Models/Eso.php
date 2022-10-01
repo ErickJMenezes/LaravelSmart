@@ -11,6 +11,12 @@ class Eso extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eso';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eso_cod'];
 
     protected $connection = 'oracle';

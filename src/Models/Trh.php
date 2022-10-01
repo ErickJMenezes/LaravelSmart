@@ -11,6 +11,12 @@ class Trh extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trh';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trh_dthr', 'trh_rep_serie', 'trh_rep_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Bhd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bhd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bhd_dthr', 'bhd_pac', 'bhd_hsp', 'bhd_liq'];
 
     protected $connection = 'oracle';

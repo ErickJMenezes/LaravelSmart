@@ -11,6 +11,12 @@ class Cef extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cef';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cef_cnv_cod', 'cef_emp_cod'];
 
     protected $connection = 'oracle';

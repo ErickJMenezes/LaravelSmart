@@ -11,6 +11,12 @@ class PacSybase extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pac_sybase';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

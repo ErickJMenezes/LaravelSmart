@@ -11,6 +11,12 @@ class Pan extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pan';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pan_id'];
 
     protected $connection = 'oracle';

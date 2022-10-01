@@ -11,6 +11,12 @@ class Tno extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tno';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tno_id'];
 
     protected $connection = 'oracle';

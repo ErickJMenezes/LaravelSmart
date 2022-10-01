@@ -11,6 +11,12 @@ class TFernandapr9198367Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_fernandapr_9198367_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

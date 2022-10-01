@@ -11,6 +11,12 @@ class Mna extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mna';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mna_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class NexodataLog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nexodata_log';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

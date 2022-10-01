@@ -11,6 +11,12 @@ class HcAgulha extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_agulha';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_agulha_cod'];
 
     protected $connection = 'oracle';

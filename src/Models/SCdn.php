@@ -11,6 +11,12 @@ class SCdn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_cdn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdn_tb', 'cdn_it'];
 
     protected $connection = 'oracle';

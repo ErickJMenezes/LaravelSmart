@@ -11,6 +11,12 @@ class FamClink extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fam_clink';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fam_c_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ECcl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'e_ccl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['e_ccl_num', 'e_ccl_pac_reg', 'e_ccl_hsp_num'];
 
     protected $connection = 'oracle';

@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Ach extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'ach';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['ach_pac_reg', 'ach_dthr', 'ach_hsp_num', 'ach_cth_num'];
 

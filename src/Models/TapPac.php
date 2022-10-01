@@ -11,6 +11,12 @@ class TapPac extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tap_pac';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tap_pac_tap_cod', 'tap_pac_pac_reg'];
 
     protected $connection = 'oracle';

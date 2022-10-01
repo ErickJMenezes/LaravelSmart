@@ -11,6 +11,12 @@ class Lei extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lei';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lei_dthr', 'lei_usr_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class EcpMembro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ecp_membro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ecp_m_psv_cod', 'ecp_m_ecp_id'];
 
     protected $connection = 'oracle';

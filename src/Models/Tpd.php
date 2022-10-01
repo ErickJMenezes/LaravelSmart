@@ -11,6 +11,12 @@ class Tpd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tpd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tpd_cod'];
 
     protected $connection = 'oracle';

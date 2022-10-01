@@ -11,6 +11,12 @@ class Etq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'etq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['etq_mat_cod', 'etq_sba_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Stu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'stu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['stu_str_cod', 'stu_usr_login'];
 
     protected $connection = 'oracle';

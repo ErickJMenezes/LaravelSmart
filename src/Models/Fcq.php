@@ -11,6 +11,12 @@ class Fcq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fcq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fcq_fne_cod', 'fcq_mat_cod'];
 
     protected $connection = 'oracle';

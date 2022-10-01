@@ -11,6 +11,12 @@ class Lbl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lbl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lbl_cod'];
 
     protected $connection = 'oracle';

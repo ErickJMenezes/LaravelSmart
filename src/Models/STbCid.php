@@ -11,6 +11,12 @@ class STbCid extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_tb_cid';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cid_cod'];
 
     protected $connection = 'oracle';

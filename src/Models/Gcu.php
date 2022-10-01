@@ -11,6 +11,12 @@ class Gcu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gcu_usr_login', 'gcu_gcp_cod'];
 
     protected $connection = 'oracle';

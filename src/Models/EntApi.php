@@ -11,6 +11,12 @@ class EntApi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_api';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_api_id'];
 
     protected $connection = 'oracle';

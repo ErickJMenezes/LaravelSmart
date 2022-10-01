@@ -11,6 +11,12 @@ class Iif extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iif';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iif_cod'];
 
     protected $connection = 'oracle';

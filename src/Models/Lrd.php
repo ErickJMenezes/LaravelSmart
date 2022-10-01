@@ -11,6 +11,12 @@ class Lrd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lrd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lrd_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mcs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mcs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mcs_cod'];
 
     protected $connection = 'oracle';

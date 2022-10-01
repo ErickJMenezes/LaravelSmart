@@ -11,6 +11,12 @@ class Apq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apq_cod', 'apq_qst_cod'];
 
     protected $connection = 'oracle';

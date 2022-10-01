@@ -11,6 +11,12 @@ class EsocAmb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_amb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_amb_cod'];
 
     protected $connection = 'oracle';

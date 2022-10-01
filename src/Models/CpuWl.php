@@ -11,6 +11,12 @@ class CpuWl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpu_wl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpu_wl_str_cod', 'cpu_wl_cnv_cod', 'cpu_wl_esp_cod', 'cpu_wl_psv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ccc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ccc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ccc_id'];
 
     protected $connection = 'oracle';

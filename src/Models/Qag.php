@@ -11,6 +11,12 @@ class Qag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qag_grp_cod'];
 
     protected $connection = 'oracle';

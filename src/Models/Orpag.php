@@ -11,6 +11,12 @@ class Orpag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'orpag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['orpag_tiss_guia', 'orpag_cnv_cod', 'orpag_str_solic', 'orpag_psv_cod_exe'];
 
     protected $connection = 'oracle';

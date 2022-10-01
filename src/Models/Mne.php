@@ -11,6 +11,12 @@ class Mne extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mne';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mne_mnt_num', 'mne_dthr', 'mne_mnt_serie'];
 
     protected $connection = 'oracle';

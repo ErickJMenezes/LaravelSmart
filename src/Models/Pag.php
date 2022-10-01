@@ -11,6 +11,12 @@ class Pag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pag_lote', 'pag_serie'];
 
     protected $connection = 'oracle';

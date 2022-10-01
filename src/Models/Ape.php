@@ -11,6 +11,12 @@ class Ape extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ape';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ape_seq', 'ape_aha_tipo', 'ape_aha_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Lcv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lcv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lcv_cod'];
 
     protected $connection = 'oracle';

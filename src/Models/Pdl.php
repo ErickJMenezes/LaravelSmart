@@ -11,6 +11,12 @@ class Pdl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdl_serie', 'pdl_num'];
 
     protected $connection = 'oracle';

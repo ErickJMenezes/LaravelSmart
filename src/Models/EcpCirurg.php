@@ -11,6 +11,12 @@ class EcpCirurg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ecp_cirurg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ecp_c_smk_tipo', 'ecp_c_ecp_id', 'ecp_c_smk_cod'];
 
     protected $connection = 'oracle';

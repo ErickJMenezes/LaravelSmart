@@ -11,6 +11,12 @@ class Trp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'trp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['trp_pac', 'trp_num'];
 
     protected $connection = 'oracle';

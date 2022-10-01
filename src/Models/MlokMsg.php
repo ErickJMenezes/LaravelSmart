@@ -11,6 +11,12 @@ class MlokMsg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mlok_msg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['msg_id'];
 
     protected $connection = 'oracle';

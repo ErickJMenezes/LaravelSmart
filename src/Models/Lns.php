@@ -11,6 +11,12 @@ class Lns extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lns';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lns_smk_tipo', 'lns_cnv_cod', 'lns_porte', 'lns_smk_cod'];
 
     protected $connection = 'oracle';

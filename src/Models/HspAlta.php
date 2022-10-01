@@ -11,6 +11,12 @@ class HspAlta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hsp_alta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hsp_alt_pac', 'hsp_alt_hsp', 'hsp_alt_psv'];
 
     protected $connection = 'oracle';

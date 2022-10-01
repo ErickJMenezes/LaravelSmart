@@ -11,6 +11,12 @@ class STabunif extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_tabunif';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

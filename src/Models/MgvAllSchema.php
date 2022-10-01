@@ -11,6 +11,12 @@ class MgvAllSchema extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mgv_all_schema';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

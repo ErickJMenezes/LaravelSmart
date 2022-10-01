@@ -11,6 +11,12 @@ class Tmpsmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmpsmk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

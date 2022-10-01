@@ -11,6 +11,12 @@ class Fnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fnc_cod'];
 
     protected $connection = 'oracle';

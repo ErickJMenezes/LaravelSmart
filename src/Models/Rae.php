@@ -11,6 +11,12 @@ class Rae extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rae';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rae_ftr_cod', 'rae_ftr_str_cod', 'rae_str_solic', 'rae_ftr_bnc_cod'];
 
     protected $connection = 'oracle';

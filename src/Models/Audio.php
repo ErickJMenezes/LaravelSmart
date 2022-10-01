@@ -11,6 +11,12 @@ class Audio extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'audio';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['audio_cod'];
 
     protected $connection = 'oracle';

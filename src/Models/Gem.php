@@ -11,6 +11,12 @@ class Gem extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gem';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gem_cod'];
 
     protected $connection = 'oracle';

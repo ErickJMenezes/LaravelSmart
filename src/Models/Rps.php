@@ -11,6 +11,12 @@ class Rps extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rps';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rps_serie', 'rps_numero', 'rps_str_cod'];
 
     protected $connection = 'oracle';

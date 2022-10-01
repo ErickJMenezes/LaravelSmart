@@ -11,6 +11,12 @@ class LogTloTx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_tlo_tx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tlo_nu'];
 
     protected $connection = 'oracle';

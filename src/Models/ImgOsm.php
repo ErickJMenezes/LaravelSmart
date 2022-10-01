@@ -11,6 +11,12 @@ class ImgOsm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_osm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_osm_osm_num', 'img_osm_osm_serie', 'img_osm_img_cod'];
 
     protected $connection = 'oracle';

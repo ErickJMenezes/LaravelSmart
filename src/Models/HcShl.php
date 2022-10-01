@@ -11,6 +11,12 @@ class HcShl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_shl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_shl_id'];
 
     protected $connection = 'oracle';

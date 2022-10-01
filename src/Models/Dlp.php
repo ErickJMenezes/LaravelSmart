@@ -11,6 +11,12 @@ class Dlp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlp_hsp_num', 'dlp_pac_reg', 'dlp_dthr'];
 
     protected $connection = 'oracle';

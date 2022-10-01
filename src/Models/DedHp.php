@@ -11,6 +11,12 @@ class DedHp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ded_hp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ded_hp_rep_hp_serie', 'ded_hp_rep_hp_num', 'ded_hp_id'];
 
     protected $connection = 'oracle';

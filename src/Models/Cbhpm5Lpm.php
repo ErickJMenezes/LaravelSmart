@@ -11,6 +11,12 @@ class Cbhpm5Lpm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cbhpm5_lpm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cod_id'];
 
     protected $connection = 'oracle';

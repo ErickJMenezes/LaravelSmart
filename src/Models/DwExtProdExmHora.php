@@ -11,6 +11,12 @@ class DwExtProdExmHora extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_ext_prod_exm_hora';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_ext_prod_exm_hora_dim', 'dw_ext_prod_exm_hora_mmyy'];
 
     protected $connection = 'oracle';

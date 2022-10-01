@@ -11,6 +11,12 @@ class HPri extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_pri';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_pri_cap_id', 'h_pri_id', 'h_pri_pac_reg'];
 
     protected $connection = 'oracle';

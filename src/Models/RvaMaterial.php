@@ -11,6 +11,12 @@ class RvaMaterial extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rva_material';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rva_m_cod'];
 
     protected $connection = 'oracle';

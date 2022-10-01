@@ -11,6 +11,12 @@ class RpaTmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpa_tmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpa_qst_cod', 'rpa_apq_cod', 'rpa_pgt_cod'];
 
     protected $connection = 'oracle';

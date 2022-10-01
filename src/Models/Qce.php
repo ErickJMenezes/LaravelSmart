@@ -11,6 +11,12 @@ class Qce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'qce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['qce_elb_cod', 'qce_qcm_id'];
 
     protected $connection = 'oracle';

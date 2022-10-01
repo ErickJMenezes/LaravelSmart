@@ -11,6 +11,12 @@ class SCidm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_cidm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdn_cod'];
 
     protected $connection = 'oracle';

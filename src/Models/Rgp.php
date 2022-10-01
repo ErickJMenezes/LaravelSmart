@@ -11,6 +11,12 @@ class Rgp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rgp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rgp_cod'];
 
     protected $connection = 'oracle';

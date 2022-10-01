@@ -11,6 +11,12 @@ class Pbp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pbp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pbp_seq'];
 
     protected $connection = 'oracle';

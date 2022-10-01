@@ -11,6 +11,12 @@ class CnvParmDom extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_parm_dom';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_p_dom_id'];
 
     protected $connection = 'oracle';

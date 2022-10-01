@@ -11,6 +11,12 @@ class Edf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'edf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['edf_osm_serie', 'edf_nfs_numero', 'edf_nfs_tipo', 'edf_nfs_serie', 'edf_osm_num', 'edf_smm_num'];
 
     protected $connection = 'oracle';

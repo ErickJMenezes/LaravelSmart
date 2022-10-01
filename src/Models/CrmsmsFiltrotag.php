@@ -11,6 +11,12 @@ class CrmsmsFiltrotag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_filtrotag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

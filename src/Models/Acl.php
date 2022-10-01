@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Acl extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'acl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['acl_ctf_tipo', 'acl_ctf_cod_filho', 'acl_ctf_cod', 'acl_ctf_tipo_filho'];
 

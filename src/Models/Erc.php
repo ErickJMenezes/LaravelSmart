@@ -11,6 +11,12 @@ class Erc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'erc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['erc_yymm', 'erc_cod', 'erc_str_cod', 'erc_x'];
 
     protected $connection = 'oracle';

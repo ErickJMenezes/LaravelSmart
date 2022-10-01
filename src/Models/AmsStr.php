@@ -11,6 +11,12 @@ class AmsStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ams_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ams_s_smk_tipo', 'ams_s_amo_cod', 'ams_s_smk_cod', 'ams_s_str_solic'];
 
     protected $connection = 'oracle';

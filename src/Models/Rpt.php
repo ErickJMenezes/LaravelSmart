@@ -11,6 +11,12 @@ class Rpt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpt_minimo', 'rpt_pgt_cod', 'rpt_qst_cod'];
 
     protected $connection = 'oracle';

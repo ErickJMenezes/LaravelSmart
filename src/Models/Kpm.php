@@ -11,6 +11,12 @@ class Kpm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'kpm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['kpm_cod_barra'];
 
     protected $connection = 'oracle';

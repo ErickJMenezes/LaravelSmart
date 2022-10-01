@@ -11,6 +11,12 @@ class Rrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rrp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rrp_num', 'rrp_serie'];
 
     protected $connection = 'oracle';

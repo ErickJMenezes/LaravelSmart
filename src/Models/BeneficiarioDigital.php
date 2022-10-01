@@ -11,6 +11,12 @@ class BeneficiarioDigital extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'beneficiario_digital';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ref_identificador', 'dedo', 'tipo'];
 
     protected $connection = 'oracle';

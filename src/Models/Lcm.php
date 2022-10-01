@@ -11,6 +11,12 @@ class Lcm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lcm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lcm_pac_reg', 'lcm_exame'];
 
     protected $connection = 'oracle';

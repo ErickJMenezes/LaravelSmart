@@ -11,6 +11,12 @@ class Tld extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tld';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tld_v2', 'tld_nome', 'tld_v1'];
 
     protected $connection = 'oracle';

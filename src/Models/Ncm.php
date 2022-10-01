@@ -11,6 +11,12 @@ class Ncm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ncm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ncm_cod'];
 
     protected $connection = 'oracle';

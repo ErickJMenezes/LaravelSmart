@@ -11,6 +11,12 @@ class HShd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_shd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_shd_pac_reg', 'h_shd_id'];
 
     protected $connection = 'oracle';

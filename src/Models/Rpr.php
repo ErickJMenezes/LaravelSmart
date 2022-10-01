@@ -11,6 +11,12 @@ class Rpr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpr_num'];
 
     protected $connection = 'oracle';

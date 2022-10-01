@@ -11,6 +11,12 @@ class RhpRepasse extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rhp_repasse';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rhp_str_cod', 'rhp_emp_cod'];
 
     protected $connection = 'oracle';

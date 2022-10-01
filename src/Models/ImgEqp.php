@@ -11,6 +11,12 @@ class ImgEqp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_eqp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_eqp_img_cod', 'img_eqp_eqp_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Car002 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'car002';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

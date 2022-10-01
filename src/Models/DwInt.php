@@ -11,6 +11,12 @@ class DwInt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_int';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_int_cnv_cod', 'dw_int_mmyy'];
 
     protected $connection = 'oracle';

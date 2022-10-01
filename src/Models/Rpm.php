@@ -11,6 +11,12 @@ class Rpm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpm_qst_cod', 'rpm_num', 'rpm_apq_cod', 'rpm_pgt_cod'];
 
     protected $connection = 'oracle';

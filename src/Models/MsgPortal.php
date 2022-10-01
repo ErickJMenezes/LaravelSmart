@@ -11,6 +11,12 @@ class MsgPortal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'msg_portal';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['msg_id'];
 
     protected $connection = 'oracle';

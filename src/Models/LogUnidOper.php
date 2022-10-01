@@ -11,6 +11,12 @@ class LogUnidOper extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_unid_oper';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['uop_nu'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Inp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'inp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['inp_seq', 'inp_enp_serie', 'inp_enp_num'];
 
     protected $connection = 'oracle';

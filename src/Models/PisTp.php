@@ -11,6 +11,12 @@ class PisTp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pis_tp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pis_t_cod'];
 
     protected $connection = 'oracle';

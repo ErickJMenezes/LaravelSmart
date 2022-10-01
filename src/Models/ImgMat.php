@@ -11,6 +11,12 @@ class ImgMat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_mat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_mat_mat_cod', 'img_mat_img_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class MsgAutCnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'msg_aut_cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['msg_aut_cnv_cod', 'msg_aut_cod'];
 
     protected $connection = 'oracle';

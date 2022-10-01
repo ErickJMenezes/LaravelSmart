@@ -11,6 +11,12 @@ class Tce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tce_smk_tipo', 'tce_psv_cod', 'tce_str_unid', 'tce_smk_cod'];
 
     protected $connection = 'oracle';

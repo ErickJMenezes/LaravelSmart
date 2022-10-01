@@ -11,6 +11,12 @@ class MgvAllConnections extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mgv_all_connections';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SysqpAllFavorites extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sysqp_all_favorites';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

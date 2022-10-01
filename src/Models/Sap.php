@@ -11,6 +11,12 @@ class Sap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sap_cod'];
 
     protected $connection = 'oracle';

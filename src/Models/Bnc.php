@@ -11,6 +11,12 @@ class Bnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bnc_cod', 'bnc_str_cod'];
 
     protected $connection = 'oracle';

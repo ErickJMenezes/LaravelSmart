@@ -11,6 +11,12 @@ class AutDestino extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aut_destino';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aut_d_cod'];
 
     protected $connection = 'oracle';

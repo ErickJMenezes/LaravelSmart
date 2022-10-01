@@ -11,6 +11,12 @@ class Peo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'peo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['peo_pex_pac', 'peo_pex_dthr', 'peo_num'];
 
     protected $connection = 'oracle';

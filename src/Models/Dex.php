@@ -11,6 +11,12 @@ class Dex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dex_num_doc', 'dex_serie_doc'];
 
     protected $connection = 'oracle';

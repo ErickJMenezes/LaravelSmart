@@ -11,6 +11,12 @@ class HcTur extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_tur';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_tur_cod'];
 
     protected $connection = 'oracle';

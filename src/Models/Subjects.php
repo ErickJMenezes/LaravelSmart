@@ -11,6 +11,12 @@ class Subjects extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'subjects';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

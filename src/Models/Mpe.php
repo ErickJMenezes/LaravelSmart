@@ -11,6 +11,12 @@ class Mpe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mpe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mpe_cod'];
 
     protected $connection = 'oracle';

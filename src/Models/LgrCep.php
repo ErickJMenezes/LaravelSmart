@@ -11,6 +11,12 @@ class LgrCep extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgr_cep';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['num_cep', 'num_logr'];
 
     protected $connection = 'oracle';

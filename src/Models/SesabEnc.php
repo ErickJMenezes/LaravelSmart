@@ -11,6 +11,12 @@ class SesabEnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sesab_enc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sesab_enc_dthr', 'sesab_enc_usr'];
 
     protected $connection = 'oracle';

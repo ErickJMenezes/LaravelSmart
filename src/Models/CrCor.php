@@ -11,6 +11,12 @@ class CrCor extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cr_cor';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cr_cor_cod'];
 
     protected $connection = 'oracle';

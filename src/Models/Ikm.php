@@ -11,6 +11,12 @@ class Ikm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ikm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ikm_kmt_cod', 'ikm_mat_cod'];
 
     protected $connection = 'oracle';

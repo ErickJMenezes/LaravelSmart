@@ -11,6 +11,12 @@ class Rfe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rfe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rfe_psv_cod', 'rfe_psv_fila_anterior', 'rfe_str_cod'];
 
     protected $connection = 'oracle';

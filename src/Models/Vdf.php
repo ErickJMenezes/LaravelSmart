@@ -11,6 +11,12 @@ class Vdf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vdf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vdf_pac_reg'];
 
     protected $connection = 'oracle';

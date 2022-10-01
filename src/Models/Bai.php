@@ -11,6 +11,12 @@ class Bai extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bai';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bai_cod', 'bai_cde_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class GmrPsv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gmr_psv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gmr_p_gmr_cod', 'gmr_p_psv_cod'];
 
     protected $connection = 'oracle';

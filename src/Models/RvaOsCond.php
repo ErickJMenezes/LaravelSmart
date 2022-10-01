@@ -11,6 +11,12 @@ class RvaOsCond extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rva_os_cond';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rva_o_osm_serie', 'rva_o_osm_num', 'rva_o_cond_amostra'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class BcsPsvHealthCarriers extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_psv_health_carriers';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_psv_cod', 'bcs_health_carriers_id'];
 
     protected $connection = 'oracle';

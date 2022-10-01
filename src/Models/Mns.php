@@ -11,6 +11,12 @@ class Mns extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mns';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mns_num', 'mns_serie'];
 
     protected $connection = 'oracle';

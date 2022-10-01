@@ -11,6 +11,12 @@ class ExmCampoMap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm_campo_map';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exm_m_exm_cod', 'exm_m_emp_cod', 'exm_m_cod_externo'];
 
     protected $connection = 'oracle';

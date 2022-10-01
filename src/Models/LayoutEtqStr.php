@@ -11,6 +11,12 @@ class LayoutEtqStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'layout_etq_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['layout_etq_str_letq_cod', 'layout_etq_str_cod'];
 
     protected $connection = 'oracle';

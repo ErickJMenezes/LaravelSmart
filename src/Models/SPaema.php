@@ -11,6 +11,12 @@ class SPaema extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_paema';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['paema_pa', 'paema_ema'];
 
     protected $connection = 'oracle';

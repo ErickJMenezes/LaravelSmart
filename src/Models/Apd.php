@@ -11,6 +11,12 @@ class Apd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apd_pdg_pac2', 'apd_pdg_num2', 'apd_pdg_pac', 'apd_pdg_num'];
 
     protected $connection = 'oracle';

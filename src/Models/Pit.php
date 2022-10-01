@@ -11,6 +11,12 @@ class Pit extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pit';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pit_pac_reg', 'pit_hsp_num', 'pit_num'];
 
     protected $connection = 'oracle';

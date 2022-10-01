@@ -11,6 +11,12 @@ class PsvStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_str_str_cod', 'psv_str_psv_cod'];
 
     protected $connection = 'oracle';

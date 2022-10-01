@@ -11,6 +11,12 @@ class MbGrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mb_grp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mb_grp_id'];
 
     protected $connection = 'oracle';

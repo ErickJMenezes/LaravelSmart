@@ -11,6 +11,12 @@ class Fcx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fcx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fcx_dthr_atual', 'fcx_ccr_caixa'];
 
     protected $connection = 'oracle';

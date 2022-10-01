@@ -11,6 +11,12 @@ class Crp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['crp_serie', 'crp_num'];
 
     protected $connection = 'oracle';

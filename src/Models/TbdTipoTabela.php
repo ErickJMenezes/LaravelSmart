@@ -11,6 +11,12 @@ class TbdTipoTabela extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tbd_tipo_tabela';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tbd_t_codigo'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class UsrDb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usr_db';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['db_destino', 'usr_login_origem', 'db_origem'];
 
     protected $connection = 'oracle';

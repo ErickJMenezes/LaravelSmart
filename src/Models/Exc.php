@@ -11,6 +11,12 @@ class Exc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_id'];
 
     protected $connection = 'oracle';

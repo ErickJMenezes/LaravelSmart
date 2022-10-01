@@ -11,6 +11,12 @@ class Concil extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'concil';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['data_venda', 'n_cartao', 'controle', 'parcela', 'transacao'];
 
     protected $connection = 'oracle';

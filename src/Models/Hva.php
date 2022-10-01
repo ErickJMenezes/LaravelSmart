@@ -11,6 +11,12 @@ class Hva extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hva';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hva_pac_reg', 'hva_num'];
 
     protected $connection = 'oracle';

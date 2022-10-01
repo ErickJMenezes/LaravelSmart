@@ -11,6 +11,12 @@ class EsocStatus extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_status';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_status_codigo'];
 
     protected $connection = 'oracle';

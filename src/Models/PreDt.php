@@ -11,6 +11,12 @@ class PreDt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pre_dt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pre_d_smk_tipo', 'pre_d_smk_cod', 'pre_d_tab_cod', 'pre_d_dt_ini'];
 
     protected $connection = 'oracle';

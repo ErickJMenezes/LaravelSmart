@@ -11,6 +11,12 @@ class Lgi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgi_dthr', 'lgi_usi_login'];
 
     protected $connection = 'oracle';

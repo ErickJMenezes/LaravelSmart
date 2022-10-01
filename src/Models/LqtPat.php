@@ -11,6 +11,12 @@ class LqtPat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lqt_pat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pat_cod', 'lqt_cod'];
 
     protected $connection = 'oracle';

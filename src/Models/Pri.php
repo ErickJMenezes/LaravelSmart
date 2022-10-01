@@ -11,6 +11,12 @@ class Pri extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pri';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pri_cod'];
 
     protected $connection = 'oracle';

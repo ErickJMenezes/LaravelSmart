@@ -11,6 +11,12 @@ class Lta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lta_cod'];
 
     protected $connection = 'oracle';

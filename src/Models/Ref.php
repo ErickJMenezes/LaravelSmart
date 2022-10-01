@@ -11,6 +11,12 @@ class Ref extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ref';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ref_id', 'ref_sexo', 'ref_id_dias', 'ref_peso', 'ref_atr', 'ref_met_cod', 'ref_dsc'];
 
     protected $connection = 'oracle';

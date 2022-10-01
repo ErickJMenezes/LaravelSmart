@@ -11,6 +11,12 @@ class Rpp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpp_tro_cod', 'rpp_rco_cod', 'rpp_pro_cod'];
 
     protected $connection = 'oracle';

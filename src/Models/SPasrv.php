@@ -11,6 +11,12 @@ class SPasrv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_pasrv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pasrv_pa', 'pasrv_csf', 'pasrv_srv'];
 
     protected $connection = 'oracle';

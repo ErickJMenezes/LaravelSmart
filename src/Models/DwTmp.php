@@ -11,6 +11,12 @@ class DwTmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_tmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_tmp_motivo', 'dw_tmp_cnv_cod', 'dw_tmp_mmyy', 'dw_tmp_str_cod'];
 
     protected $connection = 'oracle';

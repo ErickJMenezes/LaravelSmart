@@ -11,6 +11,12 @@ class Rla extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rla';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rla_id'];
 
     protected $connection = 'oracle';

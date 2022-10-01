@@ -11,6 +11,12 @@ class Pfe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pfe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pfe_num'];
 
     protected $connection = 'oracle';

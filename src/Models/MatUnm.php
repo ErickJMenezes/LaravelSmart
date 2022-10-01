@@ -11,6 +11,12 @@ class MatUnm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mat_unm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mat_u_id'];
 
     protected $connection = 'oracle';

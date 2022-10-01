@@ -11,6 +11,12 @@ class CnvTxo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_txo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_t_cnv_cod', 'cnv_t_ctf_tipo', 'cnv_t_ctf_cod', 'cnv_t_ind_fornec'];
 
     protected $connection = 'oracle';

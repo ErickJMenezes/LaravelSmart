@@ -11,6 +11,12 @@ class CrmsmsLegenda extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_legenda';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

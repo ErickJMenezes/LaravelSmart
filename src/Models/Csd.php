@@ -11,6 +11,12 @@ class Csd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'csd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['csd_ssd_cod_sauded', 'csd_cod_campo'];
 
     protected $connection = 'oracle';

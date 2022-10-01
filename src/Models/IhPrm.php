@@ -11,6 +11,12 @@ class IhPrm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ih_prm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ih_prm_dthr_reg', 'ih_prm_pac_reg', 'ih_prm_hsp_num'];
 
     protected $connection = 'oracle';

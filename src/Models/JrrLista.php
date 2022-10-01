@@ -11,6 +11,12 @@ class JrrLista extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'jrr_lista';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['jrr_l_id', 'jrr_l_jrr_id'];
 
     protected $connection = 'oracle';

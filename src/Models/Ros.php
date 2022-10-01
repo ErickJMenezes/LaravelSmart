@@ -11,6 +11,12 @@ class Ros extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ros';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ros_id'];
 
     protected $connection = 'oracle';

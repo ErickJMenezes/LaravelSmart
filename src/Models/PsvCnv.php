@@ -11,6 +11,12 @@ class PsvCnv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_cnv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_c_id'];
 
     protected $connection = 'oracle';

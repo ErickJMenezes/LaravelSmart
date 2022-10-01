@@ -11,6 +11,12 @@ class TmpCid2 extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp_cid2';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

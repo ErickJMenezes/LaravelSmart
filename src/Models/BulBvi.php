@@ -11,6 +11,12 @@ class BulBvi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bul_bvi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bul_v_bul_med', 'bul_v_bvi_cod'];
 
     protected $connection = 'oracle';

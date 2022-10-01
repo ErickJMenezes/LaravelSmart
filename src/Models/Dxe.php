@@ -11,6 +11,12 @@ class Dxe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dxe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dxe_dch_cod', 'dxe_edl_cod'];
 
     protected $connection = 'oracle';

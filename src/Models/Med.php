@@ -11,6 +11,12 @@ class Med extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'med';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['med_codi'];
 
     protected $connection = 'oracle';

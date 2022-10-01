@@ -11,6 +11,12 @@ class LayoutEtqCmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'layout_etq_cmp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['layout_etq_cmp_layout_etq_cod', 'layout_etq_cmp_cmp_etq_cod'];
 
     protected $connection = 'oracle';

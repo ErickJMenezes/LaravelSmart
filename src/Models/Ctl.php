@@ -11,6 +11,12 @@ class Ctl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ctl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ctl_hsp', 'ctl_dthr', 'ctl_pac'];
 
     protected $connection = 'oracle';

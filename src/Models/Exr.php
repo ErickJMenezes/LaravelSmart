@@ -11,6 +11,12 @@ class Exr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exr_exm_cod', 'exr_rotina'];
 
     protected $connection = 'oracle';

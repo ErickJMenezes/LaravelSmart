@@ -11,6 +11,12 @@ class Tra extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tra';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tra_id'];
 
     protected $connection = 'oracle';

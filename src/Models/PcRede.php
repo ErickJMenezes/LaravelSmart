@@ -11,6 +11,12 @@ class PcRede extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pc_rede';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pc_rede_host'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class AtrLoinc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'atr_loinc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['atr_l_num', 'atr_l_loinc_num', 'atr_l_amo_cod', 'atr_l_dsc_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mnu extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mnu';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mnu_apl_cod', 'mnu_obj', 'mnu_item'];
 
     protected $connection = 'oracle';

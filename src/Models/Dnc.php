@@ -11,6 +11,12 @@ class Dnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dnc_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Gco extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gco';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gco_cnv_cod', 'gco_esp_cod', 'gco_pac_reg', 'gco_str_cod', 'gco_psv_cod'];
 
     protected $connection = 'oracle';

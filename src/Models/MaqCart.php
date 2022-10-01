@@ -11,6 +11,12 @@ class MaqCart extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'maq_cart';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['maq_cart_cod'];
 
     protected $connection = 'oracle';

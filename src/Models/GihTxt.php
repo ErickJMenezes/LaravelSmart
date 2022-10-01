@@ -11,6 +11,12 @@ class GihTxt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gih_txt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gih_t_dthr_reg', 'gih_t_gih_id'];
 
     protected $connection = 'oracle';

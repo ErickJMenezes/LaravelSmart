@@ -11,6 +11,12 @@ class Cri extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cri';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cri_id'];
 
     protected $connection = 'oracle';

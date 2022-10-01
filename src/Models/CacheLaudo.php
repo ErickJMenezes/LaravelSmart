@@ -11,6 +11,12 @@ class CacheLaudo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cache_laudo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cache_laudo_numero', 'cache_laudo_serie'];
 
     protected $connection = 'oracle';

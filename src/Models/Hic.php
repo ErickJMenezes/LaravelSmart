@@ -11,6 +11,12 @@ class Hic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hic_cod'];
 
     protected $connection = 'oracle';

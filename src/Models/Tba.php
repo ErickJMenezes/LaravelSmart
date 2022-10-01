@@ -11,6 +11,12 @@ class Tba extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tba';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tba_cod'];
 
     protected $connection = 'oracle';

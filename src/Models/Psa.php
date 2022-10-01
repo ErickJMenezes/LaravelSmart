@@ -11,6 +11,12 @@ class Psa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psa_sap_cod', 'psa_smk_cod', 'psa_smk_tipo'];
 
     protected $connection = 'oracle';

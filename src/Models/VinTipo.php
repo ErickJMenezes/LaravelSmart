@@ -11,6 +11,12 @@ class VinTipo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vin_tipo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vin_t_cod', 'vin_t_vin_c_cod'];
 
     protected $connection = 'oracle';

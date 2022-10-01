@@ -11,6 +11,12 @@ class Mic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mic_cod', 'mic_cnv_cod'];
 
     protected $connection = 'oracle';

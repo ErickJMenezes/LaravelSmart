@@ -11,6 +11,12 @@ class Det extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'det';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['det_desc', 'det_eti_cod'];
 
     protected $connection = 'oracle';

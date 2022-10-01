@@ -11,6 +11,12 @@ class Rcm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rcm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rcm_pacote', 'rcm_smk_cod', 'rcm_cnv_cod', 'rcm_via_acesso'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class GccColig extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcc_colig';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gcc_c_cod_origem', 'gcc_c_cod_pagante'];
 
     protected $connection = 'oracle';

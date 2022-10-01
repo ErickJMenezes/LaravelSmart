@@ -11,6 +11,12 @@ class Rva extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rva';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rva_osm_num', 'rva_osm_serie'];
 
     protected $connection = 'oracle';

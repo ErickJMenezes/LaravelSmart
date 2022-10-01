@@ -11,6 +11,12 @@ class LalurNlanc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lalur_nlanc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lalur_nl_exc_id', 'lalur_nl_lalur_cod', 'lalur_nl_mes', 'lalur_nl_num'];
 
     protected $connection = 'oracle';

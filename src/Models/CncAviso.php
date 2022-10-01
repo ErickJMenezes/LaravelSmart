@@ -11,6 +11,12 @@ class CncAviso extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnc_aviso';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnc_c_str_destino', 'cnc_c_cnc_cod', 'cnc_c_usr_login'];
 
     protected $connection = 'oracle';

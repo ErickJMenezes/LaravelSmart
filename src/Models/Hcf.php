@@ -11,6 +11,12 @@ class Hcf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hcf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hcf_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class HcInt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_int';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_int_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class EtiSmk extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eti_smk';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eti_s_smk_tipo', 'eti_s_eti_cod', 'eti_s_smk_cod'];
 
     protected $connection = 'oracle';

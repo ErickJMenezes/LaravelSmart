@@ -11,6 +11,12 @@ class Lqt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lqt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lqt_cod'];
 
     protected $connection = 'oracle';

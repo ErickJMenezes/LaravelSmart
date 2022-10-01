@@ -11,6 +11,12 @@ class GccCni extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcc_cni';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gcc_c_ccr_banco', 'gcc_c_gcc_cod'];
 
     protected $connection = 'oracle';

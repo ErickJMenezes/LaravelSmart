@@ -11,6 +11,12 @@ class Cti extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cti';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cti_atv_cod', 'cti_cde_cod', 'cti_cod_trib'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TdcForma extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdc_forma';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdc_f_tdc_cod', 'tdc_f_id'];
 
     protected $connection = 'oracle';

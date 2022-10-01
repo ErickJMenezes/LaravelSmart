@@ -11,6 +11,12 @@ class LgrBailog extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgr_bailog';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['num_logr', 'num_imov_fina', 'num_bair', 'num_imov_inic'];
 
     protected $connection = 'oracle';

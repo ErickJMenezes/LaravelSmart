@@ -11,6 +11,12 @@ class Rex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rex_cnv_cod', 'rex_cnv_cod_reaproveita'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Fdl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fdl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fdl_id'];
 
     protected $connection = 'oracle';

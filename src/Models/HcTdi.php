@@ -11,6 +11,12 @@ class HcTdi extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_tdi';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_tdi_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Mru extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mru';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mru_mnt_serie', 'mru_mnt_num', 'mru_seq'];
 
     protected $connection = 'oracle';

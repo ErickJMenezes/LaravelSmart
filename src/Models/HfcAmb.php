@@ -11,6 +11,12 @@ class HfcAmb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hfc_amb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hfc_amb_hfc_pac_reg', 'hfc_amb_hfc_dthr_ini', 'hfc_amb_hfc_cnv_cod', 'hfc_amb_esoc_amb_cod'];
 
     protected $connection = 'oracle';

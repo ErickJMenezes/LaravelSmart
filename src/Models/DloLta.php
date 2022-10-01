@@ -11,6 +11,12 @@ class DloLta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlo_lta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlo_l_lta_cod', 'dlo_l_dlo_id'];
 
     protected $connection = 'oracle';

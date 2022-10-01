@@ -11,6 +11,12 @@ class NexoExame extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nexo_exame';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nexo_exame_id'];
 
     protected $connection = 'oracle';

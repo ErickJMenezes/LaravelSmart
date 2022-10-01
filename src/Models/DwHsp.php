@@ -11,6 +11,12 @@ class DwHsp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_hsp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_hsp_cnv_cod', 'dw_hsp_cid_cod', 'dw_hsp_cln_cir', 'dw_hsp_sexo', 'dw_hsp_mmyy', 'dw_hsp_faixa_etaria', 'dw_hsp_smk_cod', 'dw_hsp_tp_alta', 'dw_hsp_tp_adm', 'dw_hsp_smk_tipo'];
 
     protected $connection = 'oracle';

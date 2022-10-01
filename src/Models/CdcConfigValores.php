@@ -11,6 +11,12 @@ class CdcConfigValores extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdc_config_valores';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

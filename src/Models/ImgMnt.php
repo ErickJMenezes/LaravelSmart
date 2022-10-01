@@ -11,6 +11,12 @@ class ImgMnt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_mnt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_mnt_mnt_num', 'img_mnt_img_cod', 'img_mnt_mnt_serie'];
 
     protected $connection = 'oracle';

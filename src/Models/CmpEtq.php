@@ -11,6 +11,12 @@ class CmpEtq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cmp_etq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cmp_etq_cod'];
 
     protected $connection = 'oracle';

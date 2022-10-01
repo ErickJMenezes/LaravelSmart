@@ -11,6 +11,12 @@ class Nta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nta_cod'];
 
     protected $connection = 'oracle';

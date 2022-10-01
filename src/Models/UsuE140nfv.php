@@ -11,6 +11,12 @@ class UsuE140nfv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e140nfv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pksmart'];
 
     protected $connection = 'oracle';

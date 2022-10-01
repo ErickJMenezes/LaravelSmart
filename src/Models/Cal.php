@@ -11,6 +11,12 @@ class Cal extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cal';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cal_dthr1'];
 
     protected $connection = 'oracle';

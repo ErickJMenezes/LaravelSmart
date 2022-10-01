@@ -11,6 +11,12 @@ class Lgn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lgn_cod'];
 
     protected $connection = 'oracle';

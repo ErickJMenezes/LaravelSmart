@@ -11,6 +11,12 @@ class Rce extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rce';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rce_cod'];
 
     protected $connection = 'oracle';

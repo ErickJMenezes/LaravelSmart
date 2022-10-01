@@ -11,6 +11,12 @@ class Bcs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_conselho', 'bcs_cnv_cod'];
 
     protected $connection = 'oracle';

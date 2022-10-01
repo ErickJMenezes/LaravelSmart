@@ -11,6 +11,12 @@ class Rco extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rco';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rco_cod', 'rco_tro_cod'];
 
     protected $connection = 'oracle';

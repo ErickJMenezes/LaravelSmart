@@ -11,6 +11,12 @@ class Gni extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gni';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gni_serie', 'gni_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class DwOsm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_osm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

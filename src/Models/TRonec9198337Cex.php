@@ -11,6 +11,12 @@ class TRonec9198337Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_ronec_9198337_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

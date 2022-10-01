@@ -11,6 +11,12 @@ class Peg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'peg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['peg_sma_serie', 'peg_dthr', 'peg_sma_num', 'peg_ism_seq'];
 
     protected $connection = 'oracle';

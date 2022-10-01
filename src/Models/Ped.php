@@ -11,6 +11,12 @@ class Ped extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ped';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ped_edl_cod_origem_pend', 'ped_edl_cod_destino'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Iss extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iss';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iss_smk_tipo', 'iss_smk_cod', 'iss_str_cod'];
 
     protected $connection = 'oracle';

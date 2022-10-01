@@ -11,6 +11,12 @@ class BulStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bul_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bul_s_str_cod', 'bul_s_bul_med'];
 
     protected $connection = 'oracle';

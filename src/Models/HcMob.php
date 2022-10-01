@@ -11,6 +11,12 @@ class HcMob extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_mob';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_mob_id'];
 
     protected $connection = 'oracle';

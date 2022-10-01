@@ -11,6 +11,12 @@ class CnaQtd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cna_qtd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cna_q_cna_id', 'cna_q_id'];
 
     protected $connection = 'oracle';

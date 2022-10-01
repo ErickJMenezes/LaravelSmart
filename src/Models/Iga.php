@@ -11,6 +11,12 @@ class Iga extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iga';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iga_gal_cod', 'iga_num'];
 
     protected $connection = 'oracle';

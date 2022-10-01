@@ -11,6 +11,12 @@ class ExcSaldoCliente extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_saldo_cliente';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_sc_exc_id', 'exc_sc_emp_cod'];
 
     protected $connection = 'oracle';

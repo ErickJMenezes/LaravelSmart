@@ -11,6 +11,12 @@ class Lpf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lpf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lpf_serie', 'lpf_num'];
 
     protected $connection = 'oracle';

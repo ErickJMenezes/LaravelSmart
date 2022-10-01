@@ -11,6 +11,12 @@ class Fmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fmt_cod'];
 
     protected $connection = 'oracle';

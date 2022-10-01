@@ -11,6 +11,12 @@ class Pnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pnc_num', 'pnc_rnc_serie', 'pnc_rnc_num'];
 
     protected $connection = 'oracle';

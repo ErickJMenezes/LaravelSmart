@@ -11,6 +11,12 @@ class PreAmb extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pre_amb';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

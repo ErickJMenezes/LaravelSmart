@@ -11,6 +11,12 @@ class Clf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'clf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['clf_cnv_cod', 'clf_remessa'];
 
     protected $connection = 'oracle';

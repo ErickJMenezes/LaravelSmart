@@ -11,6 +11,12 @@ class HCpe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_cpe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_cpe_pac_reg', 'h_cpe_id'];
 
     protected $connection = 'oracle';

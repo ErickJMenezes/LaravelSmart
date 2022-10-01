@@ -11,6 +11,12 @@ class B2bVersao extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'b2b_versao';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['b2b_versao_codigo', 'b2b_versao_padrao'];
 
     protected $connection = 'oracle';

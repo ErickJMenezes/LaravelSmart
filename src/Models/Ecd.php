@@ -11,6 +11,12 @@ class Ecd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ecd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ecd_cod'];
 
     protected $connection = 'oracle';

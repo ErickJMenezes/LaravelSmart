@@ -11,6 +11,12 @@ class Ctf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ctf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ctf_cod', 'ctf_tipo'];
 
     protected $connection = 'oracle';

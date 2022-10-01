@@ -11,6 +11,12 @@ class Mfl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mfl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mfl_dthr', 'mfl_usr_remetente'];
 
     protected $connection = 'oracle';

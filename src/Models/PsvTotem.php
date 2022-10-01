@@ -11,6 +11,12 @@ class PsvTotem extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_totem';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_t_prefixo', 'psv_t_psv_cod'];
 
     protected $connection = 'oracle';

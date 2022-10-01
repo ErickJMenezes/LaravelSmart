@@ -11,6 +11,12 @@ class MigrGenerationOrder extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'migr_generation_order';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

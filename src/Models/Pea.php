@@ -11,6 +11,12 @@ class Pea extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pea';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pea_aha_tipo', 'pea_pse_seq', 'pea_ape_seq', 'pea_pac_reg', 'pea_seq', 'pea_hsp_num', 'pea_aha_cod'];
 
     protected $connection = 'oracle';

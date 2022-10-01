@@ -11,6 +11,12 @@ class Cba extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cba';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cba_seq'];
 
     protected $connection = 'oracle';

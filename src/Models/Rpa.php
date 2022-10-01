@@ -11,6 +11,12 @@ class Rpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpa_pgt_cod', 'rpa_apq_cod', 'rpa_qst_cod'];
 
     protected $connection = 'oracle';

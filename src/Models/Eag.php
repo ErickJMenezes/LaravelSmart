@@ -11,6 +11,12 @@ class Eag extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eag';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eag_psv_cod', 'eag_ctf_cod', 'eag_ctf_tipo', 'eag_mes_ano'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Sot extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sot';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sot_id'];
 
     protected $connection = 'oracle';

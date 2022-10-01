@@ -11,6 +11,12 @@ class TempMedicware extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'temp_medicware';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

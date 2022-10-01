@@ -11,6 +11,12 @@ class Eve extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eve';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eve_cod'];
 
     protected $connection = 'oracle';

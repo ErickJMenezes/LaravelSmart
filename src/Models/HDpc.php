@@ -11,6 +11,12 @@ class HDpc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_dpc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_dpc_id', 'h_dpc_pac_reg'];
 
     protected $connection = 'oracle';

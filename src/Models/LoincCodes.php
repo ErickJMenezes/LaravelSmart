@@ -11,6 +11,12 @@ class LoincCodes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'loinc_codes';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['codesystemid', 'codeid'];
 
     protected $connection = 'oracle';

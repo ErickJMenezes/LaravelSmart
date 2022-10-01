@@ -11,6 +11,12 @@ class IndicPntn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'indic_pntn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pntn_seq'];
 
     protected $connection = 'oracle';

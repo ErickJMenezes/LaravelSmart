@@ -11,6 +11,12 @@ class Leg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'leg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['leg_cod'];
 
     protected $connection = 'oracle';

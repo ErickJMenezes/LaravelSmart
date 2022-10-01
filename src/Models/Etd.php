@@ -11,6 +11,12 @@ class Etd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'etd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['etd_cid_cod', 'etd_cid_tip', 'etd_tipo', 'etd_cod'];
 
     protected $connection = 'oracle';

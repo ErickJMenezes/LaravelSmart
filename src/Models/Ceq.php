@@ -11,6 +11,12 @@ class Ceq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ceq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ceq_eqp_num', 'ceq_cod_part_number'];
 
     protected $connection = 'oracle';

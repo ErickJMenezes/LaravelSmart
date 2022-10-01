@@ -11,6 +11,12 @@ class Ies extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ies';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ies_smk_cod', 'ies_esr_cod', 'ies_smk_tipo', 'ies_dsc_cod', 'ies_atr_num'];
 
     protected $connection = 'oracle';

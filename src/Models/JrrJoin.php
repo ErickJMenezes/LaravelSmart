@@ -11,6 +11,12 @@ class JrrJoin extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'jrr_join';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['jrr_j_id', 'jrr_j_jrr_id'];
 
     protected $connection = 'oracle';

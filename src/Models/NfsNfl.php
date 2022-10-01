@@ -11,6 +11,12 @@ class NfsNfl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'nfs_nfl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['nfs_n_nfl_serie', 'nfs_n_nfs_tipo', 'nfs_n_nfs_numero', 'nfs_n_nfl_num', 'nfs_n_nfs_serie'];
 
     protected $connection = 'oracle';

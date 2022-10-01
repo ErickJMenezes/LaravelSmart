@@ -11,6 +11,12 @@ class MgvAllViews extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mgv_all_views';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

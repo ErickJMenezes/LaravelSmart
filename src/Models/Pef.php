@@ -11,6 +11,12 @@ class Pef extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pef';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pef_conv', 'pef_padrao'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class RepUsrPsv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rep_usr_psv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rep_up_psv_cod', 'rep_up_usr_login'];
 
     protected $connection = 'oracle';

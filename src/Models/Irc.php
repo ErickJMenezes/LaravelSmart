@@ -11,6 +11,12 @@ class Irc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'irc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['irc_id'];
 
     protected $connection = 'oracle';

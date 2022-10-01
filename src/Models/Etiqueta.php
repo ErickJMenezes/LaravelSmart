@@ -11,6 +11,12 @@ class Etiqueta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'etiqueta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['etq_cod'];
 
     protected $connection = 'oracle';

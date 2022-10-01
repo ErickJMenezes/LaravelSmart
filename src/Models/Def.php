@@ -11,6 +11,12 @@ class Def extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'def';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['def_id'];
 
     protected $connection = 'oracle';

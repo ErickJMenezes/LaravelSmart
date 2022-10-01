@@ -11,6 +11,12 @@ class Lmed extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lmed';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lmed_adp_cod', 'lmed_adp_tipo', 'lmed_num', 'lmed_asc'];
 
     protected $connection = 'oracle';

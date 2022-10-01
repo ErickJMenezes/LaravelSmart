@@ -11,6 +11,12 @@ class Sbn extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sbn';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sbn_ctf_tipo', 'sbn_bnc_cod', 'sbn_smk_cod', 'sbn_str_cod'];
 
     protected $connection = 'oracle';

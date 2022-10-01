@@ -11,6 +11,12 @@ class DafEvento extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'daf_evento';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['daf_e_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CoberturaEspecial extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cobertura_especial';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cobertura_esp_seq'];
 
     protected $connection = 'oracle';

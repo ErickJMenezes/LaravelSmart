@@ -11,6 +11,12 @@ class CapPrx extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cap_prx';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cap_p_num', 'cap_p_pac_reg', 'cap_p_prx_cod'];
 
     protected $connection = 'oracle';

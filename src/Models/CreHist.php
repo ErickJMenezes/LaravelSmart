@@ -11,6 +11,12 @@ class CreHist extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cre_hist';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cre_hist_cod', 'cre_hist_dt_ini', 'cre_hist_cre_cod'];
 
     protected $connection = 'oracle';

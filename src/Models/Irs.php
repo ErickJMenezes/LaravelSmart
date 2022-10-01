@@ -11,6 +11,12 @@ class Irs extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'irs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['irs_str_cod', 'irs_rse_serie', 'irs_rse_num'];
 
     protected $connection = 'oracle';

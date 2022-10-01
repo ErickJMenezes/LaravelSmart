@@ -11,6 +11,12 @@ class UsuE640rat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'usu_e640rat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['seqid', 'codseg', 'idint'];
 
     protected $connection = 'oracle';

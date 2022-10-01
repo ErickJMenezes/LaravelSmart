@@ -11,6 +11,12 @@ class Apr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'apr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['apr_codi'];
 
     protected $connection = 'oracle';

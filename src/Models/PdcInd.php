@@ -11,6 +11,12 @@ class PdcInd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdc_ind';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdc_ind_cod'];
 
     protected $connection = 'oracle';

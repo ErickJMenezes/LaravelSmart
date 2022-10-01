@@ -11,6 +11,12 @@ class Lwl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lwl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lwl_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class RpiCpgPsv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rpi_cpg_psv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rpi_cpg_psv_rpi_serie', 'rpi_cpg_psv_psv_cod', 'rpi_cpg_psv_rpi_num'];
 
     protected $connection = 'oracle';

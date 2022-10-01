@@ -11,6 +11,12 @@ class Arp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'arp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['arp_pac_reg', 'arp_dthr_reg'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Vbd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vbd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vbd_emp'];
 
     protected $connection = 'oracle';

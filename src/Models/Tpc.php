@@ -11,6 +11,12 @@ class Tpc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tpc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tpc_serie', 'tpc_num'];
 
     protected $connection = 'oracle';

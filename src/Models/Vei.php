@@ -11,6 +11,12 @@ class Vei extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vei';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vei_cod'];
 
     protected $connection = 'oracle';

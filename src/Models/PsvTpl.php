@@ -11,6 +11,12 @@ class PsvTpl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_tpl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_t_psv_cod', 'psv_t_dia', 'psv_t_tpl_cod'];
 
     protected $connection = 'oracle';

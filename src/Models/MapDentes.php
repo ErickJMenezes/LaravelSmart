@@ -11,6 +11,12 @@ class MapDentes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'map_dentes';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['map_d_atr_num', 'map_d_dsc_cod', 'map_d_nome'];
 
     protected $connection = 'oracle';

@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class AdpCid extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'adp_cid';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['adp_c_cid_cod', 'adp_c_cid_tip', 'adp_c_adp_tipo', 'adp_c_adp_cod'];
 

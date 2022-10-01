@@ -11,6 +11,12 @@ class Cpa extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cpa';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cpa_aft_serie', 'cpa_dthr', 'cpa_dthr_reg', 'cpa_aft_num'];
 
     protected $connection = 'oracle';

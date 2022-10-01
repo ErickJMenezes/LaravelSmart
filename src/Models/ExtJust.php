@@ -11,6 +11,12 @@ class ExtJust extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ext_just';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ext_j_id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Atr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'atr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['atr_dsc', 'atr_num'];
 
     protected $connection = 'oracle';

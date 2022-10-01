@@ -11,6 +11,12 @@ class TmpQtEtq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tmp_qt_etq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tmp_qt_etq_ctf_tipo', 'tmp_qt_etq_id', 'tmp_qt_etq_ctf_cod'];
 
     protected $connection = 'oracle';

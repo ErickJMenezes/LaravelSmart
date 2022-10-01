@@ -11,6 +11,12 @@ class Grr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'grr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['grr_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Iop extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'iop';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['iop_orp_num', 'iop_num'];
 
     protected $connection = 'oracle';

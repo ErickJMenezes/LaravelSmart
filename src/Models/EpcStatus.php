@@ -11,6 +11,12 @@ class EpcStatus extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epc_status';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epc_s_status', 'epc_s_tipo'];
 
     protected $connection = 'oracle';

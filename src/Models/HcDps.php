@@ -11,6 +11,12 @@ class HcDps extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_dps';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_dps_cod'];
 
     protected $connection = 'oracle';

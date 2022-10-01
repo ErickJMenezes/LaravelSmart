@@ -11,6 +11,12 @@ class IEmsEventos extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'i_ems_eventos';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['i_id'];
 
     protected $connection = 'oracle';

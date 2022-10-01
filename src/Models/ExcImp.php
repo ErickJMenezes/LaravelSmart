@@ -11,6 +11,12 @@ class ExcImp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exc_imp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exc_imp_exc_id', 'exc_imp_ipr_cod', 'exc_imp_tipo_receita'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Rnc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rnc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rnc_serie', 'rnc_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ivt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ivt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ivt_id'];
 
     protected $connection = 'oracle';

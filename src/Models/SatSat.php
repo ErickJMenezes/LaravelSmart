@@ -11,6 +11,12 @@ class SatSat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sat_sat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sat_s_sat_cod_origem', 'sat_s_sat_cod_superior'];
 
     protected $connection = 'oracle';

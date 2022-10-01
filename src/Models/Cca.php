@@ -11,6 +11,12 @@ class Cca extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cca';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cca_pca_cod', 'cca_cod'];
 
     protected $connection = 'oracle';

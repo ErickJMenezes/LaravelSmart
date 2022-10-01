@@ -11,6 +11,12 @@ class Tab extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tab';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tab_cod'];
 
     protected $connection = 'oracle';

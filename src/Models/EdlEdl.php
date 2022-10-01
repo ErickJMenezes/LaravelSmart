@@ -11,6 +11,12 @@ class EdlEdl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'edl_edl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['edl_e_edl_cod_destino', 'edl_e_edl_cod_origem'];
 
     protected $connection = 'oracle';

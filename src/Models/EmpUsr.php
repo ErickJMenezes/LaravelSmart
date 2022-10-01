@@ -11,6 +11,12 @@ class EmpUsr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_usr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_u_id'];
 
     protected $connection = 'oracle';

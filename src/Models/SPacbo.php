@@ -11,6 +11,12 @@ class SPacbo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_pacbo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pacbo_cmp', 'pacbo_pa', 'pacbo_cbo'];
 
     protected $connection = 'oracle';

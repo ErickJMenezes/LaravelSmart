@@ -11,6 +11,12 @@ class PacAlerta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pac_alerta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pac_a_pac_reg', 'pac_a_tipo'];
 
     protected $connection = 'oracle';

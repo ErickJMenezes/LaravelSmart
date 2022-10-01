@@ -11,6 +11,12 @@ class Ssd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ssd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ssd_cod_sauded'];
 
     protected $connection = 'oracle';

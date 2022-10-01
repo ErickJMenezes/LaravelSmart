@@ -11,6 +11,12 @@ class CnvStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cnv_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cnv_s_cnv_cod', 'cnv_s_str_solic'];
 
     protected $connection = 'oracle';

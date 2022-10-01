@@ -11,6 +11,12 @@ class EpcCrt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epc_crt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epc_c_cod'];
 
     protected $connection = 'oracle';

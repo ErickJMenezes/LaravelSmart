@@ -11,6 +11,12 @@ class VeiMar extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vei_mar';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['v_mar_cod'];
 
     protected $connection = 'oracle';

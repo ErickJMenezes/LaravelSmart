@@ -11,6 +11,12 @@ class Lsm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lsm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lsm_cod'];
 
     protected $connection = 'oracle';

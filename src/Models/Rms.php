@@ -11,6 +11,12 @@ class Rms extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rms';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rms_mns_num', 'rms_psv_cod', 'rms_osm_num', 'rms_smm_num', 'rms_osm_serie', 'rms_mns_serie'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Ipe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ipe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ipe_sba_cod', 'ipe_pet_serie', 'ipe_mat_cod', 'ipe_pet_num'];
 
     protected $connection = 'oracle';

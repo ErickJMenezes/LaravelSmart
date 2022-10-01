@@ -11,6 +11,12 @@ class Ist extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ist';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ist_id'];
 
     protected $connection = 'oracle';

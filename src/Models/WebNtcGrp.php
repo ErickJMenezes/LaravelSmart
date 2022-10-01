@@ -11,6 +11,12 @@ class WebNtcGrp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'web_ntc_grp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['grp_cod', 'ntc_id'];
 
     protected $connection = 'oracle';

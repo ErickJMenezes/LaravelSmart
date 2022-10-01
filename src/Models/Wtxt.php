@@ -11,6 +11,12 @@ class Wtxt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'wtxt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['wtxt_parag', 'wtxt_nome'];
 
     protected $connection = 'oracle';

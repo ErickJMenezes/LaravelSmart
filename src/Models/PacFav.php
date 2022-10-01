@@ -11,6 +11,12 @@ class PacFav extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pac_fav';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pac_f_usr_login', 'pac_f_pac_reg'];
 
     protected $connection = 'oracle';

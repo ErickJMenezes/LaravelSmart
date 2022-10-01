@@ -11,6 +11,12 @@ class Riq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'riq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['riq_id'];
 
     protected $connection = 'oracle';

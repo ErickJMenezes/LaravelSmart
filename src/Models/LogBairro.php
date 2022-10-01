@@ -11,6 +11,12 @@ class LogBairro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'log_bairro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bai_nu'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Pme extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pme';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pme_psv_cod', 'pme_pac_reg'];
 
     protected $connection = 'oracle';

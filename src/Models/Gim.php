@@ -11,6 +11,12 @@ class Gim extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gim';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gim_cod'];
 
     protected $connection = 'oracle';

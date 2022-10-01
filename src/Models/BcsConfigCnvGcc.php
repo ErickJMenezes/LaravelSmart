@@ -11,6 +11,12 @@ class BcsConfigCnvGcc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bcs_config_cnv_gcc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bcs_config_cnv_gcc_gcc_cod', 'bcs_config_cnv_gcc_cnv_cod'];
 
     protected $connection = 'oracle';

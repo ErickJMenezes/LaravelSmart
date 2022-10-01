@@ -11,6 +11,12 @@ class EntAtrativo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ent_atrativo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ent_atrativo_id'];
 
     protected $connection = 'oracle';

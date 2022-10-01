@@ -11,6 +11,12 @@ class Sus extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sus';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sus_id'];
 
     protected $connection = 'oracle';

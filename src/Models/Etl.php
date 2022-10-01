@@ -11,6 +11,12 @@ class Etl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'etl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['etl_lot_num', 'etl_mat_cod', 'etl_sba_cod'];
 
     protected $connection = 'oracle';

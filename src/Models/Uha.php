@@ -11,6 +11,12 @@ class Uha extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'uha';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['uha_dia', 'uha_hor_ini', 'uha_usr_login'];
 
     protected $connection = 'oracle';

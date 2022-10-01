@@ -11,6 +11,12 @@ class DloMte extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dlo_mte';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dlo_m_mte_seq', 'dlo_m_dlo_id', 'dlo_m_mte_serie'];
 
     protected $connection = 'oracle';

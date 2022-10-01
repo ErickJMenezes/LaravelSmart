@@ -11,6 +11,12 @@ class Col extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'col';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['col_cod'];
 
     protected $connection = 'oracle';

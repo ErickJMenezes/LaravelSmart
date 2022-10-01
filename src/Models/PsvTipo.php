@@ -11,6 +11,12 @@ class PsvTipo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'psv_tipo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['psv_tipo_cod'];
 
     protected $connection = 'oracle';

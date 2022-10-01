@@ -11,6 +11,12 @@ class VinCod extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'vin_cod';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['vin_c_cod'];
 
     protected $connection = 'oracle';

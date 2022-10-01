@@ -11,6 +11,12 @@ class HPes extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'h_pes';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['h_pes_pac_reg', 'h_pes_id'];
 
     protected $connection = 'oracle';

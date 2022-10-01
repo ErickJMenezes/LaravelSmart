@@ -11,6 +11,12 @@ class LgrLoc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lgr_loc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['num_locl'];
 
     protected $connection = 'oracle';

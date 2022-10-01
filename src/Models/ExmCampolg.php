@@ -11,6 +11,12 @@ class ExmCampolg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exm_campolg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exmlg_c_exm_c_exm_cod', 'exmlg_c_exg_cod', 'exmlg_c_exm_c_num'];
 
     protected $connection = 'oracle';

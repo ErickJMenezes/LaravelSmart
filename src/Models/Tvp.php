@@ -11,6 +11,12 @@ class Tvp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tvp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tvp_id', 'tvp_pac_reg'];
 
     protected $connection = 'oracle';

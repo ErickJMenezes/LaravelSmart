@@ -11,6 +11,12 @@ class Elo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'elo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['elo_serie', 'elo_num'];
 
     protected $connection = 'oracle';

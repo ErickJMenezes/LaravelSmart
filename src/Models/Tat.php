@@ -11,6 +11,12 @@ class Tat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tat_cod'];
 
     protected $connection = 'oracle';

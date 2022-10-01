@@ -11,6 +11,12 @@ class Ldc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ldc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ldc_cid_tip', 'ldc_ldn_id', 'ldc_cid_cod'];
 
     protected $connection = 'oracle';

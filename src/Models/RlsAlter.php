@@ -11,6 +11,12 @@ class RlsAlter extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rls_alter';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rls_a_id'];
 
     protected $connection = 'oracle';

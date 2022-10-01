@@ -11,6 +11,12 @@ class Ise extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ise';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ise_rse_serie', 'ise_rse_num', 'ise_sma_num', 'ise_sma_serie', 'ise_ism_seq'];
 
     protected $connection = 'oracle';

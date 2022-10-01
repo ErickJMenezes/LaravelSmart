@@ -11,6 +11,12 @@ class Lot extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lot';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lot_num', 'lot_data_entrada', 'lot_mat_cod', 'lot_sba_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ImcAmp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'imc_amp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['imc_amp_id'];
 
     protected $connection = 'oracle';

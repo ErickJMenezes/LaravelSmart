@@ -11,6 +11,12 @@ class IctEtq extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ict_etq';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ict_e_id', 'ict_e_osm_serie', 'ict_e_smm_num', 'ict_e_cod_amostra', 'ict_e_osm_num'];
 
     protected $connection = 'oracle';

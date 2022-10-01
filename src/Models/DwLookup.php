@@ -11,6 +11,12 @@ class DwLookup extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dw_lookup';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dw_lookup_tipo', 'dw_lookup_cod'];
 
     protected $connection = 'oracle';

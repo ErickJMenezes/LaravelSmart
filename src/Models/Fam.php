@@ -11,6 +11,12 @@ class Fam extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fam';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fam_cod_amostra', 'fam_dthr'];
 
     protected $connection = 'oracle';

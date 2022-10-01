@@ -11,6 +11,12 @@ class Gih extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gih';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gih_cnv_cod', 'gih_dthr_ini', 'gih_pac_reg', 'gih_hsp_num'];
 
     protected $connection = 'oracle';

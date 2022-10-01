@@ -11,6 +11,12 @@ class Sld extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sld';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sld_serie', 'sld_num'];
 
     protected $connection = 'oracle';

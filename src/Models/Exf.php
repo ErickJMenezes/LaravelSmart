@@ -11,6 +11,12 @@ class Exf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'exf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['exf_exm_cod', 'exf_psv_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class ImgEvt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_evt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_evt_img_cod', 'img_evt_evt_dthr', 'img_evt_usr_login'];
 
     protected $connection = 'oracle';

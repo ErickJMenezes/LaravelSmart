@@ -11,6 +11,12 @@ class EsocCgt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_cgt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_cgt_cod'];
 
     protected $connection = 'oracle';

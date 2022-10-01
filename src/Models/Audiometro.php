@@ -11,6 +11,12 @@ class Audiometro extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'audiometro';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

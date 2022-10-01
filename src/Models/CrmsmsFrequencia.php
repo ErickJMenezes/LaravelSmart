@@ -11,6 +11,12 @@ class CrmsmsFrequencia extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'crmsms_frequencia';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Eqc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eqc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eqc_cod'];
 
     protected $connection = 'oracle';

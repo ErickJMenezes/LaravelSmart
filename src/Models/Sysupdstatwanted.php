@@ -11,6 +11,12 @@ class Sysupdstatwanted extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sysupdstatwanted';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

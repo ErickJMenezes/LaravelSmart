@@ -11,6 +11,12 @@ class ImgPsv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'img_psv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['img_psv_img_cod', 'img_psv_psv_cod'];
 
     protected $connection = 'oracle';

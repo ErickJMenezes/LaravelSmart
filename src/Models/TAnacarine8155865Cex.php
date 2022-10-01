@@ -11,6 +11,12 @@ class TAnacarine8155865Cex extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 't_anacarine_8155865_cex';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class SmartbiCenso extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smartbi_censo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['setor', 'ano_mes'];
 
     protected $connection = 'oracle';

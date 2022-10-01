@@ -11,6 +11,12 @@ class RvaTaxon extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'rva_taxon';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['rva_t_cod'];
 
     protected $connection = 'oracle';

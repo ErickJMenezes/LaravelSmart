@@ -11,6 +11,12 @@ class EmpTspeed extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'emp_tspeed';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['emp_tspeed_emp_cod'];
 
     protected $connection = 'oracle';

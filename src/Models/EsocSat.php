@@ -11,6 +11,12 @@ class EsocSat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'esoc_sat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['esoc_sat_cod'];
 
     protected $connection = 'oracle';

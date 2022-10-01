@@ -11,6 +11,12 @@ class Cat extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cat';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cat_num'];
 
     protected $connection = 'oracle';

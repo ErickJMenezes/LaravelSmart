@@ -11,6 +11,12 @@ class LipSta extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lip_sta';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

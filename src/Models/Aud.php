@@ -11,6 +11,12 @@ class Aud extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'aud';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['aud_serie', 'aud_num'];
 
     protected $connection = 'oracle';

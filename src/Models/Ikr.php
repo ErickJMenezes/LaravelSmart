@@ -11,6 +11,12 @@ class Ikr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ikr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ikr_dthr_ini', 'ikr_elb_cod', 'ikr_mat_cod'];
 
     protected $connection = 'oracle';

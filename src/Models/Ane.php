@@ -11,6 +11,12 @@ class Ane extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ane';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ane_cod'];
 
     protected $connection = 'oracle';

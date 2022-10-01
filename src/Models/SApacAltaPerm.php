@@ -11,6 +11,12 @@ class SApacAltaPerm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 's_apac_alta_perm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['s_apac_ap_cod'];
 
     protected $connection = 'oracle';

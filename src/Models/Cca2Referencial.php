@@ -11,6 +11,12 @@ class Cca2Referencial extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cca2_referencial';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cca2_cod', 'cca2_pca_cod'];
 
     protected $connection = 'oracle';

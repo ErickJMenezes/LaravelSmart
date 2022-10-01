@@ -11,6 +11,12 @@ class Odt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'odt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['odt_num', 'odt_pac_reg'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class TdcAud extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'tdc_aud';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['tdc_a_usr_login', 'tdc_a_tdc_cod'];
 
     protected $connection = 'oracle';

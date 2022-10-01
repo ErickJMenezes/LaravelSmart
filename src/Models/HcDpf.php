@@ -11,6 +11,12 @@ class HcDpf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_dpf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_dpf_cod'];
 
     protected $connection = 'oracle';

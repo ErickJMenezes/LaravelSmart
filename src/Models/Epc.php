@@ -11,6 +11,12 @@ class Epc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'epc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['epc_id'];
 
     protected $connection = 'oracle';

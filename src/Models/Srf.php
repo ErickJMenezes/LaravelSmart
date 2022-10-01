@@ -11,6 +11,12 @@ class Srf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'srf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['srf_serie', 'srf_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class FilaMail extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fila_mail';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['id'];
 
     protected $connection = 'oracle';

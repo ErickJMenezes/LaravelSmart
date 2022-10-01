@@ -11,6 +11,12 @@ class CreStr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cre_str';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cre_s_str_solic', 'cre_s_cre_cod'];
 
     protected $connection = 'oracle';

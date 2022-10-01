@@ -11,6 +11,12 @@ class Npr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'npr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['npr_num', 'npr_str_cod'];
 
     protected $connection = 'oracle';

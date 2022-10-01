@@ -11,6 +11,12 @@ class Mdc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'mdc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['mdc_cod'];
 
     protected $connection = 'oracle';

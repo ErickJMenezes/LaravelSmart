@@ -11,6 +11,12 @@ class SbaTpl extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'sba_tpl';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['sba_t_id'];
 
     protected $connection = 'oracle';

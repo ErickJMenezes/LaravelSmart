@@ -11,6 +11,12 @@ class Pcr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pcr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pcr_id'];
 
     protected $connection = 'oracle';

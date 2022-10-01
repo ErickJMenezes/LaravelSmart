@@ -11,6 +11,12 @@ class Gcd extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gcd';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = [];
 
     protected $connection = 'oracle';

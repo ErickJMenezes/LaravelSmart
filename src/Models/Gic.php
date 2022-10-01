@@ -11,6 +11,12 @@ class Gic extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'gic';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['gic_gih_cnv_cod', 'gic_smk_cod', 'gic_gih_dthr_ini', 'gic_gih_pac_reg', 'gic_gih_hsp_num', 'gic_smk_tipo'];
 
     protected $connection = 'oracle';

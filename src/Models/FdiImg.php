@@ -11,6 +11,12 @@ class FdiImg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'fdi_img';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fdi_img_fdl_id', 'fdi_img_psv_cod', 'fdi_img_img_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class CredebPc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'credeb_pc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['credeb_pc_cod'];
 
     protected $connection = 'oracle';

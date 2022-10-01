@@ -11,6 +11,12 @@ class HcMdp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_mdp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_mdp_cod'];
 
     protected $connection = 'oracle';

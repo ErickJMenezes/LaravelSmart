@@ -11,6 +11,12 @@ class Eci extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'eci';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['eci_rci_serie', 'eci_rci_num', 'eci_funcao'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Pdp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'pdp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['pdp_pde_num', 'pdp_aha_cod', 'pdp_aha_tipo'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Inv extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'inv';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['inv_serie', 'inv_num'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Bmt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bmt';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bmt_mat_cod', 'bmt_bul_med'];
 
     protected $connection = 'oracle';

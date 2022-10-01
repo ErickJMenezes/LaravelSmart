@@ -11,6 +11,12 @@ class LalurCt extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lalur_ct';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lalur_ct_cod'];
 
     protected $connection = 'oracle';

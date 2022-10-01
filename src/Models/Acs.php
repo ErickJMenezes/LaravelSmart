@@ -2,14 +2,19 @@
 
 namespace ErickJMenezes\LaravelSmart\Models;
 
-use Yajra\Oci8\Eloquent\OracleEloquent;
-use \Awobaz\Compoships\Compoships;
-use Awobaz\Compoships\Database\Eloquent\Relations\HasMany;
+use Awobaz\Compoships\Compoships;
 use Awobaz\Compoships\Database\Eloquent\Relations\BelongsTo;
+use Yajra\Oci8\Eloquent\OracleEloquent;
 
 class Acs extends OracleEloquent
 {
     use Compoships;
+
+    protected $table = 'acs';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
 
     protected $primaryKey = ['acs_grp_cod', 'acs_fnc_cod'];
 

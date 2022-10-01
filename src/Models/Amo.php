@@ -11,6 +11,12 @@ class Amo extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'amo';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['amo_cod'];
 
     protected $connection = 'oracle';

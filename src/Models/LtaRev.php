@@ -11,6 +11,12 @@ class LtaRev extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'lta_rev';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['lta_r_id', 'lta_r_lta_cod'];
 
     protected $connection = 'oracle';

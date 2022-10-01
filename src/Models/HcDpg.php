@@ -11,6 +11,12 @@ class HcDpg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'hc_dpg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['hc_dpg_id', 'hc_dpg_h_dpc_id', 'hc_dpg_pac_reg'];
 
     protected $connection = 'oracle';

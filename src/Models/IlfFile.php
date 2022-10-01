@@ -11,6 +11,12 @@ class IlfFile extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ilf_file';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ilf_f_id'];
 
     protected $connection = 'oracle';

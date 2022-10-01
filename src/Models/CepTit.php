@@ -11,6 +11,12 @@ class CepTit extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cep_tit';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['chave_tipo'];
 
     protected $connection = 'oracle';

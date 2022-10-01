@@ -11,6 +11,12 @@ class SmkFil extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'smk_fil';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['fil_cod'];
 
     protected $connection = 'oracle';

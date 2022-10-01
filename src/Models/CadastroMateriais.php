@@ -11,6 +11,12 @@ class CadastroMateriais extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cadastro_materiais';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cod_mat_sap'];
 
     protected $connection = 'oracle';

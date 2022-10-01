@@ -11,6 +11,12 @@ class Cap extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cap';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cap_pac_reg', 'cap_num'];
 
     protected $connection = 'oracle';

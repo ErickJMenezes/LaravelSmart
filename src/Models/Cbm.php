@@ -11,6 +11,12 @@ class Cbm extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cbm';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cbm_mat_cod', 'cbm_cod_barra'];
 
     protected $connection = 'oracle';

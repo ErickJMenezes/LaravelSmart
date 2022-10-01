@@ -11,6 +11,12 @@ class Cfe extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cfe';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cfe_cfo_cod', 'cfe_emp_cod'];
 
     protected $connection = 'oracle';

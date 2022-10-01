@@ -11,6 +11,12 @@ class BroAnalise extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_analise';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_a_osm_serie', 'bro_a_osm_num', 'bro_a_mod_cod'];
 
     protected $connection = 'oracle';

@@ -11,6 +11,12 @@ class Cth extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cth';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cth_hsp_num', 'cth_pac_reg', 'cth_num'];
 
     protected $connection = 'oracle';

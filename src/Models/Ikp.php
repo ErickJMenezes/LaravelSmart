@@ -11,6 +11,12 @@ class Ikp extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'ikp';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ikp_kpm_cod_barra', 'ikp_id'];
 
     protected $connection = 'oracle';

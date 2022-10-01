@@ -11,6 +11,12 @@ class Cdg extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'cdg';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['cdg_serie', 'cdg_num'];
 
     protected $connection = 'oracle';

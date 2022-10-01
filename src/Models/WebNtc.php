@@ -11,6 +11,12 @@ class WebNtc extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'web_ntc';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['ntc_id'];
 
     protected $connection = 'oracle';

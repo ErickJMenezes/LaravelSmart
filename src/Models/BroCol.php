@@ -11,6 +11,12 @@ class BroCol extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'bro_col';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['bro_col_cod'];
 
     protected $connection = 'oracle';

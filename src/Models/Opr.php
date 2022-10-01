@@ -11,6 +11,12 @@ class Opr extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'opr';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['opr_id'];
 
     protected $connection = 'oracle';

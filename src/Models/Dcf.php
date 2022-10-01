@@ -11,6 +11,12 @@ class Dcf extends OracleEloquent
 {
     use Compoships;
 
+    protected $table = 'dcf';
+
+    public $timestamps = false;
+
+    public $incrementing = false;
+
     protected $primaryKey = ['dcf_osm_serie', 'dcf_smm_num', 'dcf_osm_num'];
 
     protected $connection = 'oracle';
