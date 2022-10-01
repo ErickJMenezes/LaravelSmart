@@ -1,0 +1,25 @@
+{
+    "name": "erickjmenezes/laravel-smart",
+    "description": "Models Papara o banco do sistema smart.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ErickJMenezes\\LaravelSmart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ErickJMenezes",
+            "email": "erickmenezes.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4",
+        "awobaz/compoships": "^2.1.3",
+        "illuminate/database": "^6.0|^7.0|^8.0|^9.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+        "yajra/laravel-oci8": "^6.0|^7.0|^8.0|^9.0"
+    }
+}
