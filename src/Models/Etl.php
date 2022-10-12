@@ -19,7 +19,7 @@ class Etl extends OracleEloquent
 
     protected $primaryKey = ['etl_lot_num', 'etl_mat_cod', 'etl_sba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

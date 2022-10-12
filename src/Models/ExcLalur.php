@@ -19,7 +19,7 @@ class ExcLalur extends OracleEloquent
 
     protected $primaryKey = ['exc_llr_lalur_cod', 'exc_llr_exc_id', 'exc_llr_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

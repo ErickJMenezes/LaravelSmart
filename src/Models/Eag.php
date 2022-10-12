@@ -19,7 +19,7 @@ class Eag extends OracleEloquent
 
     protected $primaryKey = ['eag_psv_cod', 'eag_ctf_cod', 'eag_ctf_tipo', 'eag_mes_ano'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

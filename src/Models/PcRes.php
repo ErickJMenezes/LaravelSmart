@@ -19,7 +19,7 @@ class PcRes extends OracleEloquent
 
     protected $primaryKey = ['pc_res_id', 'pc_res_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

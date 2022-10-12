@@ -19,7 +19,7 @@ class CttEmp extends OracleEloquent
 
     protected $primaryKey = ['ctt_emp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

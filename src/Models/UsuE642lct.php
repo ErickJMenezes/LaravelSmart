@@ -19,7 +19,7 @@ class UsuE642lct extends OracleEloquent
 
     protected $primaryKey = ['seqid', 'codseg', 'idint'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

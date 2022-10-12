@@ -19,7 +19,7 @@ class RseOsm extends OracleEloquent
 
     protected $primaryKey = ['rse_o_osm_serie', 'rse_o_rse_serie', 'rse_o_rse_num', 'rse_o_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

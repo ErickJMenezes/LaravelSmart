@@ -19,7 +19,7 @@ class PacEndCol extends OracleEloquent
 
     protected $primaryKey = ['pac_end_col_agm_loc', 'pac_end_col_agm_hini', 'pac_end_col_agm_ext', 'pac_end_col_agm_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

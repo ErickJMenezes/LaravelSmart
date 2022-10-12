@@ -19,7 +19,7 @@ class Cst extends OracleEloquent
 
     protected $primaryKey = ['cst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

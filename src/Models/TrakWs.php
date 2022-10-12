@@ -19,7 +19,7 @@ class TrakWs extends OracleEloquent
 
     protected $primaryKey = ['trak_ws_ambiente', 'trak_ws_metodo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Cpm extends OracleEloquent
 
     protected $primaryKey = ['cpm_cop_serie', 'cpm_fne_cod', 'cpm_dthr', 'cpm_cop_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

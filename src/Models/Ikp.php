@@ -19,7 +19,7 @@ class Ikp extends OracleEloquent
 
     protected $primaryKey = ['ikp_kpm_cod_barra', 'ikp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class RhpCtfRepasse extends OracleEloquent
 
     protected $primaryKey = ['rhp_c_gmr_cod', 'rhp_c_ctf_cod', 'rhp_c_ctf_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

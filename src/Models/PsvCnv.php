@@ -19,7 +19,7 @@ class PsvCnv extends OracleEloquent
 
     protected $primaryKey = ['psv_c_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

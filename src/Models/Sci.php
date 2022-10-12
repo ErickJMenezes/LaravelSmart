@@ -19,7 +19,7 @@ class Sci extends OracleEloquent
 
     protected $primaryKey = ['sci_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Tev extends OracleEloquent
 
     protected $primaryKey = ['tev_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

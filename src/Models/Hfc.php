@@ -19,7 +19,7 @@ class Hfc extends OracleEloquent
 
     protected $primaryKey = ['hfc_pac_reg', 'hfc_dthr_ini', 'hfc_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

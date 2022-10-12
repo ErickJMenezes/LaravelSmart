@@ -19,7 +19,7 @@ class Lay extends OracleEloquent
 
     protected $primaryKey = ['lay_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

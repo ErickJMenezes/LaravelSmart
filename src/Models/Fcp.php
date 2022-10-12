@@ -19,7 +19,7 @@ class Fcp extends OracleEloquent
 
     protected $primaryKey = ['fcp_cap_num', 'fcp_num', 'fcp_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

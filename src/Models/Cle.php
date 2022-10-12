@@ -19,7 +19,7 @@ class Cle extends OracleEloquent
 
     protected $primaryKey = ['cle_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

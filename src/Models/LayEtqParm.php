@@ -19,7 +19,7 @@ class LayEtqParm extends OracleEloquent
 
     protected $primaryKey = ['lay_etq_p_etq_cod', 'lay_etq_p_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

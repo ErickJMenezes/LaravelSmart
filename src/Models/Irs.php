@@ -19,7 +19,7 @@ class Irs extends OracleEloquent
 
     protected $primaryKey = ['irs_str_cod', 'irs_rse_serie', 'irs_rse_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

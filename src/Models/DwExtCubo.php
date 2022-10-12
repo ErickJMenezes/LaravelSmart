@@ -19,7 +19,7 @@ class DwExtCubo extends OracleEloquent
 
     protected $primaryKey = ['dw_ext_cubo_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

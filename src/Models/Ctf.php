@@ -19,7 +19,7 @@ class Ctf extends OracleEloquent
 
     protected $primaryKey = ['ctf_cod', 'ctf_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

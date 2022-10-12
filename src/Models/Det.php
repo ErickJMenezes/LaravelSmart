@@ -19,7 +19,7 @@ class Det extends OracleEloquent
 
     protected $primaryKey = ['det_desc', 'det_eti_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

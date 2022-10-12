@@ -19,7 +19,7 @@ class Gss extends OracleEloquent
 
     protected $primaryKey = ['gss_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Ccn extends OracleEloquent
 
     protected $primaryKey = ['ccn_cnv_cod', 'ccn_smk_tipo', 'ccn_smk_cod', 'ccn_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

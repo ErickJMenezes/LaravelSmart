@@ -19,7 +19,7 @@ class DloNfe extends OracleEloquent
 
     protected $primaryKey = ['dlo_n_nfe_serie', 'dlo_n_nfe_fne_cod', 'dlo_n_nfe_tipo', 'dlo_n_nfe_num', 'dlo_n_dlo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

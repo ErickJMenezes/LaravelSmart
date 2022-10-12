@@ -19,7 +19,7 @@ class LogGrandeUsuario extends OracleEloquent
 
     protected $primaryKey = ['gru_nu'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

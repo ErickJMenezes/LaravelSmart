@@ -19,7 +19,7 @@ class Lgi extends OracleEloquent
 
     protected $primaryKey = ['lgi_dthr', 'lgi_usi_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

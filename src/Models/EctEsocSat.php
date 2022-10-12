@@ -19,7 +19,7 @@ class EctEsocSat extends OracleEloquent
 
     protected $primaryKey = ['ect_esoc_sat_ect_numero', 'ect_esoc_sat_esoc_sat_cod', 'ect_esoc_sat_ect_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

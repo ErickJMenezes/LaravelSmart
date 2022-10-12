@@ -19,7 +19,7 @@ class TCucchi7168301Cex extends OracleEloquent
 
     protected $primaryKey = ['id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

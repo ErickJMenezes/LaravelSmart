@@ -19,7 +19,7 @@ class Pad extends OracleEloquent
 
     protected $primaryKey = ['pad_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

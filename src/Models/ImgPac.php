@@ -19,7 +19,7 @@ class ImgPac extends OracleEloquent
 
     protected $primaryKey = ['img_pac_pac_reg', 'img_pac_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

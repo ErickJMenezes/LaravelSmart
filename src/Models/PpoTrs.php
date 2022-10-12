@@ -19,7 +19,7 @@ class PpoTrs extends OracleEloquent
 
     protected $primaryKey = ['ppo_trs_cod', 'ppo_trs_ppo_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

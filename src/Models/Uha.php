@@ -19,7 +19,7 @@ class Uha extends OracleEloquent
 
     protected $primaryKey = ['uha_dia', 'uha_hor_ini', 'uha_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

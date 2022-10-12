@@ -19,7 +19,7 @@ class Mcp extends OracleEloquent
 
     protected $primaryKey = ['mcp_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

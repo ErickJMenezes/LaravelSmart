@@ -19,7 +19,7 @@ class Sed extends OracleEloquent
 
     protected $primaryKey = ['sed_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

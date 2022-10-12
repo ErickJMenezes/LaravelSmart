@@ -19,7 +19,7 @@ class Mmc extends OracleEloquent
 
     protected $primaryKey = ['mmc_mrc_cod', 'mmc_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

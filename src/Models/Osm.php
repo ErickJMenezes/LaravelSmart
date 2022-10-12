@@ -19,7 +19,7 @@ class Osm extends OracleEloquent
 
     protected $primaryKey = ['osm_serie', 'osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Exs extends OracleEloquent
 
     protected $primaryKey = ['exs_exm_cod', 'exs_pex_pac', 'exs_item_id', 'exs_pex_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class NexoDoc extends OracleEloquent
 
     protected $primaryKey = ['nexo_doc_id', 'nexo_doc_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

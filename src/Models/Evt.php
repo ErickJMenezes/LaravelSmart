@@ -19,7 +19,7 @@ class Evt extends OracleEloquent
 
     protected $primaryKey = ['evt_dthr', 'evt_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

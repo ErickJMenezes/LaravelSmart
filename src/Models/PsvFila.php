@@ -19,7 +19,7 @@ class PsvFila extends OracleEloquent
 
     protected $primaryKey = ['psv_f_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

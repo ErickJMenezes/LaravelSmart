@@ -19,7 +19,7 @@ class Qau extends OracleEloquent
 
     protected $primaryKey = ['qau_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

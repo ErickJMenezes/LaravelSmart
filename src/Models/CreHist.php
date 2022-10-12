@@ -19,7 +19,7 @@ class CreHist extends OracleEloquent
 
     protected $primaryKey = ['cre_hist_cod', 'cre_hist_dt_ini', 'cre_hist_cre_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

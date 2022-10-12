@@ -19,7 +19,7 @@ class Srq extends OracleEloquent
 
     protected $primaryKey = ['srq_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -18,7 +18,7 @@ class Adb extends OracleEloquent
 
     protected $primaryKey = ['adb_aha_cod', 'adb_tap_cod', 'adb_aha_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

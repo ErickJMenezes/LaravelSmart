@@ -19,7 +19,7 @@ class LtaRev extends OracleEloquent
 
     protected $primaryKey = ['lta_r_id', 'lta_r_lta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

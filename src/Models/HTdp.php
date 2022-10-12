@@ -19,7 +19,7 @@ class HTdp extends OracleEloquent
 
     protected $primaryKey = ['h_tdp_pac_reg', 'h_tdp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

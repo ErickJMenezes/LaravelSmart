@@ -19,7 +19,7 @@ class IhAp2 extends OracleEloquent
 
     protected $primaryKey = ['ih_ap2_dthr_reg', 'ih_ap2_pac_reg', 'ih_ap2_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cca extends OracleEloquent
 
     protected $primaryKey = ['cca_pca_cod', 'cca_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

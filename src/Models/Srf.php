@@ -19,7 +19,7 @@ class Srf extends OracleEloquent
 
     protected $primaryKey = ['srf_serie', 'srf_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

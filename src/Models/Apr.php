@@ -19,7 +19,7 @@ class Apr extends OracleEloquent
 
     protected $primaryKey = ['apr_codi'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

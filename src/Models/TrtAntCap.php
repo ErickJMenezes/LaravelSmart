@@ -19,7 +19,7 @@ class TrtAntCap extends OracleEloquent
 
     protected $primaryKey = ['trt_ant_cap_num', 'trt_ant_cap_dthr_ini', 'trt_ant_cap_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

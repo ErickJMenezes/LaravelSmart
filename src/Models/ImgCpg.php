@@ -19,7 +19,7 @@ class ImgCpg extends OracleEloquent
 
     protected $primaryKey = ['img_cpg_cpg_num', 'img_cpg_img_cod', 'img_cpg_cpg_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

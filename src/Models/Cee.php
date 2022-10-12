@@ -19,7 +19,7 @@ class Cee extends OracleEloquent
 
     protected $primaryKey = ['cee_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

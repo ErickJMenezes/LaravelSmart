@@ -19,7 +19,7 @@ class Ifs extends OracleEloquent
 
     protected $primaryKey = ['ifs_str_cod', 'ifs_fcf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

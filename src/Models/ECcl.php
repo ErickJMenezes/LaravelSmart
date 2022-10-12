@@ -19,7 +19,7 @@ class ECcl extends OracleEloquent
 
     protected $primaryKey = ['e_ccl_num', 'e_ccl_pac_reg', 'e_ccl_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

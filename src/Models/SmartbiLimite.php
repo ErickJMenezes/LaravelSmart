@@ -19,7 +19,7 @@ class SmartbiLimite extends OracleEloquent
 
     protected $primaryKey = ['limite_ano', 'limite_seq', 'limite_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

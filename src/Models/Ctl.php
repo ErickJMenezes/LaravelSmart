@@ -19,7 +19,7 @@ class Ctl extends OracleEloquent
 
     protected $primaryKey = ['ctl_hsp', 'ctl_dthr', 'ctl_pac'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

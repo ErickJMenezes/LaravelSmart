@@ -19,7 +19,7 @@ class Via extends OracleEloquent
 
     protected $primaryKey = ['via_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -18,7 +18,7 @@ class Abc extends OracleEloquent
 
     protected $primaryKey = ['abc_dthr_calc', 'abc_ind_consignado'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

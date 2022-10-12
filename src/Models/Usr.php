@@ -19,7 +19,7 @@ class Usr extends OracleEloquent
 
     protected $primaryKey = ['usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

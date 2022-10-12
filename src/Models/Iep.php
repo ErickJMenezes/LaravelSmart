@@ -19,7 +19,7 @@ class Iep extends OracleEloquent
 
     protected $primaryKey = ['iep_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

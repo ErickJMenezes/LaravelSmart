@@ -19,7 +19,7 @@ class ReinfTpServ extends OracleEloquent
 
     protected $primaryKey = ['reinf_tp_serv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

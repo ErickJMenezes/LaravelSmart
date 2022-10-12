@@ -19,7 +19,7 @@ class Nan extends OracleEloquent
 
     protected $primaryKey = ['nan_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

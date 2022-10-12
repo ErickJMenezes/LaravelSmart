@@ -19,7 +19,7 @@ class Ipe extends OracleEloquent
 
     protected $primaryKey = ['ipe_sba_cod', 'ipe_pet_serie', 'ipe_mat_cod', 'ipe_pet_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

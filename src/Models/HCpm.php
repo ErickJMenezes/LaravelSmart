@@ -19,7 +19,7 @@ class HCpm extends OracleEloquent
 
     protected $primaryKey = ['h_cpm_pac_reg', 'h_cpm_bul_med', 'h_cpm_cpe_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

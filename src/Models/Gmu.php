@@ -19,7 +19,7 @@ class Gmu extends OracleEloquent
 
     protected $primaryKey = ['gmu_gmt_cod', 'gmu_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

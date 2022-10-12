@@ -19,7 +19,7 @@ class SCidm extends OracleEloquent
 
     protected $primaryKey = ['cdn_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

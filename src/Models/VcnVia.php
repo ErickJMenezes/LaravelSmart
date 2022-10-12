@@ -19,7 +19,7 @@ class VcnVia extends OracleEloquent
 
     protected $primaryKey = ['vcn_v_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

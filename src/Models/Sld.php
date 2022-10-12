@@ -19,7 +19,7 @@ class Sld extends OracleEloquent
 
     protected $primaryKey = ['sld_serie', 'sld_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

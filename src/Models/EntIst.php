@@ -19,7 +19,7 @@ class EntIst extends OracleEloquent
 
     protected $primaryKey = ['ent_ist_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

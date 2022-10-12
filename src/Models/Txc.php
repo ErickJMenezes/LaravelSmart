@@ -19,7 +19,7 @@ class Txc extends OracleEloquent
 
     protected $primaryKey = ['txc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

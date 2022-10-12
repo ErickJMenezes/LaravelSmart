@@ -19,7 +19,7 @@ class SciPrx extends OracleEloquent
 
     protected $primaryKey = ['sci_prx_prx_cod', 'sci_prx_sci_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

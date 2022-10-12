@@ -19,7 +19,7 @@ class Cba extends OracleEloquent
 
     protected $primaryKey = ['cba_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

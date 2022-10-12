@@ -19,7 +19,7 @@ class Ded extends OracleEloquent
 
     protected $primaryKey = ['ded_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

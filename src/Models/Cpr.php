@@ -19,7 +19,7 @@ class Cpr extends OracleEloquent
 
     protected $primaryKey = ['cpr_adp_tipo', 'cpr_adp_cod', 'cpr_smk_cod', 'cpr_ctf_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class ObsDw extends OracleEloquent
 
     protected $primaryKey = ['obs_dw_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

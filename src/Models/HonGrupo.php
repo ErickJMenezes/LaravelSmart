@@ -19,7 +19,7 @@ class HonGrupo extends OracleEloquent
 
     protected $primaryKey = ['hon_grupo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

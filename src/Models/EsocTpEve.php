@@ -19,7 +19,7 @@ class EsocTpEve extends OracleEloquent
 
     protected $primaryKey = ['esoc_tp_eve_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

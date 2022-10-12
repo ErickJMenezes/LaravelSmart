@@ -18,7 +18,7 @@ class AgmAsv extends OracleEloquent
 
     protected $primaryKey = ['agm_a_med', 'agm_a_hini', 'agm_a_asv_id', 'agm_a_loc', 'agm_a_ext'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class TapCid extends OracleEloquent
 
     protected $primaryKey = ['tap_c_cid_cod', 'tap_c_cid_tip', 'tap_c_tap_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

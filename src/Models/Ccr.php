@@ -19,7 +19,7 @@ class Ccr extends OracleEloquent
 
     protected $primaryKey = ['ccr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

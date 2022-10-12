@@ -19,7 +19,7 @@ class Tra extends OracleEloquent
 
     protected $primaryKey = ['tra_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Ins extends OracleEloquent
 
     protected $primaryKey = ['ins_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

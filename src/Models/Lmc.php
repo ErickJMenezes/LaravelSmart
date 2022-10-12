@@ -19,7 +19,7 @@ class Lmc extends OracleEloquent
 
     protected $primaryKey = ['lmc_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

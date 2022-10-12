@@ -19,7 +19,7 @@ class Org extends OracleEloquent
 
     protected $primaryKey = ['org_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

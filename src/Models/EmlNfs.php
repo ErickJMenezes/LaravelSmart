@@ -19,7 +19,7 @@ class EmlNfs extends OracleEloquent
 
     protected $primaryKey = ['e_nfs_nfs_numero', 'e_nfs_nfs_serie', 'e_nfs_eml_cod', 'e_nfs_nfs_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

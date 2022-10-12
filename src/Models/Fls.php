@@ -19,7 +19,7 @@ class Fls extends OracleEloquent
 
     protected $primaryKey = ['fls_dce_id', 'fls_psv_cod', 'fls_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

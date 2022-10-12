@@ -19,7 +19,7 @@ class MnaOcr extends OracleEloquent
 
     protected $primaryKey = ['mna_o_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

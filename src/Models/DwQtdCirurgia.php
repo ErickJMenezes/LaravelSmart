@@ -19,7 +19,7 @@ class DwQtdCirurgia extends OracleEloquent
 
     protected $primaryKey = ['dw_qtd_cirurgia_mmyy', 'dw_qtd_cirurgia_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

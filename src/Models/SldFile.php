@@ -19,7 +19,7 @@ class SldFile extends OracleEloquent
 
     protected $primaryKey = ['sld_f_serie', 'sld_f_num', 'sld_f_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Hva extends OracleEloquent
 
     protected $primaryKey = ['hva_pac_reg', 'hva_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

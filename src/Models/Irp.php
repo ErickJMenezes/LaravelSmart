@@ -19,7 +19,7 @@ class Irp extends OracleEloquent
 
     protected $primaryKey = ['irp_rep_serie', 'irp_nfs_numero', 'irp_nfs_tipo', 'irp_rep_num', 'irp_nfs_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

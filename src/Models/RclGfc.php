@@ -19,7 +19,7 @@ class RclGfc extends OracleEloquent
 
     protected $primaryKey = ['rcl_r_gfc_num', 'rcl_r_id', 'rcl_r_lta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

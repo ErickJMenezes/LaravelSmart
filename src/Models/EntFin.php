@@ -19,7 +19,7 @@ class EntFin extends OracleEloquent
 
     protected $primaryKey = ['ent_fin_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

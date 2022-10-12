@@ -19,7 +19,7 @@ class Ilf extends OracleEloquent
 
     protected $primaryKey = ['ilf_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

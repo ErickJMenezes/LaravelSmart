@@ -19,7 +19,7 @@ class Rae extends OracleEloquent
 
     protected $primaryKey = ['rae_ftr_cod', 'rae_ftr_str_cod', 'rae_str_solic', 'rae_ftr_bnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

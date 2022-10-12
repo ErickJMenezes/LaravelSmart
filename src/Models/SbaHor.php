@@ -19,7 +19,7 @@ class SbaHor extends OracleEloquent
 
     protected $primaryKey = ['sba_h_hr_atual_ini', 'sba_h_sba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

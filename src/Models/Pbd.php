@@ -19,7 +19,7 @@ class Pbd extends OracleEloquent
 
     protected $primaryKey = ['pbd_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

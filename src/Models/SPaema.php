@@ -19,7 +19,7 @@ class SPaema extends OracleEloquent
 
     protected $primaryKey = ['paema_pa', 'paema_ema'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -17,7 +17,7 @@ class Aad extends OracleEloquent
 
     protected $primaryKey = ['aad_dominio'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

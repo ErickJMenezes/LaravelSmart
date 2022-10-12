@@ -19,7 +19,7 @@ class Atv extends OracleEloquent
 
     protected $primaryKey = ['atv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

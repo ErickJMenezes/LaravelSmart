@@ -19,7 +19,7 @@ class Pdf extends OracleEloquent
 
     protected $primaryKey = ['pdf_pde_num', 'pdf_nan_cod', 'pdf_nan_f_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

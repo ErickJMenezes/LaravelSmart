@@ -19,7 +19,7 @@ class FdiImg extends OracleEloquent
 
     protected $primaryKey = ['fdi_img_fdl_id', 'fdi_img_psv_cod', 'fdi_img_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

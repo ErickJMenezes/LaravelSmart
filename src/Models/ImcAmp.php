@@ -19,7 +19,7 @@ class ImcAmp extends OracleEloquent
 
     protected $primaryKey = ['imc_amp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

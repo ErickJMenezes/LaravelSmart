@@ -19,7 +19,7 @@ class Daf extends OracleEloquent
 
     protected $primaryKey = ['daf_aft_num', 'daf_dthr', 'daf_aft_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

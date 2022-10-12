@@ -19,7 +19,7 @@ class Flm extends OracleEloquent
 
     protected $primaryKey = ['flm_pac_reg', 'flm_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

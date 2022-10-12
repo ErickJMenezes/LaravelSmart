@@ -19,7 +19,7 @@ class RvaOsCond extends OracleEloquent
 
     protected $primaryKey = ['rva_o_osm_serie', 'rva_o_osm_num', 'rva_o_cond_amostra'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

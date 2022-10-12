@@ -19,7 +19,7 @@ class Dtb extends OracleEloquent
 
     protected $primaryKey = ['dtb_ctf_tipo', 'dtb_ctf_cod', 'dtb_id', 'dtb_cnv_cod', 'dtb_limite_min'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

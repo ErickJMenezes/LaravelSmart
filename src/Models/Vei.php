@@ -19,7 +19,7 @@ class Vei extends OracleEloquent
 
     protected $primaryKey = ['vei_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

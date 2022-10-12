@@ -19,7 +19,7 @@ class Pec extends OracleEloquent
 
     protected $primaryKey = ['pec_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

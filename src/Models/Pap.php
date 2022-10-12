@@ -19,7 +19,7 @@ class Pap extends OracleEloquent
 
     protected $primaryKey = ['pap_pat_cod', 'pap_elb_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

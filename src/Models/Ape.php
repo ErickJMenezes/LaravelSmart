@@ -19,7 +19,7 @@ class Ape extends OracleEloquent
 
     protected $primaryKey = ['ape_seq', 'ape_aha_tipo', 'ape_aha_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

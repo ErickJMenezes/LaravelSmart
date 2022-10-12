@@ -19,7 +19,7 @@ class Gep extends OracleEloquent
 
     protected $primaryKey = ['gep_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Pcc extends OracleEloquent
 
     protected $primaryKey = ['pcc_cnv_cod', 'pcc_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

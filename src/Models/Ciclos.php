@@ -19,7 +19,7 @@ class Ciclos extends OracleEloquent
 
     protected $primaryKey = ['ciclos'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

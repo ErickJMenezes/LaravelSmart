@@ -19,7 +19,7 @@ class Btr extends OracleEloquent
 
     protected $primaryKey = ['btr_tro_cod', 'btr_rco_cod', 'btr_idade_min', 'btr_smk_tipo', 'btr_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Dev extends OracleEloquent
 
     protected $primaryKey = ['dev_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

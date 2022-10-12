@@ -19,7 +19,7 @@ class Ecv extends OracleEloquent
 
     protected $primaryKey = ['ecv_smk_tipo', 'ecv_cvc_serie', 'ecv_cvc_num', 'ecv_smk_cod', 'ecv_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

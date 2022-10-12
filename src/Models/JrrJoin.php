@@ -19,7 +19,7 @@ class JrrJoin extends OracleEloquent
 
     protected $primaryKey = ['jrr_j_id', 'jrr_j_jrr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

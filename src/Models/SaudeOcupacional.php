@@ -19,7 +19,7 @@ class SaudeOcupacional extends OracleEloquent
 
     protected $primaryKey = ['saude_ocup_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

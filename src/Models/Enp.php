@@ -19,7 +19,7 @@ class Enp extends OracleEloquent
 
     protected $primaryKey = ['enp_serie', 'enp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

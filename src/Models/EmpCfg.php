@@ -19,7 +19,7 @@ class EmpCfg extends OracleEloquent
 
     protected $primaryKey = ['emp_cfg_dom_cfg_cod', 'emp_cfg_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

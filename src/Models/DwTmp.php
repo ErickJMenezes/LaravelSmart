@@ -19,7 +19,7 @@ class DwTmp extends OracleEloquent
 
     protected $primaryKey = ['dw_tmp_motivo', 'dw_tmp_cnv_cod', 'dw_tmp_mmyy', 'dw_tmp_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

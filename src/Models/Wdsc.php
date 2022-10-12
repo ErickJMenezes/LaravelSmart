@@ -19,7 +19,7 @@ class Wdsc extends OracleEloquent
 
     protected $primaryKey = ['wdsc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

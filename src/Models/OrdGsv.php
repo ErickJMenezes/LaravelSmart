@@ -19,7 +19,7 @@ class OrdGsv extends OracleEloquent
 
     protected $primaryKey = ['ord_gsv_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

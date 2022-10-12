@@ -19,7 +19,7 @@ class Mms extends OracleEloquent
 
     protected $primaryKey = ['mms_mat_cod', 'mms_osm_num', 'mms_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

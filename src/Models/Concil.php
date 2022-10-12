@@ -19,7 +19,7 @@ class Concil extends OracleEloquent
 
     protected $primaryKey = ['data_venda', 'n_cartao', 'controle', 'parcela', 'transacao'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

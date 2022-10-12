@@ -19,7 +19,7 @@ class MatUnm extends OracleEloquent
 
     protected $primaryKey = ['mat_u_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

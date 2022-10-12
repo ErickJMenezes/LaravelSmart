@@ -19,7 +19,7 @@ class Srn extends OracleEloquent
 
     protected $primaryKey = ['srn_pac_reg', 'srn_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

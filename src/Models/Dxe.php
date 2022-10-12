@@ -19,7 +19,7 @@ class Dxe extends OracleEloquent
 
     protected $primaryKey = ['dxe_dch_cod', 'dxe_edl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Lcm extends OracleEloquent
 
     protected $primaryKey = ['lcm_pac_reg', 'lcm_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Npr extends OracleEloquent
 
     protected $primaryKey = ['npr_num', 'npr_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

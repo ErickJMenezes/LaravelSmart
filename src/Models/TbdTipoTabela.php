@@ -19,7 +19,7 @@ class TbdTipoTabela extends OracleEloquent
 
     protected $primaryKey = ['tbd_t_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

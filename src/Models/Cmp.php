@@ -19,7 +19,7 @@ class Cmp extends OracleEloquent
 
     protected $primaryKey = ['cmp_seq', 'cmp_item', 'cmp_cod', 'cmp_tpcod', 'cmp_tpitem'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

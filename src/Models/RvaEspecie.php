@@ -19,7 +19,7 @@ class RvaEspecie extends OracleEloquent
 
     protected $primaryKey = ['rva_e_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

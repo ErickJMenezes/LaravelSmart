@@ -19,7 +19,7 @@ class Blc extends OracleEloquent
 
     protected $primaryKey = ['blc_dthr_ini', 'blc_loc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

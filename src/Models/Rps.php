@@ -19,7 +19,7 @@ class Rps extends OracleEloquent
 
     protected $primaryKey = ['rps_serie', 'rps_numero', 'rps_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Rnd extends OracleEloquent
 
     protected $primaryKey = ['rnd_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Bmt extends OracleEloquent
 
     protected $primaryKey = ['bmt_mat_cod', 'bmt_bul_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

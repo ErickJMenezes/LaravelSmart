@@ -19,7 +19,7 @@ class Ende extends OracleEloquent
 
     protected $primaryKey = ['ende_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

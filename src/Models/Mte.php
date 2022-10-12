@@ -19,7 +19,7 @@ class Mte extends OracleEloquent
 
     protected $primaryKey = ['mte_serie', 'mte_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

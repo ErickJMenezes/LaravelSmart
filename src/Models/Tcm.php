@@ -19,7 +19,7 @@ class Tcm extends OracleEloquent
 
     protected $primaryKey = ['tcm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

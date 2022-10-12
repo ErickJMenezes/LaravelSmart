@@ -19,7 +19,7 @@ class EntIns extends OracleEloquent
 
     protected $primaryKey = ['ent_ins_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

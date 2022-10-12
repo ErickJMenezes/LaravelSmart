@@ -19,7 +19,7 @@ class CrSnf extends OracleEloquent
 
     protected $primaryKey = ['cr_snf_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

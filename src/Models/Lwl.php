@@ -19,7 +19,7 @@ class Lwl extends OracleEloquent
 
     protected $primaryKey = ['lwl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

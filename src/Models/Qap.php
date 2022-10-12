@@ -19,7 +19,7 @@ class Qap extends OracleEloquent
 
     protected $primaryKey = ['qap_elb_cod', 'qap_pgt_cod', 'qap_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cpa extends OracleEloquent
 
     protected $primaryKey = ['cpa_aft_serie', 'cpa_dthr', 'cpa_dthr_reg', 'cpa_aft_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

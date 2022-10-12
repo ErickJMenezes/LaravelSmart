@@ -19,7 +19,7 @@ class HcCap extends OracleEloquent
 
     protected $primaryKey = ['hc_cap_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

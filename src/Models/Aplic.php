@@ -19,7 +19,7 @@ class Aplic extends OracleEloquent
 
     protected $primaryKey = ['aplicshortname'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

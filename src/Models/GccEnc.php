@@ -19,7 +19,7 @@ class GccEnc extends OracleEloquent
 
     protected $primaryKey = ['gcc_e_cod_origem', 'gcc_e_cod_pagante'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

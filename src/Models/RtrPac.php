@@ -19,7 +19,7 @@ class RtrPac extends OracleEloquent
 
     protected $primaryKey = ['rtr_pac_pac_reg', 'rtr_pac_rtr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class CncAviso extends OracleEloquent
 
     protected $primaryKey = ['cnc_c_str_destino', 'cnc_c_cnc_cod', 'cnc_c_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

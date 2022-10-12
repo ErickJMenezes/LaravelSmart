@@ -19,7 +19,7 @@ class CpuWl extends OracleEloquent
 
     protected $primaryKey = ['cpu_wl_str_cod', 'cpu_wl_cnv_cod', 'cpu_wl_esp_cod', 'cpu_wl_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

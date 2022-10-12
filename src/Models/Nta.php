@@ -19,7 +19,7 @@ class Nta extends OracleEloquent
 
     protected $primaryKey = ['nta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

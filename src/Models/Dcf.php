@@ -19,7 +19,7 @@ class Dcf extends OracleEloquent
 
     protected $primaryKey = ['dcf_osm_serie', 'dcf_smm_num', 'dcf_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class ItmMat extends OracleEloquent
 
     protected $primaryKey = ['itm_tme_cod', 'itm_m_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

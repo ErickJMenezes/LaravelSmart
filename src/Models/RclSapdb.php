@@ -19,7 +19,7 @@ class RclSapdb extends OracleEloquent
 
     protected $primaryKey = ['rcl_s_cod', 'rcl_s_pac_reg', 'rcl_s_dthr', 'rcl_s_tpcod', 'rcl_s_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -18,7 +18,7 @@ class Ags extends OracleEloquent
 
     protected $primaryKey = ['ags_gsv_cod', 'ags_smk_cod', 'ags_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class PlanservCodAtd extends OracleEloquent
 
     protected $primaryKey = ['planserv_cod_atd_cod_conv', 'planserv_cod_atd_str_solic', 'planserv_cod_atd_hsp_mod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

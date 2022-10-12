@@ -19,7 +19,7 @@ class DwExtPacStrSolic extends OracleEloquent
 
     protected $primaryKey = ['dw_ext_mmyy', 'dw_ext_psv_cod', 'dw_ext_str_unid', 'dw_ext_str_solic', 'dw_ext_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Rpa extends OracleEloquent
 
     protected $primaryKey = ['rpa_pgt_cod', 'rpa_apq_cod', 'rpa_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

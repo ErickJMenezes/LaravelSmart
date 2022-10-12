@@ -19,7 +19,7 @@ class Rpi extends OracleEloquent
 
     protected $primaryKey = ['rpi_num', 'rpi_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

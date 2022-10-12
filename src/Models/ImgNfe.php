@@ -19,7 +19,7 @@ class ImgNfe extends OracleEloquent
 
     protected $primaryKey = ['img_nfe_nfe_num', 'img_nfe_nfe_tipo', 'img_nfe_nfe_serie', 'img_nfe_fne_cod', 'img_nfe_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

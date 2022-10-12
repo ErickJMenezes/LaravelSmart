@@ -19,7 +19,7 @@ class Anm extends OracleEloquent
 
     protected $primaryKey = ['anm_atr_vlr_ini', 'anm_atr_dsc', 'anm_atr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

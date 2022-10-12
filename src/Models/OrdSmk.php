@@ -19,7 +19,7 @@ class OrdSmk extends OracleEloquent
 
     protected $primaryKey = ['ord_smk_cod', 'ord_smk_pos', 'ord_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

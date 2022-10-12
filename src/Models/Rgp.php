@@ -19,7 +19,7 @@ class Rgp extends OracleEloquent
 
     protected $primaryKey = ['rgp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

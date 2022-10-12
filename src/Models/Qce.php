@@ -19,7 +19,7 @@ class Qce extends OracleEloquent
 
     protected $primaryKey = ['qce_elb_cod', 'qce_qcm_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

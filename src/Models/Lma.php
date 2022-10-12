@@ -19,7 +19,7 @@ class Lma extends OracleEloquent
 
     protected $primaryKey = ['lma_gmm_cod', 'lma_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

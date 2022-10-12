@@ -19,7 +19,7 @@ class Exi extends OracleEloquent
 
     protected $primaryKey = ['exi_seq', 'exi_exp_seq', 'exi_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

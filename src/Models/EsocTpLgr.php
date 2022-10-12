@@ -19,7 +19,7 @@ class EsocTpLgr extends OracleEloquent
 
     protected $primaryKey = ['esoc_tp_lgr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

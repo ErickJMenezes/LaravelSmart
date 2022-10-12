@@ -19,7 +19,7 @@ class Cti extends OracleEloquent
 
     protected $primaryKey = ['cti_atv_cod', 'cti_cde_cod', 'cti_cod_trib'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

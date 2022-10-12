@@ -19,7 +19,7 @@ class Pef extends OracleEloquent
 
     protected $primaryKey = ['pef_conv', 'pef_padrao'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

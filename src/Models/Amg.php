@@ -19,7 +19,7 @@ class Amg extends OracleEloquent
 
     protected $primaryKey = ['amg_pac', 'amg_ext', 'amg_dthr_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

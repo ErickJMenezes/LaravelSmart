@@ -19,7 +19,7 @@ class GihContatos extends OracleEloquent
 
     protected $primaryKey = ['gih_c_id', 'gih_c_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class ItmCct extends OracleEloquent
 
     protected $primaryKey = ['itm_tme_cod', 'itm_c_cod_estrut'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

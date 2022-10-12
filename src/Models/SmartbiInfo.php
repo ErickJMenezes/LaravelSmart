@@ -19,7 +19,7 @@ class SmartbiInfo extends OracleEloquent
 
     protected $primaryKey = ['smartbi_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

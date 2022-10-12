@@ -19,7 +19,7 @@ class Reinf extends OracleEloquent
 
     protected $primaryKey = ['reinf_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

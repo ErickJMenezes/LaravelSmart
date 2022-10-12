@@ -19,7 +19,7 @@ class UsuSapSmart1 extends OracleEloquent
 
     protected $primaryKey = ['pk_smart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

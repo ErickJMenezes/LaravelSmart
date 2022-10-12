@@ -19,7 +19,7 @@ class EmnGmt extends OracleEloquent
 
     protected $primaryKey = ['emn_g_emn_cod', 'emn_g_gmt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Lpf extends OracleEloquent
 
     protected $primaryKey = ['lpf_serie', 'lpf_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

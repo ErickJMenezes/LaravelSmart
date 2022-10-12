@@ -19,7 +19,7 @@ class Vbd extends OracleEloquent
 
     protected $primaryKey = ['vbd_emp'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class CnaDthr extends OracleEloquent
 
     protected $primaryKey = ['cna_d_dthr_atend', 'cna_d_cna_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

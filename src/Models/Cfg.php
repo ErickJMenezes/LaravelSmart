@@ -19,7 +19,7 @@ class Cfg extends OracleEloquent
 
     protected $primaryKey = ['cfg_emp'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

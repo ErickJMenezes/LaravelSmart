@@ -19,7 +19,7 @@ class VcnLocal extends OracleEloquent
 
     protected $primaryKey = ['vcn_l_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

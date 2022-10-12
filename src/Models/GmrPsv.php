@@ -19,7 +19,7 @@ class GmrPsv extends OracleEloquent
 
     protected $primaryKey = ['gmr_p_gmr_cod', 'gmr_p_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

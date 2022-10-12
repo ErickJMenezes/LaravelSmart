@@ -19,7 +19,7 @@ class EsocCgt extends OracleEloquent
 
     protected $primaryKey = ['esoc_cgt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

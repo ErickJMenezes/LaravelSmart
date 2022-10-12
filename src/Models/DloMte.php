@@ -19,7 +19,7 @@ class DloMte extends OracleEloquent
 
     protected $primaryKey = ['dlo_m_mte_seq', 'dlo_m_dlo_id', 'dlo_m_mte_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

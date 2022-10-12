@@ -19,7 +19,7 @@ class IctEtq extends OracleEloquent
 
     protected $primaryKey = ['ict_e_id', 'ict_e_osm_serie', 'ict_e_smm_num', 'ict_e_cod_amostra', 'ict_e_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

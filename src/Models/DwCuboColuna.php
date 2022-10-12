@@ -19,7 +19,7 @@ class DwCuboColuna extends OracleEloquent
 
     protected $primaryKey = ['dw_cc_coluna', 'dw_cc_tabela', 'dw_cc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

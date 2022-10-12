@@ -19,7 +19,7 @@ class ExcImp extends OracleEloquent
 
     protected $primaryKey = ['exc_imp_exc_id', 'exc_imp_ipr_cod', 'exc_imp_tipo_receita'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

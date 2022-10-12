@@ -19,7 +19,7 @@ class Hic extends OracleEloquent
 
     protected $primaryKey = ['hic_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

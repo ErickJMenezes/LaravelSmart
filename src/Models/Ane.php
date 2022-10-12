@@ -19,7 +19,7 @@ class Ane extends OracleEloquent
 
     protected $primaryKey = ['ane_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

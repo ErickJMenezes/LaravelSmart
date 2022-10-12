@@ -19,7 +19,7 @@ class HonRat extends OracleEloquent
 
     protected $primaryKey = ['hon_r_tipo', 'hon_r_ccr_cod', 'hon_r_hon_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Hcf extends OracleEloquent
 
     protected $primaryKey = ['hcf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

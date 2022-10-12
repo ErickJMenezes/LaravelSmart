@@ -19,7 +19,7 @@ class DwExtProdExmHora extends OracleEloquent
 
     protected $primaryKey = ['dw_ext_prod_exm_hora_dim', 'dw_ext_prod_exm_hora_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

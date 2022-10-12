@@ -19,7 +19,7 @@ class Pce extends OracleEloquent
 
     protected $primaryKey = ['pce_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

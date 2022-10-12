@@ -19,7 +19,7 @@ class Pfe extends OracleEloquent
 
     protected $primaryKey = ['pfe_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

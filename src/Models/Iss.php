@@ -19,7 +19,7 @@ class Iss extends OracleEloquent
 
     protected $primaryKey = ['iss_smk_tipo', 'iss_smk_cod', 'iss_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

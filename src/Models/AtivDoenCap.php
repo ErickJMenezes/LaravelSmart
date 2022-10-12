@@ -19,7 +19,7 @@ class AtivDoenCap extends OracleEloquent
 
     protected $primaryKey = ['adc_num', 'adc_cnv_cod', 'adc_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class ExcSaldoCliente extends OracleEloquent
 
     protected $primaryKey = ['exc_sc_exc_id', 'exc_sc_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

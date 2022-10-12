@@ -18,7 +18,7 @@ class Agx extends OracleEloquent
 
     protected $primaryKey = ['agx_psv_cod', 'agx_ctf_cod', 'agx_ctf_tipo', 'agx_dt', 'agx_loc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

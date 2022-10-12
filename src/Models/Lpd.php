@@ -19,7 +19,7 @@ class Lpd extends OracleEloquent
 
     protected $primaryKey = ['lpd_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

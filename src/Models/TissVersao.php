@@ -19,7 +19,7 @@ class TissVersao extends OracleEloquent
 
     protected $primaryKey = ['tiss_versao_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

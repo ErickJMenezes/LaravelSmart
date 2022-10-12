@@ -19,7 +19,7 @@ class Tpd extends OracleEloquent
 
     protected $primaryKey = ['tpd_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

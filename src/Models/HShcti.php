@@ -19,7 +19,7 @@ class HShcti extends OracleEloquent
 
     protected $primaryKey = ['h_shcti_pac_reg', 'h_shcti_h_shd_id', 'h_shcti_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

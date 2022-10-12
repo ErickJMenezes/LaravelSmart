@@ -18,7 +18,7 @@ class Ach extends OracleEloquent
 
     protected $primaryKey = ['ach_pac_reg', 'ach_dthr', 'ach_hsp_num', 'ach_cth_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

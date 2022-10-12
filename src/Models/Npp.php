@@ -19,7 +19,7 @@ class Npp extends OracleEloquent
 
     protected $primaryKey = ['npp_pac_reg', 'npp_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class CrmsmsConfiguracoes extends OracleEloquent
 
     protected $primaryKey = [];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Awl extends OracleEloquent
 
     protected $primaryKey = ['awl_dthr', 'awl_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

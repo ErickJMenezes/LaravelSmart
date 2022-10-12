@@ -19,7 +19,7 @@ class EmpProcesso extends OracleEloquent
 
     protected $primaryKey = ['emp_processo_emp_cod', 'emp_processo_tp_proc', 'emp_processo_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

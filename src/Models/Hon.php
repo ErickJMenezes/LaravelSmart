@@ -19,7 +19,7 @@ class Hon extends OracleEloquent
 
     protected $primaryKey = ['hon_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

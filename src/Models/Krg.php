@@ -19,7 +19,7 @@ class Krg extends OracleEloquent
 
     protected $primaryKey = ['krg_smk_tipo', 'krg_mat_cod', 'krg_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

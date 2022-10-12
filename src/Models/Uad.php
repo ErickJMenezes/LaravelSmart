@@ -19,7 +19,7 @@ class Uad extends OracleEloquent
 
     protected $primaryKey = ['uad_cpg_num_pg', 'uad_cpg_num_ad', 'uad_ipg_parc_pg', 'uad_cpg_serie_ad', 'uad_cpg_serie_pg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

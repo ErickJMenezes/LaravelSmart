@@ -19,7 +19,7 @@ class Ict extends OracleEloquent
 
     protected $primaryKey = ['ict_osm_num', 'ict_id', 'ict_smm_num', 'ict_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

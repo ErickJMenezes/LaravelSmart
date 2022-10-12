@@ -19,7 +19,7 @@ class TdcAud extends OracleEloquent
 
     protected $primaryKey = ['tdc_a_usr_login', 'tdc_a_tdc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

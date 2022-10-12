@@ -19,7 +19,7 @@ class STabunif extends OracleEloquent
 
     protected $primaryKey = ['id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

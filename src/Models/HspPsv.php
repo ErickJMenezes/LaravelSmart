@@ -19,7 +19,7 @@ class HspPsv extends OracleEloquent
 
     protected $primaryKey = ['hsp_p_psv_cod', 'hsp_p_pac_reg', 'hsp_p_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

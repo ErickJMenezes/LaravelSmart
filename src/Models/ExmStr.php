@@ -19,7 +19,7 @@ class ExmStr extends OracleEloquent
 
     protected $primaryKey = ['exm_e_exm_cod', 'exm_e_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cpg extends OracleEloquent
 
     protected $primaryKey = ['cpg_num', 'cpg_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

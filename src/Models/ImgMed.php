@@ -19,7 +19,7 @@ class ImgMed extends OracleEloquent
 
     protected $primaryKey = ['img_med_img_cod', 'img_med_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

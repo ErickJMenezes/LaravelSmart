@@ -19,7 +19,7 @@ class Gih extends OracleEloquent
 
     protected $primaryKey = ['gih_cnv_cod', 'gih_dthr_ini', 'gih_pac_reg', 'gih_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

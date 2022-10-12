@@ -19,7 +19,7 @@ class CpgImp extends OracleEloquent
 
     protected $primaryKey = ['cpg_imp_cpg_num', 'cpg_imp_cpg_serie', 'cpg_imp_nfl_serie', 'cpg_imp_nfl_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

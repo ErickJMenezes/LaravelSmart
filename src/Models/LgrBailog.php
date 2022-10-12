@@ -19,7 +19,7 @@ class LgrBailog extends OracleEloquent
 
     protected $primaryKey = ['num_logr', 'num_imov_fina', 'num_bair', 'num_imov_inic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

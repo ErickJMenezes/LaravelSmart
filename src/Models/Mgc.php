@@ -19,7 +19,7 @@ class Mgc extends OracleEloquent
 
     protected $primaryKey = ['mgc_mog_cod', 'mgc_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

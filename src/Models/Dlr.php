@@ -19,7 +19,7 @@ class Dlr extends OracleEloquent
 
     protected $primaryKey = ['dlr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

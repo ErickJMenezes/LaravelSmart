@@ -19,7 +19,7 @@ class Ols extends OracleEloquent
 
     protected $primaryKey = ['ols_str_cod_2', 'ols_str_cod_1'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

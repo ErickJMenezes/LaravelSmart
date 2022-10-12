@@ -19,7 +19,7 @@ class Rna extends OracleEloquent
 
     protected $primaryKey = ['rna_rci_serie', 'rna_rci_num', 'rna_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

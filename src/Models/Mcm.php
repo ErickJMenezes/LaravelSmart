@@ -19,7 +19,7 @@ class Mcm extends OracleEloquent
 
     protected $primaryKey = ['mcm_tcm_cod', 'mcm_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

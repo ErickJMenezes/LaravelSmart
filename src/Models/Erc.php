@@ -19,7 +19,7 @@ class Erc extends OracleEloquent
 
     protected $primaryKey = ['erc_yymm', 'erc_cod', 'erc_str_cod', 'erc_x'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cop extends OracleEloquent
 
     protected $primaryKey = ['cop_num', 'cop_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Fmv extends OracleEloquent
 
     protected $primaryKey = ['fmv_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Lip extends OracleEloquent
 
     protected $primaryKey = ['lip_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

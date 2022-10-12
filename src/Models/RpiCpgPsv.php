@@ -19,7 +19,7 @@ class RpiCpgPsv extends OracleEloquent
 
     protected $primaryKey = ['rpi_cpg_psv_rpi_serie', 'rpi_cpg_psv_psv_cod', 'rpi_cpg_psv_rpi_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

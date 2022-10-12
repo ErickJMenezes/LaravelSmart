@@ -19,7 +19,7 @@ class Cnt extends OracleEloquent
 
     protected $primaryKey = ['cnt_tipo', 'cnt_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

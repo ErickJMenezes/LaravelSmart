@@ -19,7 +19,7 @@ class ApiAtualizacaoEst extends OracleEloquent
 
     protected $primaryKey = ['api_atualizacao_est_lote_num', 'api_atualizacao_est_mat_cod', 'api_atualizacao_est_cod_barra', 'api_atualizacao_est_sba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

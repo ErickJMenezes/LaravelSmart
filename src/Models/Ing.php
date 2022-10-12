@@ -19,7 +19,7 @@ class Ing extends OracleEloquent
 
     protected $primaryKey = ['ing_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

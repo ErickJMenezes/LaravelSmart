@@ -19,7 +19,7 @@ class Ban extends OracleEloquent
 
     protected $primaryKey = ['ban_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

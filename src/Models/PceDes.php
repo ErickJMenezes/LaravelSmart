@@ -19,7 +19,7 @@ class PceDes extends OracleEloquent
 
     protected $primaryKey = ['p_des_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

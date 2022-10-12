@@ -19,7 +19,7 @@ class Unp extends OracleEloquent
 
     protected $primaryKey = ['unp_yymm', 'unp_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

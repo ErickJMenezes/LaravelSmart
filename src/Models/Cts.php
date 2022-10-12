@@ -19,7 +19,7 @@ class Cts extends OracleEloquent
 
     protected $primaryKey = ['cts_pac_reg', 'cts_dthr', 'cts_hsp_num', 'cts_cth_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

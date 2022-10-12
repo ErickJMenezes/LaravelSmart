@@ -19,7 +19,7 @@ class Def extends OracleEloquent
 
     protected $primaryKey = ['def_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

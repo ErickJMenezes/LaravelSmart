@@ -19,7 +19,7 @@ class ExcSaldoIniTri extends OracleEloquent
 
     protected $primaryKey = ['exc_s_cct_cod', 'exc_s_exc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

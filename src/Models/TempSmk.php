@@ -19,7 +19,7 @@ class TempSmk extends OracleEloquent
 
     protected $primaryKey = ['temp_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Fnm extends OracleEloquent
 
     protected $primaryKey = ['fnm_fne_cod', 'fnm_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Eps extends OracleEloquent
 
     protected $primaryKey = ['eps_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

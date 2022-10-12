@@ -19,7 +19,7 @@ class Ptd extends OracleEloquent
 
     protected $primaryKey = ['ptd_pti_cod', 'ptd_mes_ref'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

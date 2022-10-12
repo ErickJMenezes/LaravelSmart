@@ -19,7 +19,7 @@ class CnvCodJustificativas extends OracleEloquent
 
     protected $primaryKey = ['cnv_cod_justi_cnv_cod', 'cnv_codigo_justificativa'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

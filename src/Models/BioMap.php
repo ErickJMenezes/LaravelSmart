@@ -19,7 +19,7 @@ class BioMap extends OracleEloquent
 
     protected $primaryKey = ['bio_map_qtd', 'bio_map_cod_pag', 'bio_map_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

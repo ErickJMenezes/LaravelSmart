@@ -19,7 +19,7 @@ class TapExm extends OracleEloquent
 
     protected $primaryKey = ['tap_e_tap_cod', 'tap_e_exm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

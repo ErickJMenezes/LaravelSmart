@@ -19,7 +19,7 @@ class Ams extends OracleEloquent
 
     protected $primaryKey = ['ams_amo_cod', 'ams_smk_tipo', 'ams_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

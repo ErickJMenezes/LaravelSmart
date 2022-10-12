@@ -19,7 +19,7 @@ class Hco extends OracleEloquent
 
     protected $primaryKey = ['hco_osm_serie', 'hco_data_alteracao', 'hco_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

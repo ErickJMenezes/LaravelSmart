@@ -19,7 +19,7 @@ class Mdc extends OracleEloquent
 
     protected $primaryKey = ['mdc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

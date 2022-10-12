@@ -19,7 +19,7 @@ class Puf extends OracleEloquent
 
     protected $primaryKey = ['puf_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

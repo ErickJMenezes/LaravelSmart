@@ -19,7 +19,7 @@ class Bac extends OracleEloquent
 
     protected $primaryKey = ['bac_dsc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

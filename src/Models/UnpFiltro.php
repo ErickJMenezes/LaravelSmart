@@ -19,7 +19,7 @@ class UnpFiltro extends OracleEloquent
 
     protected $primaryKey = ['unp_f_yymm', 'unp_f_cfo_cod', 'unp_f_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

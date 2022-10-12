@@ -19,7 +19,7 @@ class Asv extends OracleEloquent
 
     protected $primaryKey = ['asv_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

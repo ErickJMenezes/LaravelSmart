@@ -19,7 +19,7 @@ class CtgDom extends OracleEloquent
 
     protected $primaryKey = ['ctg_dom_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

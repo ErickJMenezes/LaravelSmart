@@ -19,7 +19,7 @@ class CrCor extends OracleEloquent
 
     protected $primaryKey = ['cr_cor_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

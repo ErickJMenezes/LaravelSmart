@@ -19,7 +19,7 @@ class Dlm extends OracleEloquent
 
     protected $primaryKey = ['dlm_bul_med_dil', 'dlm_bul_med_psc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

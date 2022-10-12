@@ -19,7 +19,7 @@ class Dhl extends OracleEloquent
 
     protected $primaryKey = ['dhl_awb_number'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

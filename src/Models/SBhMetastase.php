@@ -19,7 +19,7 @@ class SBhMetastase extends OracleEloquent
 
     protected $primaryKey = ['s_bh_m_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

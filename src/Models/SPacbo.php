@@ -19,7 +19,7 @@ class SPacbo extends OracleEloquent
 
     protected $primaryKey = ['pacbo_cmp', 'pacbo_pa', 'pacbo_cbo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

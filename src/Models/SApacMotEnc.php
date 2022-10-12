@@ -19,7 +19,7 @@ class SApacMotEnc extends OracleEloquent
 
     protected $primaryKey = ['s_apac_mot_enc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

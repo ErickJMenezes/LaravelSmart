@@ -19,7 +19,7 @@ class Rdi extends OracleEloquent
 
     protected $primaryKey = ['rdi_mte_seq', 'rdi_seq', 'rdi_mte_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

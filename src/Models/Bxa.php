@@ -19,7 +19,7 @@ class Bxa extends OracleEloquent
 
     protected $primaryKey = ['bxa_num', 'bxa_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

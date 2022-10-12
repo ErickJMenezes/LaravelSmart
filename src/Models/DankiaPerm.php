@@ -19,7 +19,7 @@ class DankiaPerm extends OracleEloquent
 
     protected $primaryKey = ['dp_usr_login', 'dp_sba_cod', 'dp_perm'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

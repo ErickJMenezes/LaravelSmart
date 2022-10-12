@@ -19,7 +19,7 @@ class ImgCnv extends OracleEloquent
 
     protected $primaryKey = ['img_cnv_cnv_cod', 'img_cnv_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

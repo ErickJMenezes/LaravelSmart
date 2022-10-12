@@ -19,7 +19,7 @@ class Fmg extends OracleEloquent
 
     protected $primaryKey = ['fmg_grupo', 'fmg_trp_num', 'fmg_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

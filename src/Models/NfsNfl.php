@@ -19,7 +19,7 @@ class NfsNfl extends OracleEloquent
 
     protected $primaryKey = ['nfs_n_nfl_serie', 'nfs_n_nfs_tipo', 'nfs_n_nfs_numero', 'nfs_n_nfl_num', 'nfs_n_nfs_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

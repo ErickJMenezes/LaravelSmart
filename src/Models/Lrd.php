@@ -19,7 +19,7 @@ class Lrd extends OracleEloquent
 
     protected $primaryKey = ['lrd_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class MbCls extends OracleEloquent
 
     protected $primaryKey = ['mb_cls_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

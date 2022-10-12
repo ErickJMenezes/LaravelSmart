@@ -19,7 +19,7 @@ class HCap extends OracleEloquent
 
     protected $primaryKey = ['h_cap_pac_reg', 'h_cap_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

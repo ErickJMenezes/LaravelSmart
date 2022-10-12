@@ -19,7 +19,7 @@ class Cebim extends OracleEloquent
 
     protected $primaryKey = ['cebim_crm'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

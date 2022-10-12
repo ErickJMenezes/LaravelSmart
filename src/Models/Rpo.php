@@ -19,7 +19,7 @@ class Rpo extends OracleEloquent
 
     protected $primaryKey = ['rpo_num', 'rpo_pgt_cod', 'rpo_qst_cod', 'rpo_apq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

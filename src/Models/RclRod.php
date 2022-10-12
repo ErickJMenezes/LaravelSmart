@@ -19,7 +19,7 @@ class RclRod extends OracleEloquent
 
     protected $primaryKey = ['rcl_rod_rcl_pac', 'rcl_rod_rcl_tpcod', 'rcl_rod_rcl_cod', 'rcl_rod_rcl_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class IdxCampo extends OracleEloquent
 
     protected $primaryKey = ['idx_c_idx_n1', 'idx_c_idx_tipo', 'idx_c_idx_n2', 'idx_c_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

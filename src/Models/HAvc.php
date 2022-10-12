@@ -19,7 +19,7 @@ class HAvc extends OracleEloquent
 
     protected $primaryKey = ['h_avc_id', 'h_avc_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

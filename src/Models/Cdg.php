@@ -19,7 +19,7 @@ class Cdg extends OracleEloquent
 
     protected $primaryKey = ['cdg_serie', 'cdg_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

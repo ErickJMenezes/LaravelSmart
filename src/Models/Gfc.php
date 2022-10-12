@@ -19,7 +19,7 @@ class Gfc extends OracleEloquent
 
     protected $primaryKey = ['gfc_num', 'gfc_lta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

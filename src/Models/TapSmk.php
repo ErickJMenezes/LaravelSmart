@@ -19,7 +19,7 @@ class TapSmk extends OracleEloquent
 
     protected $primaryKey = ['tap_s_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

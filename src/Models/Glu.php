@@ -19,7 +19,7 @@ class Glu extends OracleEloquent
 
     protected $primaryKey = ['glu_gmm_cod', 'glu_usr_login', 'glu_lma_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

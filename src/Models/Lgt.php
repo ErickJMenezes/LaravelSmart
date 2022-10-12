@@ -19,7 +19,7 @@ class Lgt extends OracleEloquent
 
     protected $primaryKey = ['lgt_dt_ini', 'lgt_str_cod', 'lgt_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Hie extends OracleEloquent
 
     protected $primaryKey = ['hie_pac_reg', 'hie_dthr_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

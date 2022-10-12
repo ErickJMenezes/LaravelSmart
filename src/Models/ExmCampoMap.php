@@ -19,7 +19,7 @@ class ExmCampoMap extends OracleEloquent
 
     protected $primaryKey = ['exm_m_exm_cod', 'exm_m_emp_cod', 'exm_m_cod_externo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

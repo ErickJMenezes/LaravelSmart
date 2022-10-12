@@ -19,7 +19,7 @@ class EmpExp extends OracleEloquent
 
     protected $primaryKey = ['emp_exp_emp_cod', 'emp_exp_dia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

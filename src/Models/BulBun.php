@@ -19,7 +19,7 @@ class BulBun extends OracleEloquent
 
     protected $primaryKey = ['bul_u_bul_med', 'bul_u_bun_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

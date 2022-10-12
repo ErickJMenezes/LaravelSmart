@@ -19,7 +19,7 @@ class AppMtr extends OracleEloquent
 
     protected $primaryKey = ['app_m_app_id', 'app_m_mtr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

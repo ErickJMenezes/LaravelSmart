@@ -19,7 +19,7 @@ class Tpg extends OracleEloquent
 
     protected $primaryKey = ['tpg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

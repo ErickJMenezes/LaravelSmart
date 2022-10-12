@@ -19,7 +19,7 @@ class Sca extends OracleEloquent
 
     protected $primaryKey = ['sca_cai_cod', 'sca_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

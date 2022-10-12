@@ -19,7 +19,7 @@ class SmkAlq extends OracleEloquent
 
     protected $primaryKey = ['smk_alq_atv_cod', 'smk_alq_id', 'smk_alq_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

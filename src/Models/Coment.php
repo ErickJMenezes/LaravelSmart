@@ -19,7 +19,7 @@ class Coment extends OracleEloquent
 
     protected $primaryKey = ['coment_tabela', 'coment_coluna'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

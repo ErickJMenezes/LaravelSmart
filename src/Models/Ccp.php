@@ -19,7 +19,7 @@ class Ccp extends OracleEloquent
 
     protected $primaryKey = ['ccp_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

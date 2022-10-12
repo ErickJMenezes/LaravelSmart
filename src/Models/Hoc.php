@@ -19,7 +19,7 @@ class Hoc extends OracleEloquent
 
     protected $primaryKey = ['hoc_tipo', 'hoc_ccr_cod', 'hoc_hon_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

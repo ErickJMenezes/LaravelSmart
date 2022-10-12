@@ -19,7 +19,7 @@ class Ine extends OracleEloquent
 
     protected $primaryKey = ['ine_nfe_tipo', 'ine_nfe_num', 'ine_seq', 'ine_fne_cod', 'ine_nfe_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

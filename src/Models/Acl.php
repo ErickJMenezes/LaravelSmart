@@ -18,7 +18,7 @@ class Acl extends OracleEloquent
 
     protected $primaryKey = ['acl_ctf_tipo', 'acl_ctf_cod_filho', 'acl_ctf_cod', 'acl_ctf_tipo_filho'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

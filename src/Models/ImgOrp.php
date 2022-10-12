@@ -19,7 +19,7 @@ class ImgOrp extends OracleEloquent
 
     protected $primaryKey = ['img_orp_orp_num', 'img_orp_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

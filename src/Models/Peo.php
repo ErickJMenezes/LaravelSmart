@@ -19,7 +19,7 @@ class Peo extends OracleEloquent
 
     protected $primaryKey = ['peo_pex_pac', 'peo_pex_dthr', 'peo_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

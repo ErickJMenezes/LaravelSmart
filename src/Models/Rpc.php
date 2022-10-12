@@ -19,7 +19,7 @@ class Rpc extends OracleEloquent
 
     protected $primaryKey = ['rpc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

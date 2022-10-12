@@ -19,7 +19,7 @@ class CepBai extends OracleEloquent
 
     protected $primaryKey = ['chave_bai', 'chvloc_bai'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

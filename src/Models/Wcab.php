@@ -19,7 +19,7 @@ class Wcab extends OracleEloquent
 
     protected $primaryKey = ['wcab_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

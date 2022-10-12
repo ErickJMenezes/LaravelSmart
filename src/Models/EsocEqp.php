@@ -19,7 +19,7 @@ class EsocEqp extends OracleEloquent
 
     protected $primaryKey = ['esoc_eqp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

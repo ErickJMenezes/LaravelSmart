@@ -19,7 +19,7 @@ class EpeStr extends OracleEloquent
 
     protected $primaryKey = ['epe_s_str_cod', 'epe_s_epe_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Dpc extends OracleEloquent
 
     protected $primaryKey = ['dpc_cnv_cod', 'dpc_smk_tipo_diaria', 'dpc_gsv_cod', 'dpc_smk_cod_diaria'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

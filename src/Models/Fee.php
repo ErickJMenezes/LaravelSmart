@@ -19,7 +19,7 @@ class Fee extends OracleEloquent
 
     protected $primaryKey = ['fee_osm_serie', 'fee_osm_num', 'fee_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class BcsSubesp extends OracleEloquent
 
     protected $primaryKey = ['bcs_subesp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

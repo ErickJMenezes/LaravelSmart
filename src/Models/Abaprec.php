@@ -18,7 +18,7 @@ class Abaprec extends OracleEloquent
 
     protected $primaryKey = ['pre_labo', 'pre_medi', 'pre_apre'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

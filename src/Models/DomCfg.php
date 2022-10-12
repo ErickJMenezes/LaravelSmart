@@ -19,7 +19,7 @@ class DomCfg extends OracleEloquent
 
     protected $primaryKey = ['dom_cfg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

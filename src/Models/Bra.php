@@ -19,7 +19,7 @@ class Bra extends OracleEloquent
 
     protected $primaryKey = ['bra_bul_med', 'bra_tra_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

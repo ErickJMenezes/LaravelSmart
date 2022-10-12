@@ -19,7 +19,7 @@ class LogRevisor extends OracleEloquent
 
     protected $primaryKey = ['log_r_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

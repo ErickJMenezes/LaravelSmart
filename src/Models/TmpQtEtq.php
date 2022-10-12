@@ -19,7 +19,7 @@ class TmpQtEtq extends OracleEloquent
 
     protected $primaryKey = ['tmp_qt_etq_ctf_tipo', 'tmp_qt_etq_id', 'tmp_qt_etq_ctf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

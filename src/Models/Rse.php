@@ -19,7 +19,7 @@ class Rse extends OracleEloquent
 
     protected $primaryKey = ['rse_num', 'rse_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

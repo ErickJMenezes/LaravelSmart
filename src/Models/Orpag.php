@@ -19,7 +19,7 @@ class Orpag extends OracleEloquent
 
     protected $primaryKey = ['orpag_tiss_guia', 'orpag_cnv_cod', 'orpag_str_solic', 'orpag_psv_cod_exe'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

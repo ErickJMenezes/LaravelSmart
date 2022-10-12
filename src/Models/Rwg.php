@@ -19,7 +19,7 @@ class Rwg extends OracleEloquent
 
     protected $primaryKey = ['rwg_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

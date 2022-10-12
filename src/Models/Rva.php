@@ -19,7 +19,7 @@ class Rva extends OracleEloquent
 
     protected $primaryKey = ['rva_osm_num', 'rva_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

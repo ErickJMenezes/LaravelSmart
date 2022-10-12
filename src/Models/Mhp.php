@@ -19,7 +19,7 @@ class Mhp extends OracleEloquent
 
     protected $primaryKey = ['mhp_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

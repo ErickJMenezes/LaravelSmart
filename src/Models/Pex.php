@@ -19,7 +19,7 @@ class Pex extends OracleEloquent
 
     protected $primaryKey = ['pex_pac', 'pex_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

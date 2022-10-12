@@ -19,7 +19,7 @@ class Pnc extends OracleEloquent
 
     protected $primaryKey = ['pnc_num', 'pnc_rnc_serie', 'pnc_rnc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

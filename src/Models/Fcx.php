@@ -19,7 +19,7 @@ class Fcx extends OracleEloquent
 
     protected $primaryKey = ['fcx_dthr_atual', 'fcx_ccr_caixa'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

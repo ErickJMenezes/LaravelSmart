@@ -19,7 +19,7 @@ class Inv extends OracleEloquent
 
     protected $primaryKey = ['inv_serie', 'inv_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

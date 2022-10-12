@@ -19,7 +19,7 @@ class Aur extends OracleEloquent
 
     protected $primaryKey = ['aur_pac_reg', 'aur_num', 'aur_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cea extends OracleEloquent
 
     protected $primaryKey = ['cea_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

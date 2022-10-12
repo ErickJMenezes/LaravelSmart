@@ -19,7 +19,7 @@ class Psh extends OracleEloquent
 
     protected $primaryKey = ['psh_hsp_pac', 'psh_hsp_num', 'psh_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

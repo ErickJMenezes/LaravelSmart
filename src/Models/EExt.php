@@ -19,7 +19,7 @@ class EExt extends OracleEloquent
 
     protected $primaryKey = ['e_ext_rep_num', 'e_ext_rep_serie', 'e_ext_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

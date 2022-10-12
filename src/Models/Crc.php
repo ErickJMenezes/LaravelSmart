@@ -19,7 +19,7 @@ class Crc extends OracleEloquent
 
     protected $primaryKey = ['crc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

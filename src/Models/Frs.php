@@ -19,7 +19,7 @@ class Frs extends OracleEloquent
 
     protected $primaryKey = ['frs_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

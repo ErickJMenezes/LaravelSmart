@@ -19,7 +19,7 @@ class PagSmmPsv extends OracleEloquent
 
     protected $primaryKey = ['pag_sp_pag_serie', 'pag_sp_smm_osm', 'pag_sp_smm_num', 'pag_sp_pag_lote', 'pag_sp_smm_osm_serie', 'pag_sp_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

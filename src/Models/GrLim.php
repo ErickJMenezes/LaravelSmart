@@ -19,7 +19,7 @@ class GrLim extends OracleEloquent
 
     protected $primaryKey = ['gr_lim_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

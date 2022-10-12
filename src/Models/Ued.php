@@ -19,7 +19,7 @@ class Ued extends OracleEloquent
 
     protected $primaryKey = ['ued_usr_login', 'ued_edl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

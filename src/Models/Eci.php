@@ -19,7 +19,7 @@ class Eci extends OracleEloquent
 
     protected $primaryKey = ['eci_rci_serie', 'eci_rci_num', 'eci_funcao'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

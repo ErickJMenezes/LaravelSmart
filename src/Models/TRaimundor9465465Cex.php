@@ -19,7 +19,7 @@ class TRaimundor9465465Cex extends OracleEloquent
 
     protected $primaryKey = ['id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

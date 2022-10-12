@@ -19,7 +19,7 @@ class Pvr extends OracleEloquent
 
     protected $primaryKey = ['pvr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

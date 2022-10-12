@@ -19,7 +19,7 @@ class Dfs extends OracleEloquent
 
     protected $primaryKey = ['dfs_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

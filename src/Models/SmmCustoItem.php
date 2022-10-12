@@ -19,7 +19,7 @@ class SmmCustoItem extends OracleEloquent
 
     protected $primaryKey = ['smm_custo_smm_num', 'smm_custo_osm_num', 'smm_custo_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

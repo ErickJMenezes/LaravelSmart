@@ -19,7 +19,7 @@ class Tca extends OracleEloquent
 
     protected $primaryKey = ['tca_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

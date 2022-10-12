@@ -18,7 +18,7 @@ class Agd extends OracleEloquent
 
     protected $primaryKey = ['agd_dt', 'agd_tpctf', 'agd_ctf', 'agd_med', 'agd_loc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

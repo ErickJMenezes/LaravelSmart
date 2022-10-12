@@ -19,7 +19,7 @@ class Pti extends OracleEloquent
 
     protected $primaryKey = ['pti_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

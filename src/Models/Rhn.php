@@ -19,7 +19,7 @@ class Rhn extends OracleEloquent
 
     protected $primaryKey = ['rhn_rep_serie', 'rhn_rep_num', 'rhn_tipo', 'rhn_ccr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

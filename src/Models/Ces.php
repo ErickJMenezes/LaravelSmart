@@ -19,7 +19,7 @@ class Ces extends OracleEloquent
 
     protected $primaryKey = ['ces_cct_cod', 'ces_gcc_cod', 'ces_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

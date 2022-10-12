@@ -19,7 +19,7 @@ class Ftm extends OracleEloquent
 
     protected $primaryKey = ['ftm_smk_cod', 'ftm_mat_cod', 'ftm_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

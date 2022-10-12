@@ -19,7 +19,7 @@ class Rcm extends OracleEloquent
 
     protected $primaryKey = ['rcm_pacote', 'rcm_smk_cod', 'rcm_cnv_cod', 'rcm_via_acesso'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

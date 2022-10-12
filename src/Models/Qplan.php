@@ -19,7 +19,7 @@ class Qplan extends OracleEloquent
 
     protected $primaryKey = ['qplan_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

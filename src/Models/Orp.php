@@ -19,7 +19,7 @@ class Orp extends OracleEloquent
 
     protected $primaryKey = ['orp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

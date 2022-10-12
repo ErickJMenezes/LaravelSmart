@@ -19,7 +19,7 @@ class NexoAtestado extends OracleEloquent
 
     protected $primaryKey = ['nexo_atestado_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

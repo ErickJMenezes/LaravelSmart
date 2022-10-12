@@ -19,7 +19,7 @@ class Bai extends OracleEloquent
 
     protected $primaryKey = ['bai_cod', 'bai_cde_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

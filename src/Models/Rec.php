@@ -19,7 +19,7 @@ class Rec extends OracleEloquent
 
     protected $primaryKey = ['rec_osm_serie', 'rec_osm_num', 'rec_smm', 'rec_dt_receb'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

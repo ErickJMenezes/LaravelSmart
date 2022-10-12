@@ -19,7 +19,7 @@ class EcpCirurg extends OracleEloquent
 
     protected $primaryKey = ['ecp_c_smk_tipo', 'ecp_c_ecp_id', 'ecp_c_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

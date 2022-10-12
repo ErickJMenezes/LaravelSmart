@@ -19,7 +19,7 @@ class DmFinanReceber extends OracleEloquent
 
     protected $primaryKey = ['serie', 'mcc_mmyy', 'lote', 'cfo_cod', 'ccr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class PsvTotem extends OracleEloquent
 
     protected $primaryKey = ['psv_t_prefixo', 'psv_t_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

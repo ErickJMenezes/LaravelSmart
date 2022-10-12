@@ -19,7 +19,7 @@ class DwCuboVariavel extends OracleEloquent
 
     protected $primaryKey = ['dw_cv_cod', 'dw_cv_coluna'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

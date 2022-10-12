@@ -19,7 +19,7 @@ class SApacAltaPerm extends OracleEloquent
 
     protected $primaryKey = ['s_apac_ap_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

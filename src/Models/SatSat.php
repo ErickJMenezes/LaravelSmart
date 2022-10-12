@@ -19,7 +19,7 @@ class SatSat extends OracleEloquent
 
     protected $primaryKey = ['sat_s_sat_cod_origem', 'sat_s_sat_cod_superior'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

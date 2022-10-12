@@ -19,7 +19,7 @@ class Pse extends OracleEloquent
 
     protected $primaryKey = ['pse_seq', 'pse_hsp_num', 'pse_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

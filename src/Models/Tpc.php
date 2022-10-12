@@ -19,7 +19,7 @@ class Tpc extends OracleEloquent
 
     protected $primaryKey = ['tpc_serie', 'tpc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

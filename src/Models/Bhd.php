@@ -19,7 +19,7 @@ class Bhd extends OracleEloquent
 
     protected $primaryKey = ['bhd_dthr', 'bhd_pac', 'bhd_hsp', 'bhd_liq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

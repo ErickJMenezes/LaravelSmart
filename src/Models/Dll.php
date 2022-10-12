@@ -19,7 +19,7 @@ class Dll extends OracleEloquent
 
     protected $primaryKey = ['dll_osm_num', 'dll_smm_num', 'dll_dthr', 'dll_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

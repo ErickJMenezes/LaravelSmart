@@ -19,7 +19,7 @@ class CrCls extends OracleEloquent
 
     protected $primaryKey = ['cr_cls_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

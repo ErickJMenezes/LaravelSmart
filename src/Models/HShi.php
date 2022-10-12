@@ -19,7 +19,7 @@ class HShi extends OracleEloquent
 
     protected $primaryKey = ['h_shi_shd_id', 'h_shi_int_cod', 'h_shi_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

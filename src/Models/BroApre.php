@@ -19,7 +19,7 @@ class BroApre extends OracleEloquent
 
     protected $primaryKey = ['bro_apre_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

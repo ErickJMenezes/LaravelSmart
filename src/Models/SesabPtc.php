@@ -19,7 +19,7 @@ class SesabPtc extends OracleEloquent
 
     protected $primaryKey = ['sesab_ptc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

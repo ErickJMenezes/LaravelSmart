@@ -19,7 +19,7 @@ class Qclas extends OracleEloquent
 
     protected $primaryKey = ['qclas_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

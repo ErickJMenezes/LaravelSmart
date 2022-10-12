@@ -19,7 +19,7 @@ class Ect extends OracleEloquent
 
     protected $primaryKey = ['ect_pac_reg', 'ect_numero'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

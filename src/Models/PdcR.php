@@ -19,7 +19,7 @@ class PdcR extends OracleEloquent
 
     protected $primaryKey = ['pdc_r_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

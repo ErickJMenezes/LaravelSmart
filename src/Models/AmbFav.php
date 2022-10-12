@@ -19,7 +19,7 @@ class AmbFav extends OracleEloquent
 
     protected $primaryKey = ['amb_f_tabela', 'amb_f_usr_login', 'amb_f_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

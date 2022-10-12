@@ -19,7 +19,7 @@ class HDpc extends OracleEloquent
 
     protected $primaryKey = ['h_dpc_id', 'h_dpc_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

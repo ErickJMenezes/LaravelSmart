@@ -19,7 +19,7 @@ class Jrr extends OracleEloquent
 
     protected $primaryKey = ['jrr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

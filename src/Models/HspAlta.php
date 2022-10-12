@@ -19,7 +19,7 @@ class HspAlta extends OracleEloquent
 
     protected $primaryKey = ['hsp_alt_pac', 'hsp_alt_hsp', 'hsp_alt_psv'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

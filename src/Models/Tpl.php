@@ -19,7 +19,7 @@ class Tpl extends OracleEloquent
 
     protected $primaryKey = ['tpl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

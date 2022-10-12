@@ -19,7 +19,7 @@ class ImgOsm extends OracleEloquent
 
     protected $primaryKey = ['img_osm_osm_num', 'img_osm_osm_serie', 'img_osm_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

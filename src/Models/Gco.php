@@ -19,7 +19,7 @@ class Gco extends OracleEloquent
 
     protected $primaryKey = ['gco_cnv_cod', 'gco_esp_cod', 'gco_pac_reg', 'gco_str_cod', 'gco_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

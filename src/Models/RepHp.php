@@ -19,7 +19,7 @@ class RepHp extends OracleEloquent
 
     protected $primaryKey = ['rep_hp_num', 'rep_hp_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

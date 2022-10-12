@@ -19,7 +19,7 @@ class ItmStr extends OracleEloquent
 
     protected $primaryKey = ['itm_tme_cod', 'itm_s_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Bmc extends OracleEloquent
 
     protected $primaryKey = ['bmc_mcc_serie', 'bmc_bxa_num', 'bmc_mcc_lote', 'bmc_mcc_seq', 'bmc_bxa_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

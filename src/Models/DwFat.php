@@ -19,7 +19,7 @@ class DwFat extends OracleEloquent
 
     protected $primaryKey = ['dw_fat_str_solic', 'dw_fat_mmyy_venc', 'dw_fat_origem', 'dw_fat_gcc_cod', 'dw_fat_cnv_cod', 'dw_fat_str_exec', 'dw_fat_tipo', 'dw_fat_mmyy', 'dw_fat_mmyy_atend'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

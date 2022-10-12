@@ -19,7 +19,7 @@ class Tcc extends OracleEloquent
 
     protected $primaryKey = ['tcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

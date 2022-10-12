@@ -19,7 +19,7 @@ class Aha extends OracleEloquent
 
     protected $primaryKey = ['aha_tipo', 'aha_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

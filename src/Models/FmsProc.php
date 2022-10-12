@@ -19,7 +19,7 @@ class FmsProc extends OracleEloquent
 
     protected $primaryKey = ['fms_p_fms_id', 'fms_p_dthr_processa'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

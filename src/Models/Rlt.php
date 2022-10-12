@@ -19,7 +19,7 @@ class Rlt extends OracleEloquent
 
     protected $primaryKey = ['rlt_num', 'rlt_tipo', 'rlt_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

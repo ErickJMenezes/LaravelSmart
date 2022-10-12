@@ -19,7 +19,7 @@ class Erh extends OracleEloquent
 
     protected $primaryKey = ['erh_psv_cod', 'erh_gmr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

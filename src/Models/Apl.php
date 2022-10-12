@@ -19,7 +19,7 @@ class Apl extends OracleEloquent
 
     protected $primaryKey = ['apl_psc_num', 'apl_psc_hsp', 'apl_psc_asc', 'apl_psc_pac', 'apl_dthr_aplic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

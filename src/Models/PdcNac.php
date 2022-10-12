@@ -19,7 +19,7 @@ class PdcNac extends OracleEloquent
 
     protected $primaryKey = ['pdc_n_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

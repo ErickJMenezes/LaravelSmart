@@ -19,7 +19,7 @@ class Idc extends OracleEloquent
 
     protected $primaryKey = ['idc_mns_serie', 'idc_mcc_lote', 'idc_mcc_serie', 'idc_mns_num', 'idc_mcc_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

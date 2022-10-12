@@ -19,7 +19,7 @@ class Lbl extends OracleEloquent
 
     protected $primaryKey = ['lbl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

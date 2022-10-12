@@ -19,7 +19,7 @@ class Apq extends OracleEloquent
 
     protected $primaryKey = ['apq_cod', 'apq_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

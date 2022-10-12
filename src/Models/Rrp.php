@@ -19,7 +19,7 @@ class Rrp extends OracleEloquent
 
     protected $primaryKey = ['rrp_num', 'rrp_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Trt extends OracleEloquent
 
     protected $primaryKey = ['trt_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

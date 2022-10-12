@@ -19,7 +19,7 @@ class Smg extends OracleEloquent
 
     protected $primaryKey = ['smg_smt_cod', 'smg_gep_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

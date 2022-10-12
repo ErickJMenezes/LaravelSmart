@@ -19,7 +19,7 @@ class LabCnv extends OracleEloquent
 
     protected $primaryKey = ['lab_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

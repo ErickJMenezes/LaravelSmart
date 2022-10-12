@@ -19,7 +19,7 @@ class PvtDestino extends OracleEloquent
 
     protected $primaryKey = ['pvt_d_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

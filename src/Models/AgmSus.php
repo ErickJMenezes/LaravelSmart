@@ -18,7 +18,7 @@ class AgmSus extends OracleEloquent
 
     protected $primaryKey = ['agm_s_med', 'agm_s_loc', 'agm_s_ext', 'agm_s_hini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

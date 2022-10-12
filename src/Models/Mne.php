@@ -19,7 +19,7 @@ class Mne extends OracleEloquent
 
     protected $primaryKey = ['mne_mnt_num', 'mne_dthr', 'mne_mnt_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

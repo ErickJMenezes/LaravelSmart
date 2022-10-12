@@ -18,7 +18,7 @@ class Aft extends OracleEloquent
 
     protected $primaryKey = ['aft_serie', 'aft_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

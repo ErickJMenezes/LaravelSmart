@@ -19,7 +19,7 @@ class Gru extends OracleEloquent
 
     protected $primaryKey = ['gru_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

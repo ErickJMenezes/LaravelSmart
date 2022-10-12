@@ -19,7 +19,7 @@ class EcpMembro extends OracleEloquent
 
     protected $primaryKey = ['ecp_m_psv_cod', 'ecp_m_ecp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

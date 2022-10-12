@@ -19,7 +19,7 @@ class CepLoc extends OracleEloquent
 
     protected $primaryKey = ['chave_local'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

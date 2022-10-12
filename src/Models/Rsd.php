@@ -19,7 +19,7 @@ class Rsd extends OracleEloquent
 
     protected $primaryKey = ['rsd_lsd_smk_cod', 'rsd_lsd_smk_tipo', 'rsd_lsd_numero', 'rsd_lsd_cnv_cod', 'rsd_valor_ini', 'rsd_esd_cod_sauded'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class TdcGrp extends OracleEloquent
 
     protected $primaryKey = ['tdc_g_grp_cod', 'tdc_g_tdc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

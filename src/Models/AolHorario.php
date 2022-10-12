@@ -19,7 +19,7 @@ class AolHorario extends OracleEloquent
 
     protected $primaryKey = ['aol_h_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

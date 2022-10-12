@@ -19,7 +19,7 @@ class ConcilLog extends OracleEloquent
 
     protected $primaryKey = ['data_venda', 'valor', 'nsu_adquirinte', 'parcela'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

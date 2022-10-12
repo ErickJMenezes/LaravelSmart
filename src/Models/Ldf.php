@@ -19,7 +19,7 @@ class Ldf extends OracleEloquent
 
     protected $primaryKey = ['ldf_smk'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

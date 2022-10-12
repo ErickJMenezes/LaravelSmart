@@ -19,7 +19,7 @@ class Mpe extends OracleEloquent
 
     protected $primaryKey = ['mpe_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

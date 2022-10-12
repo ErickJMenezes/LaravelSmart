@@ -19,7 +19,7 @@ class Icp extends OracleEloquent
 
     protected $primaryKey = ['icp_seq', 'icp_cop_serie', 'icp_cop_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

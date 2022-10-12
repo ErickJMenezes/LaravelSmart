@@ -19,7 +19,7 @@ class Exc extends OracleEloquent
 
     protected $primaryKey = ['exc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

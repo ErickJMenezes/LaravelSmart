@@ -19,7 +19,7 @@ class LacsNlanc extends OracleEloquent
 
     protected $primaryKey = ['lacs_nl_num', 'lacs_nl_exc_id', 'lacs_nl_lacs_cod', 'lacs_nl_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

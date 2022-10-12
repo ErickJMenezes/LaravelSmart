@@ -19,7 +19,7 @@ class Fbi extends OracleEloquent
 
     protected $primaryKey = ['fbi_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

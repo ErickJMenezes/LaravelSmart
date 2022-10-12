@@ -19,7 +19,7 @@ class Cvc extends OracleEloquent
 
     protected $primaryKey = ['cvc_serie', 'cvc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

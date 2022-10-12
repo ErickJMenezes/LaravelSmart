@@ -19,7 +19,7 @@ class Lpc extends OracleEloquent
 
     protected $primaryKey = ['lpc_cnv_cod', 'lpc_tipo_fat'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class PsiVar extends OracleEloquent
 
     protected $primaryKey = ['psi_v_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

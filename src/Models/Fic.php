@@ -19,7 +19,7 @@ class Fic extends OracleEloquent
 
     protected $primaryKey = ['fic_icp_seq', 'fic_cop_serie', 'fic_cop_num', 'fic_id', 'fic_fne_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

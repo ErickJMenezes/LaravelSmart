@@ -19,7 +19,7 @@ class Sin extends OracleEloquent
 
     protected $primaryKey = ['sin_smk_tipo', 'sin_num', 'sin_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

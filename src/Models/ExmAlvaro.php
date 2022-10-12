@@ -19,7 +19,7 @@ class ExmAlvaro extends OracleEloquent
 
     protected $primaryKey = ['cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

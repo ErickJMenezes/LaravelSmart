@@ -19,7 +19,7 @@ class RhpDiarias extends OracleEloquent
 
     protected $primaryKey = ['rhp_d_smk_cod', 'rhp_d_str_cod', 'rhp_d_dt_ref', 'rhp_d_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

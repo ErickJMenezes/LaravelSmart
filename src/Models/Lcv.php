@@ -19,7 +19,7 @@ class Lcv extends OracleEloquent
 
     protected $primaryKey = ['lcv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

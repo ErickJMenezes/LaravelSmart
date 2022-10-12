@@ -19,7 +19,7 @@ class HcDps extends OracleEloquent
 
     protected $primaryKey = ['hc_dps_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

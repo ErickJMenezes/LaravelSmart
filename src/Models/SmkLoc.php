@@ -19,7 +19,7 @@ class SmkLoc extends OracleEloquent
 
     protected $primaryKey = ['smk_l_smk_tipo', 'smk_l_loc_cod', 'smk_l_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

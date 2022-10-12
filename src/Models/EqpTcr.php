@@ -19,7 +19,7 @@ class EqpTcr extends OracleEloquent
 
     protected $primaryKey = ['eqp_t_eqp_num', 'eqp_t_tcr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

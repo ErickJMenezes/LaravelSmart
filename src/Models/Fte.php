@@ -19,7 +19,7 @@ class Fte extends OracleEloquent
 
     protected $primaryKey = ['fte_num', 'fte_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

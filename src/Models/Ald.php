@@ -19,7 +19,7 @@ class Ald extends OracleEloquent
 
     protected $primaryKey = ['ald_osm_serie', 'ald_dthr', 'ald_osm_num', 'ald_smm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class TnAcc extends OracleEloquent
 
     protected $primaryKey = ['tn_acc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

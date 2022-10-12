@@ -19,7 +19,7 @@ class Bcp extends OracleEloquent
 
     protected $primaryKey = ['bcp_serie', 'bcp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

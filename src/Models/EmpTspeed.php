@@ -19,7 +19,7 @@ class EmpTspeed extends OracleEloquent
 
     protected $primaryKey = ['emp_tspeed_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

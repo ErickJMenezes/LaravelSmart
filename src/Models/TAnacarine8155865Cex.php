@@ -19,7 +19,7 @@ class TAnacarine8155865Cex extends OracleEloquent
 
     protected $primaryKey = ['id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

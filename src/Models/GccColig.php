@@ -19,7 +19,7 @@ class GccColig extends OracleEloquent
 
     protected $primaryKey = ['gcc_c_cod_origem', 'gcc_c_cod_pagante'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

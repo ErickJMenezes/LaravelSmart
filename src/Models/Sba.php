@@ -19,7 +19,7 @@ class Sba extends OracleEloquent
 
     protected $primaryKey = ['sba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

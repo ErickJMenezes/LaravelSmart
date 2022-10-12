@@ -19,7 +19,7 @@ class Iap extends OracleEloquent
 
     protected $primaryKey = ['iap_dsc_cod', 'iap_atr_num', 'iap_equip_num', 'iap_smk_cod', 'iap_elb_cod', 'iap_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

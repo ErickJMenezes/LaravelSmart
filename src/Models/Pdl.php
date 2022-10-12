@@ -19,7 +19,7 @@ class Pdl extends OracleEloquent
 
     protected $primaryKey = ['pdl_serie', 'pdl_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

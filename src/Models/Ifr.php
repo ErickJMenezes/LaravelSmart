@@ -19,7 +19,7 @@ class Ifr extends OracleEloquent
 
     protected $primaryKey = ['ifr_mte_seq', 'ifr_fcx_ccr_caixa', 'ifr_fcx_dthr_atual', 'ifr_seq', 'ifr_mte_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

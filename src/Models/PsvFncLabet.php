@@ -19,7 +19,7 @@ class PsvFncLabet extends OracleEloquent
 
     protected $primaryKey = ['p_fnc_psv_cod', 'p_fnc_fnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -18,7 +18,7 @@ class AdpDqt extends OracleEloquent
 
     protected $primaryKey = ['adp_d_dia', 'adp_d_adp_tipo', 'adp_d_adp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

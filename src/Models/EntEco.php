@@ -19,7 +19,7 @@ class EntEco extends OracleEloquent
 
     protected $primaryKey = ['ent_eco_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

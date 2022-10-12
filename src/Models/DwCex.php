@@ -19,7 +19,7 @@ class DwCex extends OracleEloquent
 
     protected $primaryKey = ['dw_cex_str_unid', 'dw_cex_psv_cod', 'dw_cex_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

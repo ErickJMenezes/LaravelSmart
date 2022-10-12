@@ -19,7 +19,7 @@ class ReinfStatus extends OracleEloquent
 
     protected $primaryKey = ['reinf_status_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

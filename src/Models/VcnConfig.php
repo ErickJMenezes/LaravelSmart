@@ -19,7 +19,7 @@ class VcnConfig extends OracleEloquent
 
     protected $primaryKey = ['vcn_c_vcn_l_id', 'vcn_c_vcn_v_id', 'vcn_c_vcn_via_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

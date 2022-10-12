@@ -19,7 +19,7 @@ class Rlp extends OracleEloquent
 
     protected $primaryKey = ['rlp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

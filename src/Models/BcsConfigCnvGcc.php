@@ -19,7 +19,7 @@ class BcsConfigCnvGcc extends OracleEloquent
 
     protected $primaryKey = ['bcs_config_cnv_gcc_gcc_cod', 'bcs_config_cnv_gcc_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

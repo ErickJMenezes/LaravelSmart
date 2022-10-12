@@ -19,7 +19,7 @@ class IhT28 extends OracleEloquent
 
     protected $primaryKey = ['ih_t28_pac_reg', 'ih_t28_dthr_reg', 'ih_t28_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

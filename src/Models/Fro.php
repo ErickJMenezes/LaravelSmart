@@ -19,7 +19,7 @@ class Fro extends OracleEloquent
 
     protected $primaryKey = ['fro_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

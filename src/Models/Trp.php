@@ -19,7 +19,7 @@ class Trp extends OracleEloquent
 
     protected $primaryKey = ['trp_pac', 'trp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

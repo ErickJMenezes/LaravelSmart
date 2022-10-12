@@ -19,7 +19,7 @@ class Avl extends OracleEloquent
 
     protected $primaryKey = ['avl_minimo', 'avl_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

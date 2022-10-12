@@ -19,7 +19,7 @@ class Pgf extends OracleEloquent
 
     protected $primaryKey = ['pgf_lta_cod', 'pgf_gfc_num', 'pgf_pro_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class EctEsocPca extends OracleEloquent
 
     protected $primaryKey = ['ect_esoc_pca_ect_pac_reg', 'ect_esoc_pca_ect_numero', 'ect_esoc_pca_esoc_pca_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

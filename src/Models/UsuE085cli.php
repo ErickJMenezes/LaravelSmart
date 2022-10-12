@@ -19,7 +19,7 @@ class UsuE085cli extends OracleEloquent
 
     protected $primaryKey = ['pksmart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

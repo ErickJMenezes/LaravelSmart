@@ -19,7 +19,7 @@ class Pmc extends OracleEloquent
 
     protected $primaryKey = ['pmc_num', 'pmc_cap_num', 'pmc_pac_reg', 'pmc_fcp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class IntBko extends OracleEloquent
 
     protected $primaryKey = ['int_bko_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

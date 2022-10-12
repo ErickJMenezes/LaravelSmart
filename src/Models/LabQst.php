@@ -19,7 +19,7 @@ class LabQst extends OracleEloquent
 
     protected $primaryKey = ['lab_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

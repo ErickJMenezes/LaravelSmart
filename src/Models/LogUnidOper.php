@@ -19,7 +19,7 @@ class LogUnidOper extends OracleEloquent
 
     protected $primaryKey = ['uop_nu'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

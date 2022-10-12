@@ -19,7 +19,7 @@ class Nfx extends OracleEloquent
 
     protected $primaryKey = ['nfx_nfl_num', 'nfx_nfl_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

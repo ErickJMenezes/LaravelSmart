@@ -18,7 +18,7 @@ class AgmQst extends OracleEloquent
 
     protected $primaryKey = ['agm_q_id', 'agm_q_qst_cod', 'agm_q_apq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

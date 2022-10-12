@@ -19,7 +19,7 @@ class Wmgr extends OracleEloquent
 
     protected $primaryKey = ['wmgr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

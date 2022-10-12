@@ -19,7 +19,7 @@ class Ioc extends OracleEloquent
 
     protected $primaryKey = ['ioc_orp_num', 'ioc_iop_num', 'ioc_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

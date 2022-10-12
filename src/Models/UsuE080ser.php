@@ -19,7 +19,7 @@ class UsuE080ser extends OracleEloquent
 
     protected $primaryKey = ['pksmart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

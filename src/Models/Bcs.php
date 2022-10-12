@@ -19,7 +19,7 @@ class Bcs extends OracleEloquent
 
     protected $primaryKey = ['bcs_conselho', 'bcs_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class PsvPac extends OracleEloquent
 
     protected $primaryKey = ['psv_pac_pac_reg', 'psv_pac_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class CredebPc extends OracleEloquent
 
     protected $primaryKey = ['credeb_pc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

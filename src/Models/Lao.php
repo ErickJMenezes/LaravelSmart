@@ -19,7 +19,7 @@ class Lao extends OracleEloquent
 
     protected $primaryKey = ['lao_pgt_cod', 'lao_num', 'lao_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

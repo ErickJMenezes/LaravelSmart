@@ -19,7 +19,7 @@ class FpagFne extends OracleEloquent
 
     protected $primaryKey = ['fpag_fne_form_pag'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class ImgMnt extends OracleEloquent
 
     protected $primaryKey = ['img_mnt_mnt_num', 'img_mnt_img_cod', 'img_mnt_mnt_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Enc extends OracleEloquent
 
     protected $primaryKey = ['enc_rnc_num', 'enc_rnc_serie', 'enc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

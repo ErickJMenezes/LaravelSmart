@@ -19,7 +19,7 @@ class AolOperacoes extends OracleEloquent
 
     protected $primaryKey = ['aol_o_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

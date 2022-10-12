@@ -19,7 +19,7 @@ class ImgCop extends OracleEloquent
 
     protected $primaryKey = ['img_cop_cop_serie', 'img_cop_img_cod', 'img_cop_cop_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

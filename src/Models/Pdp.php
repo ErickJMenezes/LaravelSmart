@@ -19,7 +19,7 @@ class Pdp extends OracleEloquent
 
     protected $primaryKey = ['pdp_pde_num', 'pdp_aha_cod', 'pdp_aha_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

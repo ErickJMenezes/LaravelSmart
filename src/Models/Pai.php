@@ -19,7 +19,7 @@ class Pai extends OracleEloquent
 
     protected $primaryKey = ['pai_sigla'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

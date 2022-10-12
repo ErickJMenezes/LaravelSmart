@@ -19,7 +19,7 @@ class UsrBookmark extends OracleEloquent
 
     protected $primaryKey = ['usr_b_pagina', 'usr_b_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

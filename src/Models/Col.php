@@ -19,7 +19,7 @@ class Col extends OracleEloquent
 
     protected $primaryKey = ['col_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

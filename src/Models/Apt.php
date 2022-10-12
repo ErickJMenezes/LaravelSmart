@@ -19,7 +19,7 @@ class Apt extends OracleEloquent
 
     protected $primaryKey = ['apt_tp_tab', 'apt_tab_cod', 'apt_cnv_cod', 'apt_dthr_vcto'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

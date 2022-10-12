@@ -19,7 +19,7 @@ class Sub extends OracleEloquent
 
     protected $primaryKey = ['sub_mat_cod1', 'sub_mat_cod2'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class ExmHpardini extends OracleEloquent
 
     protected $primaryKey = ['num_exm'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

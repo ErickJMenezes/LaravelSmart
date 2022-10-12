@@ -19,7 +19,7 @@ class Ipc extends OracleEloquent
 
     protected $primaryKey = ['ipc_fpc_serie', 'ipc_osm_serie', 'ipc_osm_num', 'ipc_fpc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

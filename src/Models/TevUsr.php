@@ -19,7 +19,7 @@ class TevUsr extends OracleEloquent
 
     protected $primaryKey = ['tev_usr_usr_login', 'tev_usr_tev_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Wldf extends OracleEloquent
 
     protected $primaryKey = ['wldf_smk'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

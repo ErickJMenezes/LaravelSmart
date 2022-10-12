@@ -19,7 +19,7 @@ class RpaTmp extends OracleEloquent
 
     protected $primaryKey = ['rpa_qst_cod', 'rpa_apq_cod', 'rpa_pgt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

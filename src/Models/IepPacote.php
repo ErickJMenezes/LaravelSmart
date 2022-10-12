@@ -19,7 +19,7 @@ class IepPacote extends OracleEloquent
 
     protected $primaryKey = ['iep_p_smk_tipo', 'iep_p_smk_cod', 'iep_p_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

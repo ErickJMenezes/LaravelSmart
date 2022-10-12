@@ -19,7 +19,7 @@ class Odt extends OracleEloquent
 
     protected $primaryKey = ['odt_num', 'odt_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

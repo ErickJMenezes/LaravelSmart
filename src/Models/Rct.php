@@ -19,7 +19,7 @@ class Rct extends OracleEloquent
 
     protected $primaryKey = ['rct_compet', 'rct_cct_cod_origem', 'rct_str_destino'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

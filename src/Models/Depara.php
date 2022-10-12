@@ -19,7 +19,7 @@ class Depara extends OracleEloquent
 
     protected $primaryKey = ['depara_gcc_cod', 'depara_cod', 'depara_valor_sist'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class RhpPsvTitulo extends OracleEloquent
 
     protected $primaryKey = ['rhp_p_cod', 'rhp_p_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Rpe extends OracleEloquent
 
     protected $primaryKey = ['rpe_osm_serie', 'rpe_smm_num', 'rpe_osm_num', 'rpe_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

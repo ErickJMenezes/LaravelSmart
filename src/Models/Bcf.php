@@ -19,7 +19,7 @@ class Bcf extends OracleEloquent
 
     protected $primaryKey = ['bcf_ccr_cod', 'bcf_bcp_serie', 'bcf_bcp_num', 'bcf_cheque'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

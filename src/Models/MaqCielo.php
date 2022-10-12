@@ -19,7 +19,7 @@ class MaqCielo extends OracleEloquent
 
     protected $primaryKey = ['maq_c_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

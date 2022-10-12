@@ -19,7 +19,7 @@ class HcMdp extends OracleEloquent
 
     protected $primaryKey = ['hc_mdp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

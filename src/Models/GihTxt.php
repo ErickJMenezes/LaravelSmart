@@ -19,7 +19,7 @@ class GihTxt extends OracleEloquent
 
     protected $primaryKey = ['gih_t_dthr_reg', 'gih_t_gih_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

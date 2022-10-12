@@ -19,7 +19,7 @@ class EmpTel extends OracleEloquent
 
     protected $primaryKey = ['emp_tel_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

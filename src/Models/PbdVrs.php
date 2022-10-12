@@ -19,7 +19,7 @@ class PbdVrs extends OracleEloquent
 
     protected $primaryKey = ['pbd_v_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

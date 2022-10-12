@@ -19,7 +19,7 @@ class Emc extends OracleEloquent
 
     protected $primaryKey = ['emc_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

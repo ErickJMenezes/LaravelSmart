@@ -19,7 +19,7 @@ class DwExtraTat extends OracleEloquent
 
     protected $primaryKey = ['dw_extra_tat_smk_tipo', 'dw_extra_tat_mmyy', 'dw_extra_tat_str_solic', 'dw_extra_tat_ind_urg', 'dw_extra_tat_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

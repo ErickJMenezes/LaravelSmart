@@ -19,7 +19,7 @@ class ImgMat extends OracleEloquent
 
     protected $primaryKey = ['img_mat_mat_cod', 'img_mat_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class DwPac extends OracleEloquent
 
     protected $primaryKey = ['dw_pac_cnv_cod', 'dw_pac_mmyy', 'dw_pac_str_unidade', 'dw_pac_sexo', 'dw_pac_faixa_etaria'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

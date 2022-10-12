@@ -19,7 +19,7 @@ class Ext extends OracleEloquent
 
     protected $primaryKey = ['ext_osm_serie', 'ext_smm_num', 'ext_mns_num', 'ext_mns_serie', 'ext_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

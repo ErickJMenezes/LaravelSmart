@@ -19,7 +19,7 @@ class ExpcHieLayout extends OracleEloquent
 
     protected $primaryKey = ['expc_hie_layout_nome', 'expc_hie_expc_hie_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

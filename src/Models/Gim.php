@@ -19,7 +19,7 @@ class Gim extends OracleEloquent
 
     protected $primaryKey = ['gim_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

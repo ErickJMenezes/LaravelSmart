@@ -19,7 +19,7 @@ class EmpCc extends OracleEloquent
 
     protected $primaryKey = ['emp_cc_emp_cod', 'emp_cc_banco', 'emp_cc_conta', 'emp_cc_agencia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

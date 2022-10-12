@@ -19,7 +19,7 @@ class Apm extends OracleEloquent
 
     protected $primaryKey = ['apm_pac', 'apm_hsp', 'apm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class NanAha extends OracleEloquent
 
     protected $primaryKey = ['nan_a_aha_cod', 'nan_a_nan_cod', 'nan_a_aha_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Idx extends OracleEloquent
 
     protected $primaryKey = ['idx_n2', 'idx_n1', 'idx_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

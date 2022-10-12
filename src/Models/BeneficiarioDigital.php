@@ -19,7 +19,7 @@ class BeneficiarioDigital extends OracleEloquent
 
     protected $primaryKey = ['ref_identificador', 'dedo', 'tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

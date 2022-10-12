@@ -19,7 +19,7 @@ class Tdl extends OracleEloquent
 
     protected $primaryKey = ['tdl_num', 'tdl_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Asw extends OracleEloquent
 
     protected $primaryKey = ['asw_guid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

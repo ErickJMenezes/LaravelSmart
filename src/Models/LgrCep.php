@@ -19,7 +19,7 @@ class LgrCep extends OracleEloquent
 
     protected $primaryKey = ['num_cep', 'num_logr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

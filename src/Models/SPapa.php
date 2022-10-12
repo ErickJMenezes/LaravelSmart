@@ -19,7 +19,7 @@ class SPapa extends OracleEloquent
 
     protected $primaryKey = ['papa_qtmax', 'papa_cont', 'papa_bpa', 'papa_trat', 'papa_princ', 'papa_inic', 'papa_secun'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Caq extends OracleEloquent
 
     protected $primaryKey = ['caq_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Nnc extends OracleEloquent
 
     protected $primaryKey = ['nnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Lto extends OracleEloquent
 
     protected $primaryKey = ['lto_hsp_num', 'lto_dthr_ini', 'lto_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

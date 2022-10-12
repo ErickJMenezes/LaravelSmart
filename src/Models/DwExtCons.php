@@ -19,7 +19,7 @@ class DwExtCons extends OracleEloquent
 
     protected $primaryKey = ['dw_ext_t_psv_cod_exe', 'dw_ext_t_str_solic', 'dw_ext_t_esp_cod', 'dw_ext_cons_mmyy', 'dw_ext_t_str_exec'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

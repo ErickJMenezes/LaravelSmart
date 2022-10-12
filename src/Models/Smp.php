@@ -19,7 +19,7 @@ class Smp extends OracleEloquent
 
     protected $primaryKey = ['smp_cod_simpro'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

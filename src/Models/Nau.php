@@ -19,7 +19,7 @@ class Nau extends OracleEloquent
 
     protected $primaryKey = ['nau_nta_cod', 'nau_aft_num', 'nau_aft_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

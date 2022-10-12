@@ -19,7 +19,7 @@ class Mot extends OracleEloquent
 
     protected $primaryKey = ['mot_cod', 'mot_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

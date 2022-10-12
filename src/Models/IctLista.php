@@ -19,7 +19,7 @@ class IctLista extends OracleEloquent
 
     protected $primaryKey = ['ict_l_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

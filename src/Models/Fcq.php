@@ -19,7 +19,7 @@ class Fcq extends OracleEloquent
 
     protected $primaryKey = ['fcq_fne_cod', 'fcq_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

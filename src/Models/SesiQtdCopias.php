@@ -19,7 +19,7 @@ class SesiQtdCopias extends OracleEloquent
 
     protected $primaryKey = ['sqc_cnv', 'sqc_str'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

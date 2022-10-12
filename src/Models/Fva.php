@@ -19,7 +19,7 @@ class Fva extends OracleEloquent
 
     protected $primaryKey = ['fva_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

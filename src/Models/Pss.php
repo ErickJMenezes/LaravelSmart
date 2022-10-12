@@ -19,7 +19,7 @@ class Pss extends OracleEloquent
 
     protected $primaryKey = ['pss_psv_cod', 'pss_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

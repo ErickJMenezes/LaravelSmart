@@ -19,7 +19,7 @@ class STbProcedimento extends OracleEloquent
 
     protected $primaryKey = ['co_procedimento', 'dt_competencia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class TabIpsemg extends OracleEloquent
 
     protected $primaryKey = ['ipsemg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Cfp extends OracleEloquent
 
     protected $primaryKey = ['cfp_dthr', 'cfp_pront', 'cfp_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

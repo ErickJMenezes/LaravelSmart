@@ -19,7 +19,7 @@ class Psc extends OracleEloquent
 
     protected $primaryKey = ['psc_pac', 'psc_hsp', 'psc_num', 'psc_asc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cbhpm5Lpm extends OracleEloquent
 
     protected $primaryKey = ['cod_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

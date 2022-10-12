@@ -19,7 +19,7 @@ class Elo extends OracleEloquent
 
     protected $primaryKey = ['elo_serie', 'elo_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

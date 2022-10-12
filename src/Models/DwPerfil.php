@@ -19,7 +19,7 @@ class DwPerfil extends OracleEloquent
 
     protected $primaryKey = ['dw_perfil_nome', 'dw_perfil_usr_login', 'dw_perfil_tipo', 'dw_perfil_atributo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

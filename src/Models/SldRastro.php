@@ -19,7 +19,7 @@ class SldRastro extends OracleEloquent
 
     protected $primaryKey = ['sld_rastro_osm', 'sld_rastro_osm_serie', 'sld_rastro_reg_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

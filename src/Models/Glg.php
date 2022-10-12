@@ -19,7 +19,7 @@ class Glg extends OracleEloquent
 
     protected $primaryKey = ['glg_grp_cod', 'glg_lma_cod', 'glg_gmm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

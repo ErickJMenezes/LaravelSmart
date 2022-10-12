@@ -19,7 +19,7 @@ class SaidaFiPi extends OracleEloquent
 
     protected $primaryKey = ['id_saida_fi_pi'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

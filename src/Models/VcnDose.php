@@ -19,7 +19,7 @@ class VcnDose extends OracleEloquent
 
     protected $primaryKey = ['vcn_d_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

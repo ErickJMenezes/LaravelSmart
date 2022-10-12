@@ -19,7 +19,7 @@ class Cap extends OracleEloquent
 
     protected $primaryKey = ['cap_pac_reg', 'cap_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Olc extends OracleEloquent
 
     protected $primaryKey = ['olc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

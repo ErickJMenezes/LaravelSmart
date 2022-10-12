@@ -19,7 +19,7 @@ class Iin extends OracleEloquent
 
     protected $primaryKey = ['iin_inv_num', 'iin_inv_serie', 'iin_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Ptb extends OracleEloquent
 
     protected $primaryKey = ['ptb_pat_cod', 'ptb_tba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

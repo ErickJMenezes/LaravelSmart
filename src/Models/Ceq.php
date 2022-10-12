@@ -19,7 +19,7 @@ class Ceq extends OracleEloquent
 
     protected $primaryKey = ['ceq_eqp_num', 'ceq_cod_part_number'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class EpcCrt extends OracleEloquent
 
     protected $primaryKey = ['epc_c_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

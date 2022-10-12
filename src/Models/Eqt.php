@@ -19,7 +19,7 @@ class Eqt extends OracleEloquent
 
     protected $primaryKey = ['eqt_adp_cod', 'eqt_lqt_cod', 'eqt_adp_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

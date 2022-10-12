@@ -19,7 +19,7 @@ class Im2 extends OracleEloquent
 
     protected $primaryKey = ['im2_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

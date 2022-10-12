@@ -19,7 +19,7 @@ class ClivaleMse extends OracleEloquent
 
     protected $primaryKey = ['c_mse_str_exec'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

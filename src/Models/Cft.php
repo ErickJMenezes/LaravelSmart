@@ -19,7 +19,7 @@ class Cft extends OracleEloquent
 
     protected $primaryKey = ['cft_dt_envio', 'cft_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

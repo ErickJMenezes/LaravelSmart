@@ -19,7 +19,7 @@ class LgrLoc extends OracleEloquent
 
     protected $primaryKey = ['num_locl'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

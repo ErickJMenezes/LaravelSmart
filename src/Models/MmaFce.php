@@ -19,7 +19,7 @@ class MmaFce extends OracleEloquent
 
     protected $primaryKey = ['mma_f_mcc_seq', 'mma_f_mma_num', 'mma_f_mcc_serie', 'mma_f_mma_serie', 'mma_f_mcc_lote'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

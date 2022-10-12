@@ -19,7 +19,7 @@ class RcrSusSh extends OracleEloquent
 
     protected $primaryKey = ['rcr_s_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

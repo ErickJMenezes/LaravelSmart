@@ -19,7 +19,7 @@ class Mmt extends OracleEloquent
 
     protected $primaryKey = ['mmt_smk_tipo', 'mmt_itm_cod', 'mmt_tme_cod', 'mmt_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

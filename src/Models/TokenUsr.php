@@ -19,7 +19,7 @@ class TokenUsr extends OracleEloquent
 
     protected $primaryKey = ['token_u_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

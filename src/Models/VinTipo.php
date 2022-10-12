@@ -19,7 +19,7 @@ class VinTipo extends OracleEloquent
 
     protected $primaryKey = ['vin_t_cod', 'vin_t_vin_c_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

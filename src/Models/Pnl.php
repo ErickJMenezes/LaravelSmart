@@ -19,7 +19,7 @@ class Pnl extends OracleEloquent
 
     protected $primaryKey = ['pnl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Crp extends OracleEloquent
 
     protected $primaryKey = ['crp_serie', 'crp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

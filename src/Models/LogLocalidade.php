@@ -19,7 +19,7 @@ class LogLocalidade extends OracleEloquent
 
     protected $primaryKey = ['loc_nu'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

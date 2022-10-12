@@ -19,7 +19,7 @@ class Dse extends OracleEloquent
 
     protected $primaryKey = ['dse_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

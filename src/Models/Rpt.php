@@ -19,7 +19,7 @@ class Rpt extends OracleEloquent
 
     protected $primaryKey = ['rpt_minimo', 'rpt_pgt_cod', 'rpt_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Frm extends OracleEloquent
 
     protected $primaryKey = ['frm_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

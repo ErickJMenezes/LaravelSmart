@@ -19,7 +19,7 @@ class UsuE301glo extends OracleEloquent
 
     protected $primaryKey = ['pksmart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

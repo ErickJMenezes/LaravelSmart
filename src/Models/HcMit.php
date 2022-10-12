@@ -19,7 +19,7 @@ class HcMit extends OracleEloquent
 
     protected $primaryKey = ['hc_mit_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

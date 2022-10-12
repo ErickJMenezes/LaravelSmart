@@ -19,7 +19,7 @@ class Ibx extends OracleEloquent
 
     protected $primaryKey = ['ibx_bxa_serie', 'ibx_bxa_num', 'ibx_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class TnAct extends OracleEloquent
 
     protected $primaryKey = ['tn_act_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Sbn extends OracleEloquent
 
     protected $primaryKey = ['sbn_ctf_tipo', 'sbn_bnc_cod', 'sbn_smk_cod', 'sbn_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

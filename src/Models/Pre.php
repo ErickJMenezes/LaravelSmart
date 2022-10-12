@@ -19,7 +19,7 @@ class Pre extends OracleEloquent
 
     protected $primaryKey = ['pre_smk_tipo', 'pre_smk_cod', 'pre_tab_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class PsvDesvioFila extends OracleEloquent
 
     protected $primaryKey = ['psv_d_psv_cod', 'psv_d_cnv_cod', 'psv_d_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

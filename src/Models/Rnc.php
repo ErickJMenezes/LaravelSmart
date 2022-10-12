@@ -19,7 +19,7 @@ class Rnc extends OracleEloquent
 
     protected $primaryKey = ['rnc_serie', 'rnc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

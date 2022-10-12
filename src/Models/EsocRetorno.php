@@ -19,7 +19,7 @@ class EsocRetorno extends OracleEloquent
 
     protected $primaryKey = ['esoc_tipo', 'esoc_retorno_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

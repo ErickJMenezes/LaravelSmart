@@ -19,7 +19,7 @@ class Dnc extends OracleEloquent
 
     protected $primaryKey = ['dnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

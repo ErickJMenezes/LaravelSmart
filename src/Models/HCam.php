@@ -19,7 +19,7 @@ class HCam extends OracleEloquent
 
     protected $primaryKey = ['h_cam_h_cav_id', 'h_cam_bul_med', 'h_cam_num', 'h_cam_pac_reg', 'h_cam_h_avc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

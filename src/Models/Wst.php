@@ -19,7 +19,7 @@ class Wst extends OracleEloquent
 
     protected $primaryKey = ['wst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

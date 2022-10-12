@@ -19,7 +19,7 @@ class Vdf extends OracleEloquent
 
     protected $primaryKey = ['vdf_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

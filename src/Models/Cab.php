@@ -19,7 +19,7 @@ class Cab extends OracleEloquent
 
     protected $primaryKey = ['cab_nome', 'cab_banda', 'cab_tipo', 'cab_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

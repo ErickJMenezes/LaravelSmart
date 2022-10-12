@@ -19,7 +19,7 @@ class ExcSaldoEmp extends OracleEloquent
 
     protected $primaryKey = ['exc_se_exc_id', 'exc_se_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

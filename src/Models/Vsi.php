@@ -19,7 +19,7 @@ class Vsi extends OracleEloquent
 
     protected $primaryKey = ['vsi_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

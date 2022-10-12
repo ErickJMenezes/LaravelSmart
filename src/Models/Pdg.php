@@ -19,7 +19,7 @@ class Pdg extends OracleEloquent
 
     protected $primaryKey = ['pdg_num', 'pdg_pac'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

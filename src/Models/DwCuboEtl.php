@@ -19,7 +19,7 @@ class DwCuboEtl extends OracleEloquent
 
     protected $primaryKey = ['dw_ce_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class NfsLote extends OracleEloquent
 
     protected $primaryKey = ['nfs_l_tp_guia', 'nfs_l_lote', 'nfs_l_nfs_tipo', 'nfs_l_guia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

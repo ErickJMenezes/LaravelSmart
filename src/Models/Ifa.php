@@ -19,7 +19,7 @@ class Ifa extends OracleEloquent
 
     protected $primaryKey = ['ifa_osm_serie', 'ifa_fva_id', 'ifa_osm_num', 'ifa_smm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

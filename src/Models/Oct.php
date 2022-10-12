@@ -19,7 +19,7 @@ class Oct extends OracleEloquent
 
     protected $primaryKey = ['oct_str_cod', 'oct_ano', 'oct_cct_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class CnvStr extends OracleEloquent
 
     protected $primaryKey = ['cnv_s_cnv_cod', 'cnv_s_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cdf extends OracleEloquent
 
     protected $primaryKey = ['cdf_cid_cod', 'cdf_cid_tip', 'cdf_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

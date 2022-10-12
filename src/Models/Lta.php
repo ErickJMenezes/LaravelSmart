@@ -19,7 +19,7 @@ class Lta extends OracleEloquent
 
     protected $primaryKey = ['lta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

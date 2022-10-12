@@ -19,7 +19,7 @@ class Gem extends OracleEloquent
 
     protected $primaryKey = ['gem_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class HShd extends OracleEloquent
 
     protected $primaryKey = ['h_shd_pac_reg', 'h_shd_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

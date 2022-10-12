@@ -19,7 +19,7 @@ class SmkFav extends OracleEloquent
 
     protected $primaryKey = ['smk_fav_usr_login', 'smk_fav_smk_cod', 'smk_fav_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

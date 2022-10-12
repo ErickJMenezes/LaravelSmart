@@ -19,7 +19,7 @@ class VeiMod extends OracleEloquent
 
     protected $primaryKey = ['v_mod_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

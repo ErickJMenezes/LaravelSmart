@@ -19,7 +19,7 @@ class LacsAdicao extends OracleEloquent
 
     protected $primaryKey = ['lcs_adc_cct_cod', 'lcs_adc_exc_id', 'lcs_adc_lacs_cod', 'lcs_adc_lcs_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

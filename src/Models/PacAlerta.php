@@ -19,7 +19,7 @@ class PacAlerta extends OracleEloquent
 
     protected $primaryKey = ['pac_a_pac_reg', 'pac_a_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

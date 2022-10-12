@@ -19,7 +19,7 @@ class FamClink extends OracleEloquent
 
     protected $primaryKey = ['fam_c_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

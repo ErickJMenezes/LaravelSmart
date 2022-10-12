@@ -19,7 +19,7 @@ class Gic extends OracleEloquent
 
     protected $primaryKey = ['gic_gih_cnv_cod', 'gic_smk_cod', 'gic_gih_dthr_ini', 'gic_gih_pac_reg', 'gic_gih_hsp_num', 'gic_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

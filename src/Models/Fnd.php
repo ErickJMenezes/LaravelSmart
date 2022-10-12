@@ -19,7 +19,7 @@ class Fnd extends OracleEloquent
 
     protected $primaryKey = ['fnd_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

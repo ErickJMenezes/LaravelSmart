@@ -19,7 +19,7 @@ class Fat extends OracleEloquent
 
     protected $primaryKey = ['fat_num', 'fat_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

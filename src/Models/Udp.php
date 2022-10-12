@@ -19,7 +19,7 @@ class Udp extends OracleEloquent
 
     protected $primaryKey = ['udp_mte_seq_dep', 'udp_mte_seq_quita', 'udp_mte_serie_quita', 'udp_mte_serie_dep'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

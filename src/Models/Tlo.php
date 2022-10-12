@@ -19,7 +19,7 @@ class Tlo extends OracleEloquent
 
     protected $primaryKey = ['tlo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Fpc extends OracleEloquent
 
     protected $primaryKey = ['fpc_num', 'fpc_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

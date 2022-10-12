@@ -19,7 +19,7 @@ class Vle extends OracleEloquent
 
     protected $primaryKey = ['vle_serie', 'vle_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class DloHva extends OracleEloquent
 
     protected $primaryKey = ['dlo_h_hva_pac_reg', 'dlo_h_dlo_id', 'dlo_h_hav_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

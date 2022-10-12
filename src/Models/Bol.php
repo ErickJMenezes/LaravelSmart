@@ -19,7 +19,7 @@ class Bol extends OracleEloquent
 
     protected $primaryKey = ['bol_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class GccCni extends OracleEloquent
 
     protected $primaryKey = ['gcc_c_ccr_banco', 'gcc_c_gcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

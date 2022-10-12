@@ -19,7 +19,7 @@ class Ged extends OracleEloquent
 
     protected $primaryKey = ['ged_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

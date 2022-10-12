@@ -19,7 +19,7 @@ class Iif extends OracleEloquent
 
     protected $primaryKey = ['iif_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

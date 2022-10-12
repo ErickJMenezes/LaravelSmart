@@ -19,7 +19,7 @@ class HcMaq extends OracleEloquent
 
     protected $primaryKey = ['hc_maq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

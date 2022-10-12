@@ -19,7 +19,7 @@ class Hrg extends OracleEloquent
 
     protected $primaryKey = ['hrg_hrini', 'hrg_loc_cod', 'hrg_dia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

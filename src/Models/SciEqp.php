@@ -19,7 +19,7 @@ class SciEqp extends OracleEloquent
 
     protected $primaryKey = ['sci_e_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

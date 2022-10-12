@@ -19,7 +19,7 @@ class Ssd extends OracleEloquent
 
     protected $primaryKey = ['ssd_cod_sauded'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class NexoExame extends OracleEloquent
 
     protected $primaryKey = ['nexo_exame_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

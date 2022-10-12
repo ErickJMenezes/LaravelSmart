@@ -19,7 +19,7 @@ class Rla extends OracleEloquent
 
     protected $primaryKey = ['rla_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

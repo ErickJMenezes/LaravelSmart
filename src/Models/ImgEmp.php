@@ -19,7 +19,7 @@ class ImgEmp extends OracleEloquent
 
     protected $primaryKey = ['img_emp_emp_cod', 'img_emp_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

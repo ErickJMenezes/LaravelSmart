@@ -19,7 +19,7 @@ class HCav extends OracleEloquent
 
     protected $primaryKey = ['h_cav_pac_reg', 'h_cav_h_avc_id', 'h_cav_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

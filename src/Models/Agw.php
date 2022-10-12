@@ -17,7 +17,7 @@ class Agw extends OracleEloquent
 
     protected $primaryKey = ['agw_tpctf', 'agw_dthr_ini', 'agw_med', 'agw_loc', 'agw_ctf'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

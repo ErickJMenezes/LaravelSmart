@@ -19,7 +19,7 @@ class Dts extends OracleEloquent
 
     protected $primaryKey = ['dts_dt_ref', 'dts_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

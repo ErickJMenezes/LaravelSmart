@@ -19,7 +19,7 @@ class UsrDb extends OracleEloquent
 
     protected $primaryKey = ['db_destino', 'usr_login_origem', 'db_origem'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

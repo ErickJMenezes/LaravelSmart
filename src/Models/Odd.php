@@ -19,7 +19,7 @@ class Odd extends OracleEloquent
 
     protected $primaryKey = ['odd_dthr_reg', 'odd_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

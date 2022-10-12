@@ -19,7 +19,7 @@ class Rcg extends OracleEloquent
 
     protected $primaryKey = ['rcg_mte_seq', 'rcg_hsp_num', 'rcg_mte_serie', 'rcg_pac_reg', 'rcg_cnv_cod', 'rcg_dthr_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

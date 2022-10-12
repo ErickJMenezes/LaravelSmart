@@ -19,7 +19,7 @@ class Crr extends OracleEloquent
 
     protected $primaryKey = ['crr_sujidade', 'crr_mat_cod', 'crr_rrp_serie', 'crr_rrp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

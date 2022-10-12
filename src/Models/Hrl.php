@@ -19,7 +19,7 @@ class Hrl extends OracleEloquent
 
     protected $primaryKey = ['hrl_dia', 'hrl_loc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

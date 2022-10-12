@@ -19,7 +19,7 @@ class Inp extends OracleEloquent
 
     protected $primaryKey = ['inp_seq', 'inp_enp_serie', 'inp_enp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class HcDpf extends OracleEloquent
 
     protected $primaryKey = ['hc_dpf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

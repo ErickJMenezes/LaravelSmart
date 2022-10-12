@@ -19,7 +19,7 @@ class PsvBai extends OracleEloquent
 
     protected $primaryKey = ['psv_bai_psv_cod', 'psv_bai_bai_cod', 'psv_bai_bai_cde_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Clf extends OracleEloquent
 
     protected $primaryKey = ['clf_cnv_cod', 'clf_remessa'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

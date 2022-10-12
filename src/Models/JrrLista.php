@@ -19,7 +19,7 @@ class JrrLista extends OracleEloquent
 
     protected $primaryKey = ['jrr_l_id', 'jrr_l_jrr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

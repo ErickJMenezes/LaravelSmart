@@ -19,7 +19,7 @@ class Ikr extends OracleEloquent
 
     protected $primaryKey = ['ikr_dthr_ini', 'ikr_elb_cod', 'ikr_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

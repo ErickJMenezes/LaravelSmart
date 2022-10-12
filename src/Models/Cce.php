@@ -19,7 +19,7 @@ class Cce extends OracleEloquent
 
     protected $primaryKey = ['cce_lta_cod', 'cce_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Iac extends OracleEloquent
 
     protected $primaryKey = ['iac_dthr_reg', 'iac_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

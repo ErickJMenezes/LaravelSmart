@@ -19,7 +19,7 @@ class Cal extends OracleEloquent
 
     protected $primaryKey = ['cal_dthr1'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

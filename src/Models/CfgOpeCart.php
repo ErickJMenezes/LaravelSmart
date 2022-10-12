@@ -19,7 +19,7 @@ class CfgOpeCart extends OracleEloquent
 
     protected $primaryKey = ['cfg_ope_cart_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

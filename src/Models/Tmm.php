@@ -19,7 +19,7 @@ class Tmm extends OracleEloquent
 
     protected $primaryKey = ['tmm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

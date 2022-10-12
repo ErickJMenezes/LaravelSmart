@@ -19,7 +19,7 @@ class Tcl extends OracleEloquent
 
     protected $primaryKey = ['tcl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

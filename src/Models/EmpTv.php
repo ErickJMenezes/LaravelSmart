@@ -19,7 +19,7 @@ class EmpTv extends OracleEloquent
 
     protected $primaryKey = ['emp_t_emp_cod', 'emp_t_dt_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

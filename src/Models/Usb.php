@@ -19,7 +19,7 @@ class Usb extends OracleEloquent
 
     protected $primaryKey = ['usb_usr_login', 'usb_bnc_str_cod', 'usb_bnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

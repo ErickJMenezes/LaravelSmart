@@ -19,7 +19,7 @@ class Gcc extends OracleEloquent
 
     protected $primaryKey = ['gcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

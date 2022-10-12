@@ -19,7 +19,7 @@ class WebLaudo extends OracleEloquent
 
     protected $primaryKey = ['web_laudo_osm_serie', 'web_laudo_osm', 'web_laudo_smm'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

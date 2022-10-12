@@ -19,7 +19,7 @@ class Nfe extends OracleEloquent
 
     protected $primaryKey = ['nfe_num', 'nfe_serie', 'nfe_tipo', 'nfe_fne_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Qlf extends OracleEloquent
 
     protected $primaryKey = ['qlf_atr', 'qlf_dsc', 'qlf_rot'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

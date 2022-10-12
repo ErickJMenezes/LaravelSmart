@@ -19,7 +19,7 @@ class Pgp extends OracleEloquent
 
     protected $primaryKey = ['pgp_pro_cod', 'pgp_gfp_num', 'pgp_lta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

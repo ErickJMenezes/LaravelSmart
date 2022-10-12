@@ -19,7 +19,7 @@ class BulStr extends OracleEloquent
 
     protected $primaryKey = ['bul_s_str_cod', 'bul_s_bul_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Dwo extends OracleEloquent
 
     protected $primaryKey = ['dwo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

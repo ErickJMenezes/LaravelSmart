@@ -19,7 +19,7 @@ class Dvd extends OracleEloquent
 
     protected $primaryKey = ['dvd_cod', 'dvd_bul_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

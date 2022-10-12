@@ -19,7 +19,7 @@ class HspContatos extends OracleEloquent
 
     protected $primaryKey = ['hsp_c_dthr_reg', 'hsp_c_pac_reg', 'hsp_c_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

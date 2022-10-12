@@ -19,7 +19,7 @@ class WebNtc extends OracleEloquent
 
     protected $primaryKey = ['ntc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

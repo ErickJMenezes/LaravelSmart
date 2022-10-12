@@ -19,7 +19,7 @@ class Mma extends OracleEloquent
 
     protected $primaryKey = ['mma_serie', 'mma_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

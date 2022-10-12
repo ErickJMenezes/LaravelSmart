@@ -19,7 +19,7 @@ class Rfe extends OracleEloquent
 
     protected $primaryKey = ['rfe_psv_cod', 'rfe_psv_fila_anterior', 'rfe_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Csd extends OracleEloquent
 
     protected $primaryKey = ['csd_ssd_cod_sauded', 'csd_cod_campo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

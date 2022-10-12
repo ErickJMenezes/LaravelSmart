@@ -19,7 +19,7 @@ class Cla extends OracleEloquent
 
     protected $primaryKey = ['cla_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

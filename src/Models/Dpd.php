@@ -19,7 +19,7 @@ class Dpd extends OracleEloquent
 
     protected $primaryKey = ['dpd_pac_reg', 'dpd_pdg_num', 'dpd_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

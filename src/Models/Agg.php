@@ -18,7 +18,7 @@ class Agg extends OracleEloquent
 
     protected $primaryKey = ['agg_loc_cod', 'agg_dthr_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

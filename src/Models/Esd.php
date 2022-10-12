@@ -19,7 +19,7 @@ class Esd extends OracleEloquent
 
     protected $primaryKey = ['esd_smk_tipo', 'esd_smk_cod', 'esd_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

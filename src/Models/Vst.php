@@ -19,7 +19,7 @@ class Vst extends OracleEloquent
 
     protected $primaryKey = ['vst_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class STbDetalhe extends OracleEloquent
 
     protected $primaryKey = ['co_detalhe'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class BroFabric extends OracleEloquent
 
     protected $primaryKey = ['bro_fabric_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

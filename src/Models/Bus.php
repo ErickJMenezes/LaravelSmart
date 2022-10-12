@@ -19,7 +19,7 @@ class Bus extends OracleEloquent
 
     protected $primaryKey = ['bus_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

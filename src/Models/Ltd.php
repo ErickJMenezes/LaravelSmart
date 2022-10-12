@@ -19,7 +19,7 @@ class Ltd extends OracleEloquent
 
     protected $primaryKey = ['ltd_mes_ref', 'ltd_loc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

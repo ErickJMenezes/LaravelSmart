@@ -19,7 +19,7 @@ class MbClpDom extends OracleEloquent
 
     protected $primaryKey = ['mb_clp_dom_mb_clp_nome', 'mb_clp_dom_value_display', 'mb_clp_dom_mb_cls_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

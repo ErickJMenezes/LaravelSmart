@@ -19,7 +19,7 @@ class CnvBfp extends OracleEloquent
 
     protected $primaryKey = ['cnv_b_cnv_cod', 'cnv_b_forma_pag'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class GrWse extends OracleEloquent
 
     protected $primaryKey = ['gr_wse_server_addr', 'gr_wse_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

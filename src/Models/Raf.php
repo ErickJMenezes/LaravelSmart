@@ -19,7 +19,7 @@ class Raf extends OracleEloquent
 
     protected $primaryKey = ['raf_cop_num', 'raf_dthr', 'raf_icp_seq', 'raf_fic_id', 'raf_fne_cod', 'raf_cop_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

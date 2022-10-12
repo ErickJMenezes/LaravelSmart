@@ -19,7 +19,7 @@ class DwCrg extends OracleEloquent
 
     protected $primaryKey = ['dw_crg_faixa_etaria', 'dw_crg_smk_tipo', 'dw_crg_cnv_cod', 'dw_crg_pac_sexo', 'dw_crg_str_solic', 'dw_crg_porte', 'dw_crg_duracao', 'dw_crg_psv_cod', 'dw_crg_psv_solic', 'dw_crg_smk_cod', 'dw_crg_ctf_cod', 'dw_crg_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

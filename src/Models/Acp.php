@@ -18,7 +18,7 @@ class Acp extends OracleEloquent
 
     protected $primaryKey = ['acp_pac_reg', 'acp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

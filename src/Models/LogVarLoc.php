@@ -19,7 +19,7 @@ class LogVarLoc extends OracleEloquent
 
     protected $primaryKey = ['val_nu', 'loc_nu'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

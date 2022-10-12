@@ -19,7 +19,7 @@ class Dps extends OracleEloquent
 
     protected $primaryKey = ['dps_psv_cod', 'dps_ded_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

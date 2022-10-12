@@ -19,7 +19,7 @@ class Rcs extends OracleEloquent
 
     protected $primaryKey = ['rcs_compet', 'rcs_str_origem', 'rcs_str_destino'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

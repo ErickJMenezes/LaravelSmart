@@ -19,7 +19,7 @@ class DloLta extends OracleEloquent
 
     protected $primaryKey = ['dlo_l_lta_cod', 'dlo_l_dlo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

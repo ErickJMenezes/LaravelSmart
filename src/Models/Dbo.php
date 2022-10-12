@@ -19,7 +19,7 @@ class Dbo extends OracleEloquent
 
     protected $primaryKey = ['apg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class PcRedeGrp extends OracleEloquent
 
     protected $primaryKey = ['pc_rede_grp_cod', 'pc_rede_grp_host'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

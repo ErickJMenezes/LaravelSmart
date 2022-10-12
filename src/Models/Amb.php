@@ -19,7 +19,7 @@ class Amb extends OracleEloquent
 
     protected $primaryKey = ['amb_cod', 'amb_tabela'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

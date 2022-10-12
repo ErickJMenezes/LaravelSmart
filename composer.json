@@ -8,6 +8,11 @@
             "ErickJMenezes\\LaravelSmart\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "ErickJMenezes\\LaravelSmart\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "ErickJMenezes",
@@ -22,5 +27,20 @@
         "illuminate/database": "^6.0|^7.0|^8.0|^9.0",
         "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
         "yajra/laravel-oci8": "^6.0|^7.0|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ErickJMenezes\\LaravelSmart\\Providers\\OracleSmartServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.10"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php ./vendor/bin/testbench package:discover --ansi"
+        ]
     }
 }

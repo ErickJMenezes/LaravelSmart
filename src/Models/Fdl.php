@@ -19,7 +19,7 @@ class Fdl extends OracleEloquent
 
     protected $primaryKey = ['fdl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

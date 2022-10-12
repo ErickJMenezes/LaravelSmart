@@ -19,7 +19,7 @@ class Dic extends OracleEloquent
 
     protected $primaryKey = ['dic_tpsmk', 'dic_smk', 'dic_n2', 'dic_n3', 'dic_dsc', 'dic_n1'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

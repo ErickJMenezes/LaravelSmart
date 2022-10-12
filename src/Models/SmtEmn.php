@@ -19,7 +19,7 @@ class SmtEmn extends OracleEloquent
 
     protected $primaryKey = ['smt_e_emn_cod', 'smt_e_smt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

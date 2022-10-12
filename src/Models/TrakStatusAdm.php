@@ -19,7 +19,7 @@ class TrakStatusAdm extends OracleEloquent
 
     protected $primaryKey = ['trak_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

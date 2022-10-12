@@ -19,7 +19,7 @@ class Rcc extends OracleEloquent
 
     protected $primaryKey = ['rcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

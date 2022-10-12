@@ -19,7 +19,7 @@ class Cdb extends OracleEloquent
 
     protected $primaryKey = ['cdb_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

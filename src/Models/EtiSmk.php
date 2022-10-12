@@ -19,7 +19,7 @@ class EtiSmk extends OracleEloquent
 
     protected $primaryKey = ['eti_s_smk_tipo', 'eti_s_eti_cod', 'eti_s_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

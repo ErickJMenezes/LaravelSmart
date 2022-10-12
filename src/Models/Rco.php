@@ -19,7 +19,7 @@ class Rco extends OracleEloquent
 
     protected $primaryKey = ['rco_cod', 'rco_tro_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

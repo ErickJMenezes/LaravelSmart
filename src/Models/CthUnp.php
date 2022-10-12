@@ -19,7 +19,7 @@ class CthUnp extends OracleEloquent
 
     protected $primaryKey = ['cth_u_cth_pac_reg', 'cth_u_cth_hsp_num', 'cth_u_cth_num', 'cth_u_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

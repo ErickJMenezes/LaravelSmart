@@ -19,7 +19,7 @@ class PdcI extends OracleEloquent
 
     protected $primaryKey = ['pdc_i_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Ppl extends OracleEloquent
 
     protected $primaryKey = ['ppl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

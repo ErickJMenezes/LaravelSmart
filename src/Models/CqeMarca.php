@@ -19,7 +19,7 @@ class CqeMarca extends OracleEloquent
 
     protected $primaryKey = ['cqe_m_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class CepLog extends OracleEloquent
 
     protected $primaryKey = ['chave_log', 'chvlocal_log'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

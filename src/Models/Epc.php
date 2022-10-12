@@ -19,7 +19,7 @@ class Epc extends OracleEloquent
 
     protected $primaryKey = ['epc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

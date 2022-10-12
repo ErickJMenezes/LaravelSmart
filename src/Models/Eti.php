@@ -19,7 +19,7 @@ class Eti extends OracleEloquent
 
     protected $primaryKey = ['eti_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

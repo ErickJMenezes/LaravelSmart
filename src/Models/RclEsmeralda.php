@@ -19,7 +19,7 @@ class RclEsmeralda extends OracleEloquent
 
     protected $primaryKey = ['rcl_tpcod', 'rcl_dthr', 'rcl_pac', 'rcl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

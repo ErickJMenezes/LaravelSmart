@@ -19,7 +19,7 @@ class Osa extends OracleEloquent
 
     protected $primaryKey = ['osa_osm_serie', 'osa_dthr', 'osa_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

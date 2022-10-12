@@ -19,7 +19,7 @@ class OddEnc extends OracleEloquent
 
     protected $primaryKey = ['odd_e_dthr', 'odd_e_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

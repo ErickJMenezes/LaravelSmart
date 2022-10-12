@@ -19,7 +19,7 @@ class Med extends OracleEloquent
 
     protected $primaryKey = ['med_codi'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

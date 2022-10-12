@@ -19,7 +19,7 @@ class SRlProcedimentoDetalhe extends OracleEloquent
 
     protected $primaryKey = ['co_procedimento', 'co_detalhe'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

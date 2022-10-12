@@ -19,7 +19,7 @@ class CdcConfigSerie extends OracleEloquent
 
     protected $primaryKey = ['cdc_config_serie_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

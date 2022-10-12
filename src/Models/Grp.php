@@ -19,7 +19,7 @@ class Grp extends OracleEloquent
 
     protected $primaryKey = ['grp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

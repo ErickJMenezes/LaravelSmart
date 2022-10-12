@@ -19,7 +19,7 @@ class Dlf extends OracleEloquent
 
     protected $primaryKey = ['dlf_nfs_serie', 'dlf_nfs_tipo', 'dlf_dthr', 'dlf_nfs_numero'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

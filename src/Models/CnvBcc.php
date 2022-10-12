@@ -19,7 +19,7 @@ class CnvBcc extends OracleEloquent
 
     protected $primaryKey = ['cnv_b_cnv_cod', 'cnv_b_cre_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

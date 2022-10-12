@@ -19,7 +19,7 @@ class Obs extends OracleEloquent
 
     protected $primaryKey = ['obs_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

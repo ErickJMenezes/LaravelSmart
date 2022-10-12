@@ -19,7 +19,7 @@ class Nts extends OracleEloquent
 
     protected $primaryKey = ['nts_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

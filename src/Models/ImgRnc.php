@@ -19,7 +19,7 @@ class ImgRnc extends OracleEloquent
 
     protected $primaryKey = ['img_rnc_rnc_num', 'img_rnc_rnc_serie', 'img_rnc_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Qca extends OracleEloquent
 
     protected $primaryKey = ['qca_qcn_smk_cod', 'qca_qcn_dsc_cod', 'qca_dthr', 'qca_qcn_smk_tipo', 'qca_qcn_nivel', 'qca_qcn_qcm_id', 'qca_qcn_atr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

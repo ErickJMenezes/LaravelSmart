@@ -19,7 +19,7 @@ class CdpPer extends OracleEloquent
 
     protected $primaryKey = ['cdp_p_dthr_ini', 'cdp_p_cdp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

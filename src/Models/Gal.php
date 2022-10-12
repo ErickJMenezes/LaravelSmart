@@ -19,7 +19,7 @@ class Gal extends OracleEloquent
 
     protected $primaryKey = ['gal_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

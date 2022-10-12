@@ -19,7 +19,7 @@ class DedHp extends OracleEloquent
 
     protected $primaryKey = ['ded_hp_rep_hp_serie', 'ded_hp_rep_hp_num', 'ded_hp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

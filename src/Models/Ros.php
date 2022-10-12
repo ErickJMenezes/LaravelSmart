@@ -19,7 +19,7 @@ class Ros extends OracleEloquent
 
     protected $primaryKey = ['ros_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

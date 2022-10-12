@@ -19,7 +19,7 @@ class Fma extends OracleEloquent
 
     protected $primaryKey = ['fma_pac_reg_destino', 'fma_pac_reg_origem'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

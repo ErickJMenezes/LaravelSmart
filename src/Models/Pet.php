@@ -19,7 +19,7 @@ class Pet extends OracleEloquent
 
     protected $primaryKey = ['pet_num', 'pet_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

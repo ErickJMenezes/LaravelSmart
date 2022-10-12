@@ -19,7 +19,7 @@ class Mra extends OracleEloquent
 
     protected $primaryKey = ['mra_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

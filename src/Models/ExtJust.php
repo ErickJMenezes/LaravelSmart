@@ -19,7 +19,7 @@ class ExtJust extends OracleEloquent
 
     protected $primaryKey = ['ext_j_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class BcsConfigSmkGcc extends OracleEloquent
 
     protected $primaryKey = ['bcs_config_smk_gcc_gcc_cod', 'bcs_config_smk_gcc_smk_tipo', 'bcs_config_smk_gcc_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

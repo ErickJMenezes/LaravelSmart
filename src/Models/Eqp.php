@@ -19,7 +19,7 @@ class Eqp extends OracleEloquent
 
     protected $primaryKey = ['eqp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

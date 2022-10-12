@@ -19,7 +19,7 @@ class Rgf extends OracleEloquent
 
     protected $primaryKey = ['rgf_tro_cod', 'rgf_rco_cod', 'rgf_lta_cod', 'rgf_gfc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

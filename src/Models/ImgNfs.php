@@ -19,7 +19,7 @@ class ImgNfs extends OracleEloquent
 
     protected $primaryKey = ['img_nfs_nfs_numero', 'img_nfs_nfs_tipo', 'img_nfs_nfs_serie', 'img_nfs_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

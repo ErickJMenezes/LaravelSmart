@@ -19,7 +19,7 @@ class HPes extends OracleEloquent
 
     protected $primaryKey = ['h_pes_pac_reg', 'h_pes_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cth extends OracleEloquent
 
     protected $primaryKey = ['cth_hsp_num', 'cth_pac_reg', 'cth_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class TLsobral8587312Cex extends OracleEloquent
 
     protected $primaryKey = ['id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

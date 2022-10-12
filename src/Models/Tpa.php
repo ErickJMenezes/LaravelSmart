@@ -19,7 +19,7 @@ class Tpa extends OracleEloquent
 
     protected $primaryKey = ['tpa_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Rpr extends OracleEloquent
 
     protected $primaryKey = ['rpr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

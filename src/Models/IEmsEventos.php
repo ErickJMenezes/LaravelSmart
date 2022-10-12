@@ -19,7 +19,7 @@ class IEmsEventos extends OracleEloquent
 
     protected $primaryKey = ['i_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

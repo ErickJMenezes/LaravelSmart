@@ -19,7 +19,7 @@ class Rpv extends OracleEloquent
 
     protected $primaryKey = ['rpv_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

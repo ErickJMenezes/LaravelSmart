@@ -19,7 +19,7 @@ class NexoPsc extends OracleEloquent
 
     protected $primaryKey = ['nexo_psc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

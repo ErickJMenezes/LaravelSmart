@@ -19,7 +19,7 @@ class RlsAlter extends OracleEloquent
 
     protected $primaryKey = ['rls_a_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

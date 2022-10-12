@@ -19,7 +19,7 @@ class ExtTmp extends OracleEloquent
 
     protected $primaryKey = ['ext_smm_num', 'ext_mns_serie', 'ext_mns_num', 'ext_osm_serie', 'ext_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

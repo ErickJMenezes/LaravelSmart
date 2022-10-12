@@ -19,7 +19,7 @@ class Lif extends OracleEloquent
 
     protected $primaryKey = ['lif_dthr_imp', 'lif_fte_num', 'lif_fte_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Blq extends OracleEloquent
 
     protected $primaryKey = ['blq_dthr_ini', 'blq_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

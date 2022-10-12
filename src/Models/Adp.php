@@ -18,7 +18,7 @@ class Adp extends OracleEloquent
 
     protected $primaryKey = ['adp_tipo', 'adp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

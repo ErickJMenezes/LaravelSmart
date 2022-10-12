@@ -19,7 +19,7 @@ class Rgb extends OracleEloquent
 
     protected $primaryKey = ['rgb_psc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

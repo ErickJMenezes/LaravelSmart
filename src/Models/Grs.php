@@ -19,7 +19,7 @@ class Grs extends OracleEloquent
 
     protected $primaryKey = ['grs_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

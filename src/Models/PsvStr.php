@@ -19,7 +19,7 @@ class PsvStr extends OracleEloquent
 
     protected $primaryKey = ['psv_str_str_cod', 'psv_str_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

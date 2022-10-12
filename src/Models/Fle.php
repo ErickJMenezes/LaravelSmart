@@ -19,7 +19,7 @@ class Fle extends OracleEloquent
 
     protected $primaryKey = ['fle_pac_reg', 'fle_str_cod', 'fle_psv_cod', 'fle_dthr_chegada'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class RclHtml extends OracleEloquent
 
     protected $primaryKey = ['rcl_h_cod', 'rcl_h_pac', 'rcl_h_tpcod', 'rcl_h_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Iil extends OracleEloquent
 
     protected $primaryKey = ['iil_inv_num', 'iil_lot_num', 'iil_mat_cod', 'iil_inv_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

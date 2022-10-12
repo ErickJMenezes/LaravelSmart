@@ -19,7 +19,7 @@ class Amo extends OracleEloquent
 
     protected $primaryKey = ['amo_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

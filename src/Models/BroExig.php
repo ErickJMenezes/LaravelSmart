@@ -19,7 +19,7 @@ class BroExig extends OracleEloquent
 
     protected $primaryKey = ['bro_exig_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

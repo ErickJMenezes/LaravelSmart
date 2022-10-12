@@ -19,7 +19,7 @@ class Bpt extends OracleEloquent
 
     protected $primaryKey = ['bpt_pat_cod', 'bpt_bul_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

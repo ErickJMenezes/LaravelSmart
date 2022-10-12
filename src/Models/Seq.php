@@ -19,7 +19,7 @@ class Seq extends OracleEloquent
 
     protected $primaryKey = ['seq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

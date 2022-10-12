@@ -19,7 +19,7 @@ class HDpa extends OracleEloquent
 
     protected $primaryKey = ['h_dpa_pac_reg', 'h_dpa_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

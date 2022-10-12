@@ -19,7 +19,7 @@ class DloIct extends OracleEloquent
 
     protected $primaryKey = ['dlo_i_osm_serie', 'dlo_i_smm_num', 'dlo_i_dlo_id', 'dlo_i_osm_num', 'dlo_i_ict_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

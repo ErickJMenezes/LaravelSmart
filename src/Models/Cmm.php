@@ -19,7 +19,7 @@ class Cmm extends OracleEloquent
 
     protected $primaryKey = ['cmm_mat_cod', 'cmm_mat_cod_comp'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

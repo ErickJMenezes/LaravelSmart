@@ -19,7 +19,7 @@ class Nwa extends OracleEloquent
 
     protected $primaryKey = ['nwa_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

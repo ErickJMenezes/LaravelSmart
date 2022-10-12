@@ -19,7 +19,7 @@ class Cna extends OracleEloquent
 
     protected $primaryKey = ['cna_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

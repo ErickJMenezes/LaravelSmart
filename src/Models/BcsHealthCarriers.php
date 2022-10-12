@@ -19,7 +19,7 @@ class BcsHealthCarriers extends OracleEloquent
 
     protected $primaryKey = ['bcs_health_carriers_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Pri extends OracleEloquent
 
     protected $primaryKey = ['pri_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

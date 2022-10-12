@@ -19,7 +19,7 @@ class Cls extends OracleEloquent
 
     protected $primaryKey = ['cls_competencia', 'cls_sus_cod_unico', 'cls_apac_srv', 'cls_apac_csf'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

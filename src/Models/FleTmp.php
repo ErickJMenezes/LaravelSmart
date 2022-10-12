@@ -19,7 +19,7 @@ class FleTmp extends OracleEloquent
 
     protected $primaryKey = ['fle_dthr_chegada', 'fle_psv_cod', 'fle_pac_reg', 'fle_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

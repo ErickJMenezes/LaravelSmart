@@ -19,7 +19,7 @@ class DwCcr extends OracleEloquent
 
     protected $primaryKey = ['dw_ccr_mmyy', 'dw_ccr_psv_cod', 'dw_ccr_str_unid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

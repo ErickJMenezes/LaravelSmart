@@ -19,7 +19,7 @@ class Qcr extends OracleEloquent
 
     protected $primaryKey = ['qcr_rwg_id', 'qcr_qcm_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Itp extends OracleEloquent
 
     protected $primaryKey = ['itp_tpc_serie', 'itp_tpc_num', 'itp_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class UsiPac extends OracleEloquent
 
     protected $primaryKey = ['usi_p_pac_reg', 'usi_p_usi_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

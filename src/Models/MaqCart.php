@@ -19,7 +19,7 @@ class MaqCart extends OracleEloquent
 
     protected $primaryKey = ['maq_cart_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class CepTit extends OracleEloquent
 
     protected $primaryKey = ['chave_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

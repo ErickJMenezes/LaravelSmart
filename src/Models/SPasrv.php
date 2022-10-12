@@ -19,7 +19,7 @@ class SPasrv extends OracleEloquent
 
     protected $primaryKey = ['pasrv_pa', 'pasrv_csf', 'pasrv_srv'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

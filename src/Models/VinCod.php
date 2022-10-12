@@ -19,7 +19,7 @@ class VinCod extends OracleEloquent
 
     protected $primaryKey = ['vin_c_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

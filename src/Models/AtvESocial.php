@@ -19,7 +19,7 @@ class AtvESocial extends OracleEloquent
 
     protected $primaryKey = ['atv_e_social_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

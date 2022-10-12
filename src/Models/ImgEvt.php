@@ -19,7 +19,7 @@ class ImgEvt extends OracleEloquent
 
     protected $primaryKey = ['img_evt_img_cod', 'img_evt_evt_dthr', 'img_evt_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

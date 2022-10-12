@@ -19,7 +19,7 @@ class DwToc extends OracleEloquent
 
     protected $primaryKey = ['dw_toc_str_cod', 'dw_toc_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

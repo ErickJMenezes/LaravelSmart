@@ -19,7 +19,7 @@ class DwLdo extends OracleEloquent
 
     protected $primaryKey = ['dw_ldo_pac_sexo', 'dw_ldo_mmyy', 'dw_ldo_str_exec', 'dw_ldo_smk_cod', 'dw_ldo_psv_cod', 'dw_ldo_smk_tipo', 'dw_ldo_cnv_cod', 'dw_ldo_ctf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

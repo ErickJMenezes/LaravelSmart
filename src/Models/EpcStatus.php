@@ -19,7 +19,7 @@ class EpcStatus extends OracleEloquent
 
     protected $primaryKey = ['epc_s_status', 'epc_s_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class MdlFile extends OracleEloquent
 
     protected $primaryKey = ['mdl_f_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

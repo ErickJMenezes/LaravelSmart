@@ -19,7 +19,7 @@ class Rso extends OracleEloquent
 
     protected $primaryKey = ['rso_lta_cod', 'rso_tipo', 'rso_dthr_ini', 'rso_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

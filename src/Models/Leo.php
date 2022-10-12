@@ -19,7 +19,7 @@ class Leo extends OracleEloquent
 
     protected $primaryKey = ['leo_qst_cod', 'leo_apq_cod', 'leo_seq', 'leo_pgt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

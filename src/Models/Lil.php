@@ -19,7 +19,7 @@ class Lil extends OracleEloquent
 
     protected $primaryKey = ['lil_osm_num', 'lil_smm_num', 'lil_osm_serie', 'lil_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

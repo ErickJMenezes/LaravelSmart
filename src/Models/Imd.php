@@ -19,7 +19,7 @@ class Imd extends OracleEloquent
 
     protected $primaryKey = ['imd_pat_cod2', 'imd_pat_cod1'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

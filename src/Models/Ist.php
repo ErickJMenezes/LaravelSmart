@@ -19,7 +19,7 @@ class Ist extends OracleEloquent
 
     protected $primaryKey = ['ist_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

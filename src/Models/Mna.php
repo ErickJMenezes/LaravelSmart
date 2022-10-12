@@ -19,7 +19,7 @@ class Mna extends OracleEloquent
 
     protected $primaryKey = ['mna_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

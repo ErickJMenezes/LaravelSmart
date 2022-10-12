@@ -19,7 +19,7 @@ class Cbn extends OracleEloquent
 
     protected $primaryKey = ['cbn_dthr', 'cbn_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

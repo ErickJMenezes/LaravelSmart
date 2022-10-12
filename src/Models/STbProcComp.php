@@ -19,7 +19,7 @@ class STbProcComp extends OracleEloquent
 
     protected $primaryKey = ['pc_tp_compat', 'pc_reg_sec', 'pc_reg_princ', 'pc_cmpt_ini', 'pc_proc_princ', 'pc_proc_sec'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

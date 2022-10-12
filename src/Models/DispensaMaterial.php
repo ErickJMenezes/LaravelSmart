@@ -19,7 +19,7 @@ class DispensaMaterial extends OracleEloquent
 
     protected $primaryKey = ['contador_serie', 'contador'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

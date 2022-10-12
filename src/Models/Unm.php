@@ -19,7 +19,7 @@ class Unm extends OracleEloquent
 
     protected $primaryKey = ['unm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

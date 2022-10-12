@@ -19,7 +19,7 @@ class Lct extends OracleEloquent
 
     protected $primaryKey = ['lct_lote', 'lct_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Ppo extends OracleEloquent
 
     protected $primaryKey = ['ppo_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

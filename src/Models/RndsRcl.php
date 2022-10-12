@@ -19,7 +19,7 @@ class RndsRcl extends OracleEloquent
 
     protected $primaryKey = ['rnds_r_tpcod', 'rnds_r_dthr', 'rnds_r_cod', 'rnds_r_pac', 'rnds_r_dsc', 'rnds_r_atr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

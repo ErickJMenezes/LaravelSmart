@@ -19,7 +19,7 @@ class CdpDia extends OracleEloquent
 
     protected $primaryKey = ['cdp_d_id', 'cdp_d_tipo', 'cdp_d_dia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

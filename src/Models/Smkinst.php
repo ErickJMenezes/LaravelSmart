@@ -19,7 +19,7 @@ class Smkinst extends OracleEloquent
 
     protected $primaryKey = ['smkinst_smk_tipo', 'smkinst_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

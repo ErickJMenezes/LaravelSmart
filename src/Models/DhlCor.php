@@ -19,7 +19,7 @@ class DhlCor extends OracleEloquent
 
     protected $primaryKey = ['dhl_c_awb_number', 'dhl_c_epc_cod_etiqueta'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

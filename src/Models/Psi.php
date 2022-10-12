@@ -19,7 +19,7 @@ class Psi extends OracleEloquent
 
     protected $primaryKey = ['psi_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

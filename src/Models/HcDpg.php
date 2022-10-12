@@ -19,7 +19,7 @@ class HcDpg extends OracleEloquent
 
     protected $primaryKey = ['hc_dpg_id', 'hc_dpg_h_dpc_id', 'hc_dpg_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

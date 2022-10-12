@@ -19,7 +19,7 @@ class EntCatLoc extends OracleEloquent
 
     protected $primaryKey = ['ent_cat_loc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

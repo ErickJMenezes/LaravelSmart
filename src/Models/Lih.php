@@ -19,7 +19,7 @@ class Lih extends OracleEloquent
 
     protected $primaryKey = ['lih_num', 'lih_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

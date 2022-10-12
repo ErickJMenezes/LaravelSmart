@@ -19,7 +19,7 @@ class TncSub extends OracleEloquent
 
     protected $primaryKey = ['tnc_s_tnc_cod', 'tnc_s_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Qag extends OracleEloquent
 
     protected $primaryKey = ['qag_grp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

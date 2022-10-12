@@ -19,7 +19,7 @@ class Rtr extends OracleEloquent
 
     protected $primaryKey = ['rtr_cod', 'rtr_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

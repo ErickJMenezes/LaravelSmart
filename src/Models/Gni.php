@@ -19,7 +19,7 @@ class Gni extends OracleEloquent
 
     protected $primaryKey = ['gni_serie', 'gni_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

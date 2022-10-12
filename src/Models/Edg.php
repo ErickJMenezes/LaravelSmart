@@ -19,7 +19,7 @@ class Edg extends OracleEloquent
 
     protected $primaryKey = ['edg_tipo', 'edg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

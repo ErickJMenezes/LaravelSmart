@@ -19,7 +19,7 @@ class Cef extends OracleEloquent
 
     protected $primaryKey = ['cef_cnv_cod', 'cef_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

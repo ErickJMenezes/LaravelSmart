@@ -19,7 +19,7 @@ class SProc extends OracleEloquent
 
     protected $primaryKey = ['proc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

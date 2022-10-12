@@ -19,7 +19,7 @@ class Rpm extends OracleEloquent
 
     protected $primaryKey = ['rpm_qst_cod', 'rpm_num', 'rpm_apq_cod', 'rpm_pgt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Pdc extends OracleEloquent
 
     protected $primaryKey = ['pdc_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

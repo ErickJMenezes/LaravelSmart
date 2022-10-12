@@ -19,7 +19,7 @@ class Str extends OracleEloquent
 
     protected $primaryKey = ['str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

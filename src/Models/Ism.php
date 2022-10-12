@@ -19,7 +19,7 @@ class Ism extends OracleEloquent
 
     protected $primaryKey = ['ism_sma_serie', 'ism_seq', 'ism_sma_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

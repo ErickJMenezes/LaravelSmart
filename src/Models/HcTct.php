@@ -19,7 +19,7 @@ class HcTct extends OracleEloquent
 
     protected $primaryKey = ['hc_tct_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

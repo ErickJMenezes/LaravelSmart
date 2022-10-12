@@ -19,7 +19,7 @@ class Ikm extends OracleEloquent
 
     protected $primaryKey = ['ikm_kmt_cod', 'ikm_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

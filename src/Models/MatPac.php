@@ -19,7 +19,7 @@ class MatPac extends OracleEloquent
 
     protected $primaryKey = ['mat_pac_mat_cod', 'mat_pac_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

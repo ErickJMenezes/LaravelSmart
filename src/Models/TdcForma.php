@@ -19,7 +19,7 @@ class TdcForma extends OracleEloquent
 
     protected $primaryKey = ['tdc_f_tdc_cod', 'tdc_f_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

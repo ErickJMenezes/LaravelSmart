@@ -19,7 +19,7 @@ class Tat extends OracleEloquent
 
     protected $primaryKey = ['tat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

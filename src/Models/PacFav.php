@@ -19,7 +19,7 @@ class PacFav extends OracleEloquent
 
     protected $primaryKey = ['pac_f_usr_login', 'pac_f_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

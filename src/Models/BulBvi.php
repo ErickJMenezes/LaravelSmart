@@ -19,7 +19,7 @@ class BulBvi extends OracleEloquent
 
     protected $primaryKey = ['bul_v_bul_med', 'bul_v_bvi_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

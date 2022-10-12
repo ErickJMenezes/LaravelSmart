@@ -19,7 +19,7 @@ class RndsSmart extends OracleEloquent
 
     protected $primaryKey = ['rnds_s_item', 'rnds_s_valor'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

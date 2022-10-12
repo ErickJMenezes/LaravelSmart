@@ -19,7 +19,7 @@ class Slt extends OracleEloquent
 
     protected $primaryKey = ['slt_serie', 'slt_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

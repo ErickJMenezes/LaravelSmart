@@ -19,7 +19,7 @@ class Uss extends OracleEloquent
 
     protected $primaryKey = ['uss_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

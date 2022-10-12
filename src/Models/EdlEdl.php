@@ -19,7 +19,7 @@ class EdlEdl extends OracleEloquent
 
     protected $primaryKey = ['edl_e_edl_cod_destino', 'edl_e_edl_cod_origem'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

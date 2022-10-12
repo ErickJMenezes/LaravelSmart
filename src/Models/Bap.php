@@ -19,7 +19,7 @@ class Bap extends OracleEloquent
 
     protected $primaryKey = ['bap_elb_cod', 'bap_bac_dsc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

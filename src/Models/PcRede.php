@@ -19,7 +19,7 @@ class PcRede extends OracleEloquent
 
     protected $primaryKey = ['pc_rede_host'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

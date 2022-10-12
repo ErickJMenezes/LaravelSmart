@@ -19,7 +19,7 @@ class Aud extends OracleEloquent
 
     protected $primaryKey = ['aud_serie', 'aud_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Mdt extends OracleEloquent
 
     protected $primaryKey = ['mdt_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

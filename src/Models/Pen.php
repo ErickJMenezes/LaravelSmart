@@ -19,7 +19,7 @@ class Pen extends OracleEloquent
 
     protected $primaryKey = ['pen_osm_serie', 'pen_osm_num', 'pen_dthr_entrega', 'pen_smm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

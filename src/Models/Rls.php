@@ -19,7 +19,7 @@ class Rls extends OracleEloquent
 
     protected $primaryKey = ['rls_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

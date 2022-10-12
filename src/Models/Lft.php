@@ -19,7 +19,7 @@ class Lft extends OracleEloquent
 
     protected $primaryKey = ['lft_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

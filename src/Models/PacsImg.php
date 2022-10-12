@@ -19,7 +19,7 @@ class PacsImg extends OracleEloquent
 
     protected $primaryKey = ['pacs_acession_number'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Nfl extends OracleEloquent
 
     protected $primaryKey = ['nfl_serie', 'nfl_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

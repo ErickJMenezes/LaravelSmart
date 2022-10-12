@@ -19,7 +19,7 @@ class AtrMap extends OracleEloquent
 
     protected $primaryKey = ['atr_m_dsc_cod', 'atr_m_atr_num', 'atr_m_vl_min', 'atr_m_met_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

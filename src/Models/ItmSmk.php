@@ -19,7 +19,7 @@ class ItmSmk extends OracleEloquent
 
     protected $primaryKey = ['itm_s_cod', 'itm_tme_cod', 'itm_s_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

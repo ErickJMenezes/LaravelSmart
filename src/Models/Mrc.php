@@ -19,7 +19,7 @@ class Mrc extends OracleEloquent
 
     protected $primaryKey = ['mrc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

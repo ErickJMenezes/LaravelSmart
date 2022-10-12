@@ -19,7 +19,7 @@ class CabFav extends OracleEloquent
 
     protected $primaryKey = ['cab_f_psv_cod', 'cab_f_cab_nome'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

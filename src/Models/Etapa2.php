@@ -19,7 +19,7 @@ class Etapa2 extends OracleEloquent
 
     protected $primaryKey = ['rcl_pac', 'rcl_tpcod', 'rcl_dthr', 'rcl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

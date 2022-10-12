@@ -19,7 +19,7 @@ class Est extends OracleEloquent
 
     protected $primaryKey = ['est_smk_cod', 'est_mes', 'est_smk_tipo', 'est_ctf_cod', 'est_cnv_cod', 'est_ano'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

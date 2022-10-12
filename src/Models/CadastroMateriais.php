@@ -19,7 +19,7 @@ class CadastroMateriais extends OracleEloquent
 
     protected $primaryKey = ['cod_mat_sap'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

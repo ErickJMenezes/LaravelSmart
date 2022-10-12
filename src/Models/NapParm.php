@@ -19,7 +19,7 @@ class NapParm extends OracleEloquent
 
     protected $primaryKey = ['nap_p_nap_id', 'nap_p_parm'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

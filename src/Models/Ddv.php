@@ -19,7 +19,7 @@ class Ddv extends OracleEloquent
 
     protected $primaryKey = ['ddv_dvd_bul_med', 'ddv_dvd_cod', 'ddv_bul_med_dil'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

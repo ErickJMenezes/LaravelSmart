@@ -19,7 +19,7 @@ class Lpt extends OracleEloquent
 
     protected $primaryKey = ['lpt_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

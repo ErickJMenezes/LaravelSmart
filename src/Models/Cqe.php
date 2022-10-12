@@ -19,7 +19,7 @@ class Cqe extends OracleEloquent
 
     protected $primaryKey = ['cqe_osm_num', 'cqe_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

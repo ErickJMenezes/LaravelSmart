@@ -19,7 +19,7 @@ class RclFai extends OracleEloquent
 
     protected $primaryKey = ['rcl_fai_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

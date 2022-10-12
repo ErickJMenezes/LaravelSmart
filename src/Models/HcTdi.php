@@ -19,7 +19,7 @@ class HcTdi extends OracleEloquent
 
     protected $primaryKey = ['hc_tdi_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

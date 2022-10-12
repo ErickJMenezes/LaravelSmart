@@ -19,7 +19,7 @@ class Cum extends OracleEloquent
 
     protected $primaryKey = ['cum_bun_cod_para', 'cum_bun_cod_de'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

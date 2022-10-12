@@ -19,7 +19,7 @@ class Rpp extends OracleEloquent
 
     protected $primaryKey = ['rpp_tro_cod', 'rpp_rco_cod', 'rpp_pro_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Lga extends OracleEloquent
 
     protected $primaryKey = ['lga_atr_num', 'lga_cor', 'lga_tipo', 'lga_atr_dsc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

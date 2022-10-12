@@ -19,7 +19,7 @@ class ExmCampolg extends OracleEloquent
 
     protected $primaryKey = ['exmlg_c_exm_c_exm_cod', 'exmlg_c_exg_cod', 'exmlg_c_exm_c_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

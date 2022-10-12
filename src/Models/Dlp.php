@@ -19,7 +19,7 @@ class Dlp extends OracleEloquent
 
     protected $primaryKey = ['dlp_hsp_num', 'dlp_pac_reg', 'dlp_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

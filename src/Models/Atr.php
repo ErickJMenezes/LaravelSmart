@@ -19,7 +19,7 @@ class Atr extends OracleEloquent
 
     protected $primaryKey = ['atr_dsc', 'atr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

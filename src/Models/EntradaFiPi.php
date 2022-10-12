@@ -19,7 +19,7 @@ class EntradaFiPi extends OracleEloquent
 
     protected $primaryKey = ['id_entrada_fi_pi'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

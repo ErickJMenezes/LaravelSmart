@@ -19,7 +19,7 @@ class IrpHp extends OracleEloquent
 
     protected $primaryKey = ['irp_hp_rep_hp_serie', 'irp_hp_psv_cod', 'irp_hp_rep_hp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class SmartbiCensoCnv extends OracleEloquent
 
     protected $primaryKey = ['setor', 'ano_mes', 'empresa'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

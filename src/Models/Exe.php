@@ -19,7 +19,7 @@ class Exe extends OracleEloquent
 
     protected $primaryKey = ['exe_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class DloCpg extends OracleEloquent
 
     protected $primaryKey = ['dlo_c_dlo_id', 'dlo_c_cpg_num', 'dlo_c_cpg_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

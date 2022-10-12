@@ -19,7 +19,7 @@ class Blm extends OracleEloquent
 
     protected $primaryKey = ['blm_mat_cod', 'blm_lot_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

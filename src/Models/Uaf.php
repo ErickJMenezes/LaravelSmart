@@ -19,7 +19,7 @@ class Uaf extends OracleEloquent
 
     protected $primaryKey = ['uaf_fnc_cod', 'uaf_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

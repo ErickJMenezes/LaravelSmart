@@ -19,7 +19,7 @@ class DmplDlpa extends OracleEloquent
 
     protected $primaryKey = ['dmpl_dlpa_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

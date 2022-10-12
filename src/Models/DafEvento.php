@@ -19,7 +19,7 @@ class DafEvento extends OracleEloquent
 
     protected $primaryKey = ['daf_e_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

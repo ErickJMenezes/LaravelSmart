@@ -19,7 +19,7 @@ class SArqrmp extends OracleEloquent
 
     protected $primaryKey = ['s_mat', 's_proc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class BcsSmkpad extends OracleEloquent
 
     protected $primaryKey = ['bcs_smkpad_smk_tipo', 'bcs_smkpad_smk_cod', 'bcs_smkpad_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

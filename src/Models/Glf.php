@@ -19,7 +19,7 @@ class Glf extends OracleEloquent
 
     protected $primaryKey = ['glf_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

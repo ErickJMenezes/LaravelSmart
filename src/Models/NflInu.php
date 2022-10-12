@@ -19,7 +19,7 @@ class NflInu extends OracleEloquent
 
     protected $primaryKey = ['nfl_inu_num', 'nfl_inu_serie', 'nfl_inu_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class LqtPat extends OracleEloquent
 
     protected $primaryKey = ['pat_cod', 'lqt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

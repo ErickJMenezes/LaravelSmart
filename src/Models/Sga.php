@@ -19,7 +19,7 @@ class Sga extends OracleEloquent
 
     protected $primaryKey = ['sga_gal_cod', 'sga_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

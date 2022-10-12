@@ -19,7 +19,7 @@ class ExmInc extends OracleEloquent
 
     protected $primaryKey = ['exm_i_qt', 'exm_i_exm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

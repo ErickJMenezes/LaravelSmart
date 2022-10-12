@@ -19,7 +19,7 @@ class Res extends OracleEloquent
 
     protected $primaryKey = ['res_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

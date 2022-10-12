@@ -19,7 +19,7 @@ class Lwf extends OracleEloquent
 
     protected $primaryKey = ['lwf_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

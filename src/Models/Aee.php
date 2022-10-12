@@ -18,7 +18,7 @@ class Aee extends OracleEloquent
 
     protected $primaryKey = ['aee_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

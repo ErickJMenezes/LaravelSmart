@@ -19,7 +19,7 @@ class Ars extends OracleEloquent
 
     protected $primaryKey = ['ars_rls_cod', 'ars_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

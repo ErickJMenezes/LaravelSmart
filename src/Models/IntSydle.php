@@ -19,7 +19,7 @@ class IntSydle extends OracleEloquent
 
     protected $primaryKey = ['int_sydle_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Dem extends OracleEloquent
 
     protected $primaryKey = ['dem_emp_cod', 'dem_ded_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

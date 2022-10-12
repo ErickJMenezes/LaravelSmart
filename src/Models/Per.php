@@ -19,7 +19,7 @@ class Per extends OracleEloquent
 
     protected $primaryKey = ['per_smk_cod', 'per_str_exec', 'per_cnv_cod', 'per_psv_solic', 'per_str_solic', 'per_smk_tipo', 'per_ind_urg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class PceBul extends OracleEloquent
 
     protected $primaryKey = ['p_bul_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

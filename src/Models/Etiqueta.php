@@ -19,7 +19,7 @@ class Etiqueta extends OracleEloquent
 
     protected $primaryKey = ['etq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

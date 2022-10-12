@@ -19,7 +19,7 @@ class SesabEnc extends OracleEloquent
 
     protected $primaryKey = ['sesab_enc_dthr', 'sesab_enc_usr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

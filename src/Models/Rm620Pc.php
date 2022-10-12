@@ -19,7 +19,7 @@ class Rm620Pc extends OracleEloquent
 
     protected $primaryKey = ['rm620_pc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

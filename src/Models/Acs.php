@@ -18,7 +18,7 @@ class Acs extends OracleEloquent
 
     protected $primaryKey = ['acs_grp_cod', 'acs_fnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

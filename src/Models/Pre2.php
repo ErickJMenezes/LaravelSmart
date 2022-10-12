@@ -19,7 +19,7 @@ class Pre2 extends OracleEloquent
 
     protected $primaryKey = [];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

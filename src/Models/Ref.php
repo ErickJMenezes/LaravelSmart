@@ -19,7 +19,7 @@ class Ref extends OracleEloquent
 
     protected $primaryKey = ['ref_id', 'ref_sexo', 'ref_id_dias', 'ref_peso', 'ref_atr', 'ref_met_cod', 'ref_dsc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class EcpCirurgFios extends OracleEloquent
 
     protected $primaryKey = ['ecp_f_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

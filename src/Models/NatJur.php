@@ -19,7 +19,7 @@ class NatJur extends OracleEloquent
 
     protected $primaryKey = ['nat_j_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

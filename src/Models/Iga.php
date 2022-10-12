@@ -19,7 +19,7 @@ class Iga extends OracleEloquent
 
     protected $primaryKey = ['iga_gal_cod', 'iga_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

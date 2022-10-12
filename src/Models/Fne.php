@@ -19,7 +19,7 @@ class Fne extends OracleEloquent
 
     protected $primaryKey = ['fne_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

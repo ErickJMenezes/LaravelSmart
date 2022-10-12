@@ -19,7 +19,7 @@ class Deq extends OracleEloquent
 
     protected $primaryKey = ['deq_dthr', 'deq_eqp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

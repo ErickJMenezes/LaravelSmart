@@ -19,7 +19,7 @@ class PreDt extends OracleEloquent
 
     protected $primaryKey = ['pre_d_smk_tipo', 'pre_d_smk_cod', 'pre_d_tab_cod', 'pre_d_dt_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

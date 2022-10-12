@@ -19,7 +19,7 @@ class SbaLoc extends OracleEloquent
 
     protected $primaryKey = ['sba_l_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

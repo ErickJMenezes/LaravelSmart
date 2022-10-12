@@ -19,7 +19,7 @@ class SmmAud extends OracleEloquent
 
     protected $primaryKey = ['smm_a_num', 'smm_a_osm', 'smm_a_osm_serie', 'smm_a_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

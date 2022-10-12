@@ -19,7 +19,7 @@ class CacheLaudo extends OracleEloquent
 
     protected $primaryKey = ['cache_laudo_numero', 'cache_laudo_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

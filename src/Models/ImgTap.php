@@ -19,7 +19,7 @@ class ImgTap extends OracleEloquent
 
     protected $primaryKey = ['img_tap_tap_cod', 'img_tap_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

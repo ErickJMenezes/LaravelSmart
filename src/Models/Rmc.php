@@ -19,7 +19,7 @@ class Rmc extends OracleEloquent
 
     protected $primaryKey = ['rmc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

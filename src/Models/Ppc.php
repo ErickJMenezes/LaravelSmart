@@ -19,7 +19,7 @@ class Ppc extends OracleEloquent
 
     protected $primaryKey = ['ppc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

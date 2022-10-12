@@ -19,7 +19,7 @@ class IhPrm extends OracleEloquent
 
     protected $primaryKey = ['ih_prm_dthr_reg', 'ih_prm_pac_reg', 'ih_prm_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

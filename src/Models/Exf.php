@@ -19,7 +19,7 @@ class Exf extends OracleEloquent
 
     protected $primaryKey = ['exf_exm_cod', 'exf_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

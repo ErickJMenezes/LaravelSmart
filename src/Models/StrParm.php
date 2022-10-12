@@ -19,7 +19,7 @@ class StrParm extends OracleEloquent
 
     protected $primaryKey = ['str_p_id', 'str_p_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

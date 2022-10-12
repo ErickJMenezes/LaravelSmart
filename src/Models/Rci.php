@@ -19,7 +19,7 @@ class Rci extends OracleEloquent
 
     protected $primaryKey = ['rci_serie', 'rci_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

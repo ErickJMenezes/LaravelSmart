@@ -19,7 +19,7 @@ class MlokMsg extends OracleEloquent
 
     protected $primaryKey = ['msg_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

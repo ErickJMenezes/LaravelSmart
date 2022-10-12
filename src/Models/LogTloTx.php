@@ -19,7 +19,7 @@ class LogTloTx extends OracleEloquent
 
     protected $primaryKey = ['tlo_nu'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Cfe extends OracleEloquent
 
     protected $primaryKey = ['cfe_cfo_cod', 'cfe_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

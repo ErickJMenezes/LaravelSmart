@@ -19,7 +19,7 @@ class Loinc extends OracleEloquent
 
     protected $primaryKey = ['loinc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Cid extends OracleEloquent
 
     protected $primaryKey = ['cid_cod', 'cid_tip'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class DwEme extends OracleEloquent
 
     protected $primaryKey = ['dw_eme_mmyy', 'dw_eme_str_cod', 'dw_eme_cnv_cod', 'dw_eme_cid_cod', 'dw_eme_duracao_h', 'dw_eme_sexo', 'dw_eme_faixa_etaria'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

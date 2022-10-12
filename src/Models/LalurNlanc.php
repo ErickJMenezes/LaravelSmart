@@ -19,7 +19,7 @@ class LalurNlanc extends OracleEloquent
 
     protected $primaryKey = ['lalur_nl_exc_id', 'lalur_nl_lalur_cod', 'lalur_nl_mes', 'lalur_nl_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

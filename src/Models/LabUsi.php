@@ -19,7 +19,7 @@ class LabUsi extends OracleEloquent
 
     protected $primaryKey = ['lab_usi_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

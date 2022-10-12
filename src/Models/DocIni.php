@@ -19,7 +19,7 @@ class DocIni extends OracleEloquent
 
     protected $primaryKey = ['doc_i_ing_cod', 'doc_i_ini_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

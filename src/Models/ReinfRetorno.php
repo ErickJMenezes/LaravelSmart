@@ -19,7 +19,7 @@ class ReinfRetorno extends OracleEloquent
 
     protected $primaryKey = ['reinf_retorno_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Ise extends OracleEloquent
 
     protected $primaryKey = ['ise_rse_serie', 'ise_rse_num', 'ise_sma_num', 'ise_sma_serie', 'ise_ism_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

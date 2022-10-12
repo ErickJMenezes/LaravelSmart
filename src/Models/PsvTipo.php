@@ -19,7 +19,7 @@ class PsvTipo extends OracleEloquent
 
     protected $primaryKey = ['psv_tipo_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class IctCai extends OracleEloquent
 
     protected $primaryKey = ['ict_cai_ict_osm_serie', 'ict_cai_ict_id', 'ict_cai_cai_cod', 'ict_cai_ict_osm_num', 'ict_cai_ict_smm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Mnu extends OracleEloquent
 
     protected $primaryKey = ['mnu_apl_cod', 'mnu_obj', 'mnu_item'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

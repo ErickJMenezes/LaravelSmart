@@ -19,7 +19,7 @@ class Liu extends OracleEloquent
 
     protected $primaryKey = ['liu_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

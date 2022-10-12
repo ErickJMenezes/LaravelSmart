@@ -19,7 +19,7 @@ class CvitaTipoExame extends OracleEloquent
 
     protected $primaryKey = ['cvita_tipo_exame_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

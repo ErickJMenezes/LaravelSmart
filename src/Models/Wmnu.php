@@ -19,7 +19,7 @@ class Wmnu extends OracleEloquent
 
     protected $primaryKey = ['wmnu_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

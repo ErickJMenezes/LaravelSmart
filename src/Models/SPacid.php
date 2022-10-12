@@ -19,7 +19,7 @@ class SPacid extends OracleEloquent
 
     protected $primaryKey = ['pacid_cmp', 'pacid_pa', 'pacid_cid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

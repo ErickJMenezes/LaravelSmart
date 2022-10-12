@@ -19,7 +19,7 @@ class CnvLib extends OracleEloquent
 
     protected $primaryKey = ['cnv_lib_cnv_cod', 'cnv_lib_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

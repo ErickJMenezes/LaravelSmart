@@ -19,7 +19,7 @@ class ImgGih extends OracleEloquent
 
     protected $primaryKey = ['img_gih_gih_id', 'img_gih_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

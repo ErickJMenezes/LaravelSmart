@@ -19,7 +19,7 @@ class RvaMaterial extends OracleEloquent
 
     protected $primaryKey = ['rva_m_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

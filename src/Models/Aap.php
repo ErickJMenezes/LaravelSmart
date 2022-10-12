@@ -18,7 +18,7 @@ class Aap extends OracleEloquent
 
     protected $primaryKey = ['aap_amo_cod', 'aap_elb_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

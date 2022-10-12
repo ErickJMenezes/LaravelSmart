@@ -19,7 +19,7 @@ class Dlo extends OracleEloquent
 
     protected $primaryKey = ['dlo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

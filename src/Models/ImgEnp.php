@@ -19,7 +19,7 @@ class ImgEnp extends OracleEloquent
 
     protected $primaryKey = ['img_enp_img_cod', 'img_enp_enp_num', 'img_enp_enp_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

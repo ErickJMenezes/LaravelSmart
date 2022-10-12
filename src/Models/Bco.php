@@ -19,7 +19,7 @@ class Bco extends OracleEloquent
 
     protected $primaryKey = ['bco_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

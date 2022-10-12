@@ -19,7 +19,7 @@ class BroMotc extends OracleEloquent
 
     protected $primaryKey = ['bro_motc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

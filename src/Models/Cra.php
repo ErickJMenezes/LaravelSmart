@@ -19,7 +19,7 @@ class Cra extends OracleEloquent
 
     protected $primaryKey = ['cra_validade', 'cra_ccr_origem', 'cra_ccr_destino'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

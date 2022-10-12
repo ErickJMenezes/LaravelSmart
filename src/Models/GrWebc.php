@@ -19,7 +19,7 @@ class GrWebc extends OracleEloquent
 
     protected $primaryKey = ['gr_webc_dthr', 'gr_webc_session_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

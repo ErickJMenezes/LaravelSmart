@@ -19,7 +19,7 @@ class CapPrx extends OracleEloquent
 
     protected $primaryKey = ['cap_p_num', 'cap_p_pac_reg', 'cap_p_prx_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

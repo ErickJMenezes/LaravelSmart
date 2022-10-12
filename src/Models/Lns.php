@@ -19,7 +19,7 @@ class Lns extends OracleEloquent
 
     protected $primaryKey = ['lns_smk_tipo', 'lns_cnv_cod', 'lns_porte', 'lns_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

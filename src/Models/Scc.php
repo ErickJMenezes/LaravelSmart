@@ -19,7 +19,7 @@ class Scc extends OracleEloquent
 
     protected $primaryKey = ['scc_cct_cod', 'scc_cct_cct_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

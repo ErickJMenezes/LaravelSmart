@@ -19,7 +19,7 @@ class STbCidProc extends OracleEloquent
 
     protected $primaryKey = ['cp_cid', 'cp_proc', 'cp_cmpt_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

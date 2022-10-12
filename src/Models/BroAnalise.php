@@ -19,7 +19,7 @@ class BroAnalise extends OracleEloquent
 
     protected $primaryKey = ['bro_a_osm_serie', 'bro_a_osm_num', 'bro_a_mod_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

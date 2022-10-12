@@ -19,7 +19,7 @@ class HHctx extends OracleEloquent
 
     protected $primaryKey = ['h_hctx_id', 'h_hctx_pac_reg', 'h_hctx_hct_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

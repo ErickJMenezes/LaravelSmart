@@ -19,7 +19,7 @@ class Wqlf extends OracleEloquent
 
     protected $primaryKey = ['wqlf_rot', 'wqlf_dsc', 'wqlf_atr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

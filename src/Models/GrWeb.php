@@ -19,7 +19,7 @@ class GrWeb extends OracleEloquent
 
     protected $primaryKey = ['gr_web_server_name', 'gr_web_session_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

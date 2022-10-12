@@ -19,7 +19,7 @@ class Mli extends OracleEloquent
 
     protected $primaryKey = ['mli_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

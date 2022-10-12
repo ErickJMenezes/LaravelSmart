@@ -19,7 +19,7 @@ class ItmCnv extends OracleEloquent
 
     protected $primaryKey = ['itm_tme_cod', 'itm_c_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

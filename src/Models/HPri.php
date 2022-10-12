@@ -19,7 +19,7 @@ class HPri extends OracleEloquent
 
     protected $primaryKey = ['h_pri_cap_id', 'h_pri_id', 'h_pri_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

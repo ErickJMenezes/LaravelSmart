@@ -19,7 +19,7 @@ class Dra extends OracleEloquent
 
     protected $primaryKey = ['dra_pac_reg', 'dra_num', 'dra_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class GrApl extends OracleEloquent
 
     protected $primaryKey = ['gr_apl_eqp_nome', 'gr_apl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

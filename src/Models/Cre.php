@@ -19,7 +19,7 @@ class Cre extends OracleEloquent
 
     protected $primaryKey = ['cre_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

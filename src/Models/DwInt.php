@@ -19,7 +19,7 @@ class DwInt extends OracleEloquent
 
     protected $primaryKey = ['dw_int_cnv_cod', 'dw_int_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

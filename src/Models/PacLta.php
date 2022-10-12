@@ -19,7 +19,7 @@ class PacLta extends OracleEloquent
 
     protected $primaryKey = ['pac_l_lta_cod', 'pac_l_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

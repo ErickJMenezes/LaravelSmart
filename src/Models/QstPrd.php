@@ -19,7 +19,7 @@ class QstPrd extends OracleEloquent
 
     protected $primaryKey = ['qst_p_qst_cod_predecessor', 'qst_p_qst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

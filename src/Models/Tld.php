@@ -19,7 +19,7 @@ class Tld extends OracleEloquent
 
     protected $primaryKey = ['tld_v2', 'tld_nome', 'tld_v1'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

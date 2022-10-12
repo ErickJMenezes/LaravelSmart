@@ -19,7 +19,7 @@ class Pis extends OracleEloquent
 
     protected $primaryKey = ['pis_pac_reg', 'pis_dthr_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

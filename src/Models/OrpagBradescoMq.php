@@ -19,7 +19,7 @@ class OrpagBradescoMq extends OracleEloquent
 
     protected $primaryKey = ['orpag_bm_tiss_guia', 'orpag_bm_str_solic', 'orpag_bm_ctf_cod', 'orpag_bm_cnv_cod', 'orpag_bm_ctf_tipo', 'orpag_bm_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Lms extends OracleEloquent
 
     protected $primaryKey = ['lms_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

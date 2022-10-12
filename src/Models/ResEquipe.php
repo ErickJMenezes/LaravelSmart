@@ -19,7 +19,7 @@ class ResEquipe extends OracleEloquent
 
     protected $primaryKey = ['res_equipe_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

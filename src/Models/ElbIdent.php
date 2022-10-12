@@ -19,7 +19,7 @@ class ElbIdent extends OracleEloquent
 
     protected $primaryKey = ['elb_i_equip_num', 'elb_i_elb_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

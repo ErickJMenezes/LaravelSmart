@@ -19,7 +19,7 @@ class Im2Pat extends OracleEloquent
 
     protected $primaryKey = ['im2_p_im2_id', 'im2_p_pat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

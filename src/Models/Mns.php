@@ -19,7 +19,7 @@ class Mns extends OracleEloquent
 
     protected $primaryKey = ['mns_num', 'mns_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

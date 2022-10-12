@@ -19,7 +19,7 @@ class Bilhete extends OracleEloquent
 
     protected $primaryKey = ['hora', 'data', 'ramal'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

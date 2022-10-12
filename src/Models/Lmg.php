@@ -19,7 +19,7 @@ class Lmg extends OracleEloquent
 
     protected $primaryKey = ['lmg_pac_reg', 'lmg_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

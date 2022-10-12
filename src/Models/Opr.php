@@ -19,7 +19,7 @@ class Opr extends OracleEloquent
 
     protected $primaryKey = ['opr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

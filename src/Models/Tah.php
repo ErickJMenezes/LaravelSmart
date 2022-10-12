@@ -19,7 +19,7 @@ class Tah extends OracleEloquent
 
     protected $primaryKey = ['tah_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

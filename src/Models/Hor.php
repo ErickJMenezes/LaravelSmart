@@ -19,7 +19,7 @@ class Hor extends OracleEloquent
 
     protected $primaryKey = ['hor_loc', 'hor_num', 'hor_tpctf', 'hor_med', 'hor_ctf', 'hor_dia'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

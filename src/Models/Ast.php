@@ -19,7 +19,7 @@ class Ast extends OracleEloquent
 
     protected $primaryKey = ['ast_sba_cod', 'ast_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

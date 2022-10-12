@@ -19,7 +19,7 @@ class DloOrp extends OracleEloquent
 
     protected $primaryKey = ['dlo_o_orp_num', 'dlo_o_dlo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

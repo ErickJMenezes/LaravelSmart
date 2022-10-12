@@ -19,7 +19,7 @@ class Tpv extends OracleEloquent
 
     protected $primaryKey = ['tpv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

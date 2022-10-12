@@ -19,7 +19,7 @@ class CpgInssDet extends OracleEloquent
 
     protected $primaryKey = ['cpg_inss_det_cpg_num', 'cpg_inss_det_cpg_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

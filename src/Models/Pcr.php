@@ -19,7 +19,7 @@ class Pcr extends OracleEloquent
 
     protected $primaryKey = ['pcr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Lim extends OracleEloquent
 
     protected $primaryKey = ['lim_lic_commid', 'lim_msgid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

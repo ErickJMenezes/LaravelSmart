@@ -19,7 +19,7 @@ class Mmu extends OracleEloquent
 
     protected $primaryKey = ['mmu_cod', 'mmu_psv_cod', 'mmu_tip'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

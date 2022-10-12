@@ -19,7 +19,7 @@ class Pal extends OracleEloquent
 
     protected $primaryKey = ['pal_str_cod', 'pal_seq', 'pal_ccr_parceiro'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

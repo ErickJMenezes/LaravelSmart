@@ -19,7 +19,7 @@ class ImgTpa extends OracleEloquent
 
     protected $primaryKey = ['img_tpa_img_cod', 'img_tpa_tpa_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

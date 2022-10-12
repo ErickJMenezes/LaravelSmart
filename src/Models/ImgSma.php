@@ -19,7 +19,7 @@ class ImgSma extends OracleEloquent
 
     protected $primaryKey = ['img_sma_sma_num', 'img_sma_img_cod', 'img_sma_sma_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

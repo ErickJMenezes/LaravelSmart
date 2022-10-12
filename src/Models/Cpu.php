@@ -19,7 +19,7 @@ class Cpu extends OracleEloquent
 
     protected $primaryKey = ['cpu_cnv_cod', 'cpu_str_solic', 'cpu_gcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

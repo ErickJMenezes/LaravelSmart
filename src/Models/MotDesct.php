@@ -19,7 +19,7 @@ class MotDesct extends OracleEloquent
 
     protected $primaryKey = ['mot_desct_mot_cod', 'mot_desct_mot_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

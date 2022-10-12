@@ -19,7 +19,7 @@ class Rst extends OracleEloquent
 
     protected $primaryKey = ['rst_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

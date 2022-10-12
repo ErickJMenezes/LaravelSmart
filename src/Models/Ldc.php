@@ -19,7 +19,7 @@ class Ldc extends OracleEloquent
 
     protected $primaryKey = ['ldc_cid_tip', 'ldc_ldn_id', 'ldc_cid_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Pag extends OracleEloquent
 
     protected $primaryKey = ['pag_lote', 'pag_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

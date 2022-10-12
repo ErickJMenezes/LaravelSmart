@@ -19,7 +19,7 @@ class Dex extends OracleEloquent
 
     protected $primaryKey = ['dex_num_doc', 'dex_serie_doc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

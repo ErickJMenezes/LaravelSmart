@@ -19,7 +19,7 @@ class CidSin extends OracleEloquent
 
     protected $primaryKey = ['cid_s_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

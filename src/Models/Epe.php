@@ -19,7 +19,7 @@ class Epe extends OracleEloquent
 
     protected $primaryKey = ['epe_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

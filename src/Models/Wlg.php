@@ -19,7 +19,7 @@ class Wlg extends OracleEloquent
 
     protected $primaryKey = ['wlg_web_laudo_osm', 'wlg_web_laudo_osm_serie', 'wlg_usi_login', 'wlg_web_laudo_smm'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

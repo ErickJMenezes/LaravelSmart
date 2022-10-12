@@ -19,7 +19,7 @@ class MmtMat extends OracleEloquent
 
     protected $primaryKey = ['mmt_m_itm_cod', 'mmt_m_tme_cod', 'mmt_m_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

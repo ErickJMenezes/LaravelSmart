@@ -19,7 +19,7 @@ class B2bPadrao extends OracleEloquent
 
     protected $primaryKey = ['b2b_padrao_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

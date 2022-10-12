@@ -19,7 +19,7 @@ class DwMedSol extends OracleEloquent
 
     protected $primaryKey = ['dw_med_sol_mmyy', 'dw_med_sol_psv_cod_sol'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

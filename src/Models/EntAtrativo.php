@@ -19,7 +19,7 @@ class EntAtrativo extends OracleEloquent
 
     protected $primaryKey = ['ent_atrativo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

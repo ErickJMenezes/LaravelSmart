@@ -19,7 +19,7 @@ class Eco extends OracleEloquent
 
     protected $primaryKey = ['eco_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

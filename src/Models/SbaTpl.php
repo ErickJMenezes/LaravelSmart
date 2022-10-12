@@ -19,7 +19,7 @@ class SbaTpl extends OracleEloquent
 
     protected $primaryKey = ['sba_t_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

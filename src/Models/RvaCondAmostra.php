@@ -19,7 +19,7 @@ class RvaCondAmostra extends OracleEloquent
 
     protected $primaryKey = ['rva_c_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

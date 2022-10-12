@@ -19,7 +19,7 @@ class Eaa extends OracleEloquent
 
     protected $primaryKey = ['eaa_cod_amostra', 'eaa_elb_cod', 'eaa_num_aparelho', 'eaa_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

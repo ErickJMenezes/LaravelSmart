@@ -19,7 +19,7 @@ class CriacaoReserva extends OracleEloquent
 
     protected $primaryKey = ['numero_solic_smart', 'item_reserva', 'serie_solic_smart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

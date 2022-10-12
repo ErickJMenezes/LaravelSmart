@@ -19,7 +19,7 @@ class Ctr extends OracleEloquent
 
     protected $primaryKey = ['ctr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

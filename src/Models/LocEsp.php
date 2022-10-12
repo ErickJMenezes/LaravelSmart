@@ -19,7 +19,7 @@ class LocEsp extends OracleEloquent
 
     protected $primaryKey = ['loc_e_esp_cod', 'loc_e_loc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

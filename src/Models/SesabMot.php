@@ -19,7 +19,7 @@ class SesabMot extends OracleEloquent
 
     protected $primaryKey = ['sesab_mot_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

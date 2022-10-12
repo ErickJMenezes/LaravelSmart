@@ -19,7 +19,7 @@ class RclEdt extends OracleEloquent
 
     protected $primaryKey = ['rcl_e_dthr_start', 'rcl_e_gr_ses_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

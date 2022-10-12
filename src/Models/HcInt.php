@@ -19,7 +19,7 @@ class HcInt extends OracleEloquent
 
     protected $primaryKey = ['hc_int_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

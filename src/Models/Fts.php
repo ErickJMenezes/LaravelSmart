@@ -19,7 +19,7 @@ class Fts extends OracleEloquent
 
     protected $primaryKey = ['fts_ctf_tipo', 'fts_ftr_cod', 'fts_bnc_cod', 'fts_str_cod', 'fts_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

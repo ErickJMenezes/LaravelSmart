@@ -19,7 +19,7 @@ class ExsCampo extends OracleEloquent
 
     protected $primaryKey = ['exs_c_item_id', 'exs_c_pex_pac', 'exs_c_pex_dthr', 'exs_c_exm_cod', 'exs_c_exm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

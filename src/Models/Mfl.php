@@ -19,7 +19,7 @@ class Mfl extends OracleEloquent
 
     protected $primaryKey = ['mfl_dthr', 'mfl_usr_remetente'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

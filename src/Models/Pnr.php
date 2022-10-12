@@ -19,7 +19,7 @@ class Pnr extends OracleEloquent
 
     protected $primaryKey = ['pnr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

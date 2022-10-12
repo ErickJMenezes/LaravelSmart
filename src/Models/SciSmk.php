@@ -19,7 +19,7 @@ class SciSmk extends OracleEloquent
 
     protected $primaryKey = ['sci_smk_sci_cod', 'sci_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

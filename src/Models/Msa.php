@@ -19,7 +19,7 @@ class Msa extends OracleEloquent
 
     protected $primaryKey = ['msa_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

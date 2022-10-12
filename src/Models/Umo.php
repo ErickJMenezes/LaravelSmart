@@ -19,7 +19,7 @@ class Umo extends OracleEloquent
 
     protected $primaryKey = ['umo_sigla'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

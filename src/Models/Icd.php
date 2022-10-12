@@ -19,7 +19,7 @@ class Icd extends OracleEloquent
 
     protected $primaryKey = ['icd_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Cax extends OracleEloquent
 
     protected $primaryKey = ['cax_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

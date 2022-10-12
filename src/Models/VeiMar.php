@@ -19,7 +19,7 @@ class VeiMar extends OracleEloquent
 
     protected $primaryKey = ['v_mar_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Grw extends OracleEloquent
 
     protected $primaryKey = ['grw_guid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

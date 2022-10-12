@@ -19,7 +19,7 @@ class Cms extends OracleEloquent
 
     protected $primaryKey = ['cms_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

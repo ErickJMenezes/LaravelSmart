@@ -19,7 +19,7 @@ class MbClp extends OracleEloquent
 
     protected $primaryKey = ['mb_clp_mb_cls_tipo', 'mb_clp_nome'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

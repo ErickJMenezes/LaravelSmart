@@ -19,7 +19,7 @@ class DwAgm extends OracleEloquent
 
     protected $primaryKey = ['dw_agm_psv_cod', 'dw_agm_cnv_cod', 'dw_agm_mmyy', 'dw_agm_ctf_tipo', 'dw_agm_str_cod', 'dw_agm_ctf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

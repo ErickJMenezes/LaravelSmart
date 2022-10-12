@@ -19,7 +19,7 @@ class Mog extends OracleEloquent
 
     protected $primaryKey = ['mog_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

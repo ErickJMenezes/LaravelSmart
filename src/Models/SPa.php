@@ -19,7 +19,7 @@ class SPa extends OracleEloquent
 
     protected $primaryKey = ['pa_dv', 'pa_cmp', 'pa_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

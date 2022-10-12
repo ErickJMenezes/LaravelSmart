@@ -19,7 +19,7 @@ class Fpa extends OracleEloquent
 
     protected $primaryKey = ['fpa_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

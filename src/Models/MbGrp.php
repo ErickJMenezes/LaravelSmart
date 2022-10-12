@@ -19,7 +19,7 @@ class MbGrp extends OracleEloquent
 
     protected $primaryKey = ['mb_grp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

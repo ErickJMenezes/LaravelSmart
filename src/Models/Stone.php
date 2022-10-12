@@ -19,7 +19,7 @@ class Stone extends OracleEloquent
 
     protected $primaryKey = ['stone_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

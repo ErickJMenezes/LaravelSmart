@@ -19,7 +19,7 @@ class ReinfTpEve extends OracleEloquent
 
     protected $primaryKey = ['reinf_tp_eve_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

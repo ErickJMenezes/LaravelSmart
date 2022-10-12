@@ -19,7 +19,7 @@ class CnvOpm extends OracleEloquent
 
     protected $primaryKey = ['cnv_o_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

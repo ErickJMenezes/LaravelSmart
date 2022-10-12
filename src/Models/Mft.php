@@ -19,7 +19,7 @@ class Mft extends OracleEloquent
 
     protected $primaryKey = ['mft_dt', 'mft_fat_serie', 'mft_fat'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class FatHpardini extends OracleEloquent
 
     protected $primaryKey = ['fat_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

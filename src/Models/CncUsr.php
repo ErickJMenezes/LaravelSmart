@@ -19,7 +19,7 @@ class CncUsr extends OracleEloquent
 
     protected $primaryKey = ['cnc_u_cnc_cod', 'cnc_u_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

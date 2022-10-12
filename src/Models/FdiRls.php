@@ -19,7 +19,7 @@ class FdiRls extends OracleEloquent
 
     protected $primaryKey = ['fdi_fdl_id', 'fdi_rls_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

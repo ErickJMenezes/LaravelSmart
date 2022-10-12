@@ -19,7 +19,7 @@ class Fmc extends OracleEloquent
 
     protected $primaryKey = ['fmc_mrc_cod', 'fmc_fne_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

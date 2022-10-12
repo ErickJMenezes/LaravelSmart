@@ -19,7 +19,7 @@ class Cr extends OracleEloquent
 
     protected $primaryKey = ['cr_sigla'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

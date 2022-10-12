@@ -19,7 +19,7 @@ class Hal extends OracleEloquent
 
     protected $primaryKey = ['hal_pat_cod', 'hal_gbh_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Dpr extends OracleEloquent
 
     protected $primaryKey = ['dpr_cod', 'dpr_int_bko_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

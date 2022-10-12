@@ -19,7 +19,7 @@ class Sex extends OracleEloquent
 
     protected $primaryKey = ['sex_unidade', 'sex_smk_cod', 'sex_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

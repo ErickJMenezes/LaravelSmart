@@ -19,7 +19,7 @@ class RlaQtd extends OracleEloquent
 
     protected $primaryKey = ['rla_qtd_num', 'rla_qtd_rla_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

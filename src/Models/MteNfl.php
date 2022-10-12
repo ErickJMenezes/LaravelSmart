@@ -19,7 +19,7 @@ class MteNfl extends OracleEloquent
 
     protected $primaryKey = ['mte_n_mte_serie', 'mte_n_mte_seq', 'mte_n_nfl_num', 'mte_n_nfl_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Ldw extends OracleEloquent
 
     protected $primaryKey = ['ldw_num', 'ldw_smk_tipo', 'ldw_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

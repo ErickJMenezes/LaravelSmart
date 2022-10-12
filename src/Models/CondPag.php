@@ -19,7 +19,7 @@ class CondPag extends OracleEloquent
 
     protected $primaryKey = ['cond_pag_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

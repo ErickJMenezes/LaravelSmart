@@ -19,7 +19,7 @@ class EmlEnv extends OracleEloquent
 
     protected $primaryKey = ['e_env_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

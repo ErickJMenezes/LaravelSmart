@@ -19,7 +19,7 @@ class Pde extends OracleEloquent
 
     protected $primaryKey = ['pde_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

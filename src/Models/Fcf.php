@@ -19,7 +19,7 @@ class Fcf extends OracleEloquent
 
     protected $primaryKey = ['fcf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

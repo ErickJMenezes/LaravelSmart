@@ -19,7 +19,7 @@ class Sot extends OracleEloquent
 
     protected $primaryKey = ['sot_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

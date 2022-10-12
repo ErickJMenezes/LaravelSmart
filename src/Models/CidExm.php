@@ -19,7 +19,7 @@ class CidExm extends OracleEloquent
 
     protected $primaryKey = ['cid_e_cid_cod', 'cid_e_exm_cod', 'cid_e_cid_tip'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

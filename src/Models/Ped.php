@@ -19,7 +19,7 @@ class Ped extends OracleEloquent
 
     protected $primaryKey = ['ped_edl_cod_origem_pend', 'ped_edl_cod_destino'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

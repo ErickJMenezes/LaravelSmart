@@ -19,7 +19,7 @@ class DwExtGen extends OracleEloquent
 
     protected $primaryKey = ['dw_ext_gen_mmyy', 'dw_ext_gen_dim'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

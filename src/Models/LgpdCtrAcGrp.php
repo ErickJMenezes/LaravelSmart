@@ -19,7 +19,7 @@ class LgpdCtrAcGrp extends OracleEloquent
 
     protected $primaryKey = ['lgpd_cag_grp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

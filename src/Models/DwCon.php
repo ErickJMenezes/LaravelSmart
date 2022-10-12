@@ -19,7 +19,7 @@ class DwCon extends OracleEloquent
 
     protected $primaryKey = ['dw_con_esp_cod', 'dw_con_str_unidade', 'dw_con_psv_cod', 'dw_con_mmyy'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

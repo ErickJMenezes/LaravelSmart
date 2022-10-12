@@ -19,7 +19,7 @@ class Tro extends OracleEloquent
 
     protected $primaryKey = ['tro_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

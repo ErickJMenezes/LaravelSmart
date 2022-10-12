@@ -19,7 +19,7 @@ class Msp extends OracleEloquent
 
     protected $primaryKey = ['msp_adp_tipo', 'msp_usr_login', 'msp_adp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

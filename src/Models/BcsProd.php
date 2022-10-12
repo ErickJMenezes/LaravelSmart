@@ -19,7 +19,7 @@ class BcsProd extends OracleEloquent
 
     protected $primaryKey = ['bcs_prod_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

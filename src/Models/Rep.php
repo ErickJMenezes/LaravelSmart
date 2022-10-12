@@ -19,7 +19,7 @@ class Rep extends OracleEloquent
 
     protected $primaryKey = ['rep_serie', 'rep_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class RhpCustoM extends OracleEloquent
 
     protected $primaryKey = ['rhp_m_ctf_cod', 'rhp_m_dt_ref', 'rhp_m_ctf_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

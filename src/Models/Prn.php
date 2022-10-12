@@ -19,7 +19,7 @@ class Prn extends OracleEloquent
 
     protected $primaryKey = ['prn_num', 'prn_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

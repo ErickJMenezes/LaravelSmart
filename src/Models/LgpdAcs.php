@@ -19,7 +19,7 @@ class LgpdAcs extends OracleEloquent
 
     protected $primaryKey = ['lgpd_a_modulo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

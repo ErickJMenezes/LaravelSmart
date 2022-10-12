@@ -19,7 +19,7 @@ class RepUsrPsv extends OracleEloquent
 
     protected $primaryKey = ['rep_up_psv_cod', 'rep_up_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

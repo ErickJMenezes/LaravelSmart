@@ -19,7 +19,7 @@ class RpiCpg extends OracleEloquent
 
     protected $primaryKey = ['rpi_c_ccr_cod', 'rpi_c_rpi_num', 'rpi_c_rpi_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

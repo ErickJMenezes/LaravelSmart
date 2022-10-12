@@ -19,7 +19,7 @@ class Emn extends OracleEloquent
 
     protected $primaryKey = ['emn_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

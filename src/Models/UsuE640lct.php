@@ -19,7 +19,7 @@ class UsuE640lct extends OracleEloquent
 
     protected $primaryKey = ['pksmart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

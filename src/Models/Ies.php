@@ -19,7 +19,7 @@ class Ies extends OracleEloquent
 
     protected $primaryKey = ['ies_smk_cod', 'ies_esr_cod', 'ies_smk_tipo', 'ies_dsc_cod', 'ies_atr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

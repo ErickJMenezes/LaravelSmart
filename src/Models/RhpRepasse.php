@@ -19,7 +19,7 @@ class RhpRepasse extends OracleEloquent
 
     protected $primaryKey = ['rhp_str_cod', 'rhp_emp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

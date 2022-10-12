@@ -19,7 +19,7 @@ class Met extends OracleEloquent
 
     protected $primaryKey = ['met_dsc_cod', 'met_cod', 'met_atr_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

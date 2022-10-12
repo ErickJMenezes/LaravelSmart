@@ -19,7 +19,7 @@ class Rex extends OracleEloquent
 
     protected $primaryKey = ['rex_cnv_cod', 'rex_cnv_cod_reaproveita'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

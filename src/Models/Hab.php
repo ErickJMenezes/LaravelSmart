@@ -19,7 +19,7 @@ class Hab extends OracleEloquent
 
     protected $primaryKey = ['hab_ctf', 'hab_med', 'hab_tpctf'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

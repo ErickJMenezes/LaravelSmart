@@ -19,7 +19,7 @@ class InfSens extends OracleEloquent
 
     protected $primaryKey = ['inf_s_osm_serie', 'inf_s_pat_dsc_cod', 'inf_s_bac_dsc_cod', 'inf_s_osm_num', 'inf_s_smm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

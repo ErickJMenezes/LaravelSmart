@@ -19,7 +19,7 @@ class Trc extends OracleEloquent
 
     protected $primaryKey = ['trc_compet'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

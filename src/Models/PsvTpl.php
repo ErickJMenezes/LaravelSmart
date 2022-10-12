@@ -19,7 +19,7 @@ class PsvTpl extends OracleEloquent
 
     protected $primaryKey = ['psv_t_psv_cod', 'psv_t_dia', 'psv_t_tpl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

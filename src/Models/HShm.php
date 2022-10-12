@@ -19,7 +19,7 @@ class HShm extends OracleEloquent
 
     protected $primaryKey = ['h_shm_bul_med', 'h_shm_shd_id', 'h_shm_pac_reg', 'h_shm_reg_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

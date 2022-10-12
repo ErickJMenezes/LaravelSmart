@@ -19,7 +19,7 @@ class BroMarca extends OracleEloquent
 
     protected $primaryKey = ['bro_marca_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

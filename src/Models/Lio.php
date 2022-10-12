@@ -19,7 +19,7 @@ class Lio extends OracleEloquent
 
     protected $primaryKey = ['lio_num', 'lio_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Mie extends OracleEloquent
 
     protected $primaryKey = ['mie_emp_cod', 'mie_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Lic extends OracleEloquent
 
     protected $primaryKey = ['lic_commid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

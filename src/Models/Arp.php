@@ -19,7 +19,7 @@ class Arp extends OracleEloquent
 
     protected $primaryKey = ['arp_pac_reg', 'arp_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

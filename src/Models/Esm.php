@@ -19,7 +19,7 @@ class Esm extends OracleEloquent
 
     protected $primaryKey = ['esm_esp', 'esm_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

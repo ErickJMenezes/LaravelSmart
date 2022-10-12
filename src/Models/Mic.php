@@ -19,7 +19,7 @@ class Mic extends OracleEloquent
 
     protected $primaryKey = ['mic_cod', 'mic_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

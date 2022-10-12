@@ -19,7 +19,7 @@ class Hhs extends OracleEloquent
 
     protected $primaryKey = ['hhs_str_unid', 'hhs_ctf_tipo', 'hhs_ctf_cod', 'hhs_smk_tipo', 'hhs_psv_cod', 'hhs_dia', 'hhs_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

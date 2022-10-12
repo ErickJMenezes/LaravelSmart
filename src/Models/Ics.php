@@ -19,7 +19,7 @@ class Ics extends OracleEloquent
 
     protected $primaryKey = ['ics_hsp_num', 'ics_pac_reg', 'ics_str_solic', 'ics_mat_cod', 'ics_conta_destino', 'ics_lot_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

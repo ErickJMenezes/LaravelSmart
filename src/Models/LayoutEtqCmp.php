@@ -19,7 +19,7 @@ class LayoutEtqCmp extends OracleEloquent
 
     protected $primaryKey = ['layout_etq_cmp_layout_etq_cod', 'layout_etq_cmp_cmp_etq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

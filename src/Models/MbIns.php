@@ -19,7 +19,7 @@ class MbIns extends OracleEloquent
 
     protected $primaryKey = ['mb_ins_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

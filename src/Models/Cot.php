@@ -19,7 +19,7 @@ class Cot extends OracleEloquent
 
     protected $primaryKey = ['cot_cnv_cod', 'cot_padrao_preco', 'cot_umo_sigla', 'cot_dt_inic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

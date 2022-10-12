@@ -19,7 +19,7 @@ class EmlAnx extends OracleEloquent
 
     protected $primaryKey = ['e_anx_img_cod', 'e_anx_eml_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Wtxt extends OracleEloquent
 
     protected $primaryKey = ['wtxt_parag', 'wtxt_nome'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

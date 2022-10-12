@@ -19,7 +19,7 @@ class Iet extends OracleEloquent
 
     protected $primaryKey = ['iet_cod_amostra'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Lcp extends OracleEloquent
 
     protected $primaryKey = ['lcp_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class TempCca extends OracleEloquent
 
     protected $primaryKey = ['temp_cca_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

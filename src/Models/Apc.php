@@ -19,7 +19,7 @@ class Apc extends OracleEloquent
 
     protected $primaryKey = ['apc_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

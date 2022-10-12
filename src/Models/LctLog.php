@@ -19,7 +19,7 @@ class LctLog extends OracleEloquent
 
     protected $primaryKey = ['lct_log_mcc_serie', 'lct_log_gcc_cod', 'lct_log_usr_login', 'lct_log_dthr', 'lct_log_mcc_lote', 'lct_log_gr_ses_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Ipg extends OracleEloquent
 
     protected $primaryKey = ['ipg_parc', 'ipg_cpg_num', 'ipg_cpg_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

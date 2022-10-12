@@ -19,7 +19,7 @@ class Mcs extends OracleEloquent
 
     protected $primaryKey = ['mcs_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

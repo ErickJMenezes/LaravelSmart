@@ -19,7 +19,7 @@ class ImgEqp extends OracleEloquent
 
     protected $primaryKey = ['img_eqp_img_cod', 'img_eqp_eqp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

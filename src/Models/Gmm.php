@@ -19,7 +19,7 @@ class Gmm extends OracleEloquent
 
     protected $primaryKey = ['gmm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

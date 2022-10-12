@@ -19,7 +19,7 @@ class Cer extends OracleEloquent
 
     protected $primaryKey = ['cer_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

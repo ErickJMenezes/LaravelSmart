@@ -19,7 +19,7 @@ class Cme extends OracleEloquent
 
     protected $primaryKey = ['cme_sba_cod', 'cme_mes', 'cme_mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

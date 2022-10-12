@@ -19,7 +19,7 @@ class HcTpaSmk extends OracleEloquent
 
     protected $primaryKey = ['hc_tpa_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Ncp extends OracleEloquent
 
     protected $primaryKey = ['ncp_cop_num', 'ncp_nta_cod', 'ncp_cop_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

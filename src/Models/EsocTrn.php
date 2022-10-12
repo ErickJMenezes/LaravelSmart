@@ -19,7 +19,7 @@ class EsocTrn extends OracleEloquent
 
     protected $primaryKey = ['esoc_trn_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

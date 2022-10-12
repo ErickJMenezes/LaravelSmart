@@ -19,7 +19,7 @@ class IndicPntn extends OracleEloquent
 
     protected $primaryKey = ['pntn_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

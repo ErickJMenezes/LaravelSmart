@@ -19,7 +19,7 @@ class Esq extends OracleEloquent
 
     protected $primaryKey = ['esq_adp_tipo', 'esq_num', 'esq_asc', 'esq_adp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

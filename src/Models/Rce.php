@@ -19,7 +19,7 @@ class Rce extends OracleEloquent
 
     protected $primaryKey = ['rce_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Pgt extends OracleEloquent
 
     protected $primaryKey = ['pgt_qst_cod', 'pgt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

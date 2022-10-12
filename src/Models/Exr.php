@@ -19,7 +19,7 @@ class Exr extends OracleEloquent
 
     protected $primaryKey = ['exr_exm_cod', 'exr_rotina'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

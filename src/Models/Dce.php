@@ -19,7 +19,7 @@ class Dce extends OracleEloquent
 
     protected $primaryKey = ['dce_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

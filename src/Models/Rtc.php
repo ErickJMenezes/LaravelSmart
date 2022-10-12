@@ -19,7 +19,7 @@ class Rtc extends OracleEloquent
 
     protected $primaryKey = ['rtc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

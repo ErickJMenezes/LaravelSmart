@@ -19,7 +19,7 @@ class TrtUfe extends OracleEloquent
 
     protected $primaryKey = ['trt_u_trt_c_id', 'trt_u_ufe_sigla', 'trt_u_ufe_pai_sigla'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

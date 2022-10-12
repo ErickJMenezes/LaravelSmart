@@ -19,7 +19,7 @@ class Fpi extends OracleEloquent
 
     protected $primaryKey = ['fpi_dt_vcto', 'fpi_ivt_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

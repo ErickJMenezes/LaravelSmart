@@ -19,7 +19,7 @@ class Lhm extends OracleEloquent
 
     protected $primaryKey = ['lhm_pac_reg', 'lhm_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

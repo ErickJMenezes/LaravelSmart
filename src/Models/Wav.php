@@ -19,7 +19,7 @@ class Wav extends OracleEloquent
 
     protected $primaryKey = ['wav_dthr', 'wav_smk_tipo', 'wav_smk_cod', 'wav_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

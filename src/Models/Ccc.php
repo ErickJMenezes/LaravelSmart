@@ -19,7 +19,7 @@ class Ccc extends OracleEloquent
 
     protected $primaryKey = ['ccc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class MapDentes extends OracleEloquent
 
     protected $primaryKey = ['map_d_atr_num', 'map_d_dsc_cod', 'map_d_nome'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

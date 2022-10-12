@@ -19,7 +19,7 @@ class Qobj extends OracleEloquent
 
     protected $primaryKey = ['qobj_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

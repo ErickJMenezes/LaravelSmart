@@ -19,7 +19,7 @@ class SintMap extends OracleEloquent
 
     protected $primaryKey = ['sint_map_tipo', 'sint_map_qtd', 'sint_map_cod_pag'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

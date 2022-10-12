@@ -19,7 +19,7 @@ class Ecp extends OracleEloquent
 
     protected $primaryKey = ['ecp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

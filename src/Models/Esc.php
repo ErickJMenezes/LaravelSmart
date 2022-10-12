@@ -19,7 +19,7 @@ class Esc extends OracleEloquent
 
     protected $primaryKey = ['esc_esp_cod', 'esc_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

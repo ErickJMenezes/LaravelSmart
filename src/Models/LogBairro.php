@@ -19,7 +19,7 @@ class LogBairro extends OracleEloquent
 
     protected $primaryKey = ['bai_nu'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

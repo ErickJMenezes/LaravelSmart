@@ -19,7 +19,7 @@ class SCdn extends OracleEloquent
 
     protected $primaryKey = ['cdn_tb', 'cdn_it'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

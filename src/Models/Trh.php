@@ -19,7 +19,7 @@ class Trh extends OracleEloquent
 
     protected $primaryKey = ['trh_dthr', 'trh_rep_serie', 'trh_rep_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

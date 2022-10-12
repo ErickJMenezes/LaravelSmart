@@ -19,7 +19,7 @@ class Sre extends OracleEloquent
 
     protected $primaryKey = ['sre_doc_cod', 'sre_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

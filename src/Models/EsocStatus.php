@@ -19,7 +19,7 @@ class EsocStatus extends OracleEloquent
 
     protected $primaryKey = ['esoc_status_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

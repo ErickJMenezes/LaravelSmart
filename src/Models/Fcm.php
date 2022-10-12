@@ -19,7 +19,7 @@ class Fcm extends OracleEloquent
 
     protected $primaryKey = ['fcm_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

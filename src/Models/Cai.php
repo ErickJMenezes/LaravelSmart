@@ -19,7 +19,7 @@ class Cai extends OracleEloquent
 
     protected $primaryKey = ['cai_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Bro extends OracleEloquent
 
     protected $primaryKey = ['bro_osm_num', 'bro_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

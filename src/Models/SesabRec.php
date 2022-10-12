@@ -19,7 +19,7 @@ class SesabRec extends OracleEloquent
 
     protected $primaryKey = ['sesab_rec_num', 'sesab_rec_pac_reg', 'sesab_rec_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

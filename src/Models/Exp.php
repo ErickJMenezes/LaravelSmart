@@ -19,7 +19,7 @@ class Exp extends OracleEloquent
 
     protected $primaryKey = ['exp_seq', 'exp_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

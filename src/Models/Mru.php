@@ -19,7 +19,7 @@ class Mru extends OracleEloquent
 
     protected $primaryKey = ['mru_mnt_serie', 'mru_mnt_num', 'mru_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

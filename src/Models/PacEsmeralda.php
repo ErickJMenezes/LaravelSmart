@@ -19,7 +19,7 @@ class PacEsmeralda extends OracleEloquent
 
     protected $primaryKey = ['pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

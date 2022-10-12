@@ -19,7 +19,7 @@ class Riq extends OracleEloquent
 
     protected $primaryKey = ['riq_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

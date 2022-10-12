@@ -19,7 +19,7 @@ class SmmSenhaAut extends OracleEloquent
 
     protected $primaryKey = ['smm_senha_aut_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class TdcStr extends OracleEloquent
 
     protected $primaryKey = ['tdc_s_tdc_cod', 'tdc_s_str_solic'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

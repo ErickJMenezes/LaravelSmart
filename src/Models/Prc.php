@@ -19,7 +19,7 @@ class Prc extends OracleEloquent
 
     protected $primaryKey = ['prc_pid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

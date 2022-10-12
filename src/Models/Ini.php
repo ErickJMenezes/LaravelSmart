@@ -19,7 +19,7 @@ class Ini extends OracleEloquent
 
     protected $primaryKey = ['ini_cod', 'ini_ing_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class DwLookup extends OracleEloquent
 
     protected $primaryKey = ['dw_lookup_tipo', 'dw_lookup_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Pme extends OracleEloquent
 
     protected $primaryKey = ['pme_psv_cod', 'pme_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

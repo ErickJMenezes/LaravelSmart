@@ -19,7 +19,7 @@ class Inf extends OracleEloquent
 
     protected $primaryKey = ['inf_hsp_num', 'inf_pac_reg', 'inf_sit_cod', 'inf_dthr_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

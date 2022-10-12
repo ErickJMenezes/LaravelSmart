@@ -19,7 +19,7 @@ class Isr extends OracleEloquent
 
     protected $primaryKey = ['isr_srf_serie', 'isr_srf_num', 'isr_srf_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

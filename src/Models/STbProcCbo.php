@@ -19,7 +19,7 @@ class STbProcCbo extends OracleEloquent
 
     protected $primaryKey = ['pcbo_cbo', 'pcbo_cmpt_ini', 'pcbo_proc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

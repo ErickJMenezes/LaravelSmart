@@ -19,7 +19,7 @@ class Gfp extends OracleEloquent
 
     protected $primaryKey = ['gfp_lta_cod', 'gfp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

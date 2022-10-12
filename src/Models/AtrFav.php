@@ -19,7 +19,7 @@ class AtrFav extends OracleEloquent
 
     protected $primaryKey = ['atr_f_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

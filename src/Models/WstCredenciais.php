@@ -19,7 +19,7 @@ class WstCredenciais extends OracleEloquent
 
     protected $primaryKey = ['wst_c_str', 'wst_c_wst_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

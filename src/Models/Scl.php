@@ -19,7 +19,7 @@ class Scl extends OracleEloquent
 
     protected $primaryKey = ['scl_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class GuiaExt extends OracleEloquent
 
     protected $primaryKey = ['guia_ext_numero', 'guia_ext_osm_serie', 'guia_ext_cod_proced', 'guia_ext_osm_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

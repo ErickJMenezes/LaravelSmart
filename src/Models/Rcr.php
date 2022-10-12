@@ -19,7 +19,7 @@ class Rcr extends OracleEloquent
 
     protected $primaryKey = ['rcr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

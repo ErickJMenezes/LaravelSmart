@@ -19,7 +19,7 @@ class HCtm extends OracleEloquent
 
     protected $primaryKey = ['h_ctm_pac_reg', 'h_ctm_cct_id', 'h_ctm_bul_med'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

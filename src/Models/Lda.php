@@ -19,7 +19,7 @@ class Lda extends OracleEloquent
 
     protected $primaryKey = ['lda_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

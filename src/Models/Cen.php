@@ -19,7 +19,7 @@ class Cen extends OracleEloquent
 
     protected $primaryKey = ['cen_id', 'cen_nfe_tipo', 'cen_fne_cod', 'cen_nfe_num', 'cen_nfe_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class PixeonIntegracao extends OracleEloquent
 
     protected $primaryKey = ['na_accessionnumber'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

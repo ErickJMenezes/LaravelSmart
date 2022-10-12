@@ -19,7 +19,7 @@ class Hsg extends OracleEloquent
 
     protected $primaryKey = ['hsg_dthr', 'hsg_osm_serie', 'hsg_smm_num', 'hsg_osm_num', 'hsg_mns_serie', 'hsg_mns_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

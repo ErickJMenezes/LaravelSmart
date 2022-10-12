@@ -19,7 +19,7 @@ class ExcLacs extends OracleEloquent
 
     protected $primaryKey = ['exc_lcs_exc_id', 'exc_lcs_mes', 'exc_lcs_lacs_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

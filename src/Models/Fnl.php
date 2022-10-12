@@ -19,7 +19,7 @@ class Fnl extends OracleEloquent
 
     protected $primaryKey = ['fnl_lma_cod', 'fnl_fne_cod', 'fnl_gmm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

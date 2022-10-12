@@ -19,7 +19,7 @@ class Arc extends OracleEloquent
 
     protected $primaryKey = ['arc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class LayoutTip extends OracleEloquent
 
     protected $primaryKey = ['layout_tip_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

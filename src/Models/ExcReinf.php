@@ -19,7 +19,7 @@ class ExcReinf extends OracleEloquent
 
     protected $primaryKey = ['exc_reinf_exc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

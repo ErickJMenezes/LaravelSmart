@@ -19,7 +19,7 @@ class Req extends OracleEloquent
 
     protected $primaryKey = ['req_tpctf', 'req_ctf_cod', 'req_mes', 'req_psv_cod', 'req_ano'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

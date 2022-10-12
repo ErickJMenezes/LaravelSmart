@@ -19,7 +19,7 @@ class ImgPsv extends OracleEloquent
 
     protected $primaryKey = ['img_psv_img_cod', 'img_psv_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

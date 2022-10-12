@@ -19,7 +19,7 @@ class BroSetor extends OracleEloquent
 
     protected $primaryKey = ['bro_setor_osm_serie', 'bro_setor_osm_num', 'bro_setor_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

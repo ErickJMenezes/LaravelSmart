@@ -19,7 +19,7 @@ class PsvSmk extends OracleEloquent
 
     protected $primaryKey = ['psv_s_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

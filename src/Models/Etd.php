@@ -19,7 +19,7 @@ class Etd extends OracleEloquent
 
     protected $primaryKey = ['etd_cid_cod', 'etd_cid_tip', 'etd_tipo', 'etd_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

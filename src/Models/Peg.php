@@ -19,7 +19,7 @@ class Peg extends OracleEloquent
 
     protected $primaryKey = ['peg_sma_serie', 'peg_dthr', 'peg_sma_num', 'peg_ism_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

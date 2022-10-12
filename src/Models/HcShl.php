@@ -19,7 +19,7 @@ class HcShl extends OracleEloquent
 
     protected $primaryKey = ['hc_shl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

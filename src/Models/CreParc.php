@@ -19,7 +19,7 @@ class CreParc extends OracleEloquent
 
     protected $primaryKey = ['cre_p_parc_max', 'cre_p_cre_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

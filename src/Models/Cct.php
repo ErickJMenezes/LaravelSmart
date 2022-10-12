@@ -19,7 +19,7 @@ class Cct extends OracleEloquent
 
     protected $primaryKey = ['cct_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

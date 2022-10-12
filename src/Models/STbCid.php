@@ -19,7 +19,7 @@ class STbCid extends OracleEloquent
 
     protected $primaryKey = ['cid_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class LacsCt extends OracleEloquent
 
     protected $primaryKey = ['lacs_ct_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

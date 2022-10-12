@@ -19,7 +19,7 @@ class Err extends OracleEloquent
 
     protected $primaryKey = ['err_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

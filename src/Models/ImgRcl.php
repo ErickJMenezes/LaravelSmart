@@ -19,7 +19,7 @@ class ImgRcl extends OracleEloquent
 
     protected $primaryKey = ['img_rcl_ind'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

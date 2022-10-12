@@ -19,7 +19,7 @@ class Ftr extends OracleEloquent
 
     protected $primaryKey = ['ftr_cod', 'ftr_str_cod', 'ftr_bnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

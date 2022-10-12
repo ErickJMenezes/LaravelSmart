@@ -19,7 +19,7 @@ class RegimeAtend extends OracleEloquent
 
     protected $primaryKey = ['regime_atend_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

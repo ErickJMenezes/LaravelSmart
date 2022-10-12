@@ -19,7 +19,7 @@ class Gmt extends OracleEloquent
 
     protected $primaryKey = ['gmt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

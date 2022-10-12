@@ -19,7 +19,7 @@ class LayEtqParmDom extends OracleEloquent
 
     protected $primaryKey = ['lay_etq_p_dom_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Rms extends OracleEloquent
 
     protected $primaryKey = ['rms_mns_num', 'rms_psv_cod', 'rms_osm_num', 'rms_smm_num', 'rms_osm_serie', 'rms_mns_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Lei extends OracleEloquent
 
     protected $primaryKey = ['lei_dthr', 'lei_usr_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

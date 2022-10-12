@@ -19,7 +19,7 @@ class Tde extends OracleEloquent
 
     protected $primaryKey = ['tde_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

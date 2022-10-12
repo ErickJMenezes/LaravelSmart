@@ -19,7 +19,7 @@ class Sma extends OracleEloquent
 
     protected $primaryKey = ['sma_serie', 'sma_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

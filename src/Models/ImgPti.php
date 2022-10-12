@@ -19,7 +19,7 @@ class ImgPti extends OracleEloquent
 
     protected $primaryKey = ['img_pti_pti_cod', 'img_pti_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

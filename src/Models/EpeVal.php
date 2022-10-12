@@ -19,7 +19,7 @@ class EpeVal extends OracleEloquent
 
     protected $primaryKey = ['epe_v_epe_cod', 'epe_v_ext_id', 'epe_v_compet', 'epe_v_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

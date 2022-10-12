@@ -19,7 +19,7 @@ class CqeProduto extends OracleEloquent
 
     protected $primaryKey = ['cqe_p_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

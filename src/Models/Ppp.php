@@ -19,7 +19,7 @@ class Ppp extends OracleEloquent
 
     protected $primaryKey = ['ppp_pac_reg', 'ppp_dthr', 'ppp_lta_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

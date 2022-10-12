@@ -19,7 +19,7 @@ class LayoutEtqStr extends OracleEloquent
 
     protected $primaryKey = ['layout_etq_str_letq_cod', 'layout_etq_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

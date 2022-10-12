@@ -19,7 +19,7 @@ class Crt extends OracleEloquent
 
     protected $primaryKey = ['crt_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

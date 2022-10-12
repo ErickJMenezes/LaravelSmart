@@ -19,7 +19,7 @@ class Usi extends OracleEloquent
 
     protected $primaryKey = ['usi_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

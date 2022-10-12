@@ -19,7 +19,7 @@ class Rlc extends OracleEloquent
 
     protected $primaryKey = ['rlc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

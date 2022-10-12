@@ -19,7 +19,7 @@ class RdiTef extends OracleEloquent
 
     protected $primaryKey = ['rdi_t_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

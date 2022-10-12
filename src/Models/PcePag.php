@@ -19,7 +19,7 @@ class PcePag extends OracleEloquent
 
     protected $primaryKey = ['pce_pag_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

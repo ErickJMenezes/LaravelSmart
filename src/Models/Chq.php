@@ -19,7 +19,7 @@ class Chq extends OracleEloquent
 
     protected $primaryKey = ['chq_ccr_banco', 'chq_numero'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

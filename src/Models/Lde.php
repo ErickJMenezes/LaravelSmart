@@ -19,7 +19,7 @@ class Lde extends OracleEloquent
 
     protected $primaryKey = ['lde_esp_cod', 'lde_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

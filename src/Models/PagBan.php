@@ -19,7 +19,7 @@ class PagBan extends OracleEloquent
 
     protected $primaryKey = ['pag_ban_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

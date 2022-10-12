@@ -19,7 +19,7 @@ class SotRend extends OracleEloquent
 
     protected $primaryKey = ['sot_r_sot_id', 'sot_r_exc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Pit extends OracleEloquent
 
     protected $primaryKey = ['pit_pac_reg', 'pit_hsp_num', 'pit_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

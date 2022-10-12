@@ -19,7 +19,7 @@ class EntObj extends OracleEloquent
 
     protected $primaryKey = ['ent_obj_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

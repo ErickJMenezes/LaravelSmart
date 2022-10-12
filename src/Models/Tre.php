@@ -19,7 +19,7 @@ class Tre extends OracleEloquent
 
     protected $primaryKey = ['tre_eqp_num', 'tre_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

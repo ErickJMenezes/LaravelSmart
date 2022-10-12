@@ -19,7 +19,7 @@ class DwMaster extends OracleEloquent
 
     protected $primaryKey = ['dw_chave'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

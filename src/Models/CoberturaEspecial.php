@@ -19,7 +19,7 @@ class CoberturaEspecial extends OracleEloquent
 
     protected $primaryKey = ['cobertura_esp_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Pro extends OracleEloquent
 
     protected $primaryKey = ['pro_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

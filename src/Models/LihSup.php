@@ -19,7 +19,7 @@ class LihSup extends OracleEloquent
 
     protected $primaryKey = ['lih_s_num', 'lih_s_prob_cod', 'lih_s_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

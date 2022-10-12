@@ -19,7 +19,7 @@ class GrSes extends OracleEloquent
 
     protected $primaryKey = ['gr_ses_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

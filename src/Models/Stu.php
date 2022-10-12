@@ -19,7 +19,7 @@ class Stu extends OracleEloquent
 
     protected $primaryKey = ['stu_str_cod', 'stu_usr_login'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

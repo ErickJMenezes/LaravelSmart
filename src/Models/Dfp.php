@@ -19,7 +19,7 @@ class Dfp extends OracleEloquent
 
     protected $primaryKey = ['dfp_pac_reg', 'dfp_dfs_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

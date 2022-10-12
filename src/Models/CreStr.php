@@ -19,7 +19,7 @@ class CreStr extends OracleEloquent
 
     protected $primaryKey = ['cre_s_str_solic', 'cre_s_cre_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

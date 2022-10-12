@@ -19,7 +19,7 @@ class CepUfs extends OracleEloquent
 
     protected $primaryKey = ['chave_uf'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

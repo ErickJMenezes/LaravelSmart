@@ -19,7 +19,7 @@ class Ocp extends OracleEloquent
 
     protected $primaryKey = ['ocp_str_cod', 'ocp_ano'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

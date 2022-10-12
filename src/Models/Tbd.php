@@ -19,7 +19,7 @@ class Tbd extends OracleEloquent
 
     protected $primaryKey = ['tbd_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

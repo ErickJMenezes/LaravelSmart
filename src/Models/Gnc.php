@@ -19,7 +19,7 @@ class Gnc extends OracleEloquent
 
     protected $primaryKey = ['gnc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

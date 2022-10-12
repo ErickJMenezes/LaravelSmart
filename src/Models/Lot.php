@@ -19,7 +19,7 @@ class Lot extends OracleEloquent
 
     protected $primaryKey = ['lot_num', 'lot_data_entrada', 'lot_mat_cod', 'lot_sba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

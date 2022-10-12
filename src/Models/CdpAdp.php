@@ -19,7 +19,7 @@ class CdpAdp extends OracleEloquent
 
     protected $primaryKey = ['cdp_a_cdp_id', 'cdp_a_adp_tipo', 'cdp_a_adp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

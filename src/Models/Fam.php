@@ -19,7 +19,7 @@ class Fam extends OracleEloquent
 
     protected $primaryKey = ['fam_cod_amostra', 'fam_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

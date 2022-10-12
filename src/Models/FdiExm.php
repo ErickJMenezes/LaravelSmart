@@ -19,7 +19,7 @@ class FdiExm extends OracleEloquent
 
     protected $primaryKey = ['fdi_exm_cod', 'fdi_fdl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

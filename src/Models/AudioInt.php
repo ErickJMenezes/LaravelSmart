@@ -19,7 +19,7 @@ class AudioInt extends OracleEloquent
 
     protected $primaryKey = ['audio_int_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

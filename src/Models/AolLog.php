@@ -19,7 +19,7 @@ class AolLog extends OracleEloquent
 
     protected $primaryKey = ['aol_l_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class SmkStr extends OracleEloquent
 
     protected $primaryKey = ['smk_s_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

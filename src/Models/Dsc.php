@@ -19,7 +19,7 @@ class Dsc extends OracleEloquent
 
     protected $primaryKey = ['dsc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

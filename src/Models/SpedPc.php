@@ -19,7 +19,7 @@ class SpedPc extends OracleEloquent
 
     protected $primaryKey = ['sped_pc_mes_ref', 'sped_pc_gcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

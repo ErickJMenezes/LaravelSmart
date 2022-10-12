@@ -19,7 +19,7 @@ class Ccs extends OracleEloquent
 
     protected $primaryKey = ['ccs_cct_cod_origem', 'ccs_str_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

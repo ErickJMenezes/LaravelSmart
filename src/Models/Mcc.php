@@ -19,7 +19,7 @@ class Mcc extends OracleEloquent
 
     protected $primaryKey = ['mcc_serie', 'mcc_seq', 'mcc_lote'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

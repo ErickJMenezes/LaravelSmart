@@ -19,7 +19,7 @@ class Smm extends OracleEloquent
 
     protected $primaryKey = ['smm_osm', 'smm_num', 'smm_osm_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

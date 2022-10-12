@@ -17,7 +17,7 @@ class AbcFarma extends OracleEloquent
 
     protected $primaryKey = ['med_abc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

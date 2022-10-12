@@ -19,7 +19,7 @@ class Ign extends OracleEloquent
 
     protected $primaryKey = ['ign_gni_serie', 'ign_gni_num', 'ign_mns_num', 'ign_mns_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Orl extends OracleEloquent
 
     protected $primaryKey = ['orl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

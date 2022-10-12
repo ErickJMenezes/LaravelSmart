@@ -19,7 +19,7 @@ class Lmed extends OracleEloquent
 
     protected $primaryKey = ['lmed_adp_cod', 'lmed_adp_tipo', 'lmed_num', 'lmed_asc'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

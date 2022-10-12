@@ -19,7 +19,7 @@ class IhGcs extends OracleEloquent
 
     protected $primaryKey = ['ih_gcs_pac_reg', 'ih_gcs_hsp_num', 'ih_gcs_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

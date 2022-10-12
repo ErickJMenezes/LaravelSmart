@@ -19,7 +19,7 @@ class HspRef extends OracleEloquent
 
     protected $primaryKey = ['hsp_r_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

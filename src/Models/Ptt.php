@@ -19,7 +19,7 @@ class Ptt extends OracleEloquent
 
     protected $primaryKey = ['ptt_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

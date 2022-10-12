@@ -18,7 +18,7 @@ class AdpCid extends OracleEloquent
 
     protected $primaryKey = ['adp_c_cid_cod', 'adp_c_cid_tip', 'adp_c_adp_tipo', 'adp_c_adp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

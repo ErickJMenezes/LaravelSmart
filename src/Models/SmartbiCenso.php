@@ -19,7 +19,7 @@ class SmartbiCenso extends OracleEloquent
 
     protected $primaryKey = ['setor', 'ano_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class Plp extends OracleEloquent
 
     protected $primaryKey = ['plp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Rac extends OracleEloquent
 
     protected $primaryKey = ['rac_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

@@ -19,7 +19,7 @@ class TapPac extends OracleEloquent
 
     protected $primaryKey = ['tap_pac_tap_cod', 'tap_pac_pac_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

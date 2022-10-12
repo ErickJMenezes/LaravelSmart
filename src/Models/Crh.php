@@ -19,7 +19,7 @@ class Crh extends OracleEloquent
 
     protected $primaryKey = ['crh_psv_cod', 'crh_rep_num', 'crh_rep_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

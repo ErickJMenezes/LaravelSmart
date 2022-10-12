@@ -19,7 +19,7 @@ class Cex extends OracleEloquent
 
     protected $primaryKey = ['cex_smk_cod', 'cex_dsc_cod', 'cex_atr_num', 'cex_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

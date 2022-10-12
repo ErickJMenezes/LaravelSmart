@@ -19,7 +19,7 @@ class Leg extends OracleEloquent
 
     protected $primaryKey = ['leg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

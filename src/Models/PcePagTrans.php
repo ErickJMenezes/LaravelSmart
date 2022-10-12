@@ -19,7 +19,7 @@ class PcePagTrans extends OracleEloquent
 
     protected $primaryKey = ['pce_t_pce_pag_cod', 'pce_t_trans_key'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

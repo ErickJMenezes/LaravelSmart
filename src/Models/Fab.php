@@ -19,7 +19,7 @@ class Fab extends OracleEloquent
 
     protected $primaryKey = ['fab_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

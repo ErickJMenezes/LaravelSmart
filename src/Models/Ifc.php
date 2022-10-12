@@ -19,7 +19,7 @@ class Ifc extends OracleEloquent
 
     protected $primaryKey = ['ifc_cfo_cod', 'ifc_fcf_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

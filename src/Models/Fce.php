@@ -19,7 +19,7 @@ class Fce extends OracleEloquent
 
     protected $primaryKey = ['fce_sba_cod', 'fce_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

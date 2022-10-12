@@ -19,7 +19,7 @@ class LabStr extends OracleEloquent
 
     protected $primaryKey = ['lab_str_str_cod', 'lab_map_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

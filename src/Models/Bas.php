@@ -19,7 +19,7 @@ class Bas extends OracleEloquent
 
     protected $primaryKey = ['bas_smk_cod', 'bas_smk_tipo', 'bas_dsc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

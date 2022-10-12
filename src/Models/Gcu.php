@@ -19,7 +19,7 @@ class Gcu extends OracleEloquent
 
     protected $primaryKey = ['gcu_usr_login', 'gcu_gcp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

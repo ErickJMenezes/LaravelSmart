@@ -19,7 +19,7 @@ class Qcm extends OracleEloquent
 
     protected $primaryKey = ['qcm_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

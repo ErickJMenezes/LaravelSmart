@@ -19,7 +19,7 @@ class GrEqp extends OracleEloquent
 
     protected $primaryKey = ['gr_eqp_nome'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

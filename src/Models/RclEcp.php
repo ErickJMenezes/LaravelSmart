@@ -19,7 +19,7 @@ class RclEcp extends OracleEloquent
 
     protected $primaryKey = ['rcl_e_id', 'rcl_e_fec_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

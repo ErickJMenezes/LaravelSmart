@@ -19,7 +19,7 @@ class EntApi extends OracleEloquent
 
     protected $primaryKey = ['ent_api_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

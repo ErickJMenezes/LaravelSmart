@@ -19,7 +19,7 @@ class EmpUsr extends OracleEloquent
 
     protected $primaryKey = ['emp_u_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

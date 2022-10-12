@@ -19,7 +19,7 @@ class Sat extends OracleEloquent
 
     protected $primaryKey = ['sat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

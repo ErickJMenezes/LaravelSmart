@@ -19,7 +19,7 @@ class Nwl extends OracleEloquent
 
     protected $primaryKey = ['nwl_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

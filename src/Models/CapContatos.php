@@ -19,7 +19,7 @@ class CapContatos extends OracleEloquent
 
     protected $primaryKey = ['cap_c_pac_reg', 'cap_c_num', 'cap_c_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

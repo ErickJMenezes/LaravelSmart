@@ -19,7 +19,7 @@ class NanF extends OracleEloquent
 
     protected $primaryKey = ['nan_f_nan_cod', 'nan_f_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

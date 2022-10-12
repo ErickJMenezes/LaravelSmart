@@ -19,7 +19,7 @@ class Mat extends OracleEloquent
 
     protected $primaryKey = ['mat_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

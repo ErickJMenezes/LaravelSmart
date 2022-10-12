@@ -19,7 +19,7 @@ class Ilp extends OracleEloquent
 
     protected $primaryKey = ['ilp_seq', 'ilp_lpd_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

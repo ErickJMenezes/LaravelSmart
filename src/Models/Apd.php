@@ -19,7 +19,7 @@ class Apd extends OracleEloquent
 
     protected $primaryKey = ['apd_pdg_pac2', 'apd_pdg_num2', 'apd_pdg_pac', 'apd_pdg_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

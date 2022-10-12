@@ -19,7 +19,7 @@ class Tcq extends OracleEloquent
 
     protected $primaryKey = ['tcq_ccr_cod', 'tcq_num_ini'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

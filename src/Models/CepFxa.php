@@ -19,7 +19,7 @@ class CepFxa extends OracleEloquent
 
     protected $primaryKey = ['chave_fxa'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

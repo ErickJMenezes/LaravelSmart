@@ -19,7 +19,7 @@ class DloRnc extends OracleEloquent
 
     protected $primaryKey = ['dlo_r_rnc_serie', 'dlo_r_rnc_num', 'dlo_r_dlo_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

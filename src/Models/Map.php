@@ -19,7 +19,7 @@ class Map extends OracleEloquent
 
     protected $primaryKey = ['map_tbd_seq', 'map_cct_cod', 'map_gcc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

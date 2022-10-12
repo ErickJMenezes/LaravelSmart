@@ -19,7 +19,7 @@ class Kpm extends OracleEloquent
 
     protected $primaryKey = ['kpm_cod_barra'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

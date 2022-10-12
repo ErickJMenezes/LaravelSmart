@@ -19,7 +19,7 @@ class PagNfs extends OracleEloquent
 
     protected $primaryKey = ['pag_nfs_nfs_tipo', 'pag_nfs_pag_serie', 'pag_nfs_pag_lote', 'pag_nfs_nfs_numero', 'pag_nfs_nfs_serie'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

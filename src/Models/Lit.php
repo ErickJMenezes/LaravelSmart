@@ -19,7 +19,7 @@ class Lit extends OracleEloquent
 
     protected $primaryKey = ['lit_pac_reg', 'lit_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

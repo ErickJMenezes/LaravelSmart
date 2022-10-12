@@ -19,7 +19,7 @@ class LalurAdicao extends OracleEloquent
 
     protected $primaryKey = ['llr_adc_cct_cod', 'llr_adc_lalur_cod', 'llr_adc_exc_id', 'llr_adc_llr_mes'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

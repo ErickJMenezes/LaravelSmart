@@ -19,7 +19,7 @@ class Qcn extends OracleEloquent
 
     protected $primaryKey = ['qcn_dsc_cod', 'qcn_atr_num', 'qcn_qcm_id', 'qcn_smk_tipo', 'qcn_smk_cod', 'qcn_nivel'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

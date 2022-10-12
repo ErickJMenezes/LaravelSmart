@@ -19,7 +19,7 @@ class Cgc extends OracleEloquent
 
     protected $primaryKey = ['cgc_cnv_cod', 'cgc_smk_cod', 'cgc_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

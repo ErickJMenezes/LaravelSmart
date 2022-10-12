@@ -19,7 +19,7 @@ class ImgSmk extends OracleEloquent
 
     protected $primaryKey = ['img_smk_smk_tipo', 'img_smk_smk_cod', 'img_smk_img_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

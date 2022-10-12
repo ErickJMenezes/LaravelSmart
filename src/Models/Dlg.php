@@ -19,7 +19,7 @@ class Dlg extends OracleEloquent
 
     protected $primaryKey = ['dlg_cth_num', 'dlg_hsp_num', 'dlg_pac_reg', 'dlg_dthr'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

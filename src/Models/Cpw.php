@@ -19,7 +19,7 @@ class Cpw extends OracleEloquent
 
     protected $primaryKey = ['cpw_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class SmkPrx extends OracleEloquent
 
     protected $primaryKey = ['smk_p_smk_tipo', 'smk_p_smk_cod', 'smk_p_prx_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

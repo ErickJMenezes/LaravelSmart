@@ -19,7 +19,7 @@ class LihProb extends OracleEloquent
 
     protected $primaryKey = ['lih_p_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

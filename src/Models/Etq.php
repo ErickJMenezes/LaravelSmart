@@ -19,7 +19,7 @@ class Etq extends OracleEloquent
 
     protected $primaryKey = ['etq_mat_cod', 'etq_sba_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Frc extends OracleEloquent
 
     protected $primaryKey = ['frc_descr', 'frc_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

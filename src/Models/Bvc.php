@@ -19,7 +19,7 @@ class Bvc extends OracleEloquent
 
     protected $primaryKey = ['bvc_dthr_reg'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

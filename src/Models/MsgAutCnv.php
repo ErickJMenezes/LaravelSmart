@@ -19,7 +19,7 @@ class MsgAutCnv extends OracleEloquent
 
     protected $primaryKey = ['msg_aut_cnv_cod', 'msg_aut_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

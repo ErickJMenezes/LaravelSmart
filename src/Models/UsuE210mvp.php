@@ -19,7 +19,7 @@ class UsuE210mvp extends OracleEloquent
 
     protected $primaryKey = ['pksmart'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

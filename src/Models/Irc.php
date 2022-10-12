@@ -19,7 +19,7 @@ class Irc extends OracleEloquent
 
     protected $primaryKey = ['irc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

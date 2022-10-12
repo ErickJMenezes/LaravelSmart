@@ -19,7 +19,7 @@ class ExmCid extends OracleEloquent
 
     protected $primaryKey = ['exm_c_cid_tip', 'exm_c_cid_cod', 'exm_c_exm_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

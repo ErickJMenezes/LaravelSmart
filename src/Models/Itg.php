@@ -19,7 +19,7 @@ class Itg extends OracleEloquent
 
     protected $primaryKey = ['itg_origem_2', 'itg_destino_2', 'itg_integracao', 'itg_contexto', 'itg_origem_1', 'itg_destino_1'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

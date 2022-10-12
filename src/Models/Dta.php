@@ -19,7 +19,7 @@ class Dta extends OracleEloquent
 
     protected $primaryKey = ['dta_seq', 'dta_pac_reg', 'dta_hsp_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

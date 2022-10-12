@@ -19,7 +19,7 @@ class PsvAbramgeCred extends OracleEloquent
 
     protected $primaryKey = ['psv_abramge_cred_cnv_cod', 'psv_abramge_cred_psv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

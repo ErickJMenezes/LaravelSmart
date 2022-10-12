@@ -19,7 +19,7 @@ class Ufe extends OracleEloquent
 
     protected $primaryKey = ['ufe_pai_sigla', 'ufe_sigla'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

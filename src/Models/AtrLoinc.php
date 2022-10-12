@@ -19,7 +19,7 @@ class AtrLoinc extends OracleEloquent
 
     protected $primaryKey = ['atr_l_num', 'atr_l_loinc_num', 'atr_l_amo_cod', 'atr_l_dsc_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

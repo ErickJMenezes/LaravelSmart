@@ -19,7 +19,7 @@ class Ega extends OracleEloquent
 
     protected $primaryKey = ['ega_eti_cod', 'ega_gal_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

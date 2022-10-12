@@ -19,7 +19,7 @@ class Lac extends OracleEloquent
 
     protected $primaryKey = ['lac_hsp', 'lac_pac', 'lac_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

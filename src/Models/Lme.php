@@ -19,7 +19,7 @@ class Lme extends OracleEloquent
 
     protected $primaryKey = ['lme_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Pln extends OracleEloquent
 
     protected $primaryKey = ['pln_cod', 'pln_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

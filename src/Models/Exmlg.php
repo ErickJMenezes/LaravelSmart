@@ -19,7 +19,7 @@ class Exmlg extends OracleEloquent
 
     protected $primaryKey = ['exmlg_exm_cod', 'exmlg_exg_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

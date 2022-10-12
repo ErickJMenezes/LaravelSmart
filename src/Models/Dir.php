@@ -19,7 +19,7 @@ class Dir extends OracleEloquent
 
     protected $primaryKey = ['dir_hsp_num', 'dir_pac_reg', 'dir_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

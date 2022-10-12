@@ -19,7 +19,7 @@ class BcsConfig extends OracleEloquent
 
     protected $primaryKey = ['bcs_config_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

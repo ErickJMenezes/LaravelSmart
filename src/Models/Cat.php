@@ -19,7 +19,7 @@ class Cat extends OracleEloquent
 
     protected $primaryKey = ['cat_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

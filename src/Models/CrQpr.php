@@ -19,7 +19,7 @@ class CrQpr extends OracleEloquent
 
     protected $primaryKey = ['cr_qpr_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

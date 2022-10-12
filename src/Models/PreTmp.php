@@ -19,7 +19,7 @@ class PreTmp extends OracleEloquent
 
     protected $primaryKey = ['pre_smk_tipo', 'pre_tab_cod', 'pre_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

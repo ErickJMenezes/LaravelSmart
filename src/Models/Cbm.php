@@ -19,7 +19,7 @@ class Cbm extends OracleEloquent
 
     protected $primaryKey = ['cbm_mat_cod', 'cbm_cod_barra'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

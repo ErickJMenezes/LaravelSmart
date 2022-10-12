@@ -19,7 +19,7 @@ class Mnt extends OracleEloquent
 
     protected $primaryKey = ['mnt_serie', 'mnt_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

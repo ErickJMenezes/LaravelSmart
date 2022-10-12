@@ -19,7 +19,7 @@ class Fpr extends OracleEloquent
 
     protected $primaryKey = ['fpr_label', 'fpr_frm_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

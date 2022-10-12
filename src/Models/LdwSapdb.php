@@ -19,7 +19,7 @@ class LdwSapdb extends OracleEloquent
 
     protected $primaryKey = ['ldw_s_smk_tipo', 'ldw_s_num', 'ldw_s_smk_cod', 'ldw_s_seq'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

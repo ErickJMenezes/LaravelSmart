@@ -19,7 +19,7 @@ class Esoc extends OracleEloquent
 
     protected $primaryKey = ['esoc_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

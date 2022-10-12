@@ -19,7 +19,7 @@ class Exo extends OracleEloquent
 
     protected $primaryKey = ['exo_cnv_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Sac extends OracleEloquent
 
     protected $primaryKey = ['sac_serie', 'sac_num'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

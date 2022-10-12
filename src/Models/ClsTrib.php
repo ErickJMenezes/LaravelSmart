@@ -19,7 +19,7 @@ class ClsTrib extends OracleEloquent
 
     protected $primaryKey = ['cls_trib_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

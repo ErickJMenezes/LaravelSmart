@@ -19,7 +19,7 @@ class NexoReceita extends OracleEloquent
 
     protected $primaryKey = ['nexo_receita_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

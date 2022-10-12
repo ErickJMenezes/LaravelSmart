@@ -19,7 +19,7 @@ class Tce extends OracleEloquent
 
     protected $primaryKey = ['tce_smk_tipo', 'tce_psv_cod', 'tce_str_unid', 'tce_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

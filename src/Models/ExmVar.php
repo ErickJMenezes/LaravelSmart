@@ -19,7 +19,7 @@ class ExmVar extends OracleEloquent
 
     protected $primaryKey = ['exm_v_exm_cod', 'exm_v_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class LcpTxt extends OracleEloquent
 
     protected $primaryKey = ['lcp_t_campo', 'lcp_t_valor'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

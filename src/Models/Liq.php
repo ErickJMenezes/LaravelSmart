@@ -19,7 +19,7 @@ class Liq extends OracleEloquent
 
     protected $primaryKey = ['liq_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

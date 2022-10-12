@@ -19,7 +19,7 @@ class Law extends OracleEloquent
 
     protected $primaryKey = ['law_smk_tipo', 'law_usi_tipo', 'law_smk_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

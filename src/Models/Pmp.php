@@ -19,7 +19,7 @@ class Pmp extends OracleEloquent
 
     protected $primaryKey = ['pmp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

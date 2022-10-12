@@ -17,7 +17,7 @@ class Acw extends OracleEloquent
 
     protected $primaryKey = ['acw_guid'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

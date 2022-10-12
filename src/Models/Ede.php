@@ -19,7 +19,7 @@ class Ede extends OracleEloquent
 
     protected $primaryKey = ['ede_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

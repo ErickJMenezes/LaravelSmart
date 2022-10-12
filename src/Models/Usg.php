@@ -19,7 +19,7 @@ class Usg extends OracleEloquent
 
     protected $primaryKey = ['usg_usr_login', 'usg_grp_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

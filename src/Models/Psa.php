@@ -19,7 +19,7 @@ class Psa extends OracleEloquent
 
     protected $primaryKey = ['psa_sap_cod', 'psa_smk_cod', 'psa_smk_tipo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

@@ -19,7 +19,7 @@ class Cde extends OracleEloquent
 
     protected $primaryKey = ['cde_cod'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

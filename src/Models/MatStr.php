@@ -19,7 +19,7 @@ class MatStr extends OracleEloquent
 
     protected $primaryKey = ['mat_str_mat_cod', 'mat_str_str_cod', 'mat_str_sba_cod', 'mat_str_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

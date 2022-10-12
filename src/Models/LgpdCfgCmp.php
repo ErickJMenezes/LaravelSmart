@@ -19,7 +19,7 @@ class LgpdCfgCmp extends OracleEloquent
 
     protected $primaryKey = ['lgpd_c_codigo'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 }

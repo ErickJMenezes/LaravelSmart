@@ -19,7 +19,7 @@ class Mam extends OracleEloquent
 
     protected $primaryKey = ['mam_exame'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

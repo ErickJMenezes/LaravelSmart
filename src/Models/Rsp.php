@@ -19,7 +19,7 @@ class Rsp extends OracleEloquent
 
     protected $primaryKey = ['rsp_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 

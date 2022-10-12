@@ -19,7 +19,7 @@ class TvpBol extends OracleEloquent
 
     protected $primaryKey = ['tvp_bol_id'];
 
-    protected $connection = 'oracle';
+    protected $connection = 'smart';
 
     protected $guarded = [];
 
