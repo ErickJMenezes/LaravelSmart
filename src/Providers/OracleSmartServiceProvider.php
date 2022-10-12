@@ -2,29 +2,49 @@
 
 namespace ErickJMenezes\LaravelSmart\Providers;
 
-use Illuminate\Database\Connection;
+use Illuminate\Contracts\Foundation\CachesConfiguration;
 use Illuminate\Support\ServiceProvider;
 
 class OracleSmartServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        if (file_exists(config_path('oracle-smart.php'))) {
-            $this->mergeConfigFrom(config_path('oracle-smart.php'), 'database.connections');
-        } else {
-            $this->mergeConfigFrom(__DIR__.'/../../config/oracle-smart.php', 'database.connections');
-        }
-
-        Connection::resolverFor('smart', function ($connection, $database, $prefix, $config) {
-            $oracleResolver = Connection::getResolver('oracle');
-            return $oracleResolver($connection, $database, $prefix, $config);
-        });
+        $this->mergeConfigFromAs(
+            $this->getOracleConfigFile(),
+            'database.connections',
+            ['oracle' => 'smart'],
+        );
     }
 
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../config/oracle-smart.php' => config_path('oracle-smart.php'),
+            $this->getOracleConfigFile(false) => config_path('oracle-smart.php'),
         ], 'oracle-smart');
+    }
+
+    private function mergeConfigFromAs($path, $key, $renameMap = [])
+    {
+        if (! ($this->app instanceof CachesConfiguration && $this->app->configurationIsCached())) {
+            $config = $this->app->make('config');
+            $originalConfig = require $path;
+            foreach ($renameMap as $currentKey => $newKey) {
+                $currentValue = $originalConfig[$currentKey];
+                unset($originalConfig[$currentKey]);
+                $originalConfig[$newKey] = $currentValue;
+            }
+            $config->set($key, array_merge(
+                $originalConfig, $config->get($key, [])
+            ));
+        }
+    }
+
+    private function getOracleConfigFile($checkPublish = true)
+    {
+        $configPath = config_path('oracle-smart.php');
+        if ($checkPublish && file_exists($configPath)) {
+            return $configPath;
+        }
+        return glob($this->app->basePath('vendor/yajra/laravel-oci8/src/*/oracle.php'))[0];
     }
 }
